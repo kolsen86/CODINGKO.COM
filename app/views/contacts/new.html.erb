@@ -1,0 +1,56 @@
+  <nav class="navbar navbar-expand navbar-default navbar-static-top" role="navigation">
+  <div class='container'>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <%= link_to root_path, class: "navbar-brand" do %>
+        &ltCODING&gtKO&lt/.COM&gt
+      <% end %>
+    </div>
+    <div class="collapse navbar-collapse" id="main-nav-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "Daily Grind", posts_path %></li>
+        <li><%= link_to "About", about_path %></li>
+        <li><%= link_to "Other Resources", tutorials_path %></li>
+        <li><%= link_to "Contact Me", new_contact_path %></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div>
+</nav>
+<div class="contact-body">
+<header class="jumbotron about-header">
+  <div class="container text-center">
+    <h1>&ltCODING&gtKO&lt/.COM&gt</h1>
+  </div>
+</header>
+<div class="container-fluid">
+    <h3 class="container text-center contact-header">Contact Me, Hire Me, <br>Critique Me, Ask Me Too Lunch,<br>Just Fill Out The Form</h3>
+    <div class="form-area">
+    <% flash.each do |type, msg| %>
+    <%= content_tag :div, msg, class: "alert alert-#{type}" %>
+    <% end %>
+      <div class="well">
+        <%= form_for @contact do |f| %>
+          <div class="form-group">
+            <%= f.label :name %>
+            <%= f.text_field :name, class: 'form-control' %>
+          </div>
+          <div class="form-group">
+            <%= f.label :email %>
+            <%= f.text_field :email, class: 'form-control' %>
+          </div>
+          <div class="form-group">
+            <%= f.label :comments %>
+            <%= f.text_area :comments, class: 'form-control' %>
+          </div>
+          <%= f.submit 'Submit', class: 'btn btn-default' %>
+        <% end %>
+      </div>
+    </div>
+</div>
+ <a href="https://twitter.com/KennethOlsen?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @KennethOlsen</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
