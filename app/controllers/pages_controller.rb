@@ -13,4 +13,7 @@ class PagesController < ApplicationController
 
     def blog
     end
+
+    def grind
+    end
 end

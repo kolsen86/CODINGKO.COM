@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   root to: 'pages#home'
   get 'blog', to: 'pages#blog'
   get 'about', to: 'pages#about'
-  get 'posts', to: 'pages#posts'
+  get 'grind', to: 'pages#grind'
   get 'tutorials', to: 'pages#tutorials'
   get 'tools', to: 'pages#tools'
   resources :contacts, only: :create
