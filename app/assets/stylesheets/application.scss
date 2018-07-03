@@ -18,291 +18,297 @@
 @import "bootstrap-sprockets";
 @import "font-awesome-sprockets";
 @import "font-awesome";
+
 /* Navigation bar */
 
 .navbar {
-  background: black;
-  margin-bottom: 30px;
+    background: black;
+    margin-bottom: 30px;
 }
 
 .navbar-default {
-  border-color: #d1670a;
+    border-color: #d1670a;
 }
 
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav li a {
-  font-size: 1.7em;
-  color: #d1670a;
-  &:hover {
-    color: white;
-    opacity: 0.75;
-  }
-  .navbar-default .navbar-toggle .icon-bar {
-    background-color: white;
-  }
-  .navbar-default .navbar-toggle {
-    border: 4px solid #d1670a;
-    &:hover,
-    &:focus {
-      background-color: #00c6ff;
+    font-size: 1.7em;
+    color: #d1670a;
+    &:hover {
+        color: white;
+        opacity: 0.75;
     }
-  }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: white;
+    }
+    .navbar-default .navbar-toggle {
+        border: 4px solid #d1670a;
+        &:hover,
+        &:focus {
+            background-color: #00c6ff;
+        }
+    }
 }
+
 
 /*Home Page*/
 
 .home-body {
-  background-color: black;
-  height: 100%;
-  width: 100%;
-  position: relative;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: relative;
 }
 
 .home-header {
-  color: #d1670a;
-  background: black;
-  position: relative;
-  top: -60px;
+    color: #d1670a;
+    background: black;
+    position: relative;
+    top: -60px;
 }
 
 .jumbotron h1 {
-  font-size: 80px;
+    font-size: 80px;
 }
 
 .home-logo {
-  color: #d1670a;
-  font-family: "Bungee Inline", cursive;
-  text-align: center;
-  margin: 0;
-  position: relative;
-  top: 100px;
+    color: #d1670a;
+    font-family: "Bungee Inline", cursive;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: 100px;
 }
 
 .web-developer-detroit {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  top: 160px;
-  border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 160px;
+    border-radius: 50%;
 }
+
 
 /*Blog Page*/
 
 .posts-header {
-  background: black;
-  margin-top: -33px;
-  padding: -30px 5px;
+    background: black;
+    margin-top: -33px;
+    padding: -30px 5px;
 }
 
 .posts-header h1 {
-  font-family: "Bungee Inline", cursive;
-  color: #d1670a;
+    font-family: "Bungee Inline", cursive;
+    color: #d1670a;
 }
 
 .posts-header h3 {
-  font-family: "Carrois Gothic SC", sans-serif;
-  color: #d1670a;
+    font-family: "Carrois Gothic SC", sans-serif;
+    color: #d1670a;
 }
 
 .post-title {
-  width: 10%;
-  border: 2px solid black;
+    width: 10%;
+    border: 2px solid black;
 }
 
 td {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  height: 80px;
-  /* white-space: nowrap;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 80px;
+    /* white-space: nowrap;*/
 }
 
 .post-table {
-  table-layout: fixed;
-  background: white;
-  width: 100%;
-  overflow: hidden;
+    table-layout: fixed;
+    background: white;
+    width: 100%;
+    overflow: hidden;
 }
 
 .post-body {
-  border: 2px solid black;
+    border: 2px solid black;
 }
 
 .post-content {
-  text-indent: 50px;
+    text-indent: 50px;
 }
 
 .post-head1 {
-  font-family: impact;
-  letter-spacing: 2px;
-  font-size: 2.7em;
-  width: 20%;
+    font-family: impact;
+    letter-spacing: 2px;
+    font-size: 2.7em;
+    width: 20%;
 }
+
 
 /*About Page*/
 
 .about-title {
-  font-family: "Acme", sans-serif;
+    font-family: "Acme", sans-serif;
 }
 
 .about-header {
-  background: black;
-  margin-top: -33px;
+    background: black;
+    margin-top: -33px;
 }
 
 .about-header h1 {
-  font-family: "Bungee Inline", cursive;
-  color: #d1670a;
+    font-family: "Bungee Inline", cursive;
+    color: #d1670a;
 }
 
-p {
-  text-indent: 50px;
-  font-size: 110%;
-  font-family: "Arvo", serif;
-  line-height: 1.6;
-  margin-left: 50px;
-  margin-right: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
+.about-content p {
+    text-indent: 50px;
+    font-size: 110%;
+    font-family: "Arvo", serif;
+    line-height: 1.6;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
+
 
 /*Contact Page*/
 
 .form-area {
-  margin: 0;
-  position: relative;
-  top: 60%;
-  left: 36%;
-  height: 400px;
-  width: 350px;
-  color: black;
+    margin: 0;
+    position: relative;
+    top: 60%;
+    left: 36%;
+    height: 400px;
+    width: 350px;
+    color: black;
 }
 
 .contact-header {
-  margin: 50px;
-  margin-right: 111px;
-  font-size: 3em;
-  color: #d1670a;
+    margin: 50px;
+    margin-right: 111px;
+    font-size: 3em;
+    color: #d1670a;
 }
 
 .well {
-  background-color: hsla(13, 5%, 72%, 1);
+    background-color: hsla(13, 5%, 72%, 1);
 }
 
 .contact-body {
-  height: 1200px;
-  width: 100%;
+    height: 1200px;
+    width: 100%;
 }
+
 
 /*Tutorials Page*/
 
 .tutorials-body,
 .tools-body {
-  background-color: black;
-  position: relative;
+    background-color: black;
+    position: relative;
 }
 
 .zombie {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  right: 10px;
-  top: -100px;
-  border-radius: 50%;
-  z-index: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    right: 10px;
+    top: -100px;
+    border-radius: 50%;
+    z-index: 1;
 }
 
 .tutorials-header {
-  background: black;
-  margin-top: -33px;
+    background: black;
+    margin-top: -33px;
 }
 
 .tutorials-header h1 {
-  font-family: "Bungee Inline", cursive;
-  color: #d1670a;
-  z-index: 2;
-  position: relative;
-  top: -250px;
-  background-color: black;
+    font-family: "Bungee Inline", cursive;
+    color: #d1670a;
+    z-index: 2;
+    position: relative;
+    top: -250px;
+    background-color: black;
 }
 
 .tutorial-content,
 .tools-content {
-  position: relative;
-  top: -200px;
-  margin-left: 30px;
-  color: #cccccc;
+    position: relative;
+    top: -200px;
+    margin-left: 30px;
+    color: #cccccc;
 }
 
 .tutorial-content p,
 .tools-content p {
-  position: relative;
-  margin: 0;
-  line-height: 1.8em;
-  width: 690px;
+    position: relative;
+    margin: 0;
+    line-height: 1.8em;
+    width: 690px;
 }
 
 .tools-button,
 .back-button {
-  width: 900px;
-  height: 60px;
-  position: relative;
-  background: #d1670a;
-  font-size: 2em;
+    width: 900px;
+    height: 60px;
+    position: relative;
+    background: #d1670a;
+    font-size: 2em;
 }
 
 .tools a,
 .back a {
-  color: black;
+    color: black;
 }
 
 .tools-button:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  border-left: 30px solid black;
-  border-top: 30px solid transparent;
-  border-bottom: 30px solid transparent;
-  margin-left: -1px;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 30px solid black;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    margin-left: -1px;
 }
 
 .tools-button:before {
-  content: "";
-  position: absolute;
-  right: -30px;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  border-left: 30px solid #d1670a;
-  border-top: 30px solid transparent;
-  border-bottom: 30px solid transparent;
+    content: "";
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 30px solid #d1670a;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
 }
 
 .back-button:after {
-  content: "";
-  position: absolute;
-  right: 0px;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  border-right: 30px solid black;
-  border-top: 30px solid transparent;
-  border-bottom: 30px solid transparent;
-  margin-right: -1px;
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-right: 30px solid black;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    margin-right: -1px;
 }
 
 .back-button:before {
-  content: "";
-  position: absolute;
-  left: -30px;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  border-right: 30px solid #d1670a;
-  border-top: 30px solid transparent;
-  border-bottom: 30px solid transparent;
+    content: "";
+    position: absolute;
+    left: -30px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-right: 30px solid #d1670a;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
 }
