@@ -1,7 +1,31 @@
-main {
+.blog-main {
+    position: relative;
+    top: 350px;
     background-image: url(http://cdn2-europe1.new2.ladmedia.fr/var/europe1/storage/images/europe1/culture/matrix-lorigine-du-code-vert-revelee-3478307/44949452-1-fre-FR/Matrix-l-origine-du-code-vert-revelee.jpg);
     margin-top: -30px;
     padding-bottom: 270px;
+}
+
+.blog-header h1 {
+    font-family: 'Germania One', cursive;
+    font-size: 9em;
+}
+
+#ko {
+    position: relative;
+    left: 1000px;
+    margin-right: 50%;
+}
+
+#tc {
+    position: relative;
+    top: 560px;
+    left: 670px;
+    -ms-transform: rotate(90deg);
+    /* IE 9 */
+    -webkit-transform: rotate(90deg);
+    /* Safari 3-8 */
+    transform: rotate(90deg);
 }
 
 #matrix {
@@ -11,7 +35,7 @@ main {
     z-index: 2;
     color: white;
     top: 200px;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 #matrix-header {

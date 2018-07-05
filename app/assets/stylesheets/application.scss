@@ -67,10 +67,6 @@
     top: -60px;
 }
 
-.jumbotron h1 {
-    font-size: 80px;
-}
-
 .home-logo {
     color: #d1670a;
     font-family: "Bungee Inline", cursive;
@@ -90,59 +86,6 @@
 }
 
 
-/*Blog Page*/
-
-.posts-header {
-    background: black;
-    margin-top: -33px;
-    padding: -30px 5px;
-}
-
-.posts-header h1 {
-    font-family: "Bungee Inline", cursive;
-    color: #d1670a;
-}
-
-.posts-header h3 {
-    font-family: "Carrois Gothic SC", sans-serif;
-    color: #d1670a;
-}
-
-.post-title {
-    width: 10%;
-    border: 2px solid black;
-}
-
-td {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    height: 80px;
-    /* white-space: nowrap;*/
-}
-
-.post-table {
-    table-layout: fixed;
-    background: white;
-    width: 100%;
-    overflow: hidden;
-}
-
-.post-body {
-    border: 2px solid black;
-}
-
-.post-content {
-    text-indent: 50px;
-}
-
-.post-head1 {
-    font-family: impact;
-    letter-spacing: 2px;
-    font-size: 2.7em;
-    width: 20%;
-}
-
-
 /*About Page*/
 
 .about-title {
@@ -150,13 +93,13 @@ td {
 }
 
 .about-header {
-    background: black;
+    background: white;
     margin-top: -33px;
 }
 
 .about-header h1 {
     font-family: "Bungee Inline", cursive;
-    color: #d1670a;
+    color: #f45942;
 }
 
 .about-content p {

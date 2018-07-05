@@ -1,1 +1,36 @@
-<h1>Heyo</h1>
+<nav class="navbar navbar-expand navbar-default navbar-static-top" role="navigation">
+  <div class='container'>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <%= link_to root_path, class: "navbar-brand" do %>
+        &ltCODING&gtKO&lt/.COM&gt
+      <% end %>
+    </div>
+    <div class="collapse navbar-collapse" id="main-nav-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "K.O.'s Tech Corner", blog_path %></li>
+        <li><%= link_to "Daily Grind", grind_path %></li>
+        <li><%= link_to "About", about_path %></li>
+        <li><%= link_to "Other Resources", tutorials_path %></li>
+        <li><%= link_to "Contact Me", new_contact_path %></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div>
+</nav>
+<header class="grind-header">
+  <div class="container text-center">
+    <h1>My Journey To Becoming A Web Developer</h1>
+    <h3>and other musings and insights into the life of kenneth olsen</h3>
+  </div>
+</header>
+<main class="grind-main">
+<h2 class="grind-h2">My Daily Grind</h2>
+<div class="grind-content">
+
+</div>
+</main>
