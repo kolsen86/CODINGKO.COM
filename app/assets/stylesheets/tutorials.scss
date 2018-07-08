@@ -1,0 +1,123 @@
+.tutorials-body,
+.tools-body {
+    background-color: black;
+    position: relative;
+}
+
+
+/*.zombie {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 100px;
+    border-radius: 50%;
+    z-index: 1;
+}*/
+
+.tutorials-header {
+    position: relative;
+    top: 100px;
+    background: black;
+}
+
+.tutorials-header h1 {
+    top: 100px;
+    font-size: 5em;
+    font-family: "Bungee Inline", cursive;
+    color: #d1670a;
+    z-index: 2;
+    position: relative;
+    background-color: black;
+}
+
+.tutorial-content,
+.tools-content {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    top: 400px;
+    position: relative;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #cccccc;
+}
+
+.tutorial-content p,
+.tools-content p {
+    text-indent: 50px;
+    position: relative;
+    margin: 0;
+    line-height: 1.8em;
+    width: 690px;
+}
+
+.tools-button,
+.back-button {
+    width: 900px;
+    height: 60px;
+    position: relative;
+    background: #d1670a;
+    font-size: 2em;
+}
+
+.tools a,
+.back a {
+    color: black;
+}
+
+.tools-button:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 30px solid black;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    margin-left: -1px;
+}
+
+.tools-button:before {
+    content: "";
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 30px solid #d1670a;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+}
+
+.back-button:after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-right: 30px solid black;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    margin-right: -1px;
+}
+
+.back-button:before {
+    content: "";
+    position: absolute;
+    left: -30px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-right: 30px solid #d1670a;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+}
+
+.breadcrumb {
+    color: white;
+    position: relative;
+    top: 500px;
+}
