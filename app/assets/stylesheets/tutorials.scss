@@ -1,31 +1,105 @@
 .tutorials-body {
     position: relative;
-    background-color: black;
+    background-color: #e0e2db;
+    margin-top: -33px;
+    padding-bottom: -220px;
 }
 
-
-/*.zombie {
-    margin-left: auto;
-    margin-right: auto;
+.tutsintro {
     position: relative;
-    top: 100px;
+    top: 500px;
+    background-color: #e0e2db;
+    border-radius: 5%;
+    font-size: 1.4em;
+    font-weight: 900;
+    font-family: 'Ubuntu Mono', monospace;
+    text-indent: 50px;
+    padding: 40px;
+    line-height: 1.7;
+    box-shadow: 0px 0px 200px #191716;
+    border: 5px solid #191716;
+    font-weight: 900;
+}
+
+.zombie {
+    margin-left: 20%;
+    margin-right: auto;
+    position: absolute;
     border-radius: 50%;
     z-index: 1;
-}*/
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
 
 .tutorials-header {
     position: relative;
-    top: 100px;
+    top: 450px;
+}
+
+.blue {
+    height: 740px;
+    width: 1510px;
+    background-color: #3d348b;
+    position: absolute;
+    top: 650px;
+    margin: 0;
+    border: 10px solid #3d348b;
+    right: -6px;
+    z-index: 2;
+}
+
+.blue-two {
+    height: 740px;
+    width: 1510px;
+    background-color: #3d348b;
+    position: absolute;
+    top: 2130px;
+    margin: 0;
+    border: 10px solid #3d348b;
+    right: -6px;
+    z-index: 2;
+}
+
+.yellow {
+    height: 740px;
+    width: 1510px;
+    background-color: #e6af2e;
+    position: absolute;
+    top: 1390px;
+    margin: 0;
+    border: 10px solid #e6af2e;
+    right: -6px;
+    z-index: 2;
+}
+
+.yellow-two {
+    height: 770px;
+    width: 1510px;
+    background-color: #e6af2e;
+    position: absolute;
+    top: 2870px;
+    margin: 0;
+    border: 10px solid #e6af2e;
+    right: -6px;
+    z-index: 2;
 }
 
 .tutorials-header h1 {
-    top: 100px;
+    top: -70px;
     font-size: 5em;
     font-family: "Bungee Inline", cursive;
-    color: #d1670a;
+    color: #e0e2db;
     z-index: 2;
+    position: absolute;
+    background-color: #191716;
+}
+
+.black-header {
+    background-color: #191716;
     position: relative;
-    background-color: black;
+    height: 700px;
+    top: 200px;
 }
 
 .tutorial-content,
@@ -38,7 +112,7 @@
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
     font-size: 1.5em;
-    color: #cccccc;
+    color: #191716;
 }
 
 .tutorial-content p,
@@ -47,7 +121,6 @@
     position: relative;
     margin: 0;
     line-height: 1.8em;
-    width: 690px;
 }
 
 .tutorials-info {
@@ -55,7 +128,6 @@
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 800px;
 }
 
 .monitor {
@@ -67,6 +139,7 @@
     height: 740px;
     padding-left: 5px;
     padding-right: 5px;
+    z-index: 4;
 }
 
 .freeCodeCamp {
@@ -78,6 +151,7 @@
     height: 740px;
     padding-left: 5px;
     padding-right: 5px;
+    z-index: 4;
 }
 
 .videomooc {
@@ -89,6 +163,7 @@
     height: 740px;
     padding-left: 5px;
     padding-right: 5px;
+    z-index: 4;
 }
 
 .referanceandpathway {
@@ -100,6 +175,7 @@
     height: 740px;
     padding-left: 5px;
     padding-right: 5px;
+    z-index: 4;
 }
 
 .toolspic {
@@ -111,6 +187,7 @@
     height: 740px;
     padding-left: 5px;
     padding-right: 5px;
+    z-index: 4;
 }
 
 .inttutorials,
@@ -123,10 +200,11 @@
     position: relative;
     top: 700px;
     height: 500px;
-    background-color: white;
-    box-shadow: -10px 10px 10px #ccef04;
-    border: 9px solid #FF0000;
-    color: black;
+    background-color: #beb7a4;
+    box-shadow: -10px 10px 10px #e6af2e;
+    border: 9px solid #3d348b;
+    color: #191716;
+    z-index: 4;
 }
 
 .inttutorials h3,
@@ -137,7 +215,7 @@
 .referanceandquestions h3 {
     font-family: 'Holtwood One SC', serif;
     font-size: 2.8em;
-    border-bottom: 2px solid #FF0000;
+    border-bottom: 2px solid #3d348b;
 }
 
 .inttutorials p,
@@ -158,7 +236,7 @@
 .tools h2 {
     font-family: 'Holtwood One SC', serif;
     font-size: 5em;
-    border-bottom: 2px solid #FF0000;
+    border-bottom: 2px solid #3d348b;
 }
 
 #smallprint {
@@ -181,5 +259,5 @@
 .referanceandquestions a,
 .tools a {
     display: block;
-    color: black;
+    color: #191716;
 }
