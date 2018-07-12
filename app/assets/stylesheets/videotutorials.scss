@@ -1,4 +1,4 @@
-.books-header h1 {
+.videos-header h1 {
     font-size: 6em;
     color: #e0e2db;
     position: relative;
@@ -8,7 +8,7 @@
     position: relative;
 }
 
-.books-head-bg {
+.videos-head-bg {
     position: absolute;
     width: 1500px;
     top: 275px;
@@ -19,14 +19,14 @@
     right: 25px;
 }
 
-.books-body {
+.videos-body {
     background-color: #e0e2db;
     padding-bottom: 650px;
     margin-top: -33px;
     padding-bottom: 700px;
 }
 
-.books-tutorials {
+.videos-tutorials {
     position: relative;
     top: 300px;
     margin-left: auto;
@@ -35,7 +35,7 @@
     padding-bottom: 250px;
 }
 
-.books-tutorials ol p {
+.videos-tutorials ol p {
     width: 88%;
     position: relative;
     border-bottom: 7px solid #e6af2e;
@@ -43,32 +43,37 @@
     font-weight: 800;
 }
 
-.books-tutorials h2 {
+.videos-tutorials h2 {
     border-bottom: 10px solid #3d348b;
     width: 45%;
     border-radius: 5%;
     padding-bottom: 15px;
 }
 
-.books-tutorials a {
+.videos-tutorials a {
     color: #3d348b;
 }
 
-.book-pics {
+.videos-pics {
     position: relative;
     float: right;
     width: 500px;
     margin: 20px;
+    bottom: 25px;
 }
 
-#eloquentjavascriptborder {
-    border-bottom: 7px solid #e6af2e;
+#rfz {
+    position: relative;
+    float: right;
+    width: 500px;
+    margin: 20px;
+    bottom: 40px;
 }
 
-.books-sidebar {
+.videos-sidebar {
     position: absolute;
     width: 200px;
-    height: 4380px;
+    height: 3270px;
     background-color: #191716;
     left: -208px;
     top: -183px;
