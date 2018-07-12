@@ -1,4 +1,4 @@
-.moocs-header h1 {
+.paid-path-header h1 {
     font-size: 6em;
     color: #e0e2db;
     position: relative;
@@ -8,7 +8,7 @@
     position: relative;
 }
 
-.moocs-head-bg {
+.paid-path-head-bg {
     position: absolute;
     width: 1500px;
     top: 275px;
@@ -19,23 +19,23 @@
     right: 25px;
 }
 
-.moocs-body {
+.paid-path-body {
     background-color: #e0e2db;
     padding-bottom: 650px;
     margin-top: -33px;
-    padding-bottom: 700px;
+    padding-bottom: 500px;
 }
 
-.moocs-tutorials {
+.paid-path-tutorials {
     position: relative;
-    top: 300px;
+    top: -150px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    padding-bottom: 250px;
+    padding-bottom: 50px;
 }
 
-.moocs-tutorials ul p {
+.paid-path-tutorials ul p {
     width: 88%;
     position: relative;
     border-bottom: 7px solid #e6af2e;
@@ -43,29 +43,37 @@
     font-weight: 800;
 }
 
-.moocs-tutorials h2 {
+.paid-path-tutorials a {
+    color: #3d348b;
+}
+
+.paid-path-tutorials .path-head {
     border-bottom: 10px solid #3d348b;
     width: 45%;
     border-radius: 5%;
     padding-bottom: 15px;
 }
 
-.moocs-tutorials a {
-    color: #3d348b;
+.paid-pics {
+    position: relative;
+    width: 500px;
+    margin: 20px;
+    bottom: 25px;
+    left: 25%;
 }
 
-.moocs-pics {
-    position: relative;
+.path-pics {
     float: right;
+    position: relative;
     width: 500px;
     margin: 20px;
     bottom: 25px;
 }
 
-.moocs-sidebar {
+.paid-path-sidebar {
     position: absolute;
     width: 200px;
-    height: 3865px;
+    height: 156%;
     background-color: #191716;
     left: -208px;
     top: -183px;
