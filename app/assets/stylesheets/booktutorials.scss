@@ -1,0 +1,66 @@
+.books-header h1 {
+    font-size: 6em;
+    color: #e0e2db;
+    position: relative;
+    top: 78px;
+    font-family: 'Graduate', cursive;
+    text-shadow: -7px -5px 6px #beb7a4;
+    position: relative;
+}
+
+.books-head-bg {
+    position: absolute;
+    width: 1500px;
+    top: 275px;
+    background-color: #191716;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    right: 25px;
+}
+
+.books-body {
+    background-color: #e0e2db;
+    padding-bottom: 650px;
+    margin-top: -33px;
+    padding-bottom: 700px;
+}
+
+.books-tutorials {
+    position: relative;
+    top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-bottom: 250px;
+}
+
+.books-tutorials ol p {
+    width: 88%;
+    position: relative;
+    border-bottom: 7px solid #e6af2e;
+    padding-bottom: 25px;
+    font-weight: 800;
+}
+
+.books-tutorials h2 {
+    border-bottom: 10px solid #3d348b;
+    width: 45%;
+    border-radius: 5%;
+    padding-bottom: 15px;
+}
+
+.books-tutorials a {
+    color: #3d348b;
+}
+
+.book-pics {
+    position: relative;
+    float: right;
+    width: 500px;
+    margin: 20px;
+}
+
+#eloquentjavascriptborder {
+    border-bottom: 7px solid #e6af2e;
+}

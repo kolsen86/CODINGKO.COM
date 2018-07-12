@@ -4,7 +4,7 @@
     position: relative;
     top: 78px;
     font-family: 'Graduate', cursive;
-    text-shadow: -10px -10px 100px #191716;
+    text-shadow: -7px -5px 6px #beb7a4;
     position: relative;
 }
 
@@ -31,14 +31,24 @@
     margin-left: auto;
     margin-right: auto;
     width: 75%;
-    padding-bottom: 500px;
+    padding-bottom: 174px;
+}
+
+#int-intro {
+    position: relative;
+    left: 50px;
+}
+
+#int-intro-header {
+    position: relative;
+    left: 55px;
 }
 
 .sidebar {
     position: absolute;
     width: 200px;
-    height: 5050px;
+    height: 4700px;
     background-color: #191716;
     left: -195px;
-    top: -90px;
+    top: -83px;
 }
