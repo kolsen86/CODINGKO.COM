@@ -1,29 +1,45 @@
 .grind-header h1 {
-    font-family: 'Special Elite', cursive;
-    color: #fbfef9;
+    font-family: 'Prosto One', cursive;
+    color: #e0e2db;
     font-weight: 900;
     font-size: 6em;
-    text-shadow: -7px -5px 7px #2947d3;
+    text-shadow: -7px -5px 7px #beb7a4;
+    position: relative;
+    top: 100px;
 }
 
 .grind-header h3 {
-    font-family: 'Special Elite', cursive;
-    color: #fbfef9;
+    font-family: 'Prosto One', cursive;
+    color: #e0e2db;
     font-size: 3.5em;
     font-weight: 900;
-    text-shadow: -4px -3px 4px #2947d3;
+    text-shadow: -4px -3px 4px #beb7a4;
+    position: relative;
+    top: 100px;
+}
+
+.grind-head-bg {
+    position: absolute;
+    width: 1520px;
+    background-color: #191716;
+    height: 73%;
+    margin-left: auto;
+    margin-right: auto;
+    right: 3px;
+    margin-top: -100px;
 }
 
 .grind-h2 {
-    color: #96c93e;
+    color: #191716;
     font-size: 7em;
-    font-family: 'Shojumaru', cursive;
+    font-family: 'Rock Salt', cursive;
     font-weight: 900;
     position: relative;
     padding-top: 100px;
-    text-shadow: -7px -5px 7px #2947d3;
+    text-shadow: -7px -5px 7px #beb7a4;
     margin-right: auto;
     margin-left: auto;
+    top: 490px;
 }
 
 .grind-header {
@@ -34,7 +50,7 @@
     position: relative;
     height: 1000px;
     width: 85%;
-    background-color: #fbfef9;
+    background-color: #beb7a4;
     margin-left: auto;
     margin-right: auto;
     overflow: scroll;
@@ -43,9 +59,10 @@
     font-weight: 600;
     font-size: 1.5em;
     border-radius: 20px;
-    border-right: 3px solid #2947d3;
-    box-shadow: -10px 10px 10px #96c93e;
+    border-right: 3px solid #3d348b;
+    box-shadow: -10px 10px 10px #e6af2e;
     overflow-x: auto;
+    top: 500px;
 }
 
 .grind-content p {
@@ -59,10 +76,10 @@
     padding-top: 20px;
     padding-bottom: 10px;
     text-align: center;
-    background-color: #2947d3;
+    background-color: #3d348b;
     border-radius: 5%;
-    border: 3px solid #96c93e;
-    color: #96c93e;
+    border: 3px solid #e6af2e;
+    color: #e6af2e;
     text-shadow: -7px -5px 5px fbfef9;
 }
 
@@ -71,8 +88,9 @@
     padding-bottom: 160px;
 }
 
-.cementLights {
+.grind-body {
     background-color: #e0e2db;
     margin-top: -30px;
     padding-top: 100px;
+    padding-bottom: 500px;
 }
