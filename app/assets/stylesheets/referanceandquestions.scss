@@ -1,4 +1,4 @@
-.paid-path-header h1 {
+.referance-header h1 {
     font-size: 6em;
     color: #e0e2db;
     position: relative;
@@ -6,9 +6,12 @@
     font-family: 'Graduate', cursive;
     text-shadow: -7px -5px 6px #beb7a4;
     position: relative;
+    left: 45px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.paid-path-head-bg {
+.referance-head-bg {
     position: absolute;
     width: 1500px;
     top: 275px;
@@ -16,26 +19,25 @@
     height: 300px;
     margin-left: auto;
     margin-right: auto;
-    right: 25px;
+    right: 20px;
 }
 
-.paid-path-body {
+.referance-body {
     background-color: #e0e2db;
     padding-bottom: 650px;
     margin-top: -33px;
-    padding-bottom: 500px;
 }
 
-.paid-path-tutorials {
+.referance {
     position: relative;
-    top: -150px;
+    top: 200px;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
-    padding-bottom: 50px;
+    width: 75%;
+    padding-bottom: 174px;
 }
 
-.paid-path-tutorials ul p {
+.referance ul p {
     width: 88%;
     position: relative;
     border-bottom: 7px solid #e6af2e;
@@ -43,42 +45,50 @@
     font-weight: 800;
 }
 
-.paid-path-tutorials a {
-    color: #3d348b;
-}
-
-.paid-path-tutorials .path-head {
+.referance h2 {
     border-bottom: 10px solid #3d348b;
     width: 45%;
     border-radius: 5%;
     padding-bottom: 15px;
 }
 
-.paid-path-tutorials a {
+.referance a {
     color: #3d348b;
 }
 
-.paid-pics {
-    position: relative;
-    width: 500px;
-    margin: 20px;
-    bottom: 25px;
-    left: 25%;
+.questions a {
+    color: #e6af2e;
 }
 
-.path-pics {
+.referance-pics {
+    position: relative;
     float: right;
-    position: relative;
-    width: 500px;
+    /*width: 500px;*/
     margin: 20px;
-    bottom: 25px;
 }
 
-.paid-path-sidebar {
+.referance-pics-google {
+    position: relative;
+    float: right;
+    /*width: 500px;*/
+    margin: 20px;
+    bottom: 70px;
+}
+
+.referance-pics-mozilla {
+    position: relative;
+    float: right;
+    /*width: 500px;*/
+    margin: 20px;
+    bottom: 70px;
+}
+
+
+.referance-sidebar {
     position: absolute;
     width: 200px;
-    height: 156%;
+    height: 190.5%;
     background-color: #191716;
-    left: -208px;
-    top: -183px;
+    left: -210px;
+    top: -83px;
 }
