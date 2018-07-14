@@ -28,11 +28,23 @@
 
 .tools-page {
     position: relative;
-    top: 300px;
+    top: 700px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     padding-bottom: 250px;
+    height: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #191716;
+}
+
+.tools-page p {
+    text-indent: 50px;
+    position: relative;
+    margin: 0;
+    line-height: 1.8em;
 }
 
 .tools-page ul p {

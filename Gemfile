@@ -23,6 +23,7 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '2.7.0'
 # jquery rails
+#gem 'jquery-rails-cdn'
 gem 'jquery-rails', '4.3.1'
 # Gemfile for Rails 3+, Sinatra, or Merb
 gem 'will_paginate', '~> 3.1.1'

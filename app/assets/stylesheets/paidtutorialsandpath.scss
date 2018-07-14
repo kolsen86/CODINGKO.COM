@@ -28,11 +28,23 @@
 
 .paid-path-tutorials {
     position: relative;
-    top: -150px;
+    top: 250px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     padding-bottom: 50px;
+    height: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #191716;
+}
+
+.paid-path-tutorials p {
+    text-indent: 50px;
+    position: relative;
+    margin: 0;
+    line-height: 1.8em;
 }
 
 .paid-path-tutorials ul p {

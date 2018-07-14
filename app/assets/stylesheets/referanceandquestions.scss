@@ -30,11 +30,23 @@
 
 .referance {
     position: relative;
-    top: 200px;
+    top: 600px;
     margin-left: auto;
     margin-right: auto;
     width: 75%;
     padding-bottom: 174px;
+    height: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #191716;
+}
+
+.referance p {
+    text-indent: 50px;
+    position: relative;
+    margin: 0;
+    line-height: 1.8em;
 }
 
 .referance ul p {
