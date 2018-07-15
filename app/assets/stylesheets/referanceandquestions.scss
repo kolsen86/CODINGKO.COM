@@ -2,24 +2,24 @@
     font-size: 6em;
     color: #e0e2db;
     position: relative;
-    top: 78px;
+    top: 5%;
     font-family: 'Graduate', cursive;
     text-shadow: -7px -5px 6px #beb7a4;
     position: relative;
-    left: 45px;
+    left: 2%;
     margin-right: auto;
     margin-left: auto;
+    z-index: 2;
 }
 
 .referance-head-bg {
     position: absolute;
-    width: 1500px;
-    top: 275px;
+    width: 98%;
+    top: 37.6%;
     background-color: #191716;
-    height: 300px;
+    height: 48%;
     margin-left: auto;
     margin-right: auto;
-    right: 20px;
 }
 
 .referance-body {
@@ -75,14 +75,12 @@
 .referance-pics {
     position: relative;
     float: right;
-    /*width: 500px;*/
     margin: 20px;
 }
 
 .referance-pics-google {
     position: relative;
     float: right;
-    /*width: 500px;*/
     margin: 20px;
     bottom: 70px;
 }
@@ -90,17 +88,21 @@
 .referance-pics-mozilla {
     position: relative;
     float: right;
-    /*width: 500px;*/
     margin: 20px;
     bottom: 70px;
 }
 
+#referance-intro, #referance-intro-header, #questions-intro, #questions-intro-header, .referance ul {
+    position: relative;
+    left: 5%;
+}
 
 .referance-sidebar {
     position: absolute;
-    width: 200px;
-    height: 190.5%;
+    width: 15%;
+    height: 194.1%;
     background-color: #191716;
-    left: -210px;
-    top: -83px;
+    left: -11.3%;
+    top: -13.33%;
+    z-index: 1;
 }

@@ -2,7 +2,7 @@
     font-size: 6em;
     color: #e0e2db;
     position: relative;
-    top: 78px;
+    top: 45px;
     font-family: 'Graduate', cursive;
     text-shadow: -7px -5px 6px #beb7a4;
     position: relative;
@@ -10,13 +10,12 @@
 
 .moocs-head-bg {
     position: absolute;
-    width: 1500px;
+    width: 98%;
     top: 275px;
     background-color: #191716;
-    height: 300px;
+    height: 50%;
     margin-left: auto;
     margin-right: auto;
-    right: 25px;
 }
 
 .moocs-body {
@@ -38,6 +37,11 @@
     font-weight: 600;
     font-size: 1.5em;
     color: #191716;
+}
+
+.moocs-tutorials ul {
+    position: relative;
+    left: 5%;
 }
 
 .moocs-tutorials p {
@@ -69,16 +73,25 @@
 .moocs-pics {
     position: relative;
     float: right;
-    width: 500px;
     margin: 20px;
     bottom: 25px;
 }
 
+#moocs-intro {
+    position: relative;
+    left: 5%;
+}
+
+#moocs-intro-header {
+    position: relative;
+    left: 5%;
+}
+
 .moocs-sidebar {
     position: absolute;
-    width: 200px;
-    height: 3865px;
+    width: 15%;
+    height: 113.2%;
     background-color: #191716;
-    left: -208px;
-    top: -183px;
+    left: -10%;
+    top: -13.25%;
 }

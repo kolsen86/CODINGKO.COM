@@ -10,13 +10,12 @@
 
 .videos-head-bg {
     position: absolute;
-    width: 1500px;
+    width: 98%;
     top: 275px;
     background-color: #191716;
-    height: 300px;
+    height: 43%;
     margin-left: auto;
     margin-right: auto;
-    right: 25px;
 }
 
 .videos-body {
@@ -38,6 +37,11 @@
     font-weight: 600;
     font-size: 1.5em;
     color: #191716;
+}
+
+.videos-tutorials ol {
+    position: relative;
+    left: 8%;
 }
 
 .videos-tutorials p {
@@ -69,7 +73,6 @@
 .videos-pics {
     position: relative;
     float: right;
-    width: 500px;
     margin: 20px;
     bottom: 25px;
 }
@@ -77,16 +80,20 @@
 #rfz {
     position: relative;
     float: right;
-    width: 500px;
     margin: 20px;
     bottom: 40px;
 }
 
+#video-intro, #video-intro-header {
+    position: relative;
+    left: 5%;
+}
+
 .videos-sidebar {
     position: absolute;
-    width: 200px;
-    height: 3270px;
+    width: 15%;
+    height: 114.5%;
     background-color: #191716;
-    left: -208px;
-    top: -183px;
+    left: -10%;
+    top: -14.55%;
 }

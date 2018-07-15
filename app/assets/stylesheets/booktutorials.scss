@@ -2,7 +2,7 @@
     font-size: 6em;
     color: #e0e2db;
     position: relative;
-    top: 78px;
+    top: 65px;
     font-family: 'Graduate', cursive;
     text-shadow: -7px -5px 6px #beb7a4;
     position: relative;
@@ -10,13 +10,13 @@
 
 .books-head-bg {
     position: absolute;
-    width: 1500px;
+    width: 98%;
     top: 275px;
     background-color: #191716;
-    height: 300px;
+    height: 43%;
     margin-left: auto;
     margin-right: auto;
-    right: 25px;
+    right: 2%;
 }
 
 .books-body {
@@ -38,6 +38,12 @@
     font-weight: 600;
     font-size: 1.5em;
     color: #191716;
+    left: 5%;
+}
+
+.books-tutorials ol {
+    position: relative;
+    left: 1%;
 }
 
 .books-tutorials ol p {
@@ -69,7 +75,6 @@
 .book-pics {
     position: relative;
     float: right;
-    /*width: 500px;*/
     margin: 20px;
 }
 
@@ -77,9 +82,19 @@
     border-bottom: 7px solid #e6af2e;
 }
 
+#books-intro-header {
+    position: relative;
+    left: 1%;
+}
+
+#books-intro {
+    position: relative;
+    left: 1%;
+}
+
 .books-sidebar {
     position: absolute;
-    width: 200px;
+    width: 15%;
     background-color: #191716;
     left: -208px;
     top: -183px;

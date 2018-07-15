@@ -10,13 +10,12 @@
 
 .paid-path-head-bg {
     position: absolute;
-    width: 1500px;
+    width: 98%;
     top: 275px;
     background-color: #191716;
-    height: 300px;
+    height: 43%;
     margin-left: auto;
     margin-right: auto;
-    right: 25px;
 }
 
 .paid-path-body {
@@ -72,7 +71,6 @@
 
 .paid-pics {
     position: relative;
-    width: 500px;
     margin: 20px;
     bottom: 25px;
     left: 25%;
@@ -81,16 +79,20 @@
 .path-pics {
     float: right;
     position: relative;
-    width: 500px;
     margin: 20px;
     bottom: 25px;
 }
 
+#paid-intro, #paid-intro-header, #path-intro, #path-intro-header, .paid-path-tutorials ul {
+position: relative;
+left: 5%;
+}
+
 .paid-path-sidebar {
     position: absolute;
-    width: 200px;
-    height: 156%;
+    width: 13.9%;
+    height: 168%;
     background-color: #191716;
-    left: -208px;
-    top: -183px;
+    left: -8%;
+    top: -15.22%;
 }
