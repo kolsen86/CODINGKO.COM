@@ -6,6 +6,7 @@
     font-family: 'Graduate', cursive;
     text-shadow: -7px -5px 6px #beb7a4;
     position: relative;
+    z-index: 5;
 }
 
 .paid-path-head-bg {
@@ -93,6 +94,7 @@ left: 5%;
     width: 13.9%;
     height: 168%;
     background-color: #191716;
-    left: -8%;
+    left: -15.3%;
     top: -15.22%;
+    z-index: 1;
 }

@@ -5,6 +5,9 @@ require 'rails/all'
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
+#config.middleware.insert_after ActionDispatch::Static, Rack::Deflater
+
+
 
 module Blog
   class Application < Rails::Application

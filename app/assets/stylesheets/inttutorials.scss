@@ -68,6 +68,51 @@
     width: 15%;
     height: 109.4%;
     background-color: #191716;
-    left: -10%;
+    left: -16%;
     top: -8.36%;
+}
+
+/* The side navigation menu */
+.sidenav {
+    color: white;
+    height: 2000px; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    left: -15px;
+    background-color: black; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    z-index: 2;
+    top: 1px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidenav-open {
+        position: fixed;
+        top: 50%;
+        left: 70px;
+        color: #e0e2db;
 }

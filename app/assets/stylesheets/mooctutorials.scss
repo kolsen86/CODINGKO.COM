@@ -6,6 +6,7 @@
     font-family: 'Graduate', cursive;
     text-shadow: -7px -5px 6px #beb7a4;
     position: relative;
+    z-index: 5;
 }
 
 .moocs-head-bg {
@@ -16,6 +17,7 @@
     height: 50%;
     margin-left: auto;
     margin-right: auto;
+    z-index: 2
 }
 
 .moocs-body {
@@ -92,6 +94,7 @@
     width: 15%;
     height: 113.2%;
     background-color: #191716;
-    left: -10%;
+    left: -15.5%;
     top: -13.25%;
+    z-index: 1;
 }
