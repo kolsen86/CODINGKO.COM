@@ -1,0 +1,43 @@
+.about-title {
+    font-family: "Acme", sans-serif;
+    position: relative;
+    top: 40px;
+}
+
+.about-header {
+    background-color: #191716;
+    margin-top: -33px;
+}
+
+.about-header h1 {
+    font-family: "Bungee Inline", cursive;
+    color: #e0e2db;
+    font-size: 5.6em;
+    text-shadow: -5px -3px 5px #beb7a4;
+}
+
+.about-content {
+    text-indent: 50px;
+    line-height: 1.6;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    position: relative;
+    top: 40px;
+}
+
+.about-body {
+    background-color: #e0e2db;
+    padding-bottom: 100px;
+}
+
+#me {
+    position: relative;
+    top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30%;
+    width: 30%;
+    left: 36%;
+    border: 10px solid #e6af2e;
+}

@@ -22,14 +22,16 @@
     </div><!-- /.navbar-collapse -->
   </div>
 </nav>
-<div class="contact-body">
-<header class="jumbotron about-header">
-  <div class="container text-center">
+<div class="container-fluid contact-body">
+<header class="container-fluid text-center contact-header">
     <h1>&ltCODING&gtKO&lt/.COM&gt</h1>
-  </div>
 </header>
-<div class="container-fluid">
-    <h3 class="container text-center contact-header">Contact Me, Hire Me, <br>Critique Me, Ask Me Too Lunch,<br>Just Fill Out The Form</h3>
+<div class="container contact-content">
+    <div class="container-fluid contact-intro">
+    <p>I put a lot of work into getting this website off the ground.  I encourage you to please let me know how I am doing.  I appreciate any compliments or critiques that I get and I will respond to every E-Mail when I have time.  So if you have any suggestions for what you would like to see in an article or any corrections you may have noticed need done, do not hesitate to drop me an E-Mail.  You can also follow me on Twitter and add me on FaceBook and Linkedin </p>
+    </div>
+     <h3 id="contact-me">Contact Me</h3><h3 id="hire">Hire Me</h3><h3 id="critique">Critique Me</h3><h3 id="lunch">Ask Me Too Lunch</h3><h3 id="fill-it-out">Just Fill Out The Form</h3>
+     <img class="arrow" src="https://res.cloudinary.com/dmks1qdth/image/upload/c_crop,h_87,w_432/v1531792186/lotarrows.jpg">
     <div class="form-area">
     <% flash.each do |type, msg| %>
     <%= content_tag :div, msg, class: "alert alert-#{type}" %>
@@ -38,11 +40,11 @@
         <%= form_for @contact do |f| %>
           <div class="form-group">
             <%= f.label :name %>
-            <%= f.text_field :name, class: 'form-control' %>
+            <%= f.text_field :name, class: 'form-control', placeholder: 'John Doe' %>
           </div>
           <div class="form-group">
             <%= f.label :email %>
-            <%= f.text_field :email, class: 'form-control' %>
+            <%= f.text_field :email, class: 'form-control', placeholder: 'yourEmail@email.com' %>
           </div>
           <div class="form-group">
             <%= f.label :comments %>
@@ -50,8 +52,10 @@
           </div>
           <%= f.submit 'Submit', class: 'btn btn-default' %>
         <% end %>
+        <h3 id="feedback">Thank you again for your feedback!</h3>
       </div>
-    </div>
 </div>
- <a href="https://twitter.com/KennethOlsen?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @KennethOlsen</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div id="twitter">
+ <a href="https://twitter.com/KennethOlsen?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @KennethOlsen</a></div><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
 </div>
