@@ -1,20 +1,16 @@
-.form-area {
-    margin: 0;
-    position: relative;
-    top: 60%;
-    left: 36%;
-    height: 400px;
-    width: 350px;
-    color: black;
-}
 
+html, body {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
 .contact-header {
   background-color: #191716;
-  height: 20%;
+  height: 160px;
   position: relative;
-  width: 102%;
-  left: -1.1%;
+  width: 119.5%;
   margin-top: -33px;
+  left: -9.8%
 }
 
 .contact-header h1 {
@@ -23,47 +19,34 @@ font-family: 'Graduate', cursive;
 text-shadow: -7px -5px 6px #beb7a4;
 color:  #e0e2db;
 position: relative;
-top: 25%;
-right: 2.5%;
-}
-
-.well {
-    background-color: hsla(13, 5%, 72%, 1);
-    position: relative;
-    top: 180%;
-    left: -25%;
-}
-
-.contact-body {
-    height: 1200px;
-    width: 100%;
+top: 20%;
+right: 0.5%;
 }
 
 .contact-intro {
     background-color: #beb7a4;
     color: #191716;
-    position: relative;
-    width: 120%;
+    position: absolute;
+    width: 85%;
     padding: 59px;
-    left: -9%;
-    top: 43px;
+    top: 35%;
     border-radius: 12%;
     box-shadow: 12px -10px 40px #e6af2e;
     border: 2px solid #3d348b;
 }
 
 .arrow {
-    position: relative;
-    top: 600px;
-    left: 25%;
+    position: absolute;
+    top: 167%;
+    left: 33%;
 }
 
 #contact-me {
     position: absolute;
     font-size: 3.6em;
     font-family: 'Graduate', cursive;
-    top: 95%;
-    left: 35%;
+    top: 90%;
+    left: 37%;
     margin: 0;
     text-shadow: -2px 2px 8px #191716;
     border-bottom: 3px solid #3d348b;
@@ -73,8 +56,8 @@ right: 2.5%;
     position: absolute;
     font-size: 3.6em;
     font-family: 'Graduate', cursive;
-    top: 95%;
-    left: 67%;
+    top: 128%;
+    left: 45%;
     transform: rotate(17deg) rotateX(12deg) skewX(1deg);
     margin: 0;
     text-shadow: 2px -2px 8px #191716;
@@ -85,8 +68,8 @@ right: 2.5%;
     position: absolute;
     font-size: 3.6em;
     font-family: 'Graduate', cursive;
-    top: 100%;
-    left: 5%;
+    top: 114%;
+    left: 0.5%;
     transform: rotate(-23deg) rotateX(-20deg) skewX(1deg);
     margin: 0;
     text-shadow: -2px -2px 8px #191716;
@@ -97,9 +80,9 @@ right: 2.5%;
     position: absolute;
     font-size: 3.6em;
     font-family: 'Graduate', cursive;
-    top: 125%;
+    top: 126%;
     left: 60%;
-    transform: rotate(8deg) rotateX(-10deg) skewX(1deg);
+    transform: rotate(30deg) rotateX(35deg) skewX(1deg);
     margin: 0;
     text-shadow: 2px 2px 8px #191716;
     border-bottom: 3px solid #3d348b;
@@ -109,8 +92,8 @@ right: 2.5%;
     position: absolute;
     font-size: 3.6em;
     font-family: 'Graduate', cursive;
-    top: 135%;
-    left: 20%;
+    top: 145%;
+    left: 8%;
     transform: rotate(3deg) rotateX(5deg) skewX(1deg);
     margin: 0;
     text-shadow: -3px 4px 5px #191716;
@@ -126,9 +109,45 @@ right: 2.5%;
 }
 
 #twitter {
-    position: relative;
+    position: absolute;
     left: -20%;
     display: inline-block;
     margin: 0;
     top: 1000px;
 }
+
+.header {
+    background-color: #beb7a4;
+    font-family: 'Graduate', cursive;
+    color: #3d348b;
+    font-size: 3em;
+    padding: 10px;
+    text-shadow: 1px 2px 2px #191716;
+   }
+   
+   .bigicon {
+   
+    font-size: 36px;
+    color: #3d348b;
+   }
+
+   fieldset {
+       background-color: #beb7a4;
+   }
+
+  .contact-ko .row .col-md-12 .ko-well {
+       color: #beb7a4;
+       background-color: #beb7a4;
+   }
+
+   .ko-row {
+       position: absolute;
+       width: 68%;
+       top: 180%;
+       left: 18%;
+   }
+
+   footer {
+       position: absolute;
+       top: 325%;
+   }

@@ -13,5 +13,5 @@ Rails.application.routes.draw do
   get 'paidtutorialsandpath', to: 'pages#paidtutorialsandpath'
   get 'referanceandquestions', to: 'pages#referanceandquestions'
   resources :contacts, only: :create
-  get 'contact-me', to: 'contacts#new', as: 'new_contact'
+  get 'contacts', to: 'contacts#new', as: 'new_contact'
 end
