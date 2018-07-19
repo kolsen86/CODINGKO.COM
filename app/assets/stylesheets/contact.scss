@@ -7,7 +7,7 @@ html, body {
 .contact-header {
   background-color: #191716;
   height: 160px;
-  position: relative;
+  position: absolute;
   width: 119.5%;
   margin-top: -33px;
   left: -9.8%
@@ -18,9 +18,11 @@ font-size: 6em;
 font-family: 'Graduate', cursive;
 text-shadow: -7px -5px 6px #beb7a4;
 color:  #e0e2db;
-position: relative;
+position: absolute;
 top: 20%;
-right: 0.5%;
+right: 27.2%;
+margin-right: auto;
+margin-left: auto;
 }
 
 .contact-intro {
@@ -28,6 +30,7 @@ right: 0.5%;
     color: #191716;
     position: absolute;
     width: 85%;
+    height: 40%;
     padding: 59px;
     top: 35%;
     border-radius: 12%;
@@ -38,7 +41,7 @@ right: 0.5%;
 .arrow {
     position: absolute;
     top: 167%;
-    left: 33%;
+    left: 36%;
 }
 
 #contact-me {
@@ -101,7 +104,7 @@ right: 0.5%;
 }
 
 .contact-intro p {
-    position: relative;
+    position: absolute;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 800;
     font-size: 1.9em;
