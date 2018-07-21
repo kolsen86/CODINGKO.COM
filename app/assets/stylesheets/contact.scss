@@ -10,10 +10,16 @@
 
 .contact-header {
   background-color: #191716;
+<<<<<<< HEAD
   height: 20%;
   position: relative;
   width: 102%;
   left: -1.1%;
+=======
+  height: 160px;
+  position: absolute;
+  width: 119.5%;
+>>>>>>> 9dea8cf1140e201f19e2bf8564cd5621cdda1a60
   margin-top: -33px;
 }
 
@@ -22,6 +28,7 @@ font-size: 6em;
 font-family: 'Graduate', cursive;
 text-shadow: -7px -5px 6px #beb7a4;
 color:  #e0e2db;
+<<<<<<< HEAD
 position: relative;
 top: 25%;
 right: 2.5%;
@@ -37,13 +44,26 @@ right: 2.5%;
 .contact-body {
     height: 1200px;
     width: 100%;
+=======
+position: absolute;
+top: 20%;
+right: 27.2%;
+margin-right: auto;
+margin-left: auto;
+>>>>>>> 9dea8cf1140e201f19e2bf8564cd5621cdda1a60
 }
 
 .contact-intro {
     background-color: #beb7a4;
     color: #191716;
+<<<<<<< HEAD
     position: relative;
     width: 120%;
+=======
+    position: absolute;
+    width: 85%;
+    height: 40%;
+>>>>>>> 9dea8cf1140e201f19e2bf8564cd5621cdda1a60
     padding: 59px;
     left: -9%;
     top: 43px;
@@ -53,9 +73,15 @@ right: 2.5%;
 }
 
 .arrow {
+<<<<<<< HEAD
     position: relative;
     top: 600px;
     left: 25%;
+=======
+    position: absolute;
+    top: 167%;
+    left: 36%;
+>>>>>>> 9dea8cf1140e201f19e2bf8564cd5621cdda1a60
 }
 
 #contact-me {

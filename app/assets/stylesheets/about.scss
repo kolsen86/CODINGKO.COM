@@ -1,7 +1,15 @@
+body, html {
+    position: relative;
+    background-color: #e0e2db;
+    height: 100%;
+    width: 100%;
+}
+
 .about-title {
     font-family: "Acme", sans-serif;
-    position: relative;
-    top: 40px;
+    position: absolute;
+    top: 115%;
+    left: 10%;
 }
 
 .about-header {
@@ -22,22 +30,24 @@
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
     font-size: 1.5em;
-    position: relative;
-    top: 40px;
-}
-
-.about-body {
-    background-color: #e0e2db;
-    padding-bottom: 100px;
+    position: absolute;
+    top: 130%;
+    left: 13%;
 }
 
 #me {
-    position: relative;
-    top: 40px;
+    position: absolute;
+    top: 45%;
     margin-left: auto;
     margin-right: auto;
-    height: 30%;
+    height: 55%;
     width: 30%;
-    left: 36%;
+    left: 32%;
     border: 10px solid #e6af2e;
+    display: block;
+}
+
+footer {
+    position: absolute;
+    top: 200%
 }
