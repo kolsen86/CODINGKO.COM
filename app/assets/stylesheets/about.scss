@@ -1,26 +1,27 @@
-body, html {
-    position: relative;
-    background-color: #e0e2db;
-    height: 100%;
-    width: 100%;
-}
+
 
 .about-title {
     font-family: "Acme", sans-serif;
-    position: absolute;
-    top: 115%;
-    left: 10%;
+    position: relative;
+    top: 25%;
+    left: -1%;
+}
+
+body.about {
+    background-color: #e0e2db;
 }
 
 .about-header {
     background-color: #191716;
     margin-top: -33px;
+    height: 60%;
 }
 
 .about-header h1 {
     font-family: "Bungee Inline", cursive;
     color: #e0e2db;
     font-size: 5.6em;
+    line-height: 1.4em;
     text-shadow: -5px -3px 5px #beb7a4;
 }
 
@@ -30,24 +31,24 @@ body, html {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
     font-size: 1.5em;
-    position: absolute;
-    top: 130%;
-    left: 13%;
+    position: relative;
+    top: 30%;
+    left: 1%;
 }
 
 #me {
-    position: absolute;
-    top: 45%;
+    position: relative;
+    top: 15%;
     margin-left: auto;
     margin-right: auto;
     height: 55%;
     width: 30%;
-    left: 32%;
     border: 10px solid #e6af2e;
     display: block;
+    left: -1%;
 }
 
-footer {
+footer.about {
     position: absolute;
-    top: 200%
+    top: 350%;
 }
