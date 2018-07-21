@@ -1,16 +1,11 @@
-body, html {
-    background-color: #e0e2db;
-    height: 100%;
-    width: 100%;
-    position: relative;
-}
+
 
 .blog-main {
-    position: absolute;
+    position: relative;
     top: 200px;
     background-image: url(https://lh3.googleusercontent.com/w72Y4RvcBw0hWQkx2ZL42Dyrnc6MrQ2gR-QF8EY4VDs_rGTBTN1LSVnpg3Xsa2-S6p4BYsLRQCv3EsDiOKCrDfmcCOeJRXLLxBAQU2fUmC2WxMVT1z9Sh7jwy3a0CF0mj3LlFYiEikjDhLqzlwSAqXkCdADz3a__llxtwaTygk3Yws1oOYTEfMNcKkZHNRAzFvlyLG-yPia-Kc6Svw6Oyj_DlAoMAmRhoPOOfN8oGI0qQn4-wJ6Jyx0-H-qCAlQqXGvMAQIrFGGuMvwPCOiM6cxjOvjbMIDx6V15AtjLTE44MN1vY3QMX_i5g8h_TVM0aESwNtTbZumEtEtw7Aknp769iNbQ4BNYwomwWun_lLF56tg4-DHRJ_qX7ft1gB-L6sxNWX2BXvSlND-SBdxLO98vAVw165gTgDc8Gt61kPSfS9GD-Qa7hWru4CSho4111_yLrSiViBzY76aOu6av220lQaUP04XuY8nARUne5b-Osxhv84lDfeKxG-i1V4L691n_WoUCunwiwdEJWM4Q0oCeFjnc5Y1e0V9Qo9E_aqUjx_zCW6Vs9hpjrV_dXd1hxLJ92jzKSnR0U0M7OH7qn6iQZNhOeps305TDTDw=w1388-h925-no);
     margin-top: -30px;
-    padding-bottom: 270px;
+    padding-bottom: 30%;
 }
 
 .blog-header h1 {
@@ -20,7 +15,7 @@ body, html {
 
 #matrix {
     width: 650px;
-    position: absolute;
+    position: relative;
     margin-right: auto;
     margin-left: auto;
     z-index: 2;
@@ -30,7 +25,7 @@ body, html {
 }
 
 #matrix-header {
-    position: absolute;
+    position: relative;
     text-align: center;
     z-index: 2;
     font-size: 30px;
@@ -46,7 +41,7 @@ body, html {
 }
 
 #matrix-header h2 {
-    position: absolute;
+    position: relative;
     font-size: 1.2em;
     width: 100%;
     margin-left: auto;
@@ -54,7 +49,7 @@ body, html {
 }
 
 #matrix-header h4 {
-    position: absolute;
+    position: relative;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -63,28 +58,29 @@ body, html {
 .article-content p {
     justify-content: left;
     text-indent: 50px;
-    position: absolute;
+    position: relative;
     padding-bottom: 30px;
     line-height: 1.9;
 }
 
 .article-content {
     background-color: white;
-    position: absolute;
+    position: relative;
     width: 90%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    top: 75%;
+    top: 15em;
     padding: 0px 50px 130px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
     font-size: 1.5em;
     border-radius: 20px;
+    padding-top: 5%;
 }
 
 #time {
-    position: absolute;
+    position: relative;
     width: 600px;
     left: 130px;
     text-align: left;
@@ -92,6 +88,6 @@ body, html {
 }
 
 footer {
-    position: absolute;
+    position: relative;
     top: 100%;
 }
