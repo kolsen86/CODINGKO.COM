@@ -34,4 +34,7 @@ class PagesController < ApplicationController
 
     def grind
     end
+
+    def contact1
+    end
 end

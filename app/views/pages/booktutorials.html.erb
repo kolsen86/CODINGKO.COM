@@ -1,3 +1,5 @@
+<body>
+
 <nav class="navbar navbar-expand navbar-default navbar-static-top" role="navigation">
 	<div class='container'>
 		<div class="navbar-header">
@@ -29,10 +31,31 @@
 	</div>
 </nav>
 <div class="container-fluid books-body">
+
 <div class="container-fluid books-head-bg">
 	<header class="container-fluid text-center books-header">
 		<h1>Free Online Book Tutorials</h1>
 	</header>
+	<div class="wrapper">
+    <span class="menu"></span>
+
+    <!--<div class="title">
+        <h1>Click the burger icon to see the menu !</h1>
+    </div>-->
+
+    <div class="overlay">
+        <ul>
+            <li><a href="#">Interactive Tutorials</a></li>
+            <li><a href="#">Free Books (Online)</a></li>
+            <li><a href="#">Video Tutorials</a></li>
+            <li><a href="#">MOOCs</a></li>
+			<li><a href="#">Paid Tutorials <br>and Learning Pathways</a></li>
+			<li><a href="#">Referance and <br>Asking Questions</a></li>
+			<li><a href="#">Useful Tools</a></li>
+        </ul>
+    </div>
+
+</div>
 	</div>
 <div class="container books-tutorials">
 <div class="books-sidebar"></div>
@@ -120,3 +143,16 @@
 	</div>
 
 </div>
+<script>
+$(document).ready(function () {
+
+        $('span').click(function() {
+            $('.overlay').toggleClass('anim');
+        });
+
+        $('.animation').click(function(){
+            $('.anim').toggleClass('reverse-animation');
+        })
+});
+</script>
+</body>

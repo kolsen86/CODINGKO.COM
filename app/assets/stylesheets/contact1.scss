@@ -1,0 +1,26 @@
+.tear-away {
+position: relative;
+width: 100vw;
+height: 170vh;
+background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/c_scale,w_1722/v1532192468/ContactMe.png);
+left: -10%;
+top: -18em;
+margin-right: 0;
+margin-left: 0;
+padding-left: 0;
+padding-right: 0;
+}
+
+#message {
+    position: relative;
+    top: 150vh;
+}
+
+
+/*.tear-away {
+-webkit-clip-path: inset(13% 0% 13% 12.5%);
+clip-path: inset(13% 0% 13% 12.5%);
+transform: scale(1.1,1.2);
+position: relative;
+left: -7%;
+}*/
