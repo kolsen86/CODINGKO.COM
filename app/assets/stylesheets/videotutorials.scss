@@ -94,6 +94,184 @@
     width: 15%;
     height: 114.5%;
     background-color: #191716;
-    left: -19%;
-    top: -15.28%;
+    left: -15%;
+    top: -15.42%;
 }
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+    body {
+    /*position: relative;*/
+    font-family: 'Open Sans', sans-serif;
+  
+    .wrapper {
+      width: 100%;
+      height: 160vh;
+     /* background: #1D1313; */
+      position: absolute;
+      overflow: hidden;
+      z-index: 1;
+  
+      span {
+        z-index: 9999;
+        position: absolute;
+        top: /*20px*/18%;
+        left: 3%;
+        width: 35px;
+        height: 4px;
+        background: #beb7a4;
+        cursor: pointer;
+  
+        &:before, &:after {
+          display: block;
+          position: absolute;
+          content: '';
+          left: 0;
+          height: 4px;
+          width: 35px;
+          background: #e0e2db;
+        }
+  
+        &:before {
+          top: -8px;
+        }
+  
+        &:after {
+          bottom: -8px;
+        }
+      }
+  
+      .title {
+        position: absolute;
+        top: 17.5%;
+        left: 4.5%;
+        height: 100px;
+        margin-top: -50px;
+        width: 50%;
+        margin-left: -25%;
+        text-align: center;
+        
+        h4 {
+          color: #e0e2db;
+        }
+      }
+  
+      .overlay {
+        position: absolute;
+        bottom: -100%;
+        height: 94.8%;
+        background: rgb(25,23,22);
+        background: linear-gradient(90deg, rgba(25,23,22,1) 46%, rgba(190,183,164,1) 88%);
+        left: 0;
+        width: 100%;
+        transition: all 1.9s ease;
+        border-radius: 20%;
+  
+        &.anim {
+          left: 0;
+          bottom: 0;
+          animation: menu-anim 1.5s 1 ease-out normal;
+          width: 95%;
+          transition: all 0.9s ease;
+  
+          &.reverse-anim {
+            left: 0;
+            bottom: 0;
+            animation: menu-anim 1.5s 1 ease-out reverse;
+            width: 95%;
+            transition: all 0.9s ease;
+          }
+        }
+  
+        ul {
+          width: 100%;
+          text-align: center;
+          margin-top: 100px;
+          padding-left: 0;
+          margin-left: -10px;
+          font-size: 2.3em;
+          background: -webkit-linear-gradient(left, #e0e2db , #e6af2e);
+          background: -o-linear-gradient(right, #e0e2db, #e6af2e);
+          background: -moz-linear-gradient(right, #e0e2db, #e6af2e);
+          background: linear-gradient(to right, #e0e2db, #e6af2e); 
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+          font-weight: 800;
+  
+          li {
+            margin: 10px 0;
+  
+            a {
+              text-decoration: none;
+              color: #e6af2e;
+              position: relative;
+              display: inline-block;
+              padding: 10px 0;
+              overflow: hidden;
+  
+              &:after {
+                display: block;
+                border-radius: 2px;
+                content: ''; 
+                left: 0;
+                bottom: -10px;
+                height: 5px;
+                background: #beb7a4;
+                transform: translateX(-101%);
+              }
+  
+              &:hover {
+                text-decoration: none;
+  
+                &:after {
+                  animation: border-anim 0.5s 1 ease normal;
+                  transform: translateX(0);
+                }
+              }
+            }
+  
+            @-webkit-keyframes border-anim {
+              0% {
+                transform: translateX(-100%);
+              }
+  
+              100% {
+                transform: translateX(0);
+              }
+            }
+  
+          }
+        }
+      }
+  
+      @-webkit-keyframes menu-anim {
+  
+        0% {
+          left: 0;
+          bottom: -99%;
+          width: 100%;
+        }
+  
+        33% {
+          left: -99.5%;
+          bottom: -99%;
+          width: 100%;
+        }
+  
+        66% {
+          left: -99.5%;
+          bottom: 0;
+          width: 100%;
+        }
+  
+        100% {
+          bottom: 0;
+          left: 0;
+          width: 95%;
+        }
+      }
+    }
+  }
