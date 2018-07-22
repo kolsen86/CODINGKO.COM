@@ -97,7 +97,7 @@
     position: absolute;
     width: 15%;
     background-color: #191716;
-    left: -17%;
+    left: -19%;
     top: -8%;
     height: 107%;
 }
@@ -122,8 +122,8 @@
       span {
         z-index: 9999;
         position: absolute;
-        top: /*20px*/3%;
-        left: 10px;
+        top: /*20px*/18%;
+        left: 3%;
         width: 35px;
         height: 4px;
         background: #beb7a4;
@@ -148,20 +148,20 @@
         }
       }
   
-      /*.title {
+      .title {
         position: absolute;
-        top: 50%;
-        left: 50%;
+        top: 17.5%;
+        left: 4.5%;
         height: 100px;
         margin-top: -50px;
         width: 50%;
         margin-left: -25%;
         text-align: center;
         
-        h1 {
-          color: #30C4C9;
+        h4 {
+          color: #e0e2db;
         }
-      }*/
+      }
   
       .overlay {
         position: absolute;

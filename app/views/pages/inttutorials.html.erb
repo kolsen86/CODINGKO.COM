@@ -33,17 +33,28 @@
 <div class="container-fluid int-head-bg">
 	<header class="container-fluid text-center interactive-header">
 		<h1>Interactive Tutorials</h1>
-				  <button class="toggle-nav">
-			    <span>></span>
-		  </button>
-		  <ul class="nav">
-			    <li class="loud"><a href="#">Home</a></li>
-			    <li class="loud"><a href="#">About</a></li>
-			    <li class="loud"><a href="#">Case studies</a></li>
-			    <li class="loud"><a href="#">Clients</a></li>
-			    <li class="loud"><a href="#">Contact</a></li>
-		  </ul>
 	</header>
+		<div class="wrapper">
+    <span class="menu"></span>
+
+    <div class="title">
+        <h4>Menu</h4>
+    </div>
+
+    <div class="overlay">
+        <ul>
+		    <li><a href="/tutorials">Tutorials Home</a></li>
+            <li><a href="/inttutorials">Interactive Tutorials</a></li>
+            <li><a href="/booktutorials">Free Books (Online)</a></li>
+            <li><a href="/videotutorials">Video Tutorials</a></li>
+            <li><a href="/mooctutorials">MOOCs</a></li>
+			<li><a href="/paidtutorialsandpath">Paid Tutorials <br>and Learning Pathways</a></li>
+			<li><a href="/referanceandquestions">Referance and <br>Asking Questions</a></li>
+			<li><a href="/tools">Useful Tools</a></li>
+        </ul>
+    </div>
+
+</div>
 	</div>
 	<div class="container interactive-online-tutorials">
 	<div class="sidebar"></div>
@@ -135,15 +146,15 @@
 	</div>
 </div>
 <script>
-$(document).ready(function(){
+$(document).ready(function () {
 
-	  var header = $('header'),
-			      btn    = $('button.toggle-nav');
+        $('span').click(function() {
+            $('.overlay').toggleClass('anim');
+        });
 
-	  btn.on('click', function(){
-		    header.toggleClass('active');
-	  });
-
+        $('.animation').click(function(){
+            $('.anim').toggleClass('reverse-animation');
+        })
 });
 </script>
 </body>
