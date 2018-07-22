@@ -1,3 +1,4 @@
+<body>
 <nav class="navbar navbar-expand navbar-default navbar-static-top" role="navigation">
 	<div class='container'>
 		<div class="navbar-header">
@@ -33,6 +34,27 @@
 	<header class="container-fluid text-center moocs-header">
 		<h1>Massive Online Open Courses (MOOC's) Tutorials</h1>
 	</header>
+	<div class="wrapper">
+    <span class="menu"></span>
+
+    <div class="title">
+        <h4>Menu</h4>
+    </div>
+
+    <div class="overlay">
+        <ul>
+		    <li><a href="/tutorials">Tutorials Home</a></li>
+            <li><a href="/inttutorials">Interactive Tutorials</a></li>
+            <li><a href="/booktutorials">Free Books (Online)</a></li>
+            <li><a href="/videotutorials">Video Tutorials</a></li>
+            <li><a href="/mooctutorials">MOOCs</a></li>
+			<li><a href="/paidtutorialsandpath">Paid Tutorials <br>and Learning Pathways</a></li>
+			<li><a href="/referanceandquestions">Referance and <br>Asking Questions</a></li>
+			<li><a href="/tools">Useful Tools</a></li>
+        </ul>
+    </div>
+
+</div>
 	</div>
 <div class="container moocs-tutorials">
 <div class="moocs-sidebar"></div>
@@ -114,3 +136,16 @@
 	
 </div>
 </div>
+<script>
+$(document).ready(function () {
+
+        $('span').click(function() {
+            $('.overlay').toggleClass('anim');
+        });
+
+        $('.animation').click(function(){
+            $('.anim').toggleClass('reverse-animation');
+        })
+});
+</script>
+</body>
