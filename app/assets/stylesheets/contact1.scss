@@ -1,16 +1,35 @@
 .tear-away {
+background-color: #e0e2db;
 position: relative;
-width: 100vw;
-height: 170vh;
-background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/c_scale,w_1722/v1532192468/ContactMe.png);
-left: -10%;
-top: -18em;
-margin-right: 0;
-margin-left: 0;
-padding-left: 0;
-padding-right: 0;
+height: 100%;
+padding-bottom: 100%;
+margin-top: -2%;
 }
 
+.contact1 {
+    position: relative;
+    height: 120vh;
+    width: 95vw;
+    margin-left: 2%;
+    margin-top: 5%;
+    z-index: 1;
+}
+
+.email a {
+    position: relative;
+    height: 15%;
+    width: 12%;
+    display: block;
+    left: 2%;
+    z-index: 2;
+    top: -15%;
+}
+
+.email {
+    position: relative;
+    height: 110em;
+    z-index: 2;
+}
 #message {
     position: relative;
     top: 150vh;
