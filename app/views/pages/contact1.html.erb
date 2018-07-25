@@ -1,4 +1,5 @@
 
+<body class="good-contact-body">
 <nav class="navbar navbar-expand navbar-default navbar-static-top" role="navigation">
   <div class='container'>
     <div class="navbar-header">
@@ -24,5 +25,25 @@
 <img class="contact1" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1532290595/ContactMe.png" height="600px" width="750px">
 
 <div class="email"><a class="email-me" href="mailto:kolsen86@yahoo.com"></a></div> 
-<h3 id="message">Also, Leave Me A Message Here</h3>
+<div class="answering-machine"> <img class="at-the-beep" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1532475003/leaveamessage.png" height="500px" width="900px"></div>
+<div class="beep-form"><img class="beep" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1532475648/beep-form.png"></div>
 </div>
+ <div class="form-area bubble-form">
+    <% flash.each do |type, msg| %>
+    <%= content_tag :div, msg, class: "alert alert-#{type}" %>
+    <% end %>
+    <%= form_for @contact1 do |f| %>
+    <legend class="text-center header">Contact us</legend>
+    <div class="form-group">
+      <%= f.label :name %>
+  <%= f.text_field :name, class: 'form-control', placeholder: 'John Doe' %>
+   <div class="form-group">
+   <%= f.label :email %>
+ <%= f.text_field :email, class: 'form-control', placeholder: 'yourEmail@email.com' %>
+  <div class="form-group">
+    <%= f.label :comments %>
+  <%= f.text_area :comments, class: 'form-control' %>
+  <div class="form-group">
+   <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+<% end %>
+</body>

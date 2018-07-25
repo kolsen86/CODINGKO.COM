@@ -19,7 +19,7 @@
     margin-right: auto;
     margin-left: auto;
     z-index: 2;
-    color: white;
+    color: #e0e2db;
     top: 200px;
     font-size: 23px;
 }
@@ -29,7 +29,7 @@
     text-align: center;
     z-index: 2;
     font-size: 30px;
-    color: white;
+    color: #e0e2db;
     font-family: 'Prompt', sans-serif;
     top: 100px;
     margin-right: auto;
@@ -64,7 +64,7 @@
 }
 
 .article-content {
-    background-color: white;
+    background-color: #e0e2db;
     position: relative;
     width: 90%;
     height: auto;
@@ -79,12 +79,33 @@
     padding-top: 5%;
 }
 
+.article-content span {
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+#ali {
+    position: relative;
+    left: 5%;
+    font-size: 1.2em;
+    font-weight: 900;
+    text-decoration: underline solid; 
+}
+
+#time-quote {
+    position: relative;
+    width: 65%;
+    margin: 0 auto;
+}
+
 #time {
     position: relative;
-    width: 600px;
-    left: 130px;
-    text-align: left;
-    margin: 0 auto;
+    left: 2%;
+    margin: 0;
+    font-weight: 900;
+    font-size: 1.2em;
+    text-decoration: underline solid; 
+    line-height: 1.8em;
 }
 
 footer {
