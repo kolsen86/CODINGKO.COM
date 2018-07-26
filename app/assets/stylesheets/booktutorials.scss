@@ -5,7 +5,6 @@
     top: 65px;
     font-family: 'Graduate', cursive;
     text-shadow: -7px -5px 6px #beb7a4;
-    position: relative;
 }
 
 .books-head-bg {
@@ -25,6 +24,14 @@
     padding-bottom: 650px;
     margin-top: -33px;
     padding-bottom: 700px;
+}
+
+.first-4 {
+  display: none;
+}
+
+.second-3 {
+  display: none;
 }
 
 .books-tutorials {
@@ -278,4 +285,469 @@
         }
       }
     }
+  }
+
+  @media all and (max-width: 1398px) and (min-width: 1142px) {
+    .books-head-bg {
+      width: 98%;
+      top: 275px;
+      height: 43%;
+  }
+
+  .books-header h1 {
+    font-size: 4.5em;
+    top: 65px;
+}
+  }
+
+  @media all and (max-width: 1142px) and (min-width: 992px) {
+    .books-head-bg {
+      width: 98%;
+      top: 275px;
+      height: 49%;
+  }
+
+  .books-header h1 {
+    font-size: 4em;
+    top: 65px;
+}
+
+.books-sidebar {
+  width: 18%;
+  left: -17.5%;
+  top: -9%;
+  height: 107%;
+}
+
+.books-tutorials {
+  top: 700px;
+  width: 95%;
+  padding-bottom: 250px;
+  height: auto;
+  font-weight: 600;
+  font-size: 1.3em;
+  left: 5%;
+}
+
+#books-intro {
+  width: 95%;
+  left: 1%;
+}
+
+  }
+
+  @media all and (max-width: 992px) {
+    .books-header h1 {
+      font-size: 5em;
+      top: 5%;
+  }
+
+  .books-sidebar {
+    width: 17%;
+    left: -25.25%;
+    top: -13%;
+    height: 110%;
+}
+
+#books-intro-header {
+  position: relative;
+  left: 1%;
+  margin-top: -70%;
+}
+
+#books-intro {
+  position: relative;
+  left: 1%;
+  margin-right: 1%;
+}
+
+
+
+    .mobile-nav {
+      position: relative;
+      padding-bottom: 15%;
+      left: -2%;
+      width: 104.8%;
+    }
+
+     .first-4 {
+      background-color: #3d348b;
+      font-size: 1.5em;
+      line-height: 1.9em;
+      position: absolute;
+      display: inline-block;
+      padding-top: 2%;
+      padding-bottom: 6%;
+      width: 50%;
+    }
+
+    .first-4 a {
+      color: #e6af2e;
+      text-decoration: underline solid #beb7a4;
+    }
+
+    .first-4 a:hover {
+      color: #beb7a4;
+    }
+
+    .first-4 span {
+      margin-left: 31%;
+    }
+    
+    .second-3 {
+      font-size: 1.5em;
+      line-height: 1.9em;
+      position: absolute;
+      display: inline-block;
+      width: 50%;
+      padding-top: 5%;
+      padding-bottom: 6%;
+      background-color: #e6af2e;
+    }
+
+    .second-3 a {
+      color: #3d348b;
+      text-decoration: underline solid #191716;
+    }
+
+    .second-3 a:hover {
+      color: #191716;
+    }
+
+    .second-3 span {
+      margin-left: 1%;
+    }
+
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    
+      body {
+      /*position: relative;*/
+      font-family: 'Open Sans', sans-serif;
+    
+      .wrapper {
+        display: none;
+        width: 100%;
+        height: 160vh;
+        background: #1D1313; 
+        position: absolute;
+        overflow: hidden;
+        z-index: 1;
+    
+        span {
+          z-index: 9999;
+          position: absolute;
+          top: /*20px*/18%;
+          left: 3%;
+          width: 35px;
+          height: 4px;
+          background: #beb7a4;
+          cursor: pointer;
+    
+          &:before, &:after {
+            display: block;
+            position: absolute;
+            content: '';
+            left: 0;
+            height: 4px;
+            width: 35px;
+            background: #e0e2db;
+          }
+    
+          &:before {
+            top: -8px;
+          }
+    
+          &:after {
+            bottom: -8px;
+          }
+        }
+    
+        .title {
+          position: absolute;
+          top: 17.5%;
+          left: 4.5%;
+          height: 100px;
+          margin-top: -50px;
+          width: 50%;
+          margin-left: -25%;
+          text-align: center;
+          
+          h4 {
+            color: #e0e2db;
+          }
+        }
+    
+        .overlay {
+          position: absolute;
+          bottom: -100%;
+          height: 94.8%;
+          background: rgb(25,23,22);
+          background: linear-gradient(90deg, rgba(25,23,22,1) 46%, rgba(190,183,164,1) 88%);
+          left: 0;
+          width: 100%;
+          transition: all 1.9s ease;
+          border-radius: 20%;
+    
+          &.anim {
+            left: 0;
+            bottom: 0;
+            animation: menu-anim 1.5s 1 ease-out normal;
+            width: 95%;
+            transition: all 0.9s ease;
+    
+            &.reverse-anim {
+              left: 0;
+              bottom: 0;
+              animation: menu-anim 1.5s 1 ease-out reverse;
+              width: 95%;
+              transition: all 0.9s ease;
+            }
+          }
+    
+          ul {
+            width: 100%;
+            text-align: center;
+            margin-top: 100px;
+            padding-left: 0;
+            margin-left: -10px;
+            font-size: 2.3em;
+            background: -webkit-linear-gradient(left, #e0e2db , #e6af2e);
+            background: -o-linear-gradient(right, #e0e2db, #e6af2e);
+            background: -moz-linear-gradient(right, #e0e2db, #e6af2e);
+            background: linear-gradient(to right, #e0e2db, #e6af2e); 
+           -webkit-background-clip: text;
+           -webkit-text-fill-color: transparent;
+            font-weight: 800;
+    
+            li {
+              margin: 10px 0;
+    
+              a {
+                text-decoration: none;
+                color: #e6af2e;
+                position: relative;
+                display: inline-block;
+                padding: 10px 0;
+                overflow: hidden;
+    
+                &:after {
+                  display: block;
+                  border-radius: 2px;
+                  content: ''; 
+                  left: 0;
+                  bottom: -10px;
+                  height: 5px;
+                  background: #beb7a4;
+                  transform: translateX(-101%);
+                }
+    
+                &:hover {
+                  text-decoration: none;
+    
+                  &:after {
+                    animation: border-anim 0.5s 1 ease normal;
+                    transform: translateX(0);
+                  }
+                }
+              }
+    
+              @-webkit-keyframes border-anim {
+                0% {
+                  transform: translateX(-100%);
+                }
+    
+                100% {
+                  transform: translateX(0);
+                }
+              }
+    
+            }
+          }
+        }
+    
+        @-webkit-keyframes menu-anim {
+    
+          0% {
+            left: 0;
+            bottom: -99%;
+            width: 100%;
+          }
+    
+          33% {
+            left: -99.5%;
+            bottom: -99%;
+            width: 100%;
+          }
+    
+          66% {
+            left: -99.5%;
+            bottom: 0;
+            width: 100%;
+          }
+    
+          100% {
+            bottom: 0;
+            left: 0;
+            width: 95%;
+          }
+        }
+      }
+    }
+    
+  }
+
+  @media all and (max-width: 768px) {
+
+    .books-tutorials {
+      position: relative;
+      top: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      padding-bottom: 250px;
+      font-size: 1.3em;
+  }
+
+    .books-sidebar {
+      width: 19%;
+      left: -27.7%;
+      top: -13.3%;
+      height: 110%;
+  }
+
+  .book-pics {
+    position: relative;
+    float: right;
+    margin: 20px;
+    width: 300px;
+    height: 400px;
+}
+
+.books-header h1 {
+  font-size: 4.2em;
+  top: 5%;
+}
+
+.first-4 {
+  background-color: #3d348b;
+  font-size: 1.2em;
+  line-height: 1.6em;
+  position: absolute;
+  display: inline-block;
+  padding-top: 2%;
+  padding-bottom: 10%;
+  width: 50%;
+}
+
+.second-3 {
+  font-size: 1.2em;
+  line-height: 1.6em;
+  position: absolute;
+  display: inline-block;
+  width: 50%;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  background-color: #e6af2e;
+}
+
+#books-intro {
+  position: relative;
+  left: 1%;
+  margin-right: 10%;
+}
+  }
+
+  @media all and (max-width: 534px) {
+    .books-sidebar {
+      display: none;
+      width: 19%;
+      left: -27.7%;
+      top: -11.3%;
+      height: 110%;
+  }
+
+  .books-tutorials {
+    position: relative;
+    top: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-bottom: 250px;
+    font-size: 1.1em;
+}
+
+  .book-pics {
+    position: relative;
+    float: right;
+    margin: 20px;
+    width: 200px;
+    height: 300px;
+}
+
+.books-header h1 {
+  font-size: 4em;
+  top: 5%;
+}
+
+.first-4 {
+  background-color: #3d348b;
+  font-size: 1em;
+  line-height: 1.6em;
+  position: absolute;
+  display: inline-block;
+  padding-top: 2%;
+  padding-bottom: 15%;
+  width: 50%;
+}
+
+.second-3 {
+  font-size: 1em;
+  line-height: 1.6em;
+  position: absolute;
+  display: inline-block;
+  width: 50%;
+  padding-top: 5%;
+  padding-bottom: 15%;
+  
+  background-color: #e6af2e;
+}
+
+#books-intro {
+  position: relative;
+  left: 1%;
+  margin-right: 10%;
+}
+  }
+
+  @media all and (max-width: 454px) {
+    .books-tutorials {
+      position: relative;
+      top: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      padding-bottom: 250px;
+      font-size: 1em;
+  }
+
+  .first-4 span {
+    margin-left: 1%;
+  }
+
+  .books-header h1 {
+    font-size: 3em;
+    top: 5%;
+  }
+
+  .book-pics {
+    position: relative;
+    float: right;
+    margin: 20px;
+    width: 120px;
+    height: 220px;
+}
+ 
   }

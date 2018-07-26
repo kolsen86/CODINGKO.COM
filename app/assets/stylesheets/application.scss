@@ -66,4 +66,97 @@
 
 /*Contact Page*/
 
+@media all and (max-width: 1202px) {
+    .navbar {
+        background: black;
+        margin-bottom: 30px;
+    }
+    
+    .navbar-default {
+        border-color: #d1670a;
+    }
+    
+    .navbar-default .navbar-brand,
+    .navbar-default .navbar-nav li a {
+        font-size: 1.2em;
+        color: #d1670a;
+        &:hover {
+            color: white;
+            opacity: 0.75;
+        }
+        .navbar-default .navbar-toggle .icon-bar {
+            background-color: white;
+        }
+        .navbar-default .navbar-toggle {
+            border: 4px solid #d1670a;
+            &:hover,
+            &:focus {
+                background-color: #00c6ff;
+            }
+        }
+    }
+}
 
+@media all and (max-width: 996px) {
+    .navbar {
+        background: black;
+        margin-bottom: 30px;
+    }
+    
+    .navbar-default {
+        border-color: #d1670a;
+    }
+    
+    .navbar-default .navbar-brand,
+    .navbar-default .navbar-nav li a {
+        font-size: 1em;
+        color: #d1670a;
+        &:hover {
+            color: white;
+            opacity: 0.75;
+        }
+        .navbar-default .navbar-toggle .icon-bar {
+            background-color: white;
+        }
+        .navbar-default .navbar-toggle {
+            border: 4px solid #d1670a;
+            &:hover,
+            &:focus {
+                background-color: #00c6ff;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 772px) {
+    .navbar {
+        background: black;
+        margin-bottom: 30px;
+    }
+    
+    .navbar-default {
+        border-color: #d1670a;
+    }
+    
+    .navbar-default .navbar-brand,
+    .navbar-default .navbar-nav li a {
+        font-size: 0.7em;
+        color: #d1670a;
+        &:hover {
+            color: white;
+            opacity: 0.75;
+        }
+        .navbar-default .navbar-toggle .icon-bar {
+            background-color: white;
+        }
+        .navbar-default .navbar-toggle {
+            border: 4px solid #d1670a;
+            &:hover,
+            &:focus {
+                background-color: #00c6ff;
+            }
+        }
+    }
+}
+
+/*@media all and (max-width: 772px)*/
