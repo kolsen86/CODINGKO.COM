@@ -69,7 +69,7 @@ footer.about {
          }
     
     #me {
-        top: 240vh;
+        top: 330vh;
         height: 60%;
         width: 60%;
     }
@@ -92,7 +92,7 @@ footer.about {
          }
 
         #me {
-            top: 220vh;
+            top: 280vh;
             height: 60%;
             width: 60%;
         }
@@ -118,8 +118,15 @@ footer.about {
     }
 
     #me {
-        top: 320vh;
+        top: 390vh;
         height: 60%;
         width: 60%;
+    }
+}
+
+@media all and (max-width: 736px) {
+    .about-header h1 {
+        font-size: 4em;
+        line-height: 1.2em;
     }
 }

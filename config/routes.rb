@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   get 'mooctutorials', to: 'pages#mooctutorials'
   get 'paidtutorialsandpath', to: 'pages#paidtutorialsandpath'
   get 'referanceandquestions', to: 'pages#referanceandquestions'
-  get 'contact1', to: 'pages#contact1'
+  get 'contact1', to: 'contacts#contact1'
   resources :contacts, only: :create
   get 'contact-me', to: 'contacts#new', as: 'new_contact'
 end
