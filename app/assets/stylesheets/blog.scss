@@ -129,7 +129,7 @@ footer {
     top: 100%;
 }
 
-@media all and (max-device-width: 576px) {
+@media all and (max-width: 576px) {
 #matrix {
     width: 50%;
 }
@@ -155,4 +155,36 @@ footer {
 #matrix-header h1 {
     font-size: 2em;
 }
+}
+
+@media all and (max-width: 460px) {
+    #matrix-header h1 {
+font-size: 1.5em;
+    }
+}
+
+@media all and (max-width: 769px) and (min-width: 576px) {
+    #matrix-header h1 {
+        font-size: 2.5em;
+            }
+
+            #matrix {
+                width: 75%;
+            }
+
+            .article-content {
+                font-size: 1.1em;
+                width: 100%;
+                line-height: 1.4em;
+                margin-bottom: 10%;
+            }
+}
+
+@media all and (max-width: 1100px) and (min-width: 770px) {
+    .article-content {
+        font-size: 1.3em;
+        width: 100%;
+        line-height: 1.6em;
+        margin-bottom: 10%;
+    }
 }
