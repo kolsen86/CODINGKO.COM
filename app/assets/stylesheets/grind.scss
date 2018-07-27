@@ -57,7 +57,7 @@
     display: inline-block;
     transition: transform .2s; /* Animation */
     position: relative;
-    top: 43vh;
+    top: 49vh;
     left: -0.5%;
     z-index: 2;
 }
@@ -136,5 +136,114 @@ left: 0.5%;
 
 footer.grind {
     position: absolute;
-    top: 430%;
+    top: 480%;
+}
+
+@media all and (max-width: 768px) {
+    .daily-grind-intro {
+        position: relative;
+        top: 12.5em;
+        font-size: 1.2em;
+        line-height: 1.6em;
+}
+
+.grind-content {
+    position: relative;
+    height: 70em;
+    width: 90%;
+    font-size: 1.2em;
+}
+
+.grind-h2 {
+    font-size: 5em;
+}
+
+.waka-time:hover {
+    transform: scale(1.8);
+    /*(150%zoom-Note:;
+    ifthezoomistoolarge,itwillgooutsideoftheviewport)*/z-index: 2;
+    -webkit-transform: scale(1.8);
+    -moz-transform: scale(1.8);
+    -ms-transform: scale(1.8);
+    -o-transform: scale(1.8);
+}
+        
+}
+
+@media all and (max-width: 704px) {
+    .grind-head-bg h1 {
+        font-size: 3.7em;
+    }
+    
+    .grind-head-bg h3 {
+        font-size: 2em;
+    }
+
+    .grind-content {
+        height: 65em;
+        top: 13em;
+    }
+}
+
+@media all and (max-width: 496px) {
+    .grind-head-bg h1 {
+        font-size: 3.2em;
+    }
+    
+    .grind-head-bg h3 {
+        font-size: 1.7em;
+    }
+
+    .grind-content h4 {
+        font-size: 1.5em;
+    }
+
+    .grind-body {
+        padding-bottom: 70%;
+    }
+
+    .waka-time:hover {
+        transform: scale(1);
+        /*(150%zoom-Note:;
+        ifthezoomistoolarge,itwillgooutsideoftheviewport)*/z-index: 2;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+}
+
+embed .waka-time {
+    height: 250;
+    width: 250;
+}
+}
+
+@media all and (max-width: 374px) {
+    .grind-head-bg h1 {
+        font-size: 3em;
+    }
+    
+    .grind-head-bg h3 {
+        font-size: 1.3em;
+    }
+
+    .daily-grind-intro {
+        position: relative;
+        top: 12.5em;
+        font-size: 1em;
+        line-height: 1.6em;
+}
+
+.grind-content {
+    position: relative;
+    height: 70em;
+    width: 90%;
+    font-size: 1em;
+}
+
+.wake-time {
+    position: relative;
+    left: -19%;
+    top: 30vh;
+}
 }
