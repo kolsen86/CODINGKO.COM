@@ -2,7 +2,7 @@
     font-size: 5.5em;
     color: #e0e2db;
     position: relative;
-    margin-top: 6.7%;
+    margin-top: 8.5%;
     font-family: 'Graduate', cursive;
     text-shadow: -7px -5px 6px #beb7a4;
     left: 10%;
@@ -14,15 +14,14 @@
 
 .interactive-body {
   position: relative;
-  padding-bottom: 5%;
+  padding-bottom: 8%;
   height: auto;
-  margin-bottom: 10%;
 }
 
 .int-head-bg {
     position: absolute;
     width: 98.5%;
-    top: 2.25%;
+    top: 1.25%;
     left: -2%;
     background-color: #191716;
     height: 5%;
@@ -57,11 +56,22 @@
     left: 5%;
 }
 
+.interactive-online-tutorials ol p {
+  border-bottom: 7px solid #e6af2e;
+  padding-bottom: 3%;
+}
+
 .interactive-online-tutorials p {
     text-indent: 50px;
     position: relative;
     margin: 0;
     line-height: 1.8em;
+}
+
+.interactive-online-tutorials h2 {
+  border-bottom: 10px solid #3d348b;
+  width: 70%;
+  padding-bottom: 2%;
 }
 
 #int-intro {
