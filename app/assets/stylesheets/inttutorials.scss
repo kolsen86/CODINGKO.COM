@@ -2,7 +2,7 @@
     font-size: 5.5em;
     color: #e0e2db;
     position: relative;
-    top: 78px;
+    margin-top: 6.7%;
     font-family: 'Graduate', cursive;
     text-shadow: -7px -5px 6px #beb7a4;
     left: 10%;
@@ -22,7 +22,7 @@
 .int-head-bg {
     position: absolute;
     width: 98.5%;
-    top: 275px;
+    top: 2.25%;
     left: -2%;
     background-color: #191716;
     height: 5%;
@@ -72,6 +72,18 @@
 #int-intro-header {
     position: relative;
     left: 5%;
+}
+
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #191716; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
 }
 
   @media all and (max-width: 1372px) {

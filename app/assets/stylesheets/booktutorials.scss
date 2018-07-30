@@ -2,7 +2,7 @@
     font-size: 6em;
     color: #e0e2db;
     position: relative;
-    top: 65px;
+    margin-top: 6.8%;
     font-family: 'Graduate', cursive;
     text-shadow: -7px -5px 6px #beb7a4;
 }
@@ -10,7 +10,7 @@
 .books-head-bg {
     position: absolute;
     width: 98%;
-    top: 275px;
+    top: 12%;
     background-color: #191716;
     height: 43%;
     margin-left: auto;
@@ -92,6 +92,17 @@
     left: 1%;
 }
 
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #191716; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
 
 
 
