@@ -2,11 +2,10 @@
 <html lang="en-US">
   <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" media="all and (max-width: 576px)" href="max-576px.scss">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"    
   integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Carrois+Gothic+SC|Acme|Roboto:300,400|Josefin+Sans|Prompt:400,800|Germania+One|Holtwood+One+SC|Ubuntu+Mono:400,700|Graduate|Prosto+One|Rock+Salt" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Carrois+Gothic+SC|Acme|Roboto:300,400|Josefin+Sans|Prompt:400,800|Germania+One|Holtwood+One+SC|Ubuntu+Mono:400,700|Graduate|Prosto+One|Rock+Salt|Special+Elite" rel="stylesheet">
     <title>Blog</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -17,6 +16,39 @@
 
   <body>
 
+<nav>
+    <div class="container menu-bg">
+        <input id="responsive-menu" type="checkbox">
+        <label for="responsive-menu"> <%= link_to root_path, class: "navbar-brand" do %>
+				<img id="nav-arms" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1532826615/arm.png" height="480%" width="125%">
+				<% end %> <span id="menu-icon"></span></label>
+		
+        <div id="overlay"></div>
+        <ul>
+            <li><%= link_to "Home", root_path %></li>
+            <li><%= link_to "K.O.'s Tech Corner", blog_path %></li>
+            <li><%= link_to "Daily Grind", grind_path %></li>
+            <li><%= link_to "About", about_path %></li>
+            <li><%= link_to "Other Resources", tutorials_path %></li>
+            <li><%= link_to "Contact Me", new_contact_path %></li>
+       
+        </ul>
+        <ul id="social-media">
+            
+                <a href="https://twitter.com/erin_e_sullivan">
+                    <i class="fab fa-twitter"></i>
+                    <span class="screen-reader-text">Twitter</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/erinesullivan1">
+                    <i class="fab fa-linkedin"></i>
+                    <span class="screen-reader-text">LinkedIn</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
   <%= yield %>
 
   </body>

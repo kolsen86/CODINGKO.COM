@@ -22,6 +22,7 @@
 }
 
 .zombie {
+    top: 1%;
     margin-left: 20%;
     margin-right: auto;
     position: absolute;
@@ -46,7 +47,7 @@
     margin: 0;
     border: 10px solid #3d348b;
     right: -6px;
-    z-index: 2;
+    /*z-index: 2;*/
 }
 
 .blue-two {
@@ -58,7 +59,7 @@
     margin: 0;
     border: 10px solid #3d348b;
     right: -6px;
-    z-index: 2;
+   /* z-index: 2;*/
 }
 
 .yellow {
@@ -70,7 +71,7 @@
     margin: 0;
     border: 10px solid #e6af2e;
     right: -6px;
-    z-index: 2;
+    /*z-index: 2;*/
 }
 
 .yellow-two {
@@ -82,7 +83,7 @@
     margin: 0;
     border: 10px solid #e6af2e;
     right: -6px;
-    z-index: 2;
+    /*z-index: 2;*/
 }
 
 .tutorials-header h1 {
@@ -99,7 +100,7 @@
     background-color: #191716;
     position: relative;
     height: 700px;
-    top: 200px;
+    top: 95px;
 }
 
 .tutorial-content {
@@ -137,7 +138,7 @@
     height: 740px;
     padding-left: 5px;
     padding-right: 5px;
-    z-index: 4;
+    /*z-index: 4;*/
 }
 
 .videomooc {
@@ -149,7 +150,7 @@
     height: 740px;
     padding-left: 5px;
     padding-right: 5px;
-    z-index: 4;
+    /*z-index: 4;*/
 }
 
 .referanceandpathway {
@@ -161,7 +162,7 @@
     height: 740px;
     padding-left: 5px;
     padding-right: 5px;
-    z-index: 4;
+    /*z-index: 4;*/
 }
 
 .toolspic {
@@ -173,7 +174,7 @@
     height: 740px;
     padding-left: 5px;
     padding-right: 5px;
-    z-index: 4;
+    /*z-index: 4;*/
 }
 
 .inttutorials,
@@ -190,7 +191,7 @@
     box-shadow: -10px 10px 10px #e6af2e;
     border: 9px solid #3d348b;
     color: #191716;
-    z-index: 4;
+    /*z-index: 4;*/
 }
 
 .inttutorials h3,
@@ -248,3 +249,6 @@
     display: block;
     color: #191716;
 }
+
+
+

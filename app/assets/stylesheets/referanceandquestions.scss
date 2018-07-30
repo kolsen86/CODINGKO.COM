@@ -5,7 +5,6 @@
     top: 5%;
     font-family: 'Graduate', cursive;
     text-shadow: -7px -5px 6px #beb7a4;
-    position: relative;
     left: 2%;
     margin-right: auto;
     margin-left: auto;
@@ -15,7 +14,7 @@
 .referance-head-bg {
     position: absolute;
     width: 98%;
-    top: 37.6%;
+    top: 10.6%;
     background-color: #191716;
     height: 48%;
     margin-left: auto;
@@ -95,14 +94,4 @@
 #referance-intro, #referance-intro-header, #questions-intro, #questions-intro-header, .referance ul {
     position: relative;
     left: 5%;
-}
-
-.referance-sidebar {
-    position: absolute;
-    width: 15%;
-    height: 189.1%;
-    background-color: #191716;
-    left: -15.3%;
-    top: -12.8%;
-    z-index: 1;
 }
