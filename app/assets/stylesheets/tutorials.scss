@@ -111,7 +111,6 @@
     position: relative;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
-    font-size: 1.5em;
     color: #191716;
 }
 
@@ -123,7 +122,7 @@
 }
 
 .tutorials-info {
-    position: relative;
+   position: relative;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -218,7 +217,7 @@
 
 .tools p {
     font-family: 'Ubuntu Mono', monospace;
-    font-size: 1.6em;
+    font-size: 1.5em;
 }
 
 .tools h2 {
@@ -248,6 +247,421 @@
 .tools a {
     display: block;
     color: #191716;
+}
+
+@media all and (max-width: 1270px) {
+    .inttutorials h3 {
+        font-size: 2em;
+    }
+}
+
+@media all and (max-width: 1124px) {
+    .inttutorials p,
+.booktutorials p,
+.videotutorials p,
+.mooctutorials p,
+.paidtutorialsandpath p,
+.referanceandquestions p {
+
+    font-size: 1.2em;
+}
+
+.tools p {
+    font-size: 1.3em;
+}
+
+.inttutorials h3,
+.booktutorials h3,
+.videotutorials h3,
+.mooctutorials h3,
+.paidtutorialsandpath h3,
+.referanceandquestions h3 {
+    font-family: 'Holtwood One SC', serif;
+    font-size: 1.8em;
+    border-bottom: 2px solid #3d348b;
+}
+
+.tutorials-header h1 {
+    top: -80px;
+    font-size: 5em;
+    font-family: "Bungee Inline", cursive;
+    color: #e0e2db;
+    z-index: 2;
+    position: absolute;
+    background-color: #191716;
+}
+}
+
+@media all and (max-width: 992px) {
+    .inttutorials h3,
+.booktutorials h3,
+.videotutorials h3,
+.mooctutorials h3,
+.paidtutorialsandpath h3,
+.referanceandquestions h3 {
+    font-family: 'Holtwood One SC', serif;
+    font-size: 1.6em;
+    border-bottom: 2px solid #3d348b;
+}
+
+.zombie {
+    top: 10%;
+    margin-left: 15%;
+    margin-right: auto;
+    height: 400px;
+    width: 400px;
+}
+
+.tutorials-header h1 {
+    top: -90px;
+    font-size: 4.7em;
+    font-family: "Bungee Inline", cursive;
+    color: #e0e2db;
+    z-index: 2;
+    position: absolute;
+    background-color: #191716;
+}
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@media all and (max-width: 894px) {
+
+    .tutorials-header h1 {
+        top: -90px;
+        font-size: 4.1em;
+        font-family: "Bungee Inline", cursive;
+        color: #e0e2db;
+        z-index: 2;
+        position: absolute;
+        background-color: #191716;
+    }
+
+    .blue {
+       height: 470px;
+       width: 105%;
+        background-color: #3d348b;
+        position: absolute;
+        top: 655px;
+        margin: 0;
+        border: 10px solid #3d348b;
+        left: -3%;
+        /*z-index: 2;*/
+    }
+    
+    .blue-two {
+        height: 470px;
+        width: 105%;
+        background-color: #3d348b;
+        position: absolute;
+        top: 1575px;
+        margin: 0;
+        border: 10px solid #3d348b;
+        left: -3%;
+       /* z-index: 2;*/
+    }
+    
+    .yellow {
+        height: 470px;
+        width: 105%;
+        background-color: #e6af2e;
+        position: absolute;
+        top: 1105px;
+        margin: 0;
+        border: 10px solid #e6af2e;
+        left: -3%;
+        /*z-index: 2;*/
+    }
+    
+    .yellow-two {
+        height: 490px;
+        width: 105%;
+        background-color: #e6af2e;
+        position: absolute;
+        top: 2055px;
+        margin: 0;
+        border: 10px solid #e6af2e;
+        left: -3%;
+        /*z-index: 2;*/
+    }
+
+    .inttutorials,
+.booktutorials,
+.videotutorials,
+.mooctutorials,
+.paidtutorialsandpath,
+.referanceandquestions,
+.tools {
+    position: relative;
+    top: 700px;
+    height: 400px;
+    background-color: #beb7a4;
+    box-shadow: -10px 10px 10px #e6af2e;
+    border: 9px solid #3d348b;
+    color: #191716;
+    font-size: 1em;
+    /*z-index: 4;*/
+}
+
+.tutorials-info-m {
+    position: relative;
+     height: auto;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.tutorials-info {
+    display: none;
+    position: relative;
+     height: auto;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+    .freeCodeCamp {
+        display: none;
+        background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1531579245/freecodecamp_1.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        top: 650px;
+        height: 740px;
+        padding-left: 5px;
+        padding-right: 5px;
+        /*z-index: 4;*/
+    }
+    
+    .videomooc {
+        display: none;
+        background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1531579224/videomooc-min.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        top: 650px;
+        height: 740px;
+        padding-left: 5px;
+        padding-right: 5px;
+        /*z-index: 4;*/
+    }
+    
+    .referanceandpathway {
+        display: none;
+        background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1531579221/refandpath.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        top: 650px;
+        height: 740px;
+        padding-left: 5px;
+        padding-right: 5px;
+        /*z-index: 4;*/
+    }
+    
+    .toolspic {
+        display: none;
+        background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1531579247/tools-min.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        top: 650px;
+        height: 740px;
+        padding-left: 5px;
+        padding-right: 5px;
+        /*z-index: 4;*/
+    }
+   
+}
+
+@media all and (max-width: 690px) {
+    .tutorials-header h1 {
+        top: -90px;
+        font-size: 3em;
+        font-family: "Bungee Inline", cursive;
+        color: #e0e2db;
+        z-index: 2;
+        position: absolute;
+        background-color: #191716;
+    }
+
+    .inttutorials,
+    .booktutorials,
+    .videotutorials,
+    .mooctutorials,
+    .paidtutorialsandpath,
+    .referanceandquestions,
+    .tools {
+        position: relative;
+        top: 700px;
+        height: 400px;
+        background-color: #beb7a4;
+        box-shadow: -10px 10px 10px #e6af2e;
+        border: 9px solid #3d348b;
+        color: #191716;
+        font-size: 0.9em;
+        /*z-index: 4;*/
+    }
+
+    .tools h2 {
+        font-family: 'Holtwood One SC', serif;
+        font-size: 3em;
+        border-bottom: 2px solid #3d348b;
+    }
+
+    .zombie {
+        top: 20%;
+        margin-left: 17%;
+        margin-right: auto;
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media all and (max-width: 576px) {
+   /* .blue 
+        display: none;
+        height: 470px;
+        width: 105%;
+         background-color: #3d348b;
+         position: absolute;
+         top: 655px;
+         margin: 0;
+         border: 10px solid #3d348b;
+         left: -3%;
+         /*z-index: 2;*/
+     
+     
+     /*.blue-two 
+        display: none;
+         height: 470px;
+         width: 105%;
+         background-color: #3d348b;
+         position: absolute;
+         top: 1575px;
+         margin: 0;
+         border: 10px solid #3d348b;
+         left: -3%;
+        /* z-index: 2;*/
+     
+     
+     /*.yellow 
+        display: none;
+         height: 470px;
+         width: 105%;
+         background-color: #e6af2e;
+         position: absolute;
+         top: 1105px;
+         margin: 0;
+         border: 10px solid #e6af2e;
+         left: -3%;
+         /*z-index: 2;*/
+     
+     
+     /*.yellow-two 
+         display: none;
+         height: 490px;
+         width: 105%;
+         background-color: #e6af2e;
+         position: absolute;
+         top: 2055px;
+         margin: 0;
+         border: 10px solid #e6af2e;
+         left: -3%;
+         /*z-index: 2;*/
+
+         .tutorials-info-m .blue, .blue-two, .yellow-two, .yellow {
+             display: none;
+             height: 0px;
+             width: 0px;
+         }
+     
+}
+
+@media all and (max-width: 496px) {
+    .zombie {
+        top: 20%;
+        margin-left: 17%;
+        margin-right: auto;
+        height: 220px;
+        width: 220px;
+    }
+
+    .tutorials-header h1 {
+        top: -90px;
+        font-size: 2.4em;
+        font-family: "Bungee Inline", cursive;
+        color: #e0e2db;
+        z-index: 2;
+        position: absolute;
+        background-color: #191716;
+    }
+
+    .tutsintro {
+        position: relative;
+        top: 500px;
+        background-color: #e0e2db;
+        border-radius: 5%;
+        font-size: 1em;
+        font-weight: 900;
+        font-family: 'Ubuntu Mono', monospace;
+        text-indent: 50px;
+        padding: 40px;
+        line-height: 1.7;
+        box-shadow: 0px 0px 200px #191716;
+        border: 5px solid #191716;
+        font-weight: 900;
+    }
+
+    .inttutorials,
+    .booktutorials,
+    .videotutorials,
+    .mooctutorials,
+    .paidtutorialsandpath,
+    .referanceandquestions {
+        position: relative;
+        top: 700px;
+        height: 400px;
+        background-color: #beb7a4;
+        box-shadow: -10px 10px 10px #e6af2e;
+        border: 9px solid #3d348b;
+        color: #191716;
+        font-size: 1.1em;
+        /*z-index: 4;*/
+    }
+}
+    @media all and (max-width: 448px) {
+
+    .tools {
+       height: 600px;
+    }
+}
+
+@media all and (max-width: 366px) {
+    .inttutorials,
+    .booktutorials,
+    .videotutorials,
+    .mooctutorials,
+    .paidtutorialsandpath,
+    .referanceandquestions {
+        position: relative;
+        top: 700px;
+        height: 500px;
+        background-color: #beb7a4;
+        box-shadow: -10px 10px 10px #e6af2e;
+        border: 9px solid #3d348b;
+        color: #191716;
+        font-size: 1.1em;
+        /*z-index: 4;*/
+    }
+
+    .tools {
+        height: 700px;
+     }
+
+     .zombie {
+        top: 20%;
+        margin-left: 5%;
+        margin-right: auto;
+        height: 220px;
+        width: 220px;
+    }
 }
 
 
