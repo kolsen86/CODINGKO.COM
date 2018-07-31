@@ -181,8 +181,9 @@ footer.grind {
 
     .grind-content {
         height: 65em;
-        top: 13em;
+        top: 15em;
     }
+
 }
 
 @media all and (max-width: 496px) {
@@ -212,19 +213,22 @@ footer.grind {
         -o-transform: scale(1);
 }
 
-embed .waka-time {
-    height: 250;
-    width: 250;
+.grind-content {
+    position: relative;
+    height: 70em;
+    width: 100%;
+    font-size: 1em;
+    top: 19em;
 }
 }
 
 @media all and (max-width: 374px) {
     .grind-head-bg h1 {
-        font-size: 3em;
+        font-size: 2.6em;
     }
     
     .grind-head-bg h3 {
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
 
     .daily-grind-intro {
@@ -237,13 +241,11 @@ embed .waka-time {
 .grind-content {
     position: relative;
     height: 70em;
-    width: 90%;
+    width: 100%;
     font-size: 1em;
+    top: 19em;
+    border-right: none;
+    box-shadow: none;
 }
 
-.wake-time {
-    position: relative;
-    left: -19%;
-    top: 30vh;
-}
 }
