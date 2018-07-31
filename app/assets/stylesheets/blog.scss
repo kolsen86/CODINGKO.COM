@@ -132,6 +132,7 @@ footer {
 @media all and (max-width: 576px) {
 #matrix {
     width: 50%;
+    font-size: 1.2em;
 }
 
 .article-content {
@@ -149,7 +150,7 @@ footer {
 
 .blog-header h1 {
     font-size: 6em;
-    margin-top: 12%;
+    margin-top: 35%;
 }
 
 #matrix-header h1 {
@@ -187,4 +188,30 @@ font-size: 1.5em;
         line-height: 1.6em;
         margin-bottom: 10%;
     }
+}
+
+@media all and (max-width: 360px) {
+    #matrix-header h1 {
+        font-size: 1.3em;
+    }
+
+    #matrix-header h2 {
+        position: relative;
+        font-size: 1em;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .article-content {
+        width: 100%;
+}
+
+.article-content p {
+    padding: 20px 15px 10px 15px;
+}
+
+#matrix {
+    width: 95%;
+}
 }
