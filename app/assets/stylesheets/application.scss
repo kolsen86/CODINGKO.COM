@@ -33,7 +33,7 @@ nav {
     top: 0;
     width: 100%;
     z-index: 9999;
-    height: 12%;
+    height: 13%;
 }
 
 /*** INPUT ***/
@@ -179,97 +179,115 @@ nav ul#social-media > li {
 
 /*Contact Page*/
 
-@media all and (max-width: 1202px) {
-    .navbar {
-        background: black;
-        margin-bottom: 30px;
+@media all and (max-width: 370px) {
+    #menu-icon {
+        display: inline-block;
+        margin: 0.4em 0;
+        max-width: 1.3em;
+        position: relative;
     }
-    
-    .navbar-default {
-        border-color: #d1670a;
-    }
-    
-    .navbar-default .navbar-brand,
-    .navbar-default .navbar-nav li a {
-        font-size: 1.2em;
-        color: #d1670a;
-        &:hover {
-            color: white;
-            opacity: 0.75;
-        }
-        .navbar-default .navbar-toggle .icon-bar {
-            background-color: white;
-        }
-        .navbar-default .navbar-toggle {
-            border: 4px solid #d1670a;
-            &:hover,
-            &:focus {
-                background-color: #00c6ff;
-            }
-        }
-    }
-}
 
-@media all and (max-width: 996px) {
-    .navbar {
-        background: black;
-        margin-bottom: 30px;
+    nav label {
+        cursor: pointer;
+        display: block;
+        font: 1.7em/1 'Oswald', sans-serif;
+        padding: 0.5em;
     }
-    
-    .navbar-default {
-        border-color: #d1670a;
+
+    nav {
+        background: #e5e5e5;
+        color: #1d1f20;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 9999;
+        height: 10%;
     }
-    
-    .navbar-default .navbar-brand,
-    .navbar-default .navbar-nav li a {
+
+    #nav-arms {
+        height: 370%;
+        width: 99%;
+    }
+
+    nav ul {
+        font-size: 1.3em;
+        font-weight: 900;
+        font-family: 'Special Elite', cursive;
+        list-style: none;
+        margin: 0;
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+        padding: 0;
+        text-align: center;
+        width: 125%;
+    }
+
+    nav ul > li {
+        margin: 0.5em 0;
+    }
+
+    nav ul#social-media > li {
+        display: inline-block;
         font-size: 1em;
-        color: #d1670a;
-        &:hover {
-            color: white;
-            opacity: 0.75;
-        }
-        .navbar-default .navbar-toggle .icon-bar {
-            background-color: white;
-        }
-        .navbar-default .navbar-toggle {
-            border: 4px solid #d1670a;
-            &:hover,
-            &:focus {
-                background-color: #00c6ff;
-            }
-        }
+        margin: 0.5em;
+        width: 80%;
     }
 }
-
 @media all and (max-width: 772px) {
-    .navbar {
-        background: black;
-        margin-bottom: 30px;
+    #menu-icon {
+        display: inline-block;
+        margin: 0.4em 0;
+        max-width: 1.5em;
+        position: relative;
     }
-    
-    .navbar-default {
-        border-color: #d1670a;
+
+    nav label {
+        cursor: pointer;
+        display: block;
+        font: 1.9em/1 'Oswald', sans-serif;
+        padding: 0.5em;
     }
-    
-    .navbar-default .navbar-brand,
-    .navbar-default .navbar-nav li a {
-        font-size: 0.7em;
-        color: #d1670a;
-        &:hover {
-            color: white;
-            opacity: 0.75;
-        }
-        .navbar-default .navbar-toggle .icon-bar {
-            background-color: white;
-        }
-        .navbar-default .navbar-toggle {
-            border: 4px solid #d1670a;
-            &:hover,
-            &:focus {
-                background-color: #00c6ff;
-            }
-        }
+
+    nav {
+        background: #e5e5e5;
+        color: #1d1f20;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 9999;
+        height: 10%;
+    }
+
+    #nav-arms {
+        height: 400%;
+        width: 110%;
+    }
+
+    nav ul {
+        font-size: 1.5em;
+        font-weight: 900;
+        font-family: 'Special Elite', cursive;
+        list-style: none;
+        margin: 0;
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+        padding: 0;
+        text-align: center;
+        width: 125%;
+    }
+
+    nav ul > li {
+        margin: 0.5em 0;
+    }
+
+    nav ul#social-media > li {
+        display: inline-block;
+        font-size: 1.3em;
+        margin: 0.5em;
+        width: 80%;
     }
 }
-
-/*@media all and (max-width: 772px)*/
