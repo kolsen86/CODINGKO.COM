@@ -1,3 +1,7 @@
+.tutorials-info-m {
+    display: none;
+}
+
 .tutorials-body {
     position: relative;
     background-color: #e0e2db;
@@ -402,6 +406,7 @@
 }
 
 .tutorials-info-m {
+    display: block;
     position: relative;
      height: auto;
      margin-left: auto;
