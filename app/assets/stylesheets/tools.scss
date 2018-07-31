@@ -2,16 +2,15 @@
     font-size: 6em;
     color: #e0e2db;
     position: relative;
-    top: 78px;
+    margin-top: 6.8%;
     font-family: 'Graduate', cursive;
     text-shadow: -7px -5px 6px #beb7a4;
-    position: relative;
 }
 
 .tools-head-bg {
     position: absolute;
     width: 98%;
-    top: 275px;
+    top: 12%;
     background-color: #191716;
     height: 43%;
     margin-left: auto;
@@ -70,6 +69,10 @@
     float: right;
     margin: 20px;
     bottom: 25px;
+}
+
+.free-editor {
+    margin-left: 5%;
 }
 
 #free-edit-intro, #free-edit-header-intro, #online-edit-intro, #online-edit-intro-header, .tools-page ul {

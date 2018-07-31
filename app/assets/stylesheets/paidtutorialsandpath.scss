@@ -11,7 +11,7 @@
 .paid-path-head-bg {
     position: absolute;
     width: 98%;
-    top: -13.7%;
+    top: -15.7%;
     background-color: #191716;
     height: 7.5%;
     margin-left: auto;
@@ -21,6 +21,20 @@
 .paid-path-tutorials {
     position: relative;
     margin-top: 56%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-bottom: 50px;
+    height: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #191716;
+}
+
+.path-tutorials {
+    position: relative;
+    margin-top: 20%;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -47,16 +61,16 @@
 .paid-path-tutorials ul p {
     width: 88%;
     position: relative;
-    border-bottom: 7px solid #e6af2e;
     padding-bottom: 25px;
     font-weight: 800;
 }
 
-.paid-path-tutorials a {
-    color: #3d348b;
+.path-tutorials ul p {
+    border-bottom: 7px solid #e6af2e;
 }
 
-.paid-path-tutorials .path-head {
+
+.path-tutorials .path-head {
     border-bottom: 10px solid #3d348b;
     width: 45%;
     border-radius: 5%;
@@ -67,12 +81,25 @@
     color: #3d348b;
 }
 
+#path-intro-header {
+    border-bottom: 10px solid #3d348b;
+}
+
+#bento {
+    position: relative;
+    margin-bottom: 8%;
+    padding-bottom: 4%;
+    width: 38%;
+    height: 38%;
+}
+
 .paid-pics {
     position: relative;
     margin: 20px;
     bottom: 25px;
     left: 25%;
 }
+
 
 .path-pics {
     float: right;
