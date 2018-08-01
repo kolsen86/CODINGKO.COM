@@ -19,6 +19,10 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+html, body {
+    background-color: #e0e2db;
+}
+
 nav ul a {
     position: relative;
     left: -13%;
