@@ -21,9 +21,7 @@
 
 .books-body {
     background-color: #e0e2db;
-    padding-bottom: 650px;
     margin-top: -33px;
-    padding-bottom: 700px;
 }
 
 .books-tutorials {
@@ -104,9 +102,164 @@
   padding-top: 20px;
 }
 
+@media all and (max-width: 1400px) {
+  .books-header h1 {
+    font-size: 5em;
+    margin-top: 6.8%;
+}
+
+.books-head-bg {
+    width: 98%;
+    height: 43%;
+    right: 2%;
+}
+
+#books-intro-header {
+  position: relative;
+  left: 5%;
+}
+
+#books-intro {
+  position: relative;
+  left: 5%;
+  width: 80%;
+}
+}
+
+@media all and (max-width: 1178px) {
+  .books-header h1 {
+    font-size: 4.5em;
+    margin-top: 6.8%;
+}
+
+.books-head-bg {
+  width: 98%;
+  height: 48%;
+  right: 2%;
+}
+
+.books-tutorials ol {
+  position: relative;
+  left: 10%;
+  width: 90%;
+}
+
+#books-intro-header {
+  position: relative;
+  left: 10%;
+}
+
+#books-intro {
+  position: relative;
+  left: 10%;
+  width: 80%;
+}
+}
+
+@media all and (max-width: 996px) {
+  .book-pics {
+    margin: 20px;
+    height: 400px;
+    width: 350px;
+    float: right;
+}
+
+#books-intro-header {
+  position: relative;
+  left: 15%;
+}
+
+#books-intro {
+  position: relative;
+  left: 15%;
+  width: 80%;
+}
+
+.books-tutorials ol {
+  position: relative;
+  left: 15%;
+  width: 90%;
+  padding: 2%;
+}
+}
+
+@media all and (max-width: 840px) {
+  .book-pics {
+    margin: 20px;
+    height: 300px;
+    width: 250px;
+    float: right;
+}
+
+.books-tutorials {
+  position: relative;
+  top: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  font-size: 1.1em;
+  left: 5%;
+}
+}
+
+@media all and (max-width: 630px) {
+  .sidenav {
+    display: none;
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #191716; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+
+  .books-tutorials ol {
+    position: relative;
+    left: 0%;
+    width: 100%;
+    padding: 2%;
+  }
+
+#books-intro-header {
+  position: relative;
+  left: 5%;
+}
+
+#books-intro {
+  position: relative;
+  left: 0%;
+  width: 90%;
+}
+
+.books-header h1 {
+  font-size: 3.5em;
+  margin-top: 6.8%;
+}
+}
+
+@media all and (max-width: 490px) {
+  .book-pics {
+    margin: 20px;
+    height: 200px;
+    width: 150px;
+    float: right;
+}
+}
+
+@media all and (max-width: 386px) {
+  .book-pics {
+    margin: 20px;
+    height: 125px;
+    width: 75px;
+    float: right;
+}
+}
 
 
-  @media all and (max-width: 1398px) and (min-width: 1142px) {
+  /*@media all and (max-width: 1398px) and (min-width: 1142px) {
     .books-head-bg {
       width: 98%;
       top: 275px;
@@ -259,4 +412,4 @@
     height: 220px;
 }
  
-  }
+  }*/
