@@ -23,6 +23,8 @@ html, body {
     background-color: #e0e2db;
 }
 
+
+
 nav ul a {
     position: relative;
     left: -13%;
@@ -37,7 +39,15 @@ nav {
     top: 0;
     width: 100%;
     z-index: 9999;
-    height: 16%;
+    height: 14.6%;
+}
+
+#menu-nav {
+    display: block;
+    margin-top: -25px;
+    margin-left: 82%;
+    font-size: 2em;
+    font-weight: 900;
 }
 
 /*** INPUT ***/
@@ -163,7 +173,7 @@ nav ul#social-media > li {
 }
 
 #nav-arms {
-    margin-top: -39px;
+    margin-top: -31px;
 }
 
 
@@ -239,6 +249,10 @@ nav ul#social-media > li {
         width: 80%;
     }
 }
+
+
+
+
 @media all and (max-width: 772px) {
     #menu-icon {
         display: inline-block;
@@ -266,7 +280,7 @@ nav ul#social-media > li {
     }
 
     #nav-arms {
-        height: 400%;
+        height: 300%;
         width: 110%;
     }
 
@@ -295,4 +309,36 @@ nav ul#social-media > li {
         width: 80%;
     }
 }
+
+@media all and (max-width: 1202px) {
+    #menu-nav {
+        display: block;
+        margin-top: -25px;
+        margin-left: 75%;
+        font-size: 2em;
+        font-weight: 900;
+    }
+}
+
+@media all and (max-width: 994px) {
+    #menu-nav {
+        display: block;
+        margin-top: -25px;
+        margin-left: 68%;
+        font-size: 2em;
+        font-weight: 900;
+    }
+}
+
+@media all and (max-width: 460px) {
+    #menu-nav {
+        display: none;
+        margin-top: -25px;
+        margin-left: 20%;
+        font-size: 1.1em;
+        font-weight: 900;
+    }
+}
+
+
 
