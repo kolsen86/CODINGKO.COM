@@ -1,5 +1,5 @@
 .referance-header h1 {
-    font-size: 6em;
+    font-size: 5em;
     color: #e0e2db;
     position: relative;
     top: 5%;
@@ -14,9 +14,9 @@
 .referance-head-bg {
     position: absolute;
     width: 98%;
-    top: 10.6%;
+    top: 15.6%;
     background-color: #191716;
-    height: 48%;
+    height: 69%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -107,3 +107,165 @@
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
   }
+
+  @media all and (max-width: 1162px) {
+    
+    #questions-intro-header, #referance-intro-header {
+left: 10%;
+width: 60%;
+    }
+
+    #questions-intro, #referance-intro {
+left: 15%;
+width: 80%;
+    }
+
+    .referance ul p {
+        width: 75%;
+        position: relative;
+        border-bottom: 7px solid #e6af2e;
+        padding-bottom: 25px;
+        font-weight: 800;
+        left: 10%;
+        padding-right: 10px;
+    }
+
+    .referance ul {
+left: 13%;
+width: 80%;
+position: relative;
+    }
+
+    .referance-pics {
+        position: relative;
+        float: right;
+        margin: 20px;
+        height: 35%;
+        width: 35%;
+        margin-right: -15%;
+        padding: 9px;
+    }
+    
+    .referance-pics-google {
+        position: relative;
+        float: right;
+        margin: 20px;
+        bottom: 70px;
+        height: 35%;
+        width: 35%;
+        margin-right: -15%;
+        padding: 9px;
+    }
+    
+    .referance-pics-mozilla {
+        position: relative;
+        float: right;
+        margin: 20px;
+        bottom: 70px;
+        height: 35%;
+        width: 35%;
+        margin-right: -15%;
+        padding: 9px;
+    }
+
+    .referance h2 {
+        border-bottom: 10px solid #3d348b;
+        width: 45%;
+        border-radius: 5%;
+        padding-bottom: 15px;
+        margin-left: 10%;
+    }
+    
+}
+
+@media all and (max-width: 798px) {
+    .referance h2 {
+        border-bottom: 10px solid #3d348b;
+        width: 65%;
+        border-radius: 5%;
+        padding-bottom: 15px;
+        margin-left: -10%;
+    }
+
+    #questions-intro-header, #referance-intro-header {
+        margin-left: -10%;
+        width: 80%;
+            }
+        
+            #questions-intro, #referance-intro {
+        margin-left: -10%;
+        width: 80%;
+            }
+        
+            .referance ul p {
+                width: 95%;
+                position: relative;
+                border-bottom: 7px solid #e6af2e;
+                padding-bottom: 25px;
+                font-weight: 800;
+                margin-left: -10%;
+                padding-right: 10px;
+            }
+        
+            .referance ul {
+        margin-left: -10%;
+        width: 80%;
+        position: relative;
+            }
+
+            .referance {
+                position: relative;
+                top: 600px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 95%;
+                padding-bottom: 174px;
+                height: auto;
+                font-family: 'Josefin Sans', sans-serif;
+                font-weight: 600;
+                font-size: 1.2em;
+                color: #191716;
+            }
+
+            .referance-header h1 {
+                font-size: 4em;
+                color: #e0e2db;
+                position: relative;
+                top: 5%;
+                font-family: 'Graduate', cursive;
+                text-shadow: -7px -5px 6px #beb7a4;
+                left: 2%;
+                margin-right: auto;
+                margin-left: auto;
+                z-index: 2;
+            }
+}
+
+@media all and (max-width: 448px) {
+    .referance-header h1 {
+        font-size: 3em;
+        color: #e0e2db;
+        position: relative;
+        top: 5%;
+        font-family: 'Graduate', cursive;
+        text-shadow: -7px -5px 6px #beb7a4;
+        left: 2%;
+        margin-right: auto;
+        margin-left: auto;
+        z-index: 2;
+    }
+
+    .referance {
+        position: relative;
+        top: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        padding-bottom: 174px;
+        height: auto;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 1em;
+        color: #191716;
+    }
+}
