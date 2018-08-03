@@ -5,14 +5,15 @@
     margin-top: 6.8%;
     font-family: 'Graduate', cursive;
     text-shadow: -7px -5px 6px #beb7a4;
+    z-index: 2;
 }
 
 .tools-head-bg {
     position: absolute;
     width: 98%;
-    top: 12%;
+    top: 14%;
     background-color: #191716;
-    height: 43%;
+    height: 50%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -58,6 +59,7 @@
     width: 45%;
     border-radius: 5%;
     padding-bottom: 15px;
+    margin-left: 10%;
 }
 
 .tools a {
@@ -69,15 +71,27 @@
     float: right;
     margin: 20px;
     bottom: 25px;
+    height: 50%;
+    width: 50%;
+}
+
+.otools-pics {
+    position: relative;
+    float: right;
+    margin: 20px;
+    bottom: 25px;
+    height: 50%;
+    width: 50%;
 }
 
 .free-editor {
     margin-left: 5%;
 }
 
-#free-edit-intro, #free-edit-header-intro, #online-edit-intro, #online-edit-intro-header, .tools-page ul {
+#free-edit-intro, #free-edit-header-intro,.free-editor, #online-edit-intro, #online-edit-intro-header, .tools-page ul {
     position: relative;
-    left: 5%;
+    left: 18%;
+    width: 70%;
 }
 
 .sidenav {
@@ -90,4 +104,100 @@
     background-color: #191716; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
+  }
+
+  @media all and (max-width: 796px) {
+    #free-edit-intro, #free-edit-header-intro,.free-editor, #online-edit-intro, #online-edit-intro-header, .tools-page ul {
+        position: relative;
+        left: 0%;
+        width: 70%;
+    }
+
+    .tools-page p {
+        text-indent: 50px;
+        position: relative;
+        margin: 0;
+        line-height: 1.8em;
+    }
+    
+    .tools-page ul p {
+        width: 95%;
+        position: relative;
+        border-bottom: 7px solid #e6af2e;
+        padding-bottom: 25px;
+        font-weight: 800;
+    }
+
+    .tools-page {
+        position: relative;
+        top: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding-bottom: 250px;
+        height: auto;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 1.2em;
+        color: #191716;
+    }
+
+    .tools-header h1 {
+        font-size: 5em;
+        color: #e0e2db;
+        position: relative;
+        margin-top: 6.8%;
+        font-family: 'Graduate', cursive;
+        text-shadow: -7px -5px 6px #beb7a4;
+        z-index: 2;
+    }
+
+    .tools-pics {
+        position: relative;
+        float: right;
+        margin: 20px;
+        bottom: 25px;
+        height: 50%;
+        width: 50%;
+        margin-right: -50%;
+    }
+
+    .otools-pics {
+        position: relative;
+        float: none;
+        margin: 20px;
+        bottom: 25px;
+        height: 70%;
+        width: 70%;
+        margin-left: -1%;
+        padding-top: 35px;
+    }
+    
+    
+  }
+
+  @media all and (max-width: 436px) {
+    .tools-page {
+        position: relative;
+        top: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding-bottom: 250px;
+        height: auto;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 1em;
+        color: #191716;
+    }
+
+    .tools-header h1 {
+        font-size: 4em;
+        color: #e0e2db;
+        position: relative;
+        margin-top: 6.8%;
+        font-family: 'Graduate', cursive;
+        text-shadow: -7px -5px 6px #beb7a4;
+        z-index: 2;
+    }
   }
