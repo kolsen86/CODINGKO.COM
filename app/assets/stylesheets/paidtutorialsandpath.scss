@@ -3,17 +3,18 @@
     color: #e0e2db;
     position: relative;
     top: -11.5%;
-    margin-top: 6.5%;
+    margin-top: 8.5%;
     font-family: 'Graduate', cursive;
     text-shadow: -7px -5px 6px #beb7a4;
+    z-index: 2;
 }
 
 .paid-path-head-bg {
     position: absolute;
     width: 98%;
-    top: -15.7%;
+    top: -15.99%;
     background-color: #191716;
-    height: 7.5%;
+    height: 9.5%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -85,6 +86,10 @@
     border-bottom: 10px solid #3d348b;
 }
 
+#paid-intro-header {
+    border-bottom: 10px solid #3d348b;
+}
+
 #bento {
     position: relative;
     margin-bottom: 8%;
@@ -124,5 +129,317 @@ top: 30%;
     background-color: #191716; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
+  }
+
+  @media all and (max-width: 1396px) {
+    #paid-intro, #path-intro {
+left: 10%;
+width: 88%;
+    }
+
+    #paid-intro-header, #path-intro-header {
+        left: 13%;
+    }
+
+    .paid-path-header h1 {
+        margin-top: 7%;
+    }
+
+    .path-tutorials ul p {
+        border-bottom: 7px solid #e6af2e;
+        margin-left: 10%;
+    }
+
+    .path-head {
+        margin-left: 10%;
+    }
+
+    .path-tutorials ul {
+        margin-left: 15%;
+    }
+
+    .paid-path-header h1 {
+        margin-top: 10%;
+    }
+  }
+
+  @media all and (max-width: 1262px) {
+      .paid-path-tutorials ul {
+          margin-left: 15%;
+      }
+
+      .paid-path-header h1 {
+        margin-top: 15%;
+        font-size: 5em;
+    }
+
+    .paid-pics {
+        position: relative;
+        margin: 20px;
+        bottom: 25px;
+        left: 25%;
+        height: 40%;
+        width: 40%;
+    }
+
+    #paid-intro, #path-intro {
+        left: 15%;
+        width: 88%;
+    }
+        
+    #paid-intro-header, #path-intro-header {
+        left: 17%;
+        width: 60%;
+    }
+  }
+
+  @media all and (max-width: 1042px) {
+    .paid-path-header h1 {
+        margin-top: 19%;
+        font-size: 5em;
+    }
+
+    #paid-intro-header, #path-intro-header {
+        left: 17%;
+        width: 60%;
+    }
+
+    #paid-intro, #path-intro {
+        left: 15%;
+        width: 80%;
+    }
+
+    .paid-path-tutorials {
+        position: relative;
+        margin-top: 56%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding-bottom: 50px;
+        height: auto;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 1.2em;
+        color: #191716;
+    }
+    
+    .path-tutorials {
+        position: relative;
+        margin-top: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding-bottom: 50px;
+        height: auto;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 1.2em;
+        color: #191716;
+    }
+
+    #bento {
+        position: relative;
+        margin-bottom: 8%;
+        padding-bottom: 4%;
+        width: 38%;
+        height: 38%;
+        height: 40%;
+        width: 40%;
+    }
+    
+    .path-pics {
+        float: right;
+        position: relative;
+        margin: 20px;
+        bottom: 25px;
+        height: 40%;
+        width: 40%;
+    }
+  }
+
+  @media all and (max-width: 892px) {
+    .paid-path-header h1 {
+        margin-top: 27%;
+        font-size: 4.5em;
+    }
+
+    .paid-path-head-bg {
+        height: 11.5%;
+    }
+  }
+
+  @media all and (max-width: 758px) {
+    .paid-path-header h1 {
+        margin-top: 30%;
+        font-size: 3.8em;
+    }
+
+    #paid-intro-header, #path-intro-header {
+        left: 17%;
+        width: 60%;
+    }
+
+    #paid-intro, #path-intro {
+        left: 15%;
+        width: 95%;
+    }
+
+    .paid-path-tutorials {
+        position: relative;
+        margin-top: 56%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding-bottom: 50px;
+        height: auto;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 1em;
+        color: #191716;
+    }
+    
+    .path-tutorials {
+        position: relative;
+        margin-top: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding-bottom: 50px;
+        height: auto;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 1em;
+        color: #191716;
+    }
+
+    .paid-path-tutorials ul {
+        margin-left: -10%;
+    }
+
+    .path-tutorials ul {
+        margin-left: -10%;
+    }
+
+    .path-tutorials ul p {
+        border-bottom: 7px solid #e6af2e;
+        margin-left: -10%;
+    }
+  }
+
+  @media all and (max-width: 672px) {
+    .paid-path-header h1 {
+        margin-top: 41%;
+        font-size: 3.5em;
+    }
+
+    .path-tutorials ul p {
+        border-bottom: 7px solid #e6af2e;
+        margin-left: -5%;
+    }
+
+    #paid-intro-header, #path-intro-header {
+        left: 5%;
+        width: 80%;
+        margin-top: -13%;
+    }
+
+    #paid-intro, #path-intro {
+        left: 5%;
+        width: 95%;
+        margin-top: -5%;
+    }
+
+    .paid-path-head-bg {
+        position: absolute;
+        width: 98%;
+        top: -15.99%;
+        background-color: #191716;
+        height: 14.5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+
+  @media all and (max-width: 596px) {
+    .path-tutorials ul p {
+        border-bottom: 7px solid #e6af2e;
+        margin-left: 0%;
+        width: 95%;
+    }
+
+    .paid-path-tutorials ul {
+        margin-left: -2%;
+    }
+
+    .paid-path-header h1 {
+        margin-top: 70%;
+        font-size: 2.6em;
+        padding-top: 3%;
+    }
+
+    #bento {
+        position: relative;
+        margin-bottom: 8%;
+        padding-bottom: 4%;
+        width: 38%;
+        height: 38%;
+        height: 35%;
+        width: 35%;
+    }
+    
+    .path-pics {
+        float: right;
+        position: relative;
+        margin: 20px;
+        bottom: 25px;
+        height: 35%;
+        width: 35%;
+    }
+
+    #paid-intro-header, #path-intro-header {
+        left: 5%;
+        width: 80%;
+        margin-top: 0%;
+    }
+
+    #paid-intro, #path-intro {
+        left: 5%;
+        width: 95%;
+        margin-top: 0%;
+    }
+  }
+
+  @media all and (max-width: 448px) {
+    .paid-path-header h1 {
+        margin-top: 85%;
+        font-size: 2.4em;
+        padding-top: 3%;
+    }
+  }
+
+  @media all and (max-width: 410px) {
+    .paid-path-header h1 {
+        margin-top: 115%;
+        font-size: 1.5em;
+        padding-top: 3%;
+    }
+  }
+
+  @media all and (max-width: 352px) {
+    .paid-path-header h1 {
+        margin-top: 145%;
+        font-size: 1.5em;
+        padding-top: 3%;
+    }
+
+    .paid-path-head-bg {
+        position: absolute;
+        width: 98%;
+        top: -15.99%;
+        background-color: #191716;
+        height: 15.5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
   }
 
