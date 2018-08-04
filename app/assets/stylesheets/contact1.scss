@@ -42,6 +42,24 @@ margin-top: -2%;
     left: -3.5%;
 }
 
+.LI-simple-link {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: hidden, block;
+    z-index: 2;
+}
+
+.LI-profile-badge {
+    position: absolute;
+    height: 5%;
+    width: 8%;
+    display: hidden, block;
+    margin-left: 54%;
+    margin-top: -14%;
+    z-index: 2;
+}
+
 .beep-form {
     display: inline-block;
     position: absolute;
