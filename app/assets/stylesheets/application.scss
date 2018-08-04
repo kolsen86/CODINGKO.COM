@@ -154,6 +154,7 @@ nav input:checked ~ ul {
 
 nav ul > li {
     margin: 0.5em 0;
+    margin-left: 17%;
 }
 
 nav ul a {
@@ -170,20 +171,7 @@ nav ul#social-media > li {
     display: inline-block;
     font-size: 1.5em;
     margin: 0.5em;
-}
-
-.LI-profile-badge1 {
-position: absolute;
-height: 50%;
-width: 18%;
-}
-
-.LI-simple-link1 {
-display: block;
-margin-left: 7.5%;
-position: absolute;
-height: 100%;
-width: 100%;
+    margin-left: 4%; 
 }
 
 #nav-arms {
