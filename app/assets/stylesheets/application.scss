@@ -251,6 +251,75 @@ i.fab.fa-linkedin {
     margin-left: 10%;
 }
 
+@media all and (max-width: 1004px) {
+  .social-media {
+    margin-top: -5%;
+    position: relative;
+    display: block;
+    font-size: 1em;
+    margin: 0.2em;
+    margin-left: 2%;
+}
+
+.social-media a {
+  color: #191716;
+  font-size: 1em;
+}
+}
+
+@media all and (max-width: 742px) {
+  .social-media {
+    margin-top: -5%;
+    position: relative;
+    display: block;
+    font-size: 0.9em;
+    margin: 0.1em;
+    margin-left: 1%;
+}
+
+.social-media a {
+  color: #191716;
+  font-size: 0.8em;
+}
+}
+
+@media all and (max-width: 550px) {
+  .social-media {
+    margin-top: -5%;
+    position: relative;
+    display: block;
+    font-size: 0.8em;
+    margin: 0.0em;
+    margin-left: 0%;
+}
+
+.social-media a {
+  color: #191716;
+  font-size: 0.8em;
+}
+
+.overlay nav {
+  font-size: 2em;
+}
+}
+
+@media all and (max-width: 408px)  {
+  i.fab.fa-twitter ,  {
+    color: #191716;
+    margin-left: 0%;
+}
+
+i.fab.fa-github {
+    color: #191716;
+    margin-left: 2%;
+}
+
+i.fab.fa-linkedin {
+    color: #191716;
+    margin-left: 2%;
+}
+}
+
 
 
 
