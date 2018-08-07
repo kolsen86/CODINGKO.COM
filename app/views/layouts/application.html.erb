@@ -16,49 +16,94 @@
 
   <body>
 
+        <header>
+                <div class="menu-cont" id="toggle">
+                    <span class='menu-txt' data-text='CLOSE-'>
+                      -MENU
+                    </span>
+                </div>
+                </header>
+                <div class="overlay" id="overlay">
+                  <nav class="overlay-menu">
+                    <ul>
+                            <li><%= link_to "Home", root_path %></li>
+                            <li><%= link_to "K.O.'s Tech Corner", blog_path %></li>
+                            <li><%= link_to "Daily Grind", grind_path %></li>
+                            <li><%= link_to "About", about_path %></li>
+                            <li><%= link_to "Other Resources", tutorials_path %></li>
+                            <li><%= link_to "Contact Me", new_contact_path %></li>
+                    </ul>
+                    <div class="social-media">
+                    <span id="social-media1">
+                            <a href="https://twitter.com/Coding_K_O">
+                            <i class="fab fa-twitter"></i>
+                            <span class="screen-reader-text">Twitter</span>
+                        </a>
+                        </span>
 
+                         <span id="social-media2">
+                             <a href="https://github.com/kolsen86">
+                            <i class="fab fa-github"></i>
+                            <span class="screen-reader-text">GitHub</span>
+                            </a>
+                        </span>
 
+                        <span id="social-media3">
+                            <a href="https://www.linkedin.com/in/CodingKO">
+                            <i class="fab fa-linkedin"></i>
+                            <span class="screen-reader-text">LinkedIn</span>
+                        </a>
+                    </span>
+                    </div>
+                  </nav>
+                </div>
 
-<nav>
-    <div class="container menu-bg">
-        <input id="responsive-menu" type="checkbox">
-        <label for="responsive-menu"> <%= link_to root_path, class: "navbar-brand" do %>
-				<img id="nav-arms" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1533168718/nocatcharms.png" height="350%" width="120%">
-				<% end %> <span id="menu-icon"></span></label>
-		<div id="menu-nav">Menu</div>
-        <div id="overlay"></div>
-        <ul>
-            <li><%= link_to "Home", root_path %></li>
-            <li><%= link_to "K.O.'s Tech Corner", blog_path %></li>
-            <li><%= link_to "Daily Grind", grind_path %></li>
-            <li><%= link_to "About", about_path %></li>
-            <li><%= link_to "Other Resources", tutorials_path %></li>
-            <li><%= link_to "Contact Me", new_contact_path %></li>
-
-        </ul>
-        <ul id="social-media">
-            <li>
-                <a href="https://twitter.com/Coding_K_O">
-                    <i class="fab fa-twitter"></i>
-                    <span class="screen-reader-text">Twitter</span>
-                </a>
-            </li>
-            <li>
-            <a href="https://github.com/kolsen86">
-            <i class="fab fa-github"></i>
-            <span class="screen-reader-text">GitHub</span>
-            </a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/CodingKO">
-                    <i class="fab fa-linkedin"></i>
-                    <span class="screen-reader-text">LinkedIn</span>
-                </a>
-            </li>
-        </ul>
-    </div>
-</nav>
   <%= yield %>
 
   </body>
+
+  <script>
+        $('#toggle').click(function() {
+            $(this).toggleClass('active');
+            $('#overlay').toggleClass('open');
+           });
+         $('.menu-cont').on('click', function() {
+
+           var menu = $('.menu-txt').text();
+             var close = $('.menu-txt').attr('data-text');
+
+           $('.menu').toggleClass('active');
+
+           if ($('.menu-txt').text(menu)) {
+             $('.menu-txt').text(close);
+           } else {
+             $('.menu-txt').text(menu);
+           }
+             $('.menu-txt').attr('data-text',menu);
+         })
+         var findNCenter = function() {
+           var elems = document.querySelectorAll('.center-vertical');
+
+           for(var i =0; i<elems.length; i++) {
+             elems[i].style.marginTop = (elems[i].parentNode.offsetHeight - elems[i].offsetHeight)/2 + 'px';
+           }
+         };
+
+         document.addEventListener && document.addEventListener('DOMContentLoaded', findNCenter);
+         window.addEventListener && window.addEventListener('resize', findNCenter);
+
+         $(document).ready(function() {
+
+           var count = $('#inner p').length;
+           var i = 1;
+
+         setInterval(function() {
+           if (i < count) {
+             $('#inner').css('-webkit-transform','translate3d(0,-' + i + '00%,0)');
+               i++;
+           }
+         }, 800);
+         });
+
+  </script>
 </html>
