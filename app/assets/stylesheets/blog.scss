@@ -105,7 +105,7 @@
     left: 5%;
     font-size: 1.2em;
     font-weight: 900;
-    text-decoration: underline solid; 
+    text-decoration: underline solid;
 }
 
 #time-quote {
@@ -120,13 +120,22 @@
     margin: 0;
     font-weight: 900;
     font-size: 1.2em;
-    text-decoration: underline solid; 
+    text-decoration: underline solid;
     line-height: 1.8em;
 }
 
 footer {
     position: relative;
     top: 100%;
+}
+
+@media all and (max-width: 1100px) and (min-width: 770px) {
+    .article-content {
+        font-size: 1.3em;
+        width: 100%;
+        line-height: 1.6em;
+        margin-bottom: 10%;
+    }
 }
 
 @media all and (max-width: 576px) {
@@ -181,14 +190,7 @@ font-size: 1.5em;
             }
 }
 
-@media all and (max-width: 1100px) and (min-width: 770px) {
-    .article-content {
-        font-size: 1.3em;
-        width: 100%;
-        line-height: 1.6em;
-        margin-bottom: 10%;
-    }
-}
+
 
 @media all and (max-width: 360px) {
     #matrix-header h1 {

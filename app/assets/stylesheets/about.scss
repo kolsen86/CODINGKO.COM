@@ -9,6 +9,7 @@
 
 body.about {
     background-color: #e0e2db;
+    padding-bottom: 5%;
 }
 
 .about-header {
@@ -52,82 +53,68 @@ footer.about {
     position: absolute;
     top: 350%;
 }
-@media all and (max-width: 372px) {
-    .about-header h1 {
-        font-size: 1em;
-        line-height: 1em;
-    }
-        .about-content {
-            font-size: 1em;
-            line-height: 1.3em;
-        }
 
-        .about .about-title {
-            position: relative;
-             top: 6%;
-             margin-top: -30%;
-         }
-    
-    #me {
-        top: 330vh;
-        height: 60%;
-        width: 60%;
+@media all and (max-width: 992px) {
+    .about-content {
+        text-indent: 50px;
+        line-height: 1.6;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 1.2em;
+        position: relative;
+        top: 30%;
+        left: 1%;
+        width: 95%;
+    }
+
+    .about-header h1 {
+        font-family: "Bungee Inline", cursive;
+        color: #e0e2db;
+        font-size: 4.5em;
+        line-height: 1.4em;
+        text-shadow: -5px -3px 5px #beb7a4;
     }
 }
 
-@media all and (max-width: 482px) and (min-width: 372px) {
+@media all and (max-width: 581px) {
     .about-header h1 {
-        font-size: 2.8em;
-        line-height: 1em;
-    }
-        .about-content {
-            font-size: 1em;
-            line-height: 1.3em;
-        }
-
-        .about .about-title {
-            position: relative;
-             top: 6%;
-             margin-top: -30%;
-         }
-
-        #me {
-            top: 280vh;
-            height: 60%;
-            width: 60%;
-        }
-    
-}
-
-@media all and (max-width: 575.98px) and (min-width: 482px) {
-    .about-header h1 {
-        font-size: 3.3em;
-        line-height: 1.2em;
-    }
-
-   .about .about-title {
-       position: relative;
-        top: 6%;
-        margin-top: -30%;
+        font-family: "Bungee Inline", cursive;
+        color: #e0e2db;
+        font-size: 3.5em;
+        line-height: 1.4em;
+        text-shadow: -5px -3px 5px #beb7a4;
     }
 
     .about-content {
-        font-size: 1.3em;
-        line-height: 1.4em;
-        top: 10%;
-    }
-
-    #me {
-        top: 390vh;
-        height: 60%;
-        width: 60%;
+        text-indent: 50px;
+        line-height: 1.6;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 1em;
+        position: relative;
+        top: 30%;
+        left: 1%;
+        width: 100%;
     }
 }
 
-@media all and (max-width: 736px) {
+@media all and (max-width: 459px) {
     .about-header h1 {
-        font-size: 2.8em;
-        line-height: 1.2em;
-        margin-top: 15%;
+        font-family: "Bungee Inline", cursive;
+        color: #e0e2db;
+        font-size: 2.5em;
+        line-height: 1.4em;
+        text-shadow: -5px -3px 5px #beb7a4;
     }
 }
+
+@media all and (max-width: 360px) {
+    .about-header h1 {
+        font-family: "Bungee Inline", cursive;
+        color: #e0e2db;
+        font-size: 2em;
+        line-height: 1.4em;
+        text-shadow: -5px -3px 5px #beb7a4;
+}
+}
+
