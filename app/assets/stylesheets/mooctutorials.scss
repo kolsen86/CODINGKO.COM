@@ -4,12 +4,13 @@
     padding: 0;
     width: 100%;
     height: 8em;
-    margin: 10% auto auto 0%;
+    margin: 15% auto auto 0%;
     position: relative;
     background-color: #e0e2db;
     z-index: 7;
     border-top: 2px solid #191716;
     border-left: 2px solid #191716;
+    text-align: center;
 
 
     li {
@@ -49,6 +50,7 @@
     border-top: 2px solid #191716;
     border-bottom: 2px solid #191716;
     border-left: 2px solid #191716;
+    text-align: center;
 
     li {
       float: left;
@@ -175,7 +177,10 @@
     }
   }
 
-
+.wrapper {
+  width: 99%;
+  height: auto;
+}
 
 
 .moocs-header h1 {
@@ -210,7 +215,7 @@
 
 .moocs-tutorials {
     position: relative;
-    margin-top: 60%;
+    margin-top: 75%;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -329,6 +334,47 @@
     }
   }
 
+  @media all and (max-width: 1050px) {
+
+    .menu {
+      margin-top: 20%;
+    }
+
+    .menu, .menu2 {
+      margin-left: 5%;
+      width: 98%
+    }
+
+    .moocs-tutorials {
+      position: relative;
+      margin-top: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      padding-bottom: 250px;
+      height: auto;
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 600;
+      font-size: 1.5em;
+      color: #191716;
+  }
+  }
+
+  @media all and (max-width: 995px) {
+    .moocs-header h1 {
+      font-size: 4.7em;
+      color: #e0e2db;
+      position: relative;
+      margin-top: 10.8%;
+      font-family: 'Graduate', cursive;
+      text-shadow: -7px -5px 6px #beb7a4;
+      z-index: 9;
+      margin-left: 1%;
+      text-align: center;
+      width: 98%;
+  }
+  } 
+
   @media all and (max-width: 866px) {
     .moocs-header h1 {
         font-size: 5em;
@@ -379,7 +425,7 @@
 
     .moocs-tutorials {
         position: relative;
-        top: 700px;
+        margin-top: 110%;
         margin-left: auto;
         margin-right: auto;
         width: 100%;
@@ -401,6 +447,16 @@
         z-index: 5;
     }
 
+    .moocs-head-bg {
+      position: absolute;
+      width: 100%;
+      background-color: #191716;
+      height: 70%;
+      margin-left: 0%;
+      margin-right: auto;
+      z-index: 8;
+  }
+
     .moocs-pics {
         position: relative;
         float: right;
@@ -415,11 +471,46 @@
         left: -7%;
     }
 
+    .menu {
+      margin-top: 28%;
+    }
+
+    .menu, .menu2 {
+      margin-left: 0%;
+      width: 100%;
+
+      a {
+        font-size: 1em;
+      }
+    }
+
+  }
+
+  @media all and (max-width: 592px) {
+
+    .moocs-tutorials {
+      position: relative;
+      margin-top: 165%;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      padding-bottom: 250px;
+      height: auto;
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 600;
+      font-size: 1.2em;
+      color: #191716;
+  }
+
+  .menu {
+    margin-top: 33%;
+  }
+
   }
 
   @media all and (max-width: 458px) {
     .moocs-header h1 {
-        font-size: 3.5em;
+        font-size: 3em;
         color: #e0e2db;
         position: relative;
         margin-top: 6.8%;
@@ -430,7 +521,7 @@
 
     .moocs-tutorials {
         position: relative;
-        top: 700px;
+        margin-top: 220%; 
         margin-left: auto;
         margin-right: auto;
         width: 100%;
@@ -440,6 +531,19 @@
         font-weight: 600;
         font-size: 1em;
         color: #191716;
+    }
+
+    .menu {
+      margin-top: 39%;
+    }
+
+    .menu, .menu2 {
+      margin-left: 0%;
+      width: 100%;
+
+      a {
+        font-size: 0.9em;
+      }
     }
   }
 
