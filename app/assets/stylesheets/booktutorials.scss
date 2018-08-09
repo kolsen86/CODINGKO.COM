@@ -1,3 +1,190 @@
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 105%;
+  height: 8em;
+  margin: 13% auto auto 10%;
+  position: relative;
+  background-color: #e0e2db;
+  z-index: 7;
+  border-top: 2px solid #191716;
+  border-left: 2px solid #191716;
+  text-align: center;
+
+
+  li {
+    float: left;
+    width: 25%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border-right: 2px solid #191716;
+  }
+
+  a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #191716;
+    text-decoration: none;
+    position: relative;
+    font-size: 1.4em;
+    z-index: 9;
+    font-family: 'Graduate', cursive;
+  }
+}
+
+.menu2 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 105%;
+  height: 8em;
+  margin: 0% auto auto 0%;
+  position: relative;
+  background-color: #e0e2db;
+  z-index: 7;
+  border-top: 2px solid #191716;
+  border-bottom: 2px solid #191716;
+  border-left: 2px solid #191716;
+  text-align: center;
+
+  li {
+    float: left;
+    width: 25%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border-right: 2px solid #191716;
+  }
+
+  a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #191716;
+    text-decoration: none;
+    position: relative;
+    font-size: 1.4em;
+    z-index: 9;
+    font-family: 'Graduate', cursive;
+  }
+}
+
+a.active {
+  background-color: #e74c3c;
+  pointer-events: none;
+}
+
+li.slider {
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #e74c3c;
+  z-index: 8;
+  transition: left .4s, background-color .4s;
+}
+
+li.slider2 {
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #e74c3c;
+  z-index: 8;
+  transition: left .4s, background-color .4s;
+}
+
+.menu li:nth-child(1):hover,
+.menu li:nth-child(1):focus,
+.menu li:nth-child(1):active {
+  & ~ .slider {
+    left: 0;
+    background-color: #3498db;
+  }
+}
+
+
+.menu li:nth-child(2):hover,
+.menu li:nth-child(2):focus,
+.menu li:nth-child(2):active {
+  & ~ .slider {
+    left: 25%;
+    background-color: #9b59b6;
+  }
+}
+
+.menu li:nth-child(3):hover,
+.menu li:nth-child(3):focus,
+.menu li:nth-child(3):active {
+  & ~ .slider {
+    left: 50%;
+    background-color: #e67e22;
+  }
+}
+
+.menu li:nth-child(4):hover,
+.menu li:nth-child(4):focus,
+.menu li:nth-child(4):active {
+  & ~ .slider {
+    left: 75%;
+    background-color: #16a085;
+  }
+}
+
+.menu2 li:nth-child(1):hover,
+.menu2 li:nth-child(1):focus,
+.menu2 li:nth-child(1):active {
+  & ~ .slider2 {
+    left: 0%;
+    background-color: #3498db;
+  }
+}
+
+
+.menu2 li:nth-child(2):hover,
+.menu2 li:nth-child(2):focus,
+.menu2 li:nth-child(2):active {
+  & ~ .slider2 {
+    left: 25%;
+    background-color: #9b59b6;
+  }
+}
+
+.menu2 li:nth-child(3):hover,
+.menu2 li:nth-child(3):focus,
+.menu2 li:nth-child(3):active {
+  & ~ .slider2 {
+    left: 50%;
+    background-color: #e67e22;
+  }
+}
+
+.menu2 li:nth-child(4):hover,
+.menu2 li:nth-child(4):focus,
+.menu2 li:nth-child(4):active {
+  & ~ .slider2 {
+    left: 75%;
+    background-color: #16a085;
+  }
+}
+
+.wrapper {
+width: 100%;
+height: auto;
+margin-left: 20%;
+margin-top: -4%;
+}
+
+
 .books-header h1 {
     font-size: 6em;
     color: #e0e2db;
@@ -5,228 +192,19 @@
     margin-top: 6.8%;
     font-family: 'Graduate', cursive;
     text-shadow: -7px -5px 6px #beb7a4;
-}
-
-#intnav {
-  text-align: center;
-  color: #e6af2e;
-  font-size: calc(0.8vw + 0.35vh + 2vmin);
-  margin-top: 3.5%;
-}
-
-.square1 {
-  position: absolute;
-  display: inline-block;
-  background-color: #3d348b;
-  height: 9%;
-  width: 19%;
-  margin-top: 30%;
-  margin-left: 13%;
-}
-
-.square1:hover {
-  position: absolute;
-  background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533412690/Interactive%20Tutorials.gif);
-  background-size: cover;
-  height: 41%;
-  width: 18%;
-  margin-top: 30%;
-  margin-left: 13%;
-  display: inline-block;
-
-  #intnav {
-    display: none;
-    color: #e6af2e;
-    font-size: 2em;
-    padding-top: 2.5%;
-  }
-}
-
-#videonav {
-  text-align: center;
-  color: #3d348b;
-  font-size: calc(1vw + 0.5vh + 2vmin);
-  margin-top: 2.5%;
-}
-
-.square2 {
-  position: absolute;
-  background-color: #e6af2e;
-  height: 9%;
-  width: 19%;
-  margin-top: 30%;
-  margin-left: 33%;
-  display: inline-block;
-}
-
-.square2:hover {
-  position: absolute;
-  background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533417089/Video%20Tutorials.gif);
-  background-size: cover;
-  height: 41%;
-  width: 18%;
-  margin-top: 30%;
-  margin-left: 33%;
-  display: inline-block;
-
-  #videonav {
-    display: none;
-    color: #3d348b;
-    font-size: 2em;
-    padding-top: 2.5%;
-  }
-}
-
-#moocnav {
-  text-align: center;
-  color: #e6af2e;
-  font-size: calc(1vw + 0.5vh + 2vmin);
-  margin-top: 2.5%;
-}
-
-.square3 {
-  position: absolute;
-  display: inline-block;
-  background-color: #3d348b;
-  height: 9%;
-  width: 19%;
-  margin-top: 30%;
-  margin-left: 53%;
-}
-
-.square3:hover {
-  position: absolute;
-  display: inline-block;
-  background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533422864/MOOC%20Tutorials.gif);
-  background-size: cover;
-  height: 40%;
-  width: 18%;
-  margin-top: 31%;
-  margin-left: 53%;
-
-  #moocnav {
-    display: none;
-    color: #e6af2e;
-    font-size: 2em;
-    padding-top: 2.5%;
-  }
-}
-
-#refnav {
-  text-align: center;
-  color: #3d348b;
-  font-size: calc(0.7vw + 0.35vh + 2vmin);
-  margin-top: 0.15%;
-}
-
-.square4 {
-  position: absolute;
-  display: inline-block;
-  background-color: #e6af2e;
-  height: 9%;
-  width: 19%;
-  margin-top: 30%;
-  margin-left: 73%;
-}
-
-.square4:hover {
-  position: absolute;
-  display: inline-block;
-  background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533424810/Reference%20and%20Questions.gif);
-  background-size: cover;
-  height: 41%;
-  width: 18%;
-  margin-top: 30%;
-  margin-left: 73%;
-
-  #refnav {
-    display: none;
-    color: #e6af2e;
-    font-size: 2em;
-    padding-top: 2.5%;
-  }
-}
-
-#paidnav {
-  text-align: center;
-  color: #3d348b;
-  font-size: calc(0.7vw + 0.35vh + 2vmin);
-  margin-top: 0.15%;
-}
-
-.square5 {
-  position: absolute;
-  display: inline-block;
-  background-color: #e6af2e;
-  height: 9%;
-  width: 19%;
-  margin-top: 50%;
-  margin-left: 24%;
-}
-
-.square5:hover {
-  position: absolute;
-  display: inline-block;
-  background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533424597/Paid%20Tutorials.gif);
-  background-size: cover;
-  height: 41%;
-  width: 18%;
-  margin-top: 48%;
-  margin-left: 24%;
-
-  #paidnav {
-    display: none;
-    color: #e6af2e;
-    font-size: 2em;
-    padding-top: 2.5%;
-  }
-}
-
-#toolsnav {
-  text-align: center;
-  color: #e6af2e;
-  font-size: calc(1vw + 0.5vh + 2vmin);
-  margin-top: 2.5%;
-}
-
-.square6 {
-  position: absolute;
-  display: inline-block;
-  background-color: #3d348b;
-  height: 9%;
-  width: 19%;
-  margin-top: 50%;
-  margin-left: 63%;
-}
-
-.square6:hover {
-  position: absolute;
-  display: inline-block;
-  background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533425170/Tools.gif);
-  background-size: cover;
-  height: 41%;
-  width: 18%;
-  margin-top: 48%;
-  margin-left: 63%;
-
-  #toolsnav {
-    display: none;
-    color: #e6af2e;
-    font-size: 2em;
-    padding-top: 2.5%;
-  }
+    text-align: center;
+    margin-left: -10%;
 }
 
 .books-head-bg {
     position: absolute;
-    width: 98%;
-    margin-top: 9%;
+    width: 100%;
     background-color: #191716;
     height: 43%;
     margin-left: auto;
     margin-right: auto;
-    right: 2%;
     z-index: 2;
+    margin-left: 8%; 
 }
 
 .books-body {
@@ -321,9 +299,8 @@
 }
 
 .books-head-bg {
-    width: 98%;
+    width: 100%;
     height: 43%;
-    right: 2%;
 }
 
 #books-intro-header {
@@ -336,19 +313,60 @@
   left: 5%;
   width: 80%;
 }
+
+.menu {
+  margin-top: 28%;
+}
+
+.menu, .menu2 {
+  margin-left: 0%;
+  width: 100%;
+
+  a {
+    font-size: 1em;
+  }
+}
+
+.wrapper {
+  width: 98%;
+  height: auto;
+  margin-left: 40%;
+  margin-top: -4%;
+  }
+
+}
+
+@media all and (max-width: 1250px) {
+  .books-header h1 {
+    font-size: 4em;
+    margin-top: 6.8%;
+}
+
+.wrapper {
+  width: 98%;
+  height: auto;
+  margin-left: 50%;
+  margin-top: -4%;
+  }
 }
 
 @media all and (max-width: 1178px) {
   .books-header h1 {
-    font-size: 4.5em;
-    margin-top: 6.8%;
+    font-size: 4em;
+    margin-top: 7.8%;
 }
 
 .books-head-bg {
-  width: 98%;
+  width: 100%;
   height: 48%;
-  right: 2%;
 }
+
+.wrapper {
+  width: 98%;
+  height: auto;
+  margin-left: 50%;
+  margin-top: 5%;
+  }
 
 .books-tutorials ol {
   position: relative;
@@ -366,66 +384,6 @@
   left: 10%;
   width: 80%;
 }
-
-.square6 {
-  position: absolute;
-  display: inline-block;
-  background-color: #3d348b;
-  height: 9%;
-  width: 19%;
-  margin-top: 53%;
-  margin-left: 66%;
-}
-
-.square5 {
-  position: absolute;
-  display: inline-block;
-  background-color: #e6af2e;
-  height: 9%;
-  width: 19%;
-  margin-top: 53%;
-  margin-left: 29%;
-}
-
-.square4 {
-  position: absolute;
-  display: inline-block;
-  background-color: #e6af2e;
-  height: 9%;
-  width: 19%;
-  margin-top: 35%;
-  margin-left: 76%;
-}
-
-.square3 {
-  position: absolute;
-  display: inline-block;
-  background-color: #3d348b;
-  height: 9%;
-  width: 19%;
-  margin-top: 35%;
-  margin-left: 56%;
-}
-
-.square2 {
-  position: absolute;
-  background-color: #e6af2e;
-  height: 9%;
-  width: 19%;
-  margin-top: 35%;
-  margin-left: 36%;
-  display: inline-block;
-}
-
-.square1 {
-  position: absolute;
-  display: inline-block;
-  background-color: #3d348b;
-  height: 9%;
-  width: 19%;
-  margin-top: 35%;
-  margin-left: 15%;
-}
 }
 
 @media all and (max-width: 996px) {
@@ -435,6 +393,13 @@
     width: 350px;
     float: right;
 }
+
+.books-header h1 {
+  font-size: 4em;
+  margin-top: 7.8%;
+  margin-left: 5%;
+}
+
 
 #books-intro-header {
   position: relative;
@@ -452,66 +417,6 @@
   left: 15%;
   width: 90%;
   padding: 2%;
-}
-
-.square6 {
-  position: absolute;
-  display: inline-block;
-  background-color: #3d348b;
-  height: 9%;
-  width: 19%;
-  margin-top: 58%;
-  margin-left: 69%;
-}
-
-.square5 {
-  position: absolute;
-  display: inline-block;
-  background-color: #e6af2e;
-  height: 9%;
-  width: 19%;
-  margin-top: 58%;
-  margin-left: 32%;
-}
-
-.square4 {
-  position: absolute;
-  display: inline-block;
-  background-color: #e6af2e;
-  height: 9%;
-  width: 19%;
-  margin-top: 40%;
-  margin-left: 79%;
-}
-
-.square3 {
-  position: absolute;
-  display: inline-block;
-  background-color: #3d348b;
-  height: 9%;
-  width: 19%;
-  margin-top: 40%;
-  margin-left: 59%;
-}
-
-.square2 {
-  position: absolute;
-  background-color: #e6af2e;
-  height: 9%;
-  width: 19%;
-  margin-top: 40%;
-  margin-left: 39%;
-  display: inline-block;
-}
-
-.square1 {
-  position: absolute;
-  display: inline-block;
-  background-color: #3d348b;
-  height: 9%;
-  width: 19%;
-  margin-top: 40%;
-  margin-left: 18%;
 }
 }
 
@@ -538,219 +443,12 @@
 
   .books-tutorials {
     position: relative;
-    margin-top: 200%;
+    margin-top: 125%;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     font-size: 1.1em;
     left: 5%;
-  }
-
-
-  #intnav {
-    text-align: center;
-    color: #e6af2e;
-    font-size: calc(1.2vw + 1.5vh + 2vmin);
-    margin-left: 0%;
-    margin-top: 3%;
-  }
-
-  .square1 {
-    position: absolute;
-    display: inline-block;
-    background-color: #3d348b;
-    height: 14%;
-    width: 35%;
-    margin-top: 80%;
-    margin-left: 5%;
-  }
-
-  .square1:hover {
-    position: absolute;
-    background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533412690/Interactive%20Tutorials.gif);
-    background-size: cover;
-    height: 45%;
-    width: 30%;
-    margin-top: 80%;
-    margin-left: 5%;
-    display: inline-block;
-
-    #intnav {
-      display: none;
-      color: #e6af2e;
-      font-size: 2em;
-      padding-top: 2.5%;
-    }
-  }
-
-  #videonav {
-    color: #3d348b;
-    font-size: calc(1.2vw + 1.5vh + 2vmin);
-    margin-top: 2.5%;
-  }
-
-  .square2 {
-    position: absolute;
-    background-color: #e6af2e;
-    height: 14%;
-    width: 35%;
-    margin-top: 80%;
-    margin-left: 50%;
-    display: inline-block;
-  }
-
-  .square2:hover {
-    position: absolute;
-    background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533417089/Video%20Tutorials.gif);
-    background-size: cover;
-    height: 45%;
-    width: 30%;
-    margin-top: 80%;
-    margin-left: 50%;
-    display: inline-block;
-
-    #videonav {
-      display: none;
-      color: #3d348b;
-      font-size: 2em;
-      padding-top: 2.5%;
-    }
-  }
-
-  #moocnav {
-    color: #e6af2e;
-    font-size: calc(1.2vw + 1.5vh + 2vmin);
-    margin-top: 2.5%;
-  }
-
-  .square3 {
-    position: absolute;
-    display: inline-block;
-    background-color: #3d348b;
-    height: 14%;
-    width: 35%;
-    margin-top: 115%;
-    margin-left: 5%;
-  }
-
-  .square3:hover {
-    position: absolute;
-    display: inline-block;
-    background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533422864/MOOC%20Tutorials.gif);
-    background-size: cover;
-    height: 45%;
-    width: 30%;
-    margin-top: 115%;
-    margin-left: 5%;
-
-    #moocnav {
-      display: none;
-      color: #e6af2e;
-      font-size: 2em;
-      padding-top: 2.5%;
-    }
-  }
-
-  #refnav {
-    color: #3d348b;
-    font-size: calc(1.2vw + 1.5vh + 2vmin);
-    margin-top: 0.15%;
-  }
-
-  .square4 {
-    position: absolute;
-    display: inline-block;
-    background-color: #e6af2e;
-    height: 14%;
-    width: 35%;
-    margin-top: 115%;
-    margin-left: 50%;
-  }
-
-  .square4:hover {
-    position: absolute;
-    display: inline-block;
-    background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533424810/Reference%20and%20Questions.gif);
-    background-size: cover;
-    height: 45%;
-    width: 30%;
-    margin-top: 115%;
-    margin-left: 50%;
-
-    #refnav {
-      display: none;
-      color: #e6af2e;
-      font-size: 2em;
-      padding-top: 2.5%;
-    }
-  }
-
-  #paidnav {
-    color: #3d348b;
-    font-size: calc(1vw + 1.2vh + 2vmin);
-    margin-top: 0.15%;
-  }
-
-  .square5 {
-    position: absolute;
-    display: inline-block;
-    background-color: #e6af2e;
-    height: 14%;
-    width: 35%;
-    margin-top: 150%;
-    margin-left: 5%;
-  }
-
-  .square5:hover {
-    position: absolute;
-    display: inline-block;
-    background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533424597/Paid%20Tutorials.gif);
-    background-size: cover;
-    height: 45%;
-    width: 30%;
-    margin-top: 150%;
-    margin-left: 5%;
-
-    #paidnav {
-      display: none;
-      color: #e6af2e;
-      font-size: 2em;
-      padding-top: 2.5%;
-    }
-  }
-
-  #toolsnav {
-    color: #e6af2e;
-    font-size: calc(1.2vw + 1.5vh + 2vmin);
-    margin-top: 2.5%;
-  }
-
-  .square6 {
-    position: absolute;
-    display: inline-block;
-    background-color: #3d348b;
-    height: 14%;
-    width: 35%;
-    margin-top: 150%;
-    margin-left: 50%;
-  }
-
-  .square6:hover {
-    position: absolute;
-    display: inline-block;
-    background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533425170/Tools.gif);
-    background-size: cover;
-    height: 45%;
-    width: 30%;
-    margin-top: 150%;
-    margin-left: 50%;
-
-    #toolsnav {
-      display: none;
-      color: #e6af2e;
-      font-size: 2em;
-      padding-top: 2.5%;
-    }
   }
 }
 
@@ -788,224 +486,26 @@
 
 .books-header h1 {
   font-size: 3.5em;
-  margin-top: 6.8%;
+  margin-top: 25.8%;
 }
+
+.wrapper {
+  width: 99%;
+  height: auto;
+  margin-left: 50%;
+  margin-top: -18%;
+  }
 }
 
 @media all and (max-width: 520px) {
   .books-tutorials {
     position: relative;
-    margin-top: 220%;
+    margin-top: 175%;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     font-size: 1.1em;
     left: 5%;
-  }
-
-
-  #intnav {
-    color: #e6af2e;
-    font-size: calc(1.1vw + 1.2vh + 2vmin);
-    margin-top: 3.5%;
-  }
-
-  .square1 {
-    position: absolute;
-    display: inline-block;
-    background-color: #3d348b;
-    height: 14%;
-    width: 35%;
-    margin-top: 80%;
-    margin-left: 5%;
-  }
-
-  .square1:hover {
-    position: absolute;
-    background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533412690/Interactive%20Tutorials.gif);
-    background-size: cover;
-    height: 35%;
-    width: 30%;
-    margin-top: 80%;
-    margin-left: 5%;
-    display: inline-block;
-
-    #intnav {
-      display: none;
-      color: #e6af2e;
-      font-size: 2em;
-      padding-top: 2.5%;
-    }
-  }
-
-  #videonav {
-    color: #3d348b;
-    font-size: calc(1.1vw + 1.2vh + 2vmin);
-    margin-top: 2.5%;
-  }
-
-  .square2 {
-    position: absolute;
-    background-color: #e6af2e;
-    height: 14%;
-    width: 35%;
-    margin-top: 80%;
-    margin-left: 50%;
-    display: inline-block;
-  }
-
-  .square2:hover {
-    position: absolute;
-    background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533417089/Video%20Tutorials.gif);
-    background-size: cover;
-    height: 35%;
-    width: 30%;
-    margin-top: 80%;
-    margin-left: 50%;
-    display: inline-block;
-
-    #videonav {
-      display: none;
-      color: #3d348b;
-      font-size: 2em;
-      padding-top: 2.5%;
-    }
-  }
-
-  #moocnav {
-    color: #e6af2e;
-    font-size: calc(1.1vw + 1.2vh + 2vmin);
-    margin-top: 2.5%;
-  }
-
-  .square3 {
-    position: absolute;
-    display: inline-block;
-    background-color: #3d348b;
-    height: 14%;
-    width: 35%;
-    margin-top: 115%;
-    margin-left: 5%;
-  }
-
-  .square3:hover {
-    position: absolute;
-    display: inline-block;
-    background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533422864/MOOC%20Tutorials.gif);
-    background-size: cover;
-    height: 35%;
-    width: 30%;
-    margin-top: 115%;
-    margin-left: 5%;
-
-    #moocnav {
-      display: none;
-      color: #e6af2e;
-      font-size: 2em;
-      padding-top: 2.5%;
-    }
-  }
-
-  #refnav {
-    color: #3d348b;
-    font-size: calc(1.1vw + 1.2vh + 2vmin);
-    margin-top: 0.15%;
-  }
-
-  .square4 {
-    position: absolute;
-    display: inline-block;
-    background-color: #e6af2e;
-    height: 14%;
-    width: 35%;
-    margin-top: 115%;
-    margin-left: 50%;
-  }
-
-  .square4:hover {
-    position: absolute;
-    display: inline-block;
-    background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533424810/Reference%20and%20Questions.gif);
-    background-size: cover;
-    height: 35%;
-    width: 30%;
-    margin-top: 115%;
-    margin-left: 50%;
-
-    #refnav {
-      display: none;
-      color: #e6af2e;
-      font-size: 2em;
-      padding-top: 2.5%;
-    }
-  }
-
-  #paidnav {
-    color: #3d348b;
-    font-size: calc(0.9vw + 1.1vh + 2vmin);
-    margin-top: 0.15%;
-  }
-
-  .square5 {
-    position: absolute;
-    display: inline-block;
-    background-color: #e6af2e;
-    height: 14%;
-    width: 35%;
-    margin-top: 150%;
-    margin-left: 5%;
-  }
-
-  .square5:hover {
-    position: absolute;
-    display: inline-block;
-    background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533424597/Paid%20Tutorials.gif);
-    background-size: cover;
-    height: 35%;
-    width: 30%;
-    margin-top: 150%;
-    margin-left: 5%;
-
-    #paidnav {
-      display: none;
-      color: #e6af2e;
-      font-size: 2em;
-      padding-top: 2.5%;
-    }
-  }
-
-  #toolsnav {
-    color: #e6af2e;
-    font-size: calc(1.1vw + 1.2vh + 2vmin);
-    margin-top: 2.5%;
-  }
-
-  .square6 {
-    position: absolute;
-    display: inline-block;
-    background-color: #3d348b;
-    height: 14%;
-    width: 35%;
-    margin-top: 150%;
-    margin-left: 50%;
-  }
-
-  .square6:hover {
-    position: absolute;
-    display: inline-block;
-    background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533425170/Tools.gif);
-    background-size: cover;
-    height: 35%;
-    width: 30%;
-    margin-top: 150%;
-    margin-left: 50%;
-
-    #toolsnav {
-      display: none;
-      color: #e6af2e;
-      font-size: 2em;
-      padding-top: 2.5%;
-    }
   }
 }
 
@@ -1017,6 +517,11 @@
     float: right;
 }
 
+.books-header h1 {
+  font-size: 3em;
+  margin-top: 25.8%;
+}
+
 .books-tutorials h2 {
   font-size: 1.5em;
   width: 80%;
@@ -1024,217 +529,12 @@
 
 .books-tutorials {
   position: relative;
-  margin-top: 240%;
+  margin-top: 180%;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   font-size: 1em;
   left: 5%;
-}
-
-
-#intnav {
-  color: #e6af2e;
-  font-size: calc(1.1vw + 1.2vh + 2vmin);
-  margin-top: 3.5%;
-}
-
-.square1 {
-  position: absolute;
-  display: inline-block;
-  background-color: #3d348b;
-  height: 14%;
-  width: 35%;
-  margin-top: 80%;
-  margin-left: 5%;
-}
-
-.square1:hover {
-  position: absolute;
-  background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533412690/Interactive%20Tutorials.gif);
-  background-size: cover;
-  height: 35%;
-  width: 30%;
-  margin-top: 80%;
-  margin-left: 5%;
-  display: inline-block;
-
-  #intnav {
-    display: none;
-    color: #e6af2e;
-    font-size: 2em;
-    padding-top: 2.5%;
-  }
-}
-
-#videonav {
-  color: #3d348b;
-  font-size: calc(1.1vw + 1.2vh + 2vmin);
-  margin-top: 2.5%;
-}
-
-.square2 {
-  position: absolute;
-  background-color: #e6af2e;
-  height: 14%;
-  width: 35%;
-  margin-top: 80%;
-  margin-left: 50%;
-  display: inline-block;
-}
-
-.square2:hover {
-  position: absolute;
-  background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533417089/Video%20Tutorials.gif);
-  background-size: cover;
-  height: 35%;
-  width: 30%;
-  margin-top: 80%;
-  margin-left: 50%;
-  display: inline-block;
-
-  #videonav {
-    display: none;
-    color: #3d348b;
-    font-size: 2em;
-    padding-top: 2.5%;
-  }
-}
-
-#moocnav {
-  color: #e6af2e;
-  font-size: calc(1.1vw + 1.2vh + 2vmin);
-  margin-top: 2.5%;
-}
-
-.square3 {
-  position: absolute;
-  display: inline-block;
-  background-color: #3d348b;
-  height: 14%;
-  width: 35%;
-  margin-top: 125%;
-  margin-left: 5%;
-}
-
-.square3:hover {
-  position: absolute;
-  display: inline-block;
-  background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533422864/MOOC%20Tutorials.gif);
-  background-size: cover;
-  height: 35%;
-  width: 30%;
-  margin-top: 125%;
-  margin-left: 5%;
-
-  #moocnav {
-    display: none;
-    color: #e6af2e;
-    font-size: 2em;
-    padding-top: 2.5%;
-  }
-}
-
-#refnav {
-  color: #3d348b;
-  font-size: calc(1.1vw + 1.2vh + 2vmin);
-  margin-top: 0.15%;
-}
-
-.square4 {
-  position: absolute;
-  display: inline-block;
-  background-color: #e6af2e;
-  height: 14%;
-  width: 35%;
-  margin-top: 125%;
-  margin-left: 50%;
-}
-
-.square4:hover {
-  position: absolute;
-  display: inline-block;
-  background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533424810/Reference%20and%20Questions.gif);
-  background-size: cover;
-  height: 35%;
-  width: 30%;
-  margin-top: 125%;
-  margin-left: 50%;
-
-  #refnav {
-    display: none;
-    color: #e6af2e;
-    font-size: 2em;
-    padding-top: 2.5%;
-  }
-}
-
-#paidnav {
-  color: #3d348b;
-  font-size: calc(0.9vw + 1vh + 2vmin);
-  margin-top: 0.15%;
-}
-
-.square5 {
-  position: absolute;
-  display: inline-block;
-  background-color: #e6af2e;
-  height: 14%;
-  width: 35%;
-  margin-top: 170%;
-  margin-left: 5%;
-}
-
-.square5:hover {
-  position: absolute;
-  display: inline-block;
-  background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533424597/Paid%20Tutorials.gif);
-  background-size: cover;
-  height: 35%;
-  width: 30%;
-  margin-top: 170%;
-  margin-left: 5%;
-
-  #paidnav {
-    display: none;
-    color: #e6af2e;
-    font-size: 2em;
-    padding-top: 2.5%;
-  }
-}
-
-#toolsnav {
-  color: #e6af2e;
-  font-size: calc(1.1vw + 1.2vh + 2vmin);
-  margin-top: 2.5%;
-}
-
-.square6 {
-  position: absolute;
-  display: inline-block;
-  background-color: #3d348b;
-  height: 14%;
-  width: 35%;
-  margin-top: 170%;
-  margin-left: 50%;
-}
-
-.square6:hover {
-  position: absolute;
-  display: inline-block;
-  background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533425170/Tools.gif);
-  background-size: cover;
-  height: 35%;
-  width: 30%;
-  margin-top: 170%;
-  margin-left: 50%;
-
-  #toolsnav {
-    display: none;
-    color: #e6af2e;
-    font-size: 2em;
-    padding-top: 2.5%;
-  }
 }
 }
 
@@ -1246,218 +546,19 @@
     float: right;
 }
 
-#intnav {
-  color: #e6af2e;
-  font-size: calc(1.1vw + 1.2vh + 2vmin);
-  margin-top: 3.5%;
-}
-
-.square1 {
-  position: absolute;
-  display: inline-block;
-  background-color: #3d348b;
-  height: 10%;
-  width: 30%;
-  margin-top: 83%;
-  margin-left: 5%;
-}
-
-.square1:hover {
-  position: absolute;
-  background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533412690/Interactive%20Tutorials.gif);
-  background-size: cover;
-  height: 30%;
-  width: 30%;
-  margin-top: 83%;
-  margin-left: 5%;
-  display: inline-block;
-
-  #intnav {
-    display: none;
-    color: #e6af2e;
-    font-size: 2em;
-    padding-top: 2.5%;
-  }
-}
-
-#videonav {
-  color: #3d348b;
-  font-size: calc(1.1vw + 1.2vh + 2vmin);
-  margin-top: 2.5%;
-}
-
-.square2 {
-  position: absolute;
-  background-color: #e6af2e;
-  height: 10%;
-  width: 30%;
-  margin-top: 83%;
-  margin-left: 50%;
-  display: inline-block;
-}
-
-.square2:hover {
-  position: absolute;
-  background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533417089/Video%20Tutorials.gif);
-  background-size: cover;
-  height: 30%;
-  width: 30%;
-  margin-top: 83%;
-  margin-left: 50%;
-  display: inline-block;
-
-  #videonav {
-    display: none;
-    color: #3d348b;
-    font-size: 2em;
-    padding-top: 2.5%;
-  }
-}
-
-#moocnav {
-  color: #e6af2e;
-  font-size: calc(1.1vw + 1.2vh + 2vmin);
-  margin-top: 2.5%;
-}
-
-.square3 {
-  position: absolute;
-  display: inline-block;
-  background-color: #3d348b;
-  height: 10%;
-  width: 30%;
-  margin-top: 128%;
-  margin-left: 5%;
-}
-
-.square3:hover {
-  position: absolute;
-  display: inline-block;
-  background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533422864/MOOC%20Tutorials.gif);
-  background-size: cover;
-  height: 32%;
-  width: 30%;
-  margin-top: 128%;
-  margin-left: 5%;
-
-  #moocnav {
-    display: none;
-    color: #e6af2e;
-    font-size: 2em;
-    padding-top: 2.5%;
-  }
-}
-
-#refnav {
-  color: #3d348b;
-  font-size: calc(1.1vw + 1.2vh + 2vmin);
-  margin-top: 0.15%;
-}
-
-.square4 {
-  position: absolute;
-  display: inline-block;
-  background-color: #e6af2e;
-  height: 10%;
-  width: 30%;
-  margin-top: 128%;
-  margin-left: 50%;
-}
-
-.square4:hover {
-  position: absolute;
-  display: inline-block;
-  background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533424810/Reference%20and%20Questions.gif);
-  background-size: cover;
-  height: 32%;
-  width: 30%;
-  margin-top: 128%;
-  margin-left: 50%;
-
-  #refnav {
-    display: none;
-    color: #e6af2e;
-    font-size: 2em;
-    padding-top: 2.5%;
-  }
-}
-
-#paidnav {
-  color: #3d348b;
-  font-size: calc(0.9vw + 1vh + 2vmin);
-  margin-top: 0.15%;
-}
-
-.square5 {
-  position: absolute;
-  display: inline-block;
-  background-color: #e6af2e;
-  height: 10%;
-  width: 30%;
-  margin-top: 179%;
-  margin-left: 5%;
-}
-
-.square5:hover {
-  position: absolute;
-  display: inline-block;
-  background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533424597/Paid%20Tutorials.gif);
-  background-size: cover;
-  height: 32%;
-  width: 30%;
-  margin-top: 179%;
-  margin-left: 5%;
-
-  #paidnav {
-    display: none;
-    color: #e6af2e;
-    font-size: 2em;
-    padding-top: 2.5%;
-  }
-}
-
-#toolsnav {
-  color: #e6af2e;
-  font-size: calc(1.1vw + 1.2vh + 2vmin);
-  margin-top: 2.5%;
-}
-
-.square6 {
-  position: absolute;
-  display: inline-block;
-  background-color: #3d348b;
-  height: 10%;
-  width: 30%;
-  margin-top: 179%;
-  margin-left: 50%;
-}
-
-.square6:hover {
-  position: absolute;
-  display: inline-block;
-  background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533425170/Tools.gif);
-  background-size: cover;
-  height: 32%;
-  width: 30%;
-  margin-top: 179%;
-  margin-left: 50%;
-
-  #toolsnav {
-    display: none;
-    color: #e6af2e;
-    font-size: 2em;
-    padding-top: 2.5%;
-  }
-}
-
 .books-tutorials {
   position: relative;
-  margin-top: 248%;
+  margin-top: 190%;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   font-size: 1em;
   left: 5%;
+}
+
+.books-header h1 {
+  font-size: 3em;
+  margin-top: 35.8%;
 }
 }
 
