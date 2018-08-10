@@ -11,10 +11,10 @@
 
 .tutsintro {
     position: relative;
-    top: 500px;
+    margin-top: 23%;
     background-color: #e0e2db;
     border-radius: 5%;
-    font-size: 1.4em;
+    font-size: 1.9vw;
     font-weight: 900;
     font-family: 'Ubuntu Mono', monospace;
     text-indent: 50px;
@@ -92,7 +92,7 @@
 
 .tutorials-header h1 {
     top: -70px;
-    font-size: 5em;
+    font-size: 4.5vw;
     font-family: "Bungee Inline", cursive;
     color: #e0e2db;
     z-index: 2;
@@ -104,7 +104,6 @@
     background-color: #191716;
     position: relative;
     height: 700px;
-    top: 95px;
 }
 
 .tutorial-content {
@@ -130,6 +129,7 @@
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -25%;
 }
 
 .freeCodeCamp {
@@ -204,7 +204,7 @@
 .paidtutorialsandpath h3,
 .referanceandquestions h3 {
     font-family: 'Holtwood One SC', serif;
-    font-size: 2.4em;
+    font-size: 1.85vw;
     border-bottom: 2px solid #3d348b;
 }
 
@@ -214,24 +214,25 @@
 .mooctutorials p,
 .paidtutorialsandpath p,
 .referanceandquestions p {
+    padding-top: 15px;
     font-family: 'Ubuntu Mono', monospace;
-    font-size: 1.4em;
+    font-size: 1.6vw;
     font-weight: 800;
 }
 
 .tools p {
     font-family: 'Ubuntu Mono', monospace;
-    font-size: 1.5em;
+    font-size: 1.85vw;
 }
 
 .tools h2 {
     font-family: 'Holtwood One SC', serif;
-    font-size: 5em;
+    font-size: 3vw;
     border-bottom: 2px solid #3d348b;
 }
 
 #smallprint {
-    font-size: 0.7em;
+    font-size: 0.9vw;
 }
 
 #foryou {
@@ -239,10 +240,10 @@
 }
 
 #lottawords {
-    font-size: 0.8em;
+    font-size: 1.3vw;
 }
 
-.inttutorials a,
+.inttutorials a, 
 .booktutorials a,
 .videotutorials a,
 .mooctutorials a,
@@ -253,26 +254,7 @@
     color: #191716;
 }
 
-@media all and (max-width: 1270px) {
-    .inttutorials h3 {
-        font-size: 2em;
-    }
-}
-
 @media all and (max-width: 1124px) {
-    .inttutorials p,
-.booktutorials p,
-.videotutorials p,
-.mooctutorials p,
-.paidtutorialsandpath p,
-.referanceandquestions p {
-
-    font-size: 1.2em;
-}
-
-.tools p {
-    font-size: 1.3em;
-}
 
 .inttutorials h3,
 .booktutorials h3,
@@ -284,29 +266,9 @@
     font-size: 1.8em;
     border-bottom: 2px solid #3d348b;
 }
-
-.tutorials-header h1 {
-    top: -80px;
-    font-size: 5em;
-    font-family: "Bungee Inline", cursive;
-    color: #e0e2db;
-    z-index: 2;
-    position: absolute;
-    background-color: #191716;
-}
 }
 
 @media all and (max-width: 992px) {
-    .inttutorials h3,
-.booktutorials h3,
-.videotutorials h3,
-.mooctutorials h3,
-.paidtutorialsandpath h3,
-.referanceandquestions h3 {
-    font-family: 'Holtwood One SC', serif;
-    font-size: 1.6em;
-    border-bottom: 2px solid #3d348b;
-}
 
 .zombie {
     top: 10%;
@@ -315,29 +277,9 @@
     height: 400px;
     width: 400px;
 }
-
-.tutorials-header h1 {
-    top: -90px;
-    font-size: 4.7em;
-    font-family: "Bungee Inline", cursive;
-    color: #e0e2db;
-    z-index: 2;
-    position: absolute;
-    background-color: #191716;
-}
 }
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 @media all and (max-width: 894px) {
-
-    .tutorials-header h1 {
-        top: -90px;
-        font-size: 4.1em;
-        font-family: "Bungee Inline", cursive;
-        color: #e0e2db;
-        z-index: 2;
-        position: absolute;
-        background-color: #191716;
-    }
 
     .blue {
        height: 470px;
@@ -401,8 +343,45 @@
     box-shadow: -10px 10px 10px #e6af2e;
     border: 9px solid #3d348b;
     color: #191716;
-    font-size: 1em;
+    font-size: 2vw;
     /*z-index: 4;*/
+}
+
+.inttutorials p,
+.booktutorials p,
+.videotutorials p,
+.mooctutorials p,
+.paidtutorialsandpath p,
+.referanceandquestions p {
+    padding-top: 15px;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.9vw;
+    font-weight: 800;
+}
+
+.tools p {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 2.1vw;
+}
+
+.tutsintro {
+    position: relative;
+    top: 13%;
+    background-color: #e0e2db;
+    border-radius: 5%;
+    font-size: 2.3vw;
+    font-weight: 900;
+    font-family: 'Ubuntu Mono', monospace;
+    text-indent: 50px;
+    padding: 40px;
+    line-height: 1.7;
+    box-shadow: 0px 0px 200px #191716;
+    border: 5px solid #191716;
+    font-weight: 900;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
 }
 
 .tutorials-info-m {
@@ -411,6 +390,7 @@
      height: auto;
      margin-left: auto;
      margin-right: auto;
+     margin-top: -30%;
 }
 
 .tutorials-info {
@@ -476,39 +456,6 @@
 }
 
 @media all and (max-width: 690px) {
-    .tutorials-header h1 {
-        top: -90px;
-        font-size: 3em;
-        font-family: "Bungee Inline", cursive;
-        color: #e0e2db;
-        z-index: 2;
-        position: absolute;
-        background-color: #191716;
-    }
-
-    .inttutorials,
-    .booktutorials,
-    .videotutorials,
-    .mooctutorials,
-    .paidtutorialsandpath,
-    .referanceandquestions,
-    .tools {
-        position: relative;
-        top: 700px;
-        height: 400px;
-        background-color: #beb7a4;
-        box-shadow: -10px 10px 10px #e6af2e;
-        border: 9px solid #3d348b;
-        color: #191716;
-        font-size: 0.9em;
-        /*z-index: 4;*/
-    }
-
-    .tools h2 {
-        font-family: 'Holtwood One SC', serif;
-        font-size: 3em;
-        border-bottom: 2px solid #3d348b;
-    }
 
     .zombie {
         top: 20%;
@@ -517,65 +464,92 @@
         height: 300px;
         width: 300px;
     }
+
+    .inttutorials p,
+.booktutorials p,
+.videotutorials p,
+.mooctutorials p,
+.paidtutorialsandpath p,
+.referanceandquestions p {
+    padding-top: 15px;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 2.4vw;
+    font-weight: 800;
+}
+
+.tools p {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 2.6vw;
+}
+
+.tutsintro {
+    position: relative;
+    top: 13%;
+    background-color: #e0e2db;
+    border-radius: 5%;
+    font-size: 2.8vw;
+    font-weight: 900;
+    font-family: 'Ubuntu Mono', monospace;
+    text-indent: 50px;
+    padding: 40px;
+    line-height: 1.7;
+    box-shadow: 0px 0px 200px #191716;
+    border: 5px solid #191716;
+    font-weight: 900;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
 }
 
 @media all and (max-width: 576px) {
-   /* .blue 
-        display: none;
-        height: 470px;
-        width: 105%;
-         background-color: #3d348b;
-         position: absolute;
-         top: 655px;
-         margin: 0;
-         border: 10px solid #3d348b;
-         left: -3%;
-         /*z-index: 2;*/
-     
-     
-     /*.blue-two 
-        display: none;
-         height: 470px;
-         width: 105%;
-         background-color: #3d348b;
-         position: absolute;
-         top: 1575px;
-         margin: 0;
-         border: 10px solid #3d348b;
-         left: -3%;
-        /* z-index: 2;*/
-     
-     
-     /*.yellow 
-        display: none;
-         height: 470px;
-         width: 105%;
-         background-color: #e6af2e;
-         position: absolute;
-         top: 1105px;
-         margin: 0;
-         border: 10px solid #e6af2e;
-         left: -3%;
-         /*z-index: 2;*/
-     
-     
-     /*.yellow-two 
-         display: none;
-         height: 490px;
-         width: 105%;
-         background-color: #e6af2e;
-         position: absolute;
-         top: 2055px;
-         margin: 0;
-         border: 10px solid #e6af2e;
-         left: -3%;
-         /*z-index: 2;*/
+ 
 
          .tutorials-info-m .blue, .blue-two, .yellow-two, .yellow {
              display: none;
              height: 0px;
              width: 0px;
          }
+
+         .inttutorials p,
+         .booktutorials p,
+         .videotutorials p,
+         .mooctutorials p,
+         .paidtutorialsandpath p,
+         .referanceandquestions p {
+             padding-top: 15px;
+             font-family: 'Ubuntu Mono', monospace;
+             font-size: 3vw;
+             font-weight: 800;
+         }
+         
+         .tools p {
+             font-family: 'Ubuntu Mono', monospace;
+             font-size: 3vw;
+         }
+
+         #smallprint {
+            font-size: 1.3vw;
+        }
+        
+        #foryou {
+            color: #FF0000;
+        }
+        
+        #lottawords {
+            font-size: 1.8vw;
+        }
+
+        .tutorials-header h1 {
+            top: -100px;
+            font-size: 6.5vw;
+            font-family: "Bungee Inline", cursive;
+            color: #e0e2db;
+            z-index: 2;
+            position: absolute;
+            background-color: #191716;
+        }
      
 }
 
@@ -588,22 +562,12 @@
         width: 220px;
     }
 
-    .tutorials-header h1 {
-        top: -90px;
-        font-size: 2.4em;
-        font-family: "Bungee Inline", cursive;
-        color: #e0e2db;
-        z-index: 2;
-        position: absolute;
-        background-color: #191716;
-    }
-
     .tutsintro {
         position: relative;
-        top: 500px;
         background-color: #e0e2db;
         border-radius: 5%;
-        font-size: 1em;
+        font-size: 3.5vw;
+        margin-top: 45%;
         font-weight: 900;
         font-family: 'Ubuntu Mono', monospace;
         text-indent: 50px;
@@ -614,21 +578,25 @@
         font-weight: 900;
     }
 
-    .inttutorials,
-    .booktutorials,
-    .videotutorials,
-    .mooctutorials,
-    .paidtutorialsandpath,
-    .referanceandquestions {
-        position: relative;
-        top: 700px;
-        height: 400px;
-        background-color: #beb7a4;
-        box-shadow: -10px 10px 10px #e6af2e;
-        border: 9px solid #3d348b;
-        color: #191716;
-        font-size: 1.1em;
-        /*z-index: 4;*/
+    .tutorials-info-m {
+        margin-top: -90%;
+    }
+
+    .inttutorials p,
+    .booktutorials p,
+    .videotutorials p,
+    .mooctutorials p,
+    .paidtutorialsandpath p,
+    .referanceandquestions p {
+        padding-top: 15px;
+        font-family: 'Ubuntu Mono', monospace;
+        font-size: 3.5vw;
+        font-weight: 800;
+    }
+    
+    .tools p {
+        font-family: 'Ubuntu Mono', monospace;
+        font-size: 3.5vw;
     }
 }
     @media all and (max-width: 448px) {
@@ -639,26 +607,6 @@
 }
 
 @media all and (max-width: 366px) {
-    .inttutorials,
-    .booktutorials,
-    .videotutorials,
-    .mooctutorials,
-    .paidtutorialsandpath,
-    .referanceandquestions {
-        position: relative;
-        top: 700px;
-        height: 500px;
-        background-color: #beb7a4;
-        box-shadow: -10px 10px 10px #e6af2e;
-        border: 9px solid #3d348b;
-        color: #191716;
-        font-size: 1.1em;
-        /*z-index: 4;*/
-    }
-
-    .tools {
-        height: 700px;
-     }
 
      .zombie {
         top: 20%;
@@ -666,6 +614,39 @@
         margin-right: auto;
         height: 220px;
         width: 220px;
+    }
+
+    .inttutorials p,
+    .booktutorials p,
+    .videotutorials p,
+    .mooctutorials p,
+    .paidtutorialsandpath p,
+    .referanceandquestions p {
+        padding-top: 15px;
+        font-family: 'Ubuntu Mono', monospace;
+        font-size: 4.5vw;
+        font-weight: 800;
+    }
+    
+    .tools p {
+        font-family: 'Ubuntu Mono', monospace;
+        font-size: 4.5vw;
+    }
+
+    .tutsintro {
+        position: relative;
+        background-color: #e0e2db;
+        border-radius: 5%;
+        font-size: 4.5vw;
+        margin-top: 45%;
+        font-weight: 900;
+        font-family: 'Ubuntu Mono', monospace;
+        text-indent: 50px;
+        padding: 40px;
+        line-height: 1.7;
+        box-shadow: 0px 0px 200px #191716;
+        border: 5px solid #191716;
+        font-weight: 900;
     }
 }
 
