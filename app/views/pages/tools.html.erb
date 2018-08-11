@@ -1,8 +1,24 @@
 <div class="sidenav"></div>
 <div class="container-fluid tools-body">
-<div class="container-fluid tools-head-bg">
-	<header class="container-fluid text-center tools-header">
+<div class="tools-head-bg">
+	<header class="tools-header">
 			<h1>Useful Tools</h1>
+					<div class="container wrapper">
+<ul class="menu">
+	<li><%= link_to "Tutorials Home", :class => current_class?(tutorials_path) %></li>
+	<li><%= link_to "Interactive Tutorials", :class => current_class?(inttutorials_path) %></li>
+	<li><%= link_to "Book Tutorials", :class => current_class?(booktutorials_path) %></li>
+	<li><%= link_to "Video Tutorials", :class => current_class?(videotutorials_path) %></li>
+	<li class="slider"></li>
+	</ul>
+	<ul class="menu2">
+	<li><%= link_to "MOOC Tutorials", mooctutorials_path %></li>
+	<li><%= link_to "Paid Tutorials & Pathways", paidtutorialsandpath_path %></li>
+	<li><%= link_to "Reference & Questions", referanceandquestions_path %></li>
+	<li><%= link_to "Useful Tools", tools_path %></li>
+	<li class="slider2"></li>
+  </ul>
+  </div>
 	</header>
 	</div>
     <div class="container tools-page">
@@ -52,7 +68,7 @@
 					<p>Netbeans is actually a bit different than the others in that it is actually a full IDE (Integrated Development Enviroment).  Being an IDE means that it does have a bit more functionality than the others, but at the cost of being much slower and taking up a lot more space.<br><br> </p><br>
 			</ul>
 		</div>
-		<div class="container tools-page">
+		<div class="container tools-page2">
 			<h2 id="online-edit-intro-header">Online Code Editors</h2>
 			<br>
 			<p id="online-edit-intro">These online code editors will allow you to practice your code or even create full apps online, without having to download
@@ -64,34 +80,34 @@
 					<img class="otools-pics" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531618309/codepen.png">
 				</li>
 				<br>
-				<br><br><br><br><br><br><br><br>
+				<br><br>
 				<li>
 					<h2><a href="https://jsfiddle.net/" target="_blank">JS Fiddle</a></h2>
 					<img class="otools-pics" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531618309/jsfiddle.png">
 				</li>
 				<br>
-				<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+				<br><br>
 				<li>
 					<h2><a href="http://jsbin.com/?html,output" target="_blank">JS Bin</a></h2>
 					<img class="otools-pics" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531618309/jsbin.png">
 				</li>
-				<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+				<br><br>
 				<br>
 				<li>
 					<h2><a href="http://plnkr.co/" target="_blank">Plunker</a></h2>
 					<img class="otools-pics" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531618309/plnkr.png">
 				</li>
-				<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+				<br><br>
 				<li>
 					<h2><a href="https://codeanywhere.com/" target="_blank">CodeAnywhere</a></h2>
 					<img class="otools-pics" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531618310/codeanywhere.png">
 				</li>
-				<br><br><br><br><br><br><br><br><br><br><br><br><br>
+				<br><br>
 				<li>
 					<h2><a href="https://c9.io/login" target="_blank">Cloud 9</a></h2>
 					<img class="otools-pics" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531618310/cloud9.png">
 				</li>
-				<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+				<br>
 			</ul>
 		</div>
        </div>

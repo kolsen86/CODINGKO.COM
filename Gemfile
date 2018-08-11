@@ -30,7 +30,8 @@ gem 'will_paginate', '~> 3.1.1'
 gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
-
+# Use active_link_to gem to create active links in nav menu
+gem 'active_link_to'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
