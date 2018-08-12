@@ -5,6 +5,16 @@
     position: relative;
     top: 25%;
     left: -1%;
+    font-size: 3vw;
+    border-bottom: 15px solid #e6af2e;
+    width: 55%;
+    border-radius: 20%;
+    padding-top: 5%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+    
 }
 
 body.about {
@@ -14,27 +24,30 @@ body.about {
 
 .about-header {
     background-color: #191716;
-    margin-top: 5%;
-    height: 60%;
+    height: 75%;
 }
 
 .about-header h1 {
     font-family: "Bungee Inline", cursive;
     color: #e0e2db;
-    font-size: 5.6em;
+    font-size: 5vw;
     line-height: 1.4em;
     text-shadow: -5px -3px 5px #beb7a4;
+    margin-top: 5%;
+    padding-top: 5%;
 }
 
 .about-content {
-    text-indent: 50px;
+    text-indent: 75px;
     line-height: 1.6;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
-    font-size: 1.5em;
+    font-size: 2vw;
     position: relative;
     top: 30%;
     left: 1%;
+    padding-top: 5%;
+    padding-bottom: 10%;
 }
 
 #me {
@@ -47,74 +60,84 @@ body.about {
     border: 10px solid #e6af2e;
     display: block;
     left: -1%;
+    margin-top: 5%;
 }
 
 footer.about {
     position: absolute;
-    top: 350%;
+    top: 250%;
 }
 
-@media all and (max-width: 992px) {
+@media all and (max-width: 995px) {
     .about-content {
-        text-indent: 50px;
+        text-indent: 75px;
         line-height: 1.6;
         font-family: 'Josefin Sans', sans-serif;
         font-weight: 600;
-        font-size: 1.2em;
+        font-size: 2.2vw;
         position: relative;
         top: 30%;
         left: 1%;
-        width: 95%;
+        padding-top: 5%;
     }
 
-    .about-header h1 {
-        font-family: "Bungee Inline", cursive;
-        color: #e0e2db;
-        font-size: 4.5em;
-        line-height: 1.4em;
-        text-shadow: -5px -3px 5px #beb7a4;
-    }
+    .about-title {
+        font-family: "Acme", sans-serif;
+        position: relative;
+        top: 25%;
+        left: -1%;
+        font-size: 3.1vw;
+        border-bottom: 15px solid #e6af2e;
+        width: 55%;
+        border-radius: 20%;
+        padding-top: 5%;
+        -webkit-border-radius:20%;
+        -moz-border-radius:20%;
+        -ms-border-radius:20%;
+        -o-border-radius:20%;
+}
 }
 
-@media all and (max-width: 581px) {
-    .about-header h1 {
-        font-family: "Bungee Inline", cursive;
-        color: #e0e2db;
-        font-size: 3.5em;
-        line-height: 1.4em;
-        text-shadow: -5px -3px 5px #beb7a4;
-    }
-
+@media all and (max-width: 500px) {
     .about-content {
-        text-indent: 50px;
+        text-indent: 75px;
         line-height: 1.6;
         font-family: 'Josefin Sans', sans-serif;
         font-weight: 600;
-        font-size: 1em;
+        font-size: 3vw;
         position: relative;
         top: 30%;
         left: 1%;
-        width: 100%;
+        padding-top: 5%;
+    }
+
+    .about-title {
+        font-family: "Acme", sans-serif;
+        position: relative;
+        top: 25%;
+        left: -1%;
+        font-size: 4vw;
+        border-bottom: 8px solid #e6af2e;
+        width: 55%;
+        border-radius: 20%;
+        padding-top: 5%;
+        -webkit-border-radius: 20%;
+        -moz-border-radius: 20%;
+        -ms-border-radius: 20%;
+        -o-border-radius: 20%;
+        
+    }
+
+    #me {
+        position: relative;
+        top: 15%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 55%;
+        width: 30%;
+        border: 5px solid #e6af2e;
+        display: block;
+        left: -1%;
+        margin-top: 5%;
     }
 }
-
-@media all and (max-width: 459px) {
-    .about-header h1 {
-        font-family: "Bungee Inline", cursive;
-        color: #e0e2db;
-        font-size: 2.5em;
-        line-height: 1.4em;
-        text-shadow: -5px -3px 5px #beb7a4;
-    }
-}
-
-@media all and (max-width: 360px) {
-    .about-header h1 {
-        font-family: "Bungee Inline", cursive;
-        color: #e0e2db;
-        font-size: 2em;
-        line-height: 1.4em;
-        text-shadow: -5px -3px 5px #beb7a4;
-}
-}
-
