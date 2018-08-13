@@ -31,7 +31,7 @@
       color: #191716;
       text-decoration: none;
       position: relative;
-      font-size: 1.4em;
+      font-size: 2.3vw;
       z-index: 9;
       font-family: 'Graduate', cursive;
     }
@@ -70,7 +70,7 @@
       color: #191716;
       text-decoration: none;
       position: relative;
-      font-size: 1.4em;
+      font-size: 2.3vw;
       z-index: 9;
       font-family: 'Graduate', cursive;
     }
@@ -90,7 +90,11 @@
     background-color: #e74c3c;
     z-index: 8;
     transition: left .4s, background-color .4s;
-  }
+    -webkit-transition: left .4s, background-color .4s;
+    -moz-transition: left .4s, background-color .4s;
+    -ms-transition: left .4s, background-color .4s;
+    -o-transition: left .4s, background-color .4s;
+}
 
   li.slider2 {
     width: 25%;
@@ -101,7 +105,11 @@
     background-color: #e74c3c;
     z-index: 8;
     transition: left .4s, background-color .4s;
-  }
+    -webkit-transition: left .4s, background-color .4s;
+    -moz-transition: left .4s, background-color .4s;
+    -ms-transition: left .4s, background-color .4s;
+    -o-transition: left .4s, background-color .4s;
+}
 
   .menu li:nth-child(1):hover,
   .menu li:nth-child(1):focus,
@@ -185,11 +193,11 @@
 }
 
 .videos-header h1 {
-    font-size: 6em;
+    font-size: 6vw;
     color: #e0e2db;
     position: relative;
     margin-top: 8%;
-    margin-left: 18%;
+    margin-left: 21%;
     font-family: 'Graduate', cursive;
     text-shadow: -7px -5px 6px #beb7a4;
 }
@@ -199,7 +207,7 @@
     width: 100%;
     background-color: #191716;
     height: 50%;
-    margin-left: 10%;
+    margin-left: 6%;
     margin-right: auto;
     z-index: 2;
 }
@@ -213,7 +221,7 @@
 
 .videos-tutorials {
     position: relative;
-    margin-top: 80%;
+    margin-top: 70%;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -221,13 +229,13 @@
     height: auto;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
-    font-size: 1.5em;
+    font-size: 1.6vw;
     color: #191716;
 }
 
 .videos-tutorials ol {
     position: relative;
-    left: 8%;
+    margin-left: 11%;
 }
 
 .videos-tutorials p {
@@ -250,6 +258,7 @@
     width: 45%;
     border-radius: 5%;
     padding-bottom: 15px;
+    font-size: 2vw;
 }
 
 .videos-tutorials a {
@@ -261,6 +270,7 @@
     float: right;
     margin: 20px;
     bottom: 25px;
+    margin-left: 5%;
 }
 
 #rfz {
@@ -272,7 +282,13 @@
 
 #video-intro, #video-intro-header {
     position: relative;
-    left: 5%;
+    margin-left: 25%;
+}
+
+#video-intro {
+    width: 80%;
+    padding-bottom: 10%;
+
 }
 
 .sidenav {
@@ -287,383 +303,152 @@
     padding-top: 20px;
   }
 
-  @media all and (max-width: 1336px) {
-    #video-intro  {
-        position: relative;
-        left: 10%;
-        width: 80%;
-    }
-
-    #video-intro-header {
-        left: 10%;
-    }
-  }
-
-  @media all and (max-width: 1284px) {
-    .videos-pics {
-        position: relative;
-        float: right;
-        margin-right: 150px;
-        bottom: 25px;
-        height: 35%;
-        width: 35%;
-    }
-    
-    #rfz {
-        position: relative;
-        float: right;
-        margin-right: 150px;
-        bottom: 40px;
-        height: 35%;
-        width: 35%;
-    }
-
-    #video-intro  {
-        position: relative;
-        left: 18%;
-        width: 70%;
-    }
-
-    #video-intro-header {
-        left: 18%;
-    }
-  }
-
-  @media all and (max-width: 1076px) {
-    .videos-tutorials {
-        position: relative;
-        top: 700px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-        padding-bottom: 250px;
-        height: auto;
-        font-family: 'Josefin Sans', sans-serif;
-        font-weight: 600;
-        font-size: 1.3em;
-        color: #191716;
-    }
-
-    .videos-tutorials ol {
-        position: relative;
-        left: 15%;
-    }
-
+  @media all and (max-width: 1250px) {
     .videos-header h1 {
-        font-size: 5em;
+        font-size: 6vw;
         color: #e0e2db;
         position: relative;
-        margin-top: 6.8%;
+        margin-top: 10%;
+        margin-left: 20%;
         font-family: 'Graduate', cursive;
         text-shadow: -7px -5px 6px #beb7a4;
-        left: 5%;
     }
     
-  }
-
-  @media all and (max-width: 992px) {
-    .videos-header h1 {
-        font-size: 5em;
-        color: #e0e2db;
-        position: relative;
-        margin-top: 12%;
-        font-family: 'Graduate', cursive;
-        text-shadow: -7px -5px 6px #beb7a4;
-        margin-left: 10%;
-    }
-
-    .videos-tutorials {
-        position: relative;
-        margin-top: 25%;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-        padding-bottom: 250px;
-        height: auto;
-        font-family: 'Josefin Sans', sans-serif;
-        font-weight: 600;
-        font-size: 1.3em;
-        color: #191716;
-    }
-
     .videos-head-bg {
         position: absolute;
         width: 100%;
         background-color: #191716;
         height: 50%;
-        margin-left: 10%;
+        margin-left: 11.55%;
         margin-right: auto;
         z-index: 2;
     }
 
-    .wrapper {
-        margin-left: 10%;
-        margin-top: 0%;
+    .videos-pics {
+        position: relative;
+        float: right;
+        margin: 20px;
+        bottom: 25px;
+        margin-left: 5%;
+        height: 30%;
+        width: 30%;
+    }
+    
+    #rfz {
+        position: relative;
+        float: right;
+        margin: 20px;
+        bottom: 40px;
+        height: 30%;
+        width: 30%;
+    }
+  }
+
+  @media all and (max-width: 895px) {
+    .videos-header h1 {
+        font-size: 6.5vw;
+        margin-top: 15%;
+        margin-left: 14%;
+    }
+
+    .videos-tutorials h2 {
+        width: 45%;
+        font-size: 2.3vw;
+}
+
+    .videos-tutorials {
+        margin-top: 70%;
         width: 100%;
-        height: auto;
-      }
+        font-size: 1.9vw;
+    }
   }
 
   @media all and (max-width: 800px) {
-    .sidenav {
-        height: 100%; /* Full-height: remove this if you want "auto" height */
-        width: 160px; /* Set the width of the sidebar */
-        position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-        z-index: 1; /* Stay on top */
-        top: 0; /* Stay at the top */
-        left: 0;
-        background-color: #191716; /* Black */
-        overflow-x: hidden; /* Disable horizontal scroll */
-        padding-top: 20px;
-        display: none;
-      }
+    .videos-head-bg {
+        width: 105%;
+        margin-left: -2%;
+    }
 
-      #video-intro  {
-        position: relative;
-        left: 12%;
-        width: 90%;
+    .videos-header h1 {
+        font-size: 6.9vw;
+        margin-top: 20%;
+        margin-left: 19%;
+    }
+
+    .videos-tutorials h2 {
+        width: 45%;
+        font-size: 2.5vw;
+}
+
+    .videos-tutorials {
+        margin-top: 99%;
+        width: 100%;
+        font-size: 2.1vw;
+    }
+
+    #video-intro {
+        width: 95%;
+        padding-bottom: 10%;
+        margin-left: 0%;
+    
     }
 
     #video-intro-header {
-        left: 11%;
+        margin-left: 2%;
     }
 
     .videos-tutorials ol {
         position: relative;
-        left: 1%;
+        margin-left: 0%;
+    }
+  }
+
+  @media all and (max-width: 590px) {
+    .videos-header h1 {
+        font-size: 7.1vw;
+        margin-top: 29%;
+        margin-left: 21%;
+    }
+
+    .videos-tutorials h2 {
+        font-size: 2.9vw;
+}
+
+    .videos-tutorials {
+        margin-top: 99%;
+        font-size: 2.5vw;
+    }
+  }
+
+  @media all and (max-width: 460px) {
+    .videos-tutorials {
+        margin-top: 130%;
+        font-size: 2.9vw;
     }
 
     .videos-header h1 {
-        font-size: 3.8em;
-        color: #e0e2db;
-        position: relative;
-        margin-top: 20.8%;
-        font-family: 'Graduate', cursive;
-        text-shadow: -7px -5px 6px #beb7a4;
+        font-size: 8vw;
+        margin-top: 36%;
         margin-left: 18%;
     }
 
-    .videos-head-bg {
-        position: absolute;
-        width: 105%;
-        background-color: #191716;
-        height: 50%;
-        margin-left: -1.1%;
-        margin-right: auto;
-        z-index: 2;
-    }
-
-    wrapper {
-        margin-left: 10%;
-        margin-top: 10%;
-        width: 100%;
-        height: auto;
-      }
-
-    .videos-tutorials ol p {
-        width: 95%;
-        position: relative;
-        border-bottom: 7px solid #e6af2e;
-        padding-bottom: 25px;
-        font-weight: 800;
-    }
-
-    .videos-tutorials {
-        position: relative;
-        margin-top: 30%;
-        margin-left: -11%;
-        margin-right: auto;
-        width: 100%;
-        padding-bottom: 250px;
-        height: auto;
-        font-family: 'Josefin Sans', sans-serif;
-        font-weight: 600;
-        font-size: 1.3em;
-        color: #191716;
-    }
-  }
-
-  @media all and (max-width: 768px) {
-    .videos-tutorials {
-        position: relative;
-        top: 700px;
-        margin-left: -18%;
-        margin-right: auto;
-        width: 100%;
-        padding-bottom: 250px;
-        height: auto;
-        font-family: 'Josefin Sans', sans-serif;
-        font-weight: 600;
-        font-size: 1.3em;
-        color: #191716;
-    }
-  }
-
-  @media all and (max-width: 622px) {
-    .videos-header h1 {
-        font-size: 3.8em;
-        color: #e0e2db;
-        position: relative;
-        margin-top: 23.8%;
-        font-family: 'Graduate', cursive;
-        text-shadow: -7px -5px 6px #beb7a4;
-        margin-left: 12%;
-    }
-
-    .videos-head-bg {
-        position: absolute;
-        width: 105%;
-        background-color: #191716;
-        height: 50%;
-        margin-left: 0.1%;
-        margin-right: auto;
-        z-index: 2;
-    }
-
-    wrapper {
-        margin-left: 10%;
-        margin-top: 10%;
-        width: 100%;
-        height: auto;
-      }
-  }
-
-  @media all and (max-width: 540px) {
-
-    .videos-header h1 {
-        font-size: 2.7em;
-        color: #e0e2db;
-        position: relative;
-        margin-top: 39.8%;
-        font-family: 'Graduate', cursive;
-        text-shadow: -7px -5px 6px #beb7a4;
-        margin-left: 7%;
-    }
-
-    .menu, .menu2 {
-        margin-left: 0%;
-        width: 100%;
-  
-        a {
-          font-size: 1em;
-        }
-    }
-
-    .videos-head-bg {
-        position: absolute;
-        width: 105%;
-        background-color: #191716;
-        height: 50%;
-        margin-left: 0.1%;
-        margin-right: auto;
-        z-index: 2;
-    }
-
-    wrapper {
-        margin-left: 10%;
-        margin-top: 10%;
-        width: 100%;
-        height: auto;
-      }
-    .videos-tutorials {
-        position: relative;
-        top: 700px;
-        margin-left: -18%;
-        margin-right: auto;
-        width: 100%;
-        padding-bottom: 250px;
-        height: auto;
-        font-family: 'Josefin Sans', sans-serif;
-        font-weight: 600;
-        font-size: 1em;
-        color: #191716;
-    }
-
-    .videos-pics {
-        position: relative;
-        float: right;
-        margin-right: 80px;
-        bottom: 25px;
-        height: 35%;
-        width: 35%;
-    }
-    
-    #rfz {
-        position: relative;
-        float: right;
-        margin-right: 80px;
-        bottom: 40px;
-        height: 35%;
-        width: 35%;
-    }
+    .videos-tutorials h2 {
+        font-size: 3.3vw;
+}
   }
 
   @media all and (max-width: 395px) {
     .videos-tutorials {
-        position: relative;
-        top: 700px;
-        margin-left: -18%;
-        margin-right: auto;
-        width: 100%;
-        padding-bottom: 250px;
-        height: auto;
-        font-family: 'Josefin Sans', sans-serif;
-        font-weight: 600;
-        font-size: 0.85em;
-        color: #191716;
-    }
-
-    .videos-pics {
-        position: relative;
-        float: right;
-        margin-right: 40px;
-        bottom: 25px;
-        height: 35%;
-        width: 35%;
-    }
-    
-    #rfz {
-        position: relative;
-        float: right;
-        margin-right: 40px;
-        bottom: 40px;
-        height: 35%;
-        width: 35%;
+        margin-top: 150%;
+        font-size: 3vw;
     }
 
     .videos-header h1 {
-        font-size: 2.5em;
-        color: #e0e2db;
-        position: relative;
-        margin-top: 50.8%;
-        font-family: 'Graduate', cursive;
-        text-shadow: -7px -5px 6px #beb7a4;
-        margin-left: 4%;
-    }
-
-    .menu, .menu2 {
-        margin-left: 0%;
-        width: 100%;
-  
-        a {
-          font-size: 0.9em;
-        }
-    }
-
-    .videos-head-bg {
-        position: absolute;
-        width: 105%;
-        background-color: #191716;
-        height: 50%;
-        margin-left: 0.1%;
-        margin-right: auto;
-        z-index: 2;
-    }
-
-    wrapper {
+        font-size: 9.7vw;
+        margin-top: 50%;
         margin-left: 10%;
-        margin-top: 10%;
-        width: 100%;
-        height: auto;
-      }
+    }
   }
+
+  
+    

@@ -5,17 +5,17 @@
 		<h1>Video Tutorials</h1>
 		<div class="container wrapper">
 <ul class="menu">
-	<li><a href="/tutorials" class="active">Tutorials Home</a></li>
-	<li><a href="/inttutorials">Interactive Tutorials</a></li>
-	<li><a href="/booktutorials">Book Tutorials</a></li>
-	<li><a href="/videotutorials">Video Tutorials</a></li>
+	<li><%= link_to "Tutorials Home", :class => current_class?(tutorials_path) %></li>
+	<li><%= link_to "Interactive Tutorials", :class => current_class?(inttutorials_path) %></li>
+	<li><%= link_to "Book Tutorials", :class => current_class?(booktutorials_path) %></li>
+	<li><%= link_to "Video Tutorials", :class => current_class?(videotutorials_path) %></li>
 	<li class="slider"></li>
 	</ul>
 	<ul class="menu2">
-	<li><a href="/mooctutorials" class="active">MOOC Tutorials</a></li>
-	<li><a href="/paidtutorialsandpath">Paid Tutorials / Pathways</a></li>
-	<li><a href="/referanceandquestions">Reference / Questions</a></li>
-	<li><a href="/tools">Useful Tools</a></li>
+	<li><%= link_to "MOOC Tutorials", mooctutorials_path %></li>
+	<li><%= link_to "Paid Tutorials & Pathways", paidtutorialsandpath_path %></li>
+	<li><%= link_to "Reference & Questions", referanceandquestions_path %></li>
+	<li><%= link_to "Useful Tools", tools_path %></li>
 	<li class="slider2"></li>
   </ul>
   </div>
