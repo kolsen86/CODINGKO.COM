@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 8em;
+    height: 10em;
     margin: 15% auto auto 0%;
     position: relative;
     background-color: #e0e2db;
@@ -15,7 +15,7 @@
 
     li {
       float: left;
-      width: 25%;
+      width: 20%;
       height: 100%;
       margin: 0;
       padding: 0;
@@ -31,7 +31,7 @@
       color: #191716;
       text-decoration: none;
       position: relative;
-      font-size: 1.4em;
+      font-size: 2vw;
       z-index: 9;
       font-family: 'Graduate', cursive;
     }
@@ -42,7 +42,7 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 8em;
+    height: 10em;
     margin: 0% auto auto 0%;
     position: relative;
     background-color: #e0e2db;
@@ -54,7 +54,7 @@
 
     li {
       float: left;
-      width: 25%;
+      width: 20%;
       height: 100%;
       margin: 0;
       padding: 0;
@@ -70,7 +70,7 @@
       color: #191716;
       text-decoration: none;
       position: relative;
-      font-size: 1.4em;
+      font-size: 2vw;
       z-index: 9;
       font-family: 'Graduate', cursive;
     }
@@ -177,20 +177,32 @@
     }
   }
 
+  ul.menu, ul.menu2 {
+    width: 95%;
+    height: 10em;
+
+    a {
+      font-size: 1.6vw;
+    }
+  }
+
 .wrapper {
   width: 99%;
   height: auto;
+  margin-left: 15%;
 }
 
 .paid-path-header h1 {
-    font-size: 3.5em;
+    font-size: 4.4vw;
     color: #e0e2db;
     position: relative;
-    margin-top: 20.5%;
+    margin-top: 17.5%;
     font-family: 'Graduate', cursive;
     text-shadow: -7px -5px 6px #beb7a4;
     z-index: 2;
+    margin-left: -15%;
     text-align: center;
+    padding-bottom: 8%;
 }
 
 .paid-path-head-bg {
@@ -199,13 +211,13 @@
     width: 100%;
     background-color: #191716;
     height: 9.5%;
-    margin-left: 5%;
+    margin-left: 9%;
     margin-right: auto;
 }
 
 .paid-path-tutorials {
     position: relative;
-    margin-top: 76%;
+    margin-top: 70%;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -213,7 +225,7 @@
     height: auto;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
-    font-size: 1.5em;
+    font-size: 1.6vw;
     color: #191716;
 }
 
@@ -227,13 +239,22 @@
     height: auto;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
-    font-size: 1.5em;
+    font-size: 1.6vw;
     color: #191716;
 }
 
 .paid-path-body {
     position: relative;
     height: auto;
+    background-color: #e0e2db;
+}
+
+.paid-path-tutorials h2, .path-tutorials h2 {
+    font-size: 2vw;
+}
+
+.paid-path-tutorials ul, .path-tutorials ul {
+    margin-left: 10%;
 }
 
 .paid-path-tutorials p {
@@ -268,10 +289,26 @@
 
 #path-intro-header {
     border-bottom: 10px solid #3d348b;
+    width: 50%;
+    margin-left: 10%;
 }
 
 #paid-intro-header {
     border-bottom: 10px solid #3d348b;
+    width: 79%;
+    margin-left: 10%;
+}
+
+#path-intro {
+    width: 90%;
+    padding-bottom: 10%;
+    margin-left: 10%;
+}
+
+#paid-intro {
+    width: 90%;
+    padding-bottom: 10%;
+    margin-left: 10%;
 }
 
 #bento {
@@ -287,6 +324,8 @@
     margin: 20px;
     bottom: 25px;
     left: 25%;
+    width: 38%;
+    height: 38%;
 }
 
 
@@ -295,6 +334,8 @@
     position: relative;
     margin: 20px;
     bottom: 25px;
+    width: 38%;
+    height: 38%;
 }
 
 #paid-intro, #paid-intro-header, #path-intro, #path-intro-header, .paid-path-tutorials ul {
@@ -315,311 +356,140 @@ top: 30%;
     padding-top: 20px;
   }
 
-  @media all and (max-width: 1396px) {
-    #paid-intro, #path-intro {
-left: 10%;
-width: 88%;
-    }
-
-    #paid-intro-header, #path-intro-header {
-        left: 13%;
-    }
-
-    .path-tutorials ul p {
-        border-bottom: 7px solid #e6af2e;
-        margin-left: 10%;
-    }
-
-    .path-head {
-        margin-left: 10%;
-    }
-
-    .path-tutorials ul {
-        margin-left: 15%;
-    }
-
+  @media all and (max-width: 1060px) {
     .paid-path-header h1 {
-        margin-top: 10%;
-    }
+      font-size: 4.7vw;
+      margin-top: 15.5%;
+      margin-left: 0%;
+      width: 80%;
   }
 
-  @media all and (max-width: 1262px) {
-      .paid-path-tutorials ul {
-          margin-left: 15%;
-      }
-
-      .paid-path-header h1 {
-        margin-top: 15%;
-        font-size: 5em;
-    }
-
-    .paid-pics {
-        position: relative;
-        margin: 20px;
-        bottom: 25px;
-        left: 25%;
-        height: 40%;
-        width: 40%;
-    }
-
-    #paid-intro, #path-intro {
-        left: 15%;
-        width: 88%;
-    }
-        
-    #paid-intro-header, #path-intro-header {
-        left: 17%;
-        width: 60%;
-    }
+  .paid-path-head-bg {
+    margin-top: -78%;
+    width: 100%;
+    margin-left: 15%;
+}
   }
 
-  @media all and (max-width: 1042px) {
+  @media all and (max-width: 825px) {
+    .sidenav {
+    display: none;
+    }
+
+    .paid-path-head-bg {
+      margin-top: -100%;
+      width: 108%;
+      margin-left: 0%;
+  }
+
     .paid-path-header h1 {
-        margin-top: 19%;
-        font-size: 5em;
-    }
+      font-size: 5.1vw;
+      margin-top: 16.5%;
+      margin-left: 9%;
+      width: 80%;
+  }
 
-    #paid-intro-header, #path-intro-header {
-        left: 17%;
-        width: 60%;
-    }
+  #path-intro {
+    width: 95%;
+    padding-bottom: 10%;
+    margin-left: 5%;
+}
 
-    #paid-intro, #path-intro {
-        left: 15%;
-        width: 80%;
-    }
+#paid-intro {
+    width: 95%;
+    padding-bottom: 10%;
+    margin-left: 5%;
+}
 
+#path-intro-header {
+  border-bottom: 10px solid #3d348b;
+  width: 50%;
+  margin-left: 10%;
+}
+
+#paid-intro-header {
+  border-bottom: 10px solid #3d348b;
+  width: 79%;
+  margin-left: 10%;
+}
+
+.paid-path-tutorials ul, .path-tutorials ul {
+  margin-left: 5%;
+}
+
+.paid-path-tutorials h2, .path-tutorials h2 {
+  font-size: 2.8vw;
+}
+
+.paid-path-tutorials {
+  position: relative;
+  margin-top: 100%;
+  width: 100%;
+  font-size: 2.5vw;
+}
+
+.path-tutorials {
+  margin-left: auto;
+  width: 100%;
+  font-size: 2.5vw;
+}
+  }
+
+  @media all and (max-width: 500px) {
     .paid-path-tutorials {
-        position: relative;
-        margin-top: 56%;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-        padding-bottom: 50px;
-        height: auto;
-        font-family: 'Josefin Sans', sans-serif;
-        font-weight: 600;
-        font-size: 1.2em;
-        color: #191716;
+      position: relative;
+      margin-top: 125%;
+      width: 100%;
+      font-size: 3vw;
     }
     
     .path-tutorials {
-        position: relative;
-        margin-top: 20%;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-        padding-bottom: 50px;
-        height: auto;
-        font-family: 'Josefin Sans', sans-serif;
-        font-weight: 600;
-        font-size: 1.2em;
-        color: #191716;
+      margin-left: auto;
+      width: 100%;
+      font-size: 3vw;
     }
 
-    #bento {
-        position: relative;
-        margin-bottom: 8%;
-        padding-bottom: 4%;
-        width: 38%;
-        height: 38%;
-        height: 40%;
-        width: 40%;
+    .paid-path-tutorials h2, .path-tutorials h2 {
+      font-size: 3.3vw;
     }
-    
-    .path-pics {
-        float: right;
-        position: relative;
-        margin: 20px;
-        bottom: 25px;
-        height: 40%;
-        width: 40%;
+
+    .paid-path-tutorials ul, .path-tutorials ul {
+      margin-left: 0%;
     }
+
+    #path-intro {
+      width: 95%;
+      padding-bottom: 10%;
+      margin-left: 0%;
+  }
+  
+  #paid-intro {
+      width: 95%;
+      padding-bottom: 10%;
+      margin-left: 0%;
   }
 
-  @media all and (max-width: 892px) {
-    .paid-path-header h1 {
-        margin-top: 27%;
-        font-size: 4.5em;
-    }
+  .paid-path-header h1 {
+    font-size: 5.6vw;
+    margin-top: 16.5%;
+    margin-left: 9%;
+    width: 80%;
+}
 
-    .paid-path-head-bg {
-        height: 11.5%;
-    }
+.paid-path-head-bg {
+  margin-top: -125%;
+  width: 108%;
+  margin-left: 0%;
+}
+
+ul.menu, ul.menu2 {
+  width: 95%;
+  height: 10em;
+
+  a {
+    font-size: 2vw;
+  }
+}
   }
 
-  @media all and (max-width: 758px) {
-    .paid-path-header h1 {
-        margin-top: 30%;
-        font-size: 3.8em;
-    }
-
-    #paid-intro-header, #path-intro-header {
-        left: 17%;
-        width: 60%;
-    }
-
-    #paid-intro, #path-intro {
-        left: 15%;
-        width: 95%;
-    }
-
-    .paid-path-tutorials {
-        position: relative;
-        margin-top: 56%;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-        padding-bottom: 50px;
-        height: auto;
-        font-family: 'Josefin Sans', sans-serif;
-        font-weight: 600;
-        font-size: 1em;
-        color: #191716;
-    }
-    
-    .path-tutorials {
-        position: relative;
-        margin-top: 20%;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-        padding-bottom: 50px;
-        height: auto;
-        font-family: 'Josefin Sans', sans-serif;
-        font-weight: 600;
-        font-size: 1em;
-        color: #191716;
-    }
-
-    .paid-path-tutorials ul {
-        margin-left: -10%;
-    }
-
-    .path-tutorials ul {
-        margin-left: -10%;
-    }
-
-    .path-tutorials ul p {
-        border-bottom: 7px solid #e6af2e;
-        margin-left: -10%;
-    }
-  }
-
-  @media all and (max-width: 672px) {
-    .paid-path-header h1 {
-        margin-top: 41%;
-        font-size: 3.5em;
-    }
-
-    .path-tutorials ul p {
-        border-bottom: 7px solid #e6af2e;
-        margin-left: -5%;
-    }
-
-    #paid-intro-header, #path-intro-header {
-        left: 5%;
-        width: 80%;
-        margin-top: -13%;
-    }
-
-    #paid-intro, #path-intro {
-        left: 5%;
-        width: 95%;
-        margin-top: -5%;
-    }
-
-    .paid-path-head-bg {
-        position: absolute;
-        width: 98%;
-        top: -15.99%;
-        background-color: #191716;
-        height: 14.5%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-  }
-
-  @media all and (max-width: 596px) {
-    .path-tutorials ul p {
-        border-bottom: 7px solid #e6af2e;
-        margin-left: 0%;
-        width: 95%;
-    }
-
-    .paid-path-tutorials ul {
-        margin-left: -2%;
-    }
-
-    .paid-path-header h1 {
-        margin-top: 70%;
-        font-size: 2.6em;
-        padding-top: 3%;
-    }
-
-    #bento {
-        position: relative;
-        margin-bottom: 8%;
-        padding-bottom: 4%;
-        width: 38%;
-        height: 38%;
-        height: 35%;
-        width: 35%;
-    }
-    
-    .path-pics {
-        float: right;
-        position: relative;
-        margin: 20px;
-        bottom: 25px;
-        height: 35%;
-        width: 35%;
-    }
-
-    #paid-intro-header, #path-intro-header {
-        left: 5%;
-        width: 80%;
-        margin-top: 0%;
-    }
-
-    #paid-intro, #path-intro {
-        left: 5%;
-        width: 95%;
-        margin-top: 0%;
-    }
-  }
-
-  @media all and (max-width: 448px) {
-    .paid-path-header h1 {
-        margin-top: 85%;
-        font-size: 2.4em;
-        padding-top: 3%;
-    }
-  }
-
-  @media all and (max-width: 410px) {
-    .paid-path-header h1 {
-        margin-top: 115%;
-        font-size: 1.5em;
-        padding-top: 3%;
-    }
-  }
-
-  @media all and (max-width: 352px) {
-    .paid-path-header h1 {
-        margin-top: 145%;
-        font-size: 1.5em;
-        padding-top: 3%;
-    }
-
-    .paid-path-head-bg {
-        position: absolute;
-        width: 98%;
-        top: -15.99%;
-        background-color: #191716;
-        height: 15.5%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-  }
-
+  
