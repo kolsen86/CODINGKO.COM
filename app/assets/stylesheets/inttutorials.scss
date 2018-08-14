@@ -177,6 +177,10 @@ li.slider2 {
   }
 }
 
+ul.menu, ul.menu2 {
+  margin-left: 10%;
+}
+
 .wrapper {
 width: 100%;
 height: auto;
@@ -205,12 +209,12 @@ margin-top: -4%;
 
 .int-head-bg {
     position: absolute;
-    width: 100%;
+    width: 99%;
     background-color: #191716;
     height: 5%;
     margin-left: auto;
     z-index: 2;
-    margin-left: 5%;
+    margin-left: 0%;
 }
 
 .interactive-online-tutorials {
@@ -293,7 +297,7 @@ margin-top: -4%;
 
   .int-head-bg {
     position: absolute;
-    width: 100%;
+    width: 99%;
     background-color: #191716;
     height: 5%;
     margin-left: auto;
@@ -395,7 +399,6 @@ margin-top: -4%;
   }
   
   .menu, .menu2 {
-    margin-left: 0%;
     width: 70%;
   
     a {
@@ -407,7 +410,7 @@ margin-top: -4%;
   
 .int-head-bg {
 position: absolute;
-width: 100%;
+width: 99%;
 background-color: #191716;
 height: 5%;
 z-index: 2;
@@ -433,7 +436,6 @@ margin-top: 2%;
   }
   
   .menu, .menu2 {
-    margin-left: 15%;
     width: 100%;
   
     a {
@@ -450,7 +452,7 @@ margin-top: 2%;
     
   .int-head-bg {
   position: absolute;
-  width: 110%;
+  width: 99%;
   background-color: #191716;
   height: 5%;
   z-index: 2;
@@ -493,11 +495,11 @@ margin-top: 2%;
 @media all and (max-width: 825px) {
   .int-head-bg {
     position: absolute;
-    width: 110%;
+    width: 99%;
     background-color: #191716;
     height: 5%;
     z-index: 2;
-    margin-left: -2%;
+    margin-left: 0%;
     margin-top: 2%;
     }
 
@@ -627,7 +629,7 @@ margin-top: 2%;
   height: auto;
   font-size: 3vw;
   left: 5%;
-  margin-top: 140%;
+  margin-top: 150%;
 }
 
 .interactive-online-tutorials h2 {
@@ -675,7 +677,7 @@ margin-top: 2%;
   height: auto;
   font-size: 3vw;
   left: 5%;
-  margin-top: 128%;
+  margin-top: 138%;
 }
 
 .interactive-online-tutorials h2 {
