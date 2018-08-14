@@ -177,6 +177,10 @@
     }
   }
 
+  ul.menu, ul.menu2 {
+    margin-left: 10%;
+  }
+
 .wrapper {
   width: 99%;
   height: auto;
@@ -187,11 +191,11 @@
     font-size: 6vw;
     color: #e0e2db;
     position: relative;
-    margin-top: 10.8%;
+    margin-top: 8.8%;
     font-family: 'Graduate', cursive;
     text-shadow: -7px -5px 6px #beb7a4;
     z-index: 9;
-    margin-left: -5%;
+    margin-left: 0%;
     text-align: center;
     width: 98%;
     padding-bottom: 10%;
@@ -199,10 +203,10 @@
 
 .moocs-head-bg {
     position: absolute;
-    width: 98%;
+    width: 98.9%;
     background-color: #191716;
     height: 70%;
-    margin-left: 9.5%;
+    margin-left: 0%;
     margin-right: auto;
     z-index: 8;
 }
@@ -301,15 +305,19 @@
       margin-left: 10%;
   }
 
+  ul.menu, ul.menu2 {
+    margin-left: 12%;
+  }
+
   .moocs-header h1 {
     font-size: 6vw;
-    margin-top: 16.8%;
-    margin-left: -8%;
+    margin-top: 10.8%;
+    margin-left: 0%;
 }
 
 .moocs-head-bg {
-  width: 100%;
-  margin-left: 13.7%;
+  width: 98.9%;
+  margin-left: 0%;
 }
 
 .moocs-tutorials {
@@ -354,8 +362,8 @@
   }
   
   .moocs-head-bg {
-    width: 105%;
-    margin-left: -2.6%;
+    width: 98.9%;
+    margin-left: 0%;
   }
 
   .moocs-tutorials {
