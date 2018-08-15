@@ -1,18 +1,41 @@
 
-.good-contact-body {
-    position: relative;
+.contact-body {
+    background-color: #e0e2db;
 }
+
 .tear-away {
-background-color: #e0e2db;
-position: relative;
-height: 100%;
-padding-bottom: 100%;
-margin-top: -2%;
+    background-color: #e0e2db;
+    position: relative;
+    height: auto;
+    padding-bottom: 100%;
+    margin-top: -2%;
+    width: 96%;
+}
+
+.form-area {
+    margin-top: 5%;
+    margin-left: 14%;
+    margin-right: 0;
+    z-index: 3;
+    width: 105.5%;
+    height: 50%;
+    left: -9%;
 }
 
 .contact1 {
     position: relative;
-    height: 120vh;
+    height: 130vh;
+    width: 86.9vw;
+    margin-left: 7.5%;
+    margin-top: 158%;
+    z-index: 1;
+    align-self: center;
+}
+
+.contact2 {
+    display: none;
+    position: relative;
+    height: 155vh;
     width: 95vw;
     margin-left: 2%;
     margin-top: 5%;
@@ -21,12 +44,12 @@ margin-top: -2%;
 
 .email a {
     position: relative;
-    height: 15%;
+    height: 25%;
     width: 12%;
     display: block;
-    left: 2%;
+    margin-left: 7%;
     z-index: 2;
-    top: -15%;
+    margin-top: -20%;
 }
 
 .email {
@@ -35,12 +58,7 @@ margin-top: -2%;
     z-index: 2;
 }
 
-.answering-machine {
-    display: inline-block;
-    position: absolute;
-    top: 36%;
-    left: -3.5%;
-}
+
 
 .github {
     position: absolute;
@@ -54,18 +72,22 @@ margin-top: -2%;
 
 .git-at-me {
     position: absolute;
-    height: 100%;
+    height: 320%;
     width: 100%;
     display: block;
     z-index: 2;
+    margin-top: 500%;
+    margin-left: 45%;
 }
 
 .connect {
     position: absolute;
-    height: 100%;
-    width: 100%;
+    height: 350%;
     display: block;
-    z-index: 2;
+    z-index: 5;
+    margin-left: 30%;
+    width: 108%;
+    margin-top: -50%;
 }
 
 .linkedin {
@@ -75,27 +97,222 @@ margin-top: -2%;
     display:  block;
     margin-left: 54%;
     margin-top: -14%;
-    z-index: 2;
+    z-index: 5;
 }
 
-.beep-form {
-    display: inline-block;
+.contact-reasons {
+    margin-left: 50%;
+    margin-top: 0%;
+    z-index: 4;
+    font-size: 1.7vw;
     position: absolute;
-    left: 44%;
-    top: 19%;
-    height: 25%;
-    width: 30%;
-    z-index: 1;
+    height: 20vh;
+    line-height: 1.7em;
+    font-family: 'Special Elite', serif;
+    font-weight: 700;
+}
 
+.contact-reasons h2 {
+    font-size: 2.5vw;
+    margin-left: 18%;
+}
+
+.contact-reasons ul {
+    display: inline-block;
+    margin-left: 13%;
+}
+
+.anything-contact {
+    margin-left: 4%;
+    font-size: 2vw;
+}
+
+form#new_contact.new_contact {
+    background-color: #F7F3AA;
+}
+
+#contact_comments {
+    height: 18vh;
+    width: 23vw;
+    z-index: 3;
+}
+
+#contact_email {
+    height: 6vh;
+    width: 23vw;
+    z-index: 3;
+    font-size: 1.3vw;
+}
+
+#contact_name {
+    height: 6vh;
+    width: 23vw;
+    z-index: 3;
+    font-size: 1.3vw;
+}
+
+label {
+    font-size: 2vw;
+    font-family: 'Graduate', cursive;
+}
+
+#new_contact > fieldset > div:nth-child(5) > div > button {
+    width: 18vw;
+    height: 6.1vh;
+    margin-top: 4%;
+    font-size: 1.6vw;
+    letter-spacing: 0.2vw;
+    font-weight: 900;
+
+}
+
+.form-group {
+    height: 16vh;
+    width: 35vw;
+    margin-left: 15%;
+}
+
+.tear-away-header {
+    color: #acd88c;
+    font-size: 2.8vw;
+    text-shadow: 1px 1px 2px black;
+}
+
+#name-icon {
+    position: absolute;
+    margin-left: -16%;
+    margin-top: -1%;
+    display: block;
+    height: 28%;
+}
+
+#email-icon {
+    position: absolute;
+    margin-left: -11%;
+    margin-top: 1%;
+    display: block;
+    height: 18%;
+}
+
+#comments-icon {
+    position: absolute;
+    margin-left: -23.5%;
+    margin-top: 0%;
+    display: block;
+    height: 40%;
+}
+
+form {
+    margin-top: 5%;
+    position: relative;
+    width: 90%;
+    height: 100%;
+    box-shadow: 5px -7px 5px 9px #191716, -5px 7px 5px 9px #191716;
+}
+
+textarea {
+    height: 50%;
 }
 
 fieldset {
     z-index: 2;
 }
 
-.beep {
-    position: relative;
-    height: 125%;
-    width: 165%;
+
+@media all and (max-width: 650px) {
+    .contact1 {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 1%;
+        z-index: 1;
+        align-self: center;
+    }
 }
 
+@media all and (max-width: 530px) {
+    .contact1 {
+        position: relative;
+        height: 100%;
+        width: 103%;
+        margin-left: auto 0;
+        margin-right: auto 0;
+        margin-top: 1%;
+        z-index: 1;
+        align-self: center;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .contact1 {
+        position: relative;
+        height: 109%;
+        width: 106%;
+        margin-left: auto 0;
+        margin-right: auto 0;
+        margin-top: 1%;
+        z-index: 1;
+        align-self: center;
+    }
+}
+
+
+@media all and (max-width: 460px) {
+    .contact1 {
+        position: relative;
+        height: 115%;
+        width: 110%;
+        margin-left: auto 0;
+        margin-right: auto 0;
+        margin-top: 1%;
+        z-index: 1;
+        align-self: center;
+    }
+}
+
+@media all and (max-width: 430px) {
+    .contact1 {
+        position: relative;
+        height: 135%;
+        width: 120%;
+        margin-left: auto 0;
+        margin-right: auto 0;
+        margin-top: 1%;
+        z-index: 1;
+}
+}
+
+@media all and (max-width: 400px) {
+    .contact1 {
+        display: none;
+        position: relative;
+        height: 100%;
+        width: 100%;
+        margin-left: 2%;
+        margin-top: 5%;
+        z-index: 1;
+    }
+
+    .contact2 {
+        display: block;
+        position: relative;
+        height: 155%;
+        width: 130%;
+        margin-left: 0%;
+        margin-top: 1%;
+        z-index: 1;
+}
+}
+
+@media all and (max-width: 360px) {
+    .contact2 {
+        display: block;
+        position: relative;
+        height: 175%;
+        width: 150%;
+        margin-left: 0%;
+        margin-top: 1%;
+        z-index: 1;
+}
+}
