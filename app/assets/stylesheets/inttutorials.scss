@@ -1,6 +1,5 @@
-.menu {
+.int-menu {
   list-style: none;
-  margin: 0;
   padding: 0;
   width: 105%;
   height: 8em;
@@ -37,9 +36,8 @@
   }
 }
 
-.menu2 {
+.int-menu2 {
   list-style: none;
-  margin: 0;
   padding: 0;
   width: 105%;
   height: 8em;
@@ -103,9 +101,9 @@ li.slider2 {
   transition: left .4s, background-color .4s;
 }
 
-.menu li:nth-child(1):hover,
-.menu li:nth-child(1):focus,
-.menu li:nth-child(1):active {
+.int-menu li:nth-child(1):hover,
+.int-menu li:nth-child(1):focus,
+.int-menu li:nth-child(1):active {
   & ~ .slider {
     left: 0;
     background-color: #3498db;
@@ -113,36 +111,36 @@ li.slider2 {
 }
 
 
-.menu li:nth-child(2):hover,
-.menu li:nth-child(2):focus,
-.menu li:nth-child(2):active {
+.int-menu li:nth-child(2):hover,
+.int-menu li:nth-child(2):focus,
+.int-menu li:nth-child(2):active {
   & ~ .slider {
     left: 25%;
     background-color: #9b59b6;
   }
 }
 
-.menu li:nth-child(3):hover,
-.menu li:nth-child(3):focus,
-.menu li:nth-child(3):active {
+.int-menu li:nth-child(3):hover,
+.int-menu li:nth-child(3):focus,
+.int-menu li:nth-child(3):active {
   & ~ .slider {
     left: 50%;
     background-color: #e67e22;
   }
 }
 
-.menu li:nth-child(4):hover,
-.menu li:nth-child(4):focus,
-.menu li:nth-child(4):active {
+.int-menu li:nth-child(4):hover,
+.int-menu li:nth-child(4):focus,
+.int-menu li:nth-child(4):active {
   & ~ .slider {
     left: 75%;
     background-color: #16a085;
   }
 }
 
-.menu2 li:nth-child(1):hover,
-.menu2 li:nth-child(1):focus,
-.menu2 li:nth-child(1):active {
+.int-menu2 li:nth-child(1):hover,
+.int-menu2 li:nth-child(1):focus,
+.int-menu2 li:nth-child(1):active {
   & ~ .slider2 {
     left: 0%;
     background-color: #3498db;
@@ -150,35 +148,35 @@ li.slider2 {
 }
 
 
-.menu2 li:nth-child(2):hover,
-.menu2 li:nth-child(2):focus,
-.menu2 li:nth-child(2):active {
+.int-menu2 li:nth-child(2):hover,
+.int-menu2 li:nth-child(2):focus,
+.int-menu2 li:nth-child(2):active {
   & ~ .slider2 {
     left: 25%;
     background-color: #9b59b6;
   }
 }
 
-.menu2 li:nth-child(3):hover,
-.menu2 li:nth-child(3):focus,
-.menu2 li:nth-child(3):active {
+.int-menu2 li:nth-child(3):hover,
+.int-menu2 li:nth-child(3):focus,
+.int-menu2 li:nth-child(3):active {
   & ~ .slider2 {
     left: 50%;
     background-color: #e67e22;
   }
 }
 
-.menu2 li:nth-child(4):hover,
-.menu2 li:nth-child(4):focus,
-.menu2 li:nth-child(4):active {
+.int-menu2 li:nth-child(4):hover,
+.int-menu2 li:nth-child(4):focus,
+.int-menu2 li:nth-child(4):active {
   & ~ .slider2 {
     left: 75%;
     background-color: #16a085;
   }
 }
 
-ul.menu, ul.menu2 {
-  margin-left: 10%;
+ul.int-menu, ul.int-menu2 {
+  margin-left: 5%;
 }
 
 .wrapper {
@@ -212,7 +210,6 @@ margin-top: -4%;
     width: 98.6%;
     background-color: #191716;
     height: 5%;
-    margin-left: auto;
     z-index: 2;
     margin-left: 0%;
 }
@@ -300,7 +297,6 @@ margin-top: -4%;
     width: 98.6%;
     background-color: #191716;
     height: 5%;
-    margin-left: auto;
     z-index: 2;
     margin-left: 10.3%;
 }
@@ -346,8 +342,12 @@ margin-top: -4%;
 .wrapper {
   width: 100%;
   height: auto;
-  margin-left: 15%;
+  margin-left: 0%;
   margin-top: -4%;
+  }
+
+  ul.int-menu, ul.int-menu2 {
+    margin-left: -5%;
   }
 }
 
@@ -394,20 +394,20 @@ margin-top: -4%;
   margin-top: 0%;
   }
 
-  .menu {
+  .int-menu {
     margin-top: 28%;
   }
-  
-  .menu, .menu2 {
+
+  .int-menu, .int-menu2 {
     width: 70%;
-  
+
     a {
       font-size: 2vw;
     }
   }
 
- 
-  
+
+
 .int-head-bg {
 position: absolute;
 width: 98.6%;
@@ -431,25 +431,25 @@ margin-top: 2%;
     margin-right: auto;
   }
 
-  .menu {
+  .int-menu {
     margin-top: 28%;
   }
-  
-  .menu, .menu2 {
+
+  .int-menu, .int-menu2 {
     width: 100%;
-  
+
     a {
       font-size: 2vw;
     }
   }
-  
+
   .wrapper {
     width: 50%;
     height: auto;
     margin-left: 0%;
     margin-top: 0%;
     }
-    
+
   .int-head-bg {
   position: absolute;
   width: 98.6%;
@@ -517,19 +517,19 @@ margin-top: 2%;
       margin-left: -15%;
       width: 95%
     }
-    
+
     #int-intro-header {
       position: relative;
       margin-left: -10%;
       font-size: 3vw;
     }
-  
+
     .interactive-online-tutorials ol {
       position: relative;
       margin-left: -15%;
       width: 95%;
   }
-  
+
   .interactive-online-tutorials h2 {
     border-bottom: 10px solid #3d348b;
     width: 70%;
@@ -538,9 +538,9 @@ margin-top: 2%;
     margin-left: 0%;
   }
 
-  ul.menu, ul.menu2 {
+  ul.int-menu, ul.int-menu2 {
     margin-left: 2%;
-  } 
+  }
 }
 
 @media all and (max-width: 770px) {
@@ -596,15 +596,15 @@ margin-top: 2%;
   margin-top: 0%;
   }
 
-  .menu, .menu2 {
+  .int-menu, .int-menu2 {
     li {
       width: 20%;
     }
   }
 
-  ul.menu, ul.menu2 {
+  ul.int-menu, ul.int-menu2 {
     margin-left: 2%;
-  } 
+  }
 }
 
 @media all and (max-width: 500px) {
@@ -654,9 +654,9 @@ margin-top: 2%;
   font-size: 3.4vw;
 }
 
-ul.menu, ul.menu2 {
+ul.int-menu, ul.int-menu2 {
   margin-left: 2%;
-} 
+}
 }
 
 @media all and (max-width: 400px) {
@@ -706,6 +706,3 @@ ul.menu, ul.menu2 {
   font-size: 3.5vw;
 }
 }
-
-
-

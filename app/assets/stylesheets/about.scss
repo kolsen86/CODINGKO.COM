@@ -14,7 +14,7 @@
     -moz-border-radius: 20%;
     -ms-border-radius: 20%;
     -o-border-radius: 20%;
-    
+
 }
 
 body.about {
@@ -101,10 +101,10 @@ footer.about {
 @media all and (max-width: 500px) {
     .about-content {
         text-indent: 75px;
-        line-height: 1.6;
+        line-height: 1.9;
         font-family: 'Josefin Sans', sans-serif;
         font-weight: 600;
-        font-size: 3vw;
+        font-size: 3.5vw;
         position: relative;
         top: 30%;
         left: 1%;
@@ -125,7 +125,7 @@ footer.about {
         -moz-border-radius: 20%;
         -ms-border-radius: 20%;
         -o-border-radius: 20%;
-        
+
     }
 
     #me {
@@ -139,5 +139,20 @@ footer.about {
         display: block;
         left: -1%;
         margin-top: 5%;
+    }
+
+    .about-header {
+        background-color: #191716;
+        height: 17em;
+    }
+
+    .about-header h1 {
+        font-family: "Bungee Inline", cursive;
+        color: #e0e2db;
+        font-size: 5vw;
+        line-height: 1.4em;
+        text-shadow: -5px -3px 5px #beb7a4;
+        margin-top: 15%;
+        padding-top: 5%;
     }
 }

@@ -225,7 +225,7 @@
     font-size: 1.3vw;
 }
 
-.inttutorials a, 
+.inttutorials a,
 .booktutorials a,
 .videotutorials a,
 .mooctutorials a,
@@ -274,7 +274,7 @@
         left: -3%;
         /*z-index: 2;*/
     }
-    
+
     .blue-two {
         height: 470px;
         width: 105%;
@@ -286,7 +286,7 @@
         left: -3%;
        /* z-index: 2;*/
     }
-    
+
     .yellow {
         height: 470px;
         width: 105%;
@@ -298,7 +298,7 @@
         left: -3%;
         /*z-index: 2;*/
     }
-    
+
     .yellow-two {
         height: 490px;
         width: 105%;
@@ -395,7 +395,7 @@
         padding-right: 5px;
         /*z-index: 4;*/
     }
-    
+
     .videomooc {
         display: none;
         background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1531579224/videomooc-min.png);
@@ -408,7 +408,7 @@
         padding-right: 5px;
         /*z-index: 4;*/
     }
-    
+
     .referanceandpathway {
         display: none;
         background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1531579221/refandpath.png);
@@ -421,7 +421,7 @@
         padding-right: 5px;
         /*z-index: 4;*/
     }
-    
+
     .toolspic {
         display: none;
         background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1531579247/tools-min.png);
@@ -434,7 +434,7 @@
         padding-right: 5px;
         /*z-index: 4;*/
     }
-   
+
 }
 
 @media all and (max-width: 690px) {
@@ -486,7 +486,30 @@
 }
 
 @media all and (max-width: 576px) {
- 
+
+    .zombie {
+        top: 0%;
+        margin-left: 23%;
+        margin-right: auto;
+        position: absolute;
+        border-radius: 50%;
+        z-index: 1;
+        max-width: 100%;
+        height: auto;
+        display: inline-block;
+    }
+
+    .tutorials-header {
+        margin-left: -2%;
+        position: relative;
+        top: 360px;
+    }
+
+    .black-header {
+        background-color: #191716;
+        position: relative;
+        height: 500px;
+    }
 
          .tutorials-info-m .blue, .blue-two, .yellow-two, .yellow {
              display: none;
@@ -505,7 +528,7 @@
              font-size: 3vw;
              font-weight: 800;
          }
-         
+
          .tools p {
              font-family: 'Ubuntu Mono', monospace;
              font-size: 3vw;
@@ -514,11 +537,11 @@
          #smallprint {
             font-size: 1.3vw;
         }
-        
+
         #foryou {
             color: #FF0000;
         }
-        
+
         #lottawords {
             font-size: 1.8vw;
         }
@@ -532,13 +555,13 @@
             position: absolute;
             background-color: #191716;
         }
-     
+
 }
 
 @media all and (max-width: 496px) {
     .zombie {
-        top: 20%;
-        margin-left: 17%;
+        top: 19%;
+        margin-left: 20%;
         margin-right: auto;
         height: 220px;
         width: 220px;
@@ -557,11 +580,10 @@
         line-height: 1.7;
         box-shadow: 0px 0px 200px #191716;
         border: 5px solid #191716;
-        font-weight: 900;
     }
 
     .tutorials-info-m {
-        margin-top: -90%;
+        margin-top: -160%;
     }
 
     .inttutorials p,
@@ -575,7 +597,7 @@
         font-size: 3.5vw;
         font-weight: 800;
     }
-    
+
     .tools p {
         font-family: 'Ubuntu Mono', monospace;
         font-size: 3.5vw;
@@ -591,8 +613,8 @@
 @media all and (max-width: 366px) {
 
      .zombie {
-        top: 20%;
-        margin-left: 5%;
+        top: 19%;
+        margin-left: 10%;
         margin-right: auto;
         height: 220px;
         width: 220px;
@@ -609,7 +631,7 @@
         font-size: 4.5vw;
         font-weight: 800;
     }
-    
+
     .tools p {
         font-family: 'Ubuntu Mono', monospace;
         font-size: 4.5vw;
@@ -631,6 +653,3 @@
         font-weight: 900;
     }
 }
-
-
-
