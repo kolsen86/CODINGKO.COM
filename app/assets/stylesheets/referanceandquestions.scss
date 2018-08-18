@@ -1,6 +1,5 @@
-.menu {
+.ref-and-quest-menu {
     list-style: none;
-    margin: 0;
     padding: 0;
     width: 100%;
     height: 10em;
@@ -37,9 +36,8 @@
     }
   }
 
-  .menu2 {
+  .ref-and-quest-menu2 {
     list-style: none;
-    margin: 0;
     padding: 0;
     width: 100%;
     height: 10em;
@@ -103,9 +101,9 @@
     transition: left .4s, background-color .4s;
   }
 
-  .menu li:nth-child(1):hover,
-  .menu li:nth-child(1):focus,
-  .menu li:nth-child(1):active {
+  .ref-and-quest-menu li:nth-child(1):hover,
+  .ref-and-quest-menu li:nth-child(1):focus,
+  .ref-and-quest-menu li:nth-child(1):active {
     & ~ .slider {
       left: 0;
       background-color: #3498db;
@@ -113,36 +111,36 @@
   }
 
 
-  .menu li:nth-child(2):hover,
-  .menu li:nth-child(2):focus,
-  .menu li:nth-child(2):active {
+  .ref-and-quest-menu li:nth-child(2):hover,
+  .ref-and-quest-menu li:nth-child(2):focus,
+  .ref-and-quest-menu li:nth-child(2):active {
     & ~ .slider {
       left: 25%;
       background-color: #9b59b6;
     }
   }
 
-  .menu li:nth-child(3):hover,
-  .menu li:nth-child(3):focus,
-  .menu li:nth-child(3):active {
+  .ref-and-quest-menu li:nth-child(3):hover,
+  .ref-and-quest-menu li:nth-child(3):focus,
+  .ref-and-quest-menu li:nth-child(3):active {
     & ~ .slider {
       left: 50%;
       background-color: #e67e22;
     }
   }
 
-  .menu li:nth-child(4):hover,
-  .menu li:nth-child(4):focus,
-  .menu li:nth-child(4):active {
+  .ref-and-quest-menu li:nth-child(4):hover,
+  .ref-and-quest-menu li:nth-child(4):focus,
+  .ref-and-quest-menu li:nth-child(4):active {
     & ~ .slider {
       left: 75%;
       background-color: #16a085;
     }
   }
 
-  .menu2 li:nth-child(1):hover,
-  .menu2 li:nth-child(1):focus,
-  .menu2 li:nth-child(1):active {
+  t li:nth-child(1):hover,
+  t li:nth-child(1):focus,
+  t li:nth-child(1):active {
     & ~ .slider2 {
       left: 0%;
       background-color: #3498db;
@@ -150,34 +148,34 @@
   }
 
 
-  .menu2 li:nth-child(2):hover,
-  .menu2 li:nth-child(2):focus,
-  .menu2 li:nth-child(2):active {
+  t li:nth-child(2):hover,
+  t li:nth-child(2):focus,
+  t li:nth-child(2):active {
     & ~ .slider2 {
       left: 25%;
       background-color: #9b59b6;
     }
   }
 
-  .menu2 li:nth-child(3):hover,
-  .menu2 li:nth-child(3):focus,
-  .menu2 li:nth-child(3):active {
+  t li:nth-child(3):hover,
+  t li:nth-child(3):focus,
+  t li:nth-child(3):active {
     & ~ .slider2 {
       left: 50%;
       background-color: #e67e22;
     }
   }
 
-  .menu2 li:nth-child(4):hover,
-  .menu2 li:nth-child(4):focus,
-  .menu2 li:nth-child(4):active {
+  t li:nth-child(4):hover,
+  t li:nth-child(4):focus,
+  t li:nth-child(4):active {
     & ~ .slider2 {
       left: 75%;
       background-color: #16a085;
     }
   }
 
-  ul.menu, ul.menu2 {
+  ul.ref-and-quest-menu, ult {
     width: 95%;
     height: 10em;
     margin-left: 10%;
@@ -255,7 +253,7 @@
 
 .referance ul, .questions ul {
     margin-left: 10%;
-} 
+}
 
 .referance p {
     text-indent: 50px;
@@ -356,7 +354,7 @@ margin-left: 8%;
         margin-left: 2%;
     }
 
-    ul.menu, ul.menu2 {
+    ul.ref-and-quest-menu, ult {
         width: 90%;
         height: 10em;
     }
@@ -365,7 +363,7 @@ margin-left: 8%;
         width: 87%;
         margin-left: 13%;
         }
-        
+
         #questions-intro-header, #referance-intro-header {
         width: 50%;
         margin-left: 10%;
@@ -373,7 +371,7 @@ margin-left: 8%;
 
         .referance ul, .questions ul {
             margin-left: 14%;
-        } 
+        }
   }
 
   @media all and (max-width: 825px) {
@@ -391,7 +389,7 @@ margin-left: 8%;
         margin-left: 0%;
     }
 
-    ul.menu, ul.menu2 {
+    ul.ref-and-quest-menu, ult {
         width: 90%;
         height: 10em;
     }
@@ -400,7 +398,7 @@ margin-left: 8%;
         width: 96%;
         margin-left: 5%;
         }
-        
+
         #questions-intro-header, #referance-intro-header {
         width: 50%;
         margin-left: 8%;
@@ -408,7 +406,7 @@ margin-left: 8%;
 
         .referance ul, .questions ul {
             margin-left: 5%;
-        } 
+        }
 
         .referance h2, .questions h2 {
             font-size: 3vw;
@@ -481,7 +479,7 @@ margin-left: 8%;
     padding-bottom: 10%;
 }
 
-ul.menu, ul.menu2 {
+ul.ref-and-quest-menu, ult {
     width: 95%;
     height: 10em;
 

@@ -55,6 +55,10 @@ end
 
 group :development do
 
+  # Bullet gem for finding N+1 queries
+  gem 'bullet'
+  # Meta_request gem for adding features to google dev tools
+  gem 'meta_request'
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 3.5.1'
   gem 'listen', '>= 3.1.5', '< 3.2'

@@ -1,6 +1,5 @@
-.menu {
+.video-menu {
     list-style: none;
-    margin: 0;
     padding: 0;
     width: 100%;
     height: 8em;
@@ -37,9 +36,8 @@
     }
   }
 
-  .menu2 {
+  .video-menu2 {
     list-style: none;
-    margin: 0;
     padding: 0;
     width: 100%;
     height: 8em;
@@ -111,9 +109,9 @@
     -o-transition: left .4s, background-color .4s;
 }
 
-  .menu li:nth-child(1):hover,
-  .menu li:nth-child(1):focus,
-  .menu li:nth-child(1):active {
+  .video-menu li:nth-child(1):hover,
+  .video-menu li:nth-child(1):focus,
+  .video-menu li:nth-child(1):active {
     & ~ .slider {
       left: 0;
       background-color: #3498db;
@@ -121,36 +119,36 @@
   }
 
 
-  .menu li:nth-child(2):hover,
-  .menu li:nth-child(2):focus,
-  .menu li:nth-child(2):active {
+  .video-menu li:nth-child(2):hover,
+  .video-menu li:nth-child(2):focus,
+  .video-menu li:nth-child(2):active {
     & ~ .slider {
       left: 25%;
       background-color: #9b59b6;
     }
   }
 
-  .menu li:nth-child(3):hover,
-  .menu li:nth-child(3):focus,
-  .menu li:nth-child(3):active {
+  .video-menu li:nth-child(3):hover,
+  .video-menu li:nth-child(3):focus,
+  .video-menu li:nth-child(3):active {
     & ~ .slider {
       left: 50%;
       background-color: #e67e22;
     }
   }
 
-  .menu li:nth-child(4):hover,
-  .menu li:nth-child(4):focus,
-  .menu li:nth-child(4):active {
+  .video-menu li:nth-child(4):hover,
+  .video-menu li:nth-child(4):focus,
+  .video-menu li:nth-child(4):active {
     & ~ .slider {
       left: 75%;
       background-color: #16a085;
     }
   }
 
-  .menu2 li:nth-child(1):hover,
-  .menu2 li:nth-child(1):focus,
-  .menu2 li:nth-child(1):active {
+  .video-menu2 li:nth-child(1):hover,
+  .video-menu2 li:nth-child(1):focus,
+  .video-menu2 li:nth-child(1):active {
     & ~ .slider2 {
       left: 0%;
       background-color: #3498db;
@@ -158,34 +156,34 @@
   }
 
 
-  .menu2 li:nth-child(2):hover,
-  .menu2 li:nth-child(2):focus,
-  .menu2 li:nth-child(2):active {
+  .video-menu2 li:nth-child(2):hover,
+  .video-menu2 li:nth-child(2):focus,
+  .video-menu2 li:nth-child(2):active {
     & ~ .slider2 {
       left: 25%;
       background-color: #9b59b6;
     }
   }
 
-  .menu2 li:nth-child(3):hover,
-  .menu2 li:nth-child(3):focus,
-  .menu2 li:nth-child(3):active {
+  .video-menu2 li:nth-child(3):hover,
+  .video-menu2 li:nth-child(3):focus,
+  .video-menu2 li:nth-child(3):active {
     & ~ .slider2 {
       left: 50%;
       background-color: #e67e22;
     }
   }
 
-  .menu2 li:nth-child(4):hover,
-  .menu2 li:nth-child(4):focus,
-  .menu2 li:nth-child(4):active {
+  .video-menu2 li:nth-child(4):hover,
+  .video-menu2 li:nth-child(4):focus,
+  .video-menu2 li:nth-child(4):active {
     & ~ .slider2 {
       left: 75%;
       background-color: #16a085;
     }
   }
 
-  ul.menu, ul.menu2 {
+  ul.video-menu, ul.video-menu2 {
       margin-left: 10%;
   }
 
@@ -221,7 +219,6 @@
     background-color: #e0e2db;
     padding-bottom: 650px;
     margin-top: -33px;
-    padding-bottom: 700px;
 }
 
 .videos-tutorials {
@@ -318,7 +315,7 @@
         font-family: 'Graduate', cursive;
         text-shadow: -7px -5px 6px #beb7a4;
     }
-    
+
     .videos-head-bg {
         position: absolute;
         width: 98.8%;
@@ -338,7 +335,7 @@
         height: 30%;
         width: 30%;
     }
-    
+
     #rfz {
         position: relative;
         float: right;
@@ -395,7 +392,7 @@
         width: 95%;
         padding-bottom: 10%;
         margin-left: 0%;
-    
+
     }
 
     #video-intro-header {
@@ -454,6 +451,3 @@
         margin-left: 10%;
     }
   }
-
-  
-    

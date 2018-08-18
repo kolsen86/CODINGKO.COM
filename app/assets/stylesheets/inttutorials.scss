@@ -176,7 +176,8 @@ li.slider2 {
 }
 
 ul.int-menu, ul.int-menu2 {
-  margin-left: 5%;
+  margin-left: 10%;
+  width: 95%;
 }
 
 .wrapper {
@@ -287,9 +288,14 @@ margin-top: -4%;
     position: relative;
     font-family: 'Graduate', cursive;
     text-shadow: -7px -5px 6px #beb7a4;
-    margin-left: 8%;
+    margin-left: 13%;
     margin-top: 12%;
     margin-right: auto;
+  }
+
+  ul.int-menu, ul.int-menu2 {
+    margin-left: 12%;
+    width: 90%;
   }
 
   .int-head-bg {
@@ -298,7 +304,7 @@ margin-top: -4%;
     background-color: #191716;
     height: 5%;
     z-index: 2;
-    margin-left: 10.3%;
+    margin-left: 0%;
 }
 
   .interactive-online-tutorials {
@@ -317,8 +323,8 @@ margin-top: -4%;
 
 .interactive-online-tutorials ol {
     position: relative;
-    left: 15%;
-    width: 90%;
+    left: 13%;
+    width: 85%;
 }
 
 .interactive-online-tutorials h2 {
@@ -330,8 +336,8 @@ margin-top: -4%;
 
 #int-intro {
     position: relative;
-    left: 14%;
-    width: 98%;
+    left: 15%;
+    width: 85%;
 }
 
 #int-intro-header {
@@ -344,10 +350,6 @@ margin-top: -4%;
   height: auto;
   margin-left: 0%;
   margin-top: -4%;
-  }
-
-  ul.int-menu, ul.int-menu2 {
-    margin-left: -5%;
   }
 }
 
@@ -363,6 +365,13 @@ margin-top: -4%;
   height: auto;
   font-size: 2vw;
   left: 0%;
+  margin-top: 65%;
+}
+
+ul.int-menu, ul.int-menu2 {
+  margin-left: 15%;
+  width: 85%;
+  margin-top: 0%;
 }
 
 #int-intro {
@@ -378,13 +387,13 @@ margin-top: -4%;
 }
 
 .interactive-header h1 {
-  font-size: 5.9vw;
+  font-size: 6.2vw;
   color: #e0e2db;
   position: relative;
   font-family: 'Graduate', cursive;
   text-shadow: -7px -5px 6px #beb7a4;
-  margin-left: 9%;
-  margin-top: 13%;
+  margin-left: 12%;
+  margin-top: 7%;
 }
 
 .wrapper {
@@ -394,27 +403,13 @@ margin-top: -4%;
   margin-top: 0%;
   }
 
-  .int-menu {
-    margin-top: 28%;
-  }
-
-  .int-menu, .int-menu2 {
-    width: 70%;
-
-    a {
-      font-size: 2vw;
-    }
-  }
-
-
-
 .int-head-bg {
 position: absolute;
 width: 98.6%;
 background-color: #191716;
-height: 5%;
+height: 3%;
 z-index: 2;
-margin-left: 11%;
+margin-left: 0%;
 margin-top: 2%;
 }
 }
@@ -426,21 +421,15 @@ margin-top: 2%;
     position: relative;
     font-family: 'Graduate', cursive;
     text-shadow: -7px -5px 6px #beb7a4;
-    margin-left: 15%;
-    margin-top: 12.5%;
+    margin-left: 16%;
+    margin-top: 6.5%;
     margin-right: auto;
   }
 
-  .int-menu {
-    margin-top: 28%;
-  }
-
-  .int-menu, .int-menu2 {
-    width: 100%;
-
-    a {
-      font-size: 2vw;
-    }
+  ul.int-menu, ul.int-menu2 {
+    margin-left: 16%;
+    width: 85%;
+    margin-top: 0%;
   }
 
   .wrapper {
@@ -454,9 +443,8 @@ margin-top: 2%;
   position: absolute;
   width: 98.6%;
   background-color: #191716;
-  height: 5%;
   z-index: 2;
-  margin-left: 9%;
+  margin-left: -1%;
   margin-top: 2%;
   }
 
@@ -465,8 +453,8 @@ margin-top: 2%;
     padding-bottom: 15%;
     height: auto;
     font-size: 2vw;
-    left: 10%;
-    margin-top: 88%;
+    left: 0%;
+    margin-top: 68%;
   }
 }
 
@@ -476,18 +464,17 @@ margin-top: 2%;
     padding-bottom: 15%;
     height: auto;
     font-size: 2.2vw;
-    left: 10%;
-    margin-top: 88%;
+    margin-top: 70%;
   }
 
   .interactive-header h1 {
-    font-size: 6vw;
+    font-size: 6.5vw;
     color: #e0e2db;
     position: relative;
     font-family: 'Graduate', cursive;
     text-shadow: -7px -5px 6px #beb7a4;
-    margin-left: 15%;
-    margin-top: 12.5%;
+    margin-left: 12%;
+    margin-top: 8.5%;
     margin-right: auto;
   }
 }
@@ -497,10 +484,15 @@ margin-top: 2%;
     position: absolute;
     width: 98.6%;
     background-color: #191716;
-    height: 5%;
     z-index: 2;
-    margin-left: 0%;
+    margin-left: -1.5%;
     margin-top: 2%;
+    }
+
+    ul.int-menu, ul.int-menu2 {
+      margin-left: 5%;
+      width: 90%;
+      margin-top: 0%;
     }
 
     .interactive-online-tutorials {
@@ -509,7 +501,7 @@ margin-top: 2%;
       height: auto;
       font-size: 2.2vw;
       margin-left: 5%;
-      margin-top: 88%;
+      margin-top: 70%;
     }
 
     #int-intro {
@@ -537,98 +529,76 @@ margin-top: 2%;
     font-size: 2.7vw;
     margin-left: 0%;
   }
-
-  ul.int-menu, ul.int-menu2 {
-    margin-left: 2%;
-  }
 }
 
-@media all and (max-width: 770px) {
-  .interactive-header h1 {
-    font-size: 6.5vw;
-    color: #e0e2db;
-    position: relative;
-    font-family: 'Graduate', cursive;
-    text-shadow: -7px -5px 6px #beb7a4;
-    margin-left: 12%;
-    margin-top: 20.5%;
-    margin-right: auto;
+@media all and (max-width: 768px) {
+  ul.int-menu, ul.int-menu2 {
+    margin-left: 0%;
+    width: 99%;
+    margin-top: 0%;
   }
 
   .interactive-online-tutorials ol {
     position: relative;
-    left: 10%;
-    width: 100%;
+    margin-left: -23%;
+    width: 115%;
 }
 
 #int-intro {
   position: relative;
-  left: 10%;
-  width: 100%
+  margin-left: -23%;
+  width: 115%
+}
 }
 
-.interactive-online-tutorials {
-  width: 100%;
-  padding-bottom: 15%;
-  height: auto;
-  font-size: 2.5vw;
-  left: 5%;
-  margin-top: 108%;
-}
-
-.interactive-online-tutorials h2 {
-  border-bottom: 10px solid #3d348b;
-  width: 70%;
-  padding-bottom: 2%;
-  font-size: 3vw;
-  margin-left: 5%;
-}
-
-#int-intro-header {
-  position: relative;
-  left: 5%;
-  font-size: 3vw;
-}
-
-.wrapper {
-  height: auto;
-  margin-left: 20%;
-  margin-top: 0%;
-  }
-
-  .int-menu, .int-menu2 {
-    li {
-      width: 20%;
-    }
-  }
-
+@media all and (max-width: 640px) {
   ul.int-menu, ul.int-menu2 {
     margin-left: 2%;
+    width: 99%;
+    margin-top: 0%;
   }
+
+  .interactive-online-tutorials ol {
+    position: relative;
+    margin-left: -15%;
+    width: 105%;
+}
+
+#int-intro {
+  position: relative;
+  margin-left: -15%;
+  width: 105%
+}
 }
 
 @media all and (max-width: 500px) {
-  .interactive-header h1 {
-    font-size: 6.9vw;
-    color: #e0e2db;
-    position: relative;
-    font-family: 'Graduate', cursive;
-    text-shadow: -7px -5px 6px #beb7a4;
-    margin-left: 12%;
-    margin-top: 20.5%;
-    margin-right: auto;
+  ul.int-menu, ul.int-menu2 {
+    margin-left: 0%;
+    width: 99%;
+    margin-top: 0%;
   }
 
   .interactive-online-tutorials ol {
     position: relative;
-    left: 10%;
+    margin-left: -18%;
     width: 100%;
 }
 
 #int-intro {
   position: relative;
-  left: 10%;
+  margin-left: -19%;
   width: 100%
+}
+
+.interactive-header h1 {
+  font-size: 7vw;
+  color: #e0e2db;
+  position: relative;
+  font-family: 'Graduate', cursive;
+  text-shadow: -7px -5px 6px #beb7a4;
+  margin-left: 5%;
+  margin-top: 15.5%;
+  margin-right: auto;
 }
 
 .interactive-online-tutorials {
@@ -637,25 +607,13 @@ margin-top: 2%;
   height: auto;
   font-size: 3vw;
   left: 5%;
-  margin-top: 150%;
-}
-
-.interactive-online-tutorials h2 {
-  border-bottom: 10px solid #3d348b;
-  width: 70%;
-  padding-bottom: 2%;
-  font-size: 3.4vw;
-  margin-left: 5%;
+  margin-top: 100%;
 }
 
 #int-intro-header {
   position: relative;
   left: 5%;
-  font-size: 3.4vw;
-}
-
-ul.int-menu, ul.int-menu2 {
-  margin-left: 2%;
+  font-size: 3.5vw;
 }
 }
 
@@ -687,7 +645,7 @@ ul.int-menu, ul.int-menu2 {
   width: 100%;
   padding-bottom: 15%;
   height: auto;
-  font-size: 3vw;
+  font-size: 3.5vw;
   left: 5%;
   margin-top: 138%;
 }
@@ -703,6 +661,6 @@ ul.int-menu, ul.int-menu2 {
 #int-intro-header {
   position: relative;
   left: 5%;
-  font-size: 3.5vw;
+  font-size: 3.9vw;
 }
 }
