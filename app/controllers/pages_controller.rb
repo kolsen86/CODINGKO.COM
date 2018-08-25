@@ -37,4 +37,7 @@ class PagesController < ApplicationController
 
     def contact1
     end
+
+    def W5HHTML
+    end
 end

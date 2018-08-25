@@ -1,0 +1,45 @@
+.home-body {
+    background-color: #191716;
+    margin: 0;
+    height: auto;
+}
+
+.home-nav {
+    text-align: center;
+    color: #e0e2db;
+    padding-top: 10%;
+}
+
+.home-nav h1 {
+    font-size: 6vw;
+    padding-bottom: 2%;
+    font-family: 'Corben', cursive;
+    letter-spacing: 1vw;
+    padding-top: 7%;
+}
+
+.home-nav h3 {
+    font-size: 2vw;
+    width: 80%;
+    margin-left: 10%;
+    font-family: 'Ubuntu Mono', monospace;
+    border-bottom: 12px solid #e0e2db;
+    border-radius: 15%;
+    padding-bottom: 3%;
+}
+
+.first-place {
+    padding-top: 6%;
+    color: #e6af2e;
+    margin-left: 30%;
+
+        img {
+            margin-left: 19%;
+            padding-top: 2%;
+        }
+
+        h3 {
+            padding-top: 2%;
+            margin-left: 13%;
+        }
+}

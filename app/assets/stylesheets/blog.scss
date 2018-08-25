@@ -4,28 +4,29 @@
     position: relative;
     top: 200px;
     background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533040995/matrix-bg.png);
-    margin-top: -20%;
+    margin-top: -26%;
     padding-bottom: 30%;
+    z-index: 2;
 }
 
-.blog-header {
-    background-color: #191716;
-    height: 100%;
-    margin-top: -33px;
-}
-
-.black-bg-head {
-    background-color: black;
-    position: relative;
-    height: 50em;
-    margin-top: -50px;
+.blog-body {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
 }
 
 .blog-header h1 {
+    position: relative;
+    background-color: #191716;
     font-family: 'Germania One', cursive;
     font-size: 8.5vw;
+    width: 100.5%;
     color: #e0e2db;
-    margin-top: 15%;
+    margin-right: 0 auto;
+    margin-left: 0%;
+    padding: 7% 11% 9% 10%;
+    z-index: 3;
+    text-align: center;
 }
 
 #matrix {
@@ -49,6 +50,7 @@
     margin-top: -5%;
     margin-right: auto;
     margin-left: auto;
+    padding-top: 15%;
 }
 
 #matrix-header h1 {
@@ -136,263 +138,220 @@ footer {
     top: 100%;
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 992px) {
     .blog-header h1 {
-        font-family: 'Germania One', cursive;
-        font-size: 13.2vw;
-        color: #e0e2db;
-        margin-top: 17%;
-    }
-
-    #time {
-        position: relative;
-        left: 2%;
-        margin: 0;
-        font-weight: 900;
-        font-size: 2vw;
-        text-decoration: underline solid;
-        line-height: 1.8em;
+        font-size: 9.5vw;
+        width: 100.5%;
+        padding: 7% 11% 10% 10%;
     }
 
     #ali {
-        position: relative;
-        left: 5%;
-        font-size: 2vw;
-        font-weight: 900;
-        text-decoration: underline solid;
-    }
-
-    .article-content {
-        background-color: #e0e2db;
-        position: relative;
-        width: 90%;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-        top: 15em;
-        font-family: 'Josefin Sans', sans-serif;
-        font-weight: 600;
-        font-size: 1.8vw;
-        border-radius: 20px;
-        padding-top: 5%;
-        padding-bottom: 10%;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        -ms-border-radius: 20px;
-        -o-border-radius: 20px;
-}
-
-    #matrix-header h1 {
-        font-size: 5.5vw;
-        margin-top: 5%;
-        padding-bottom: 3%;
-    }
-
-    #matrix-header h2 {
-        position: relative;
-        font-size: 3.5vw;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #matrix {
-        width: 650px;
-        position: relative;
-        margin-right: auto;
-        margin-left: auto;
-        z-index: 2;
-        color: #e0e2db;
-        top: 200px;
         font-size: 2.3vw;
     }
 
-
-.blog-main {
-    position: relative;
-    top: 200px;
-    background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533040995/matrix-bg.png);
-    margin-top: -35%;
-    padding-bottom: 30%;
-}
-}
-
-@media all and (max-width: 770px) {
-    .blog-header h1 {
-        font-family: 'Germania One', cursive;
-        font-size: 15.2vw;
-        color: #e0e2db;
-        margin-top: 20%;
+    #time-quote {
+        width: 65%;
     }
 
     #time {
-        position: relative;
-        left: 2%;
-        margin: 0;
-        font-weight: 900;
-        font-size: 2.2vw;
-        text-decoration: underline solid;
-        line-height: 1.8em;
-    }
-
-    #ali {
-        position: relative;
-        left: 5%;
-        font-size: 2.2vw;
-        font-weight: 900;
-        text-decoration: underline solid;
+        font-size: 2.3vw;
     }
 
     .article-content {
-        background-color: #e0e2db;
-        position: relative;
-        width: 95%;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-        top: 15em;
-        font-family: 'Josefin Sans', sans-serif;
-        font-weight: 600;
-        font-size: 2vw;
-        border-radius: 20px;
-        padding-top: 5%;
-        padding-bottom: 10%;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        -ms-border-radius: 20px;
-        -o-border-radius: 20px;
-}
-
-    #matrix-header h1 {
-        font-size: 6vw;
-        margin-top: 5%;
-        padding-bottom: 3%;
-    }
-
-    #matrix-header h2 {
-        position: relative;
-        font-size: 4.5vw;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
+        width: 97%;
+        font-size: 1.9vw;
     }
 
     #matrix {
-        width: 450px;
-        position: relative;
-        margin-right: auto;
-        margin-left: auto;
-        z-index: 2;
-        color: #e0e2db;
-        top: 100px;
-        font-size: 2.5vw;
+        font-size: 2.3vw;
     }
-
-
-.blog-main {
-    position: relative;
-    top: 100px;
-    background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533040995/matrix-bg.png);
-    margin-top: -35%;
-    padding-bottom: 30%;
-}
-}
-
-@media all and (max-width: 550px) {
-    .blog-header h1 {
-        font-family: 'Germania One', cursive;
-        font-size: 17.2vw;
-        color: #e0e2db;
-        margin-top: 25%;
-    }
-
-    #time {
-        position: relative;
-        left: 2%;
-        margin: 0;
-        font-weight: 900;
-        font-size: 3.9vw;
-        text-decoration: underline solid;
-        line-height: 1.8em;
-    }
-
-    #ali {
-        position: relative;
-        left: 5%;
-        font-size: 3.9vw;
-        font-weight: 900;
-        text-decoration: underline solid;
-    }
-
-    .article-content {
-        background-color: #e0e2db;
-        position: relative;
-        width: 100%;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-        top: 15em;
-        font-family: 'Josefin Sans', sans-serif;
-        font-weight: 600;
-        font-size: 3.7vw;
-        border-radius: 20px;
-        padding-top: 5%;
-        padding-bottom: 10%;
-        -webkit-border-radius:20px;
-        -moz-border-radius:20px;
-        -ms-border-radius:20px;
-        -o-border-radius:20px;
-}
 
     #matrix-header h1 {
-        font-size: 6vw;
-        margin-top: 5%;
-        padding-bottom: 3%;
+        font-size: 5.5vw;
+        padding-top: 5%;
     }
 
     #matrix-header h2 {
-        position: relative;
-        font-size: 4.5vw;
+        font-size: 3.3vw;
         width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #matrix {
-        width: 300px;
-        position: relative;
-        margin-right: auto;
-        margin-left: auto;
-        z-index: 2;
-        color: #e0e2db;
-        top: 100px;
-        font-size: 3.5vw;
     }
 
     #matrix-header h4 {
-        position: relative;
         width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 3vw;
+        font-size: 2.4vw;
     }
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 805px) {
+    .blog-header h1 {
+        font-size: 10vw;
+        width: 100.5%;
+        padding: 7% 11% 10% 10%;
+    }
 
-.article-content p {
-    justify-content: left;
-    text-indent: 50px;
-    position: relative;
-    padding-bottom: 30px;
-    line-height: 1.9;
-    padding: 20px 10px 10px 10px;
+    #ali {
+        font-size: 2.6vw;
+    }
+
+    #time-quote {
+        width: 65%;
+    }
+
+    #time {
+        font-size: 2.6vw;
+    }
+
+    .article-content {
+        width: 97%;
+        font-size: 2.2vw;
+    }
+
+    #matrix {
+        font-size: 2.6vw;
+    }
+
+    #matrix-header h1 {
+        font-size: 5.8vw;
+        padding-top: 9%;
+    }
+
+    #matrix-header h2 {
+        font-size: 3.6vw;
+        width: 100%;
+    }
+
+    #matrix-header h4 {
+        width: 100%;
+        font-size: 2.7vw;
+    }
+
+    .blog-main {
+        top: 200px;
+        margin-top: -35%;
+    }
 }
 
-.blog-header h1 {
-    font-family: 'Germania One', cursive;
-    font-size: 17.2vw;
-    color: #e0e2db;
-    margin-top: 55%;
+@media all and (max-width: 768px) {
+    #matrix {
+        font-size: 2.6vw;
+        width: 90%;
+    }
 }
+
+@media all and (max-width: 650px) {
+    .blog-header h1 {
+        font-size: 10.7vw;
+        width: 100.5%;
+        padding: 7% 11% 10% 10%;
+    }
+
+    #ali {
+        font-size: 2.9vw;
+    }
+
+    #time-quote {
+        width: 65%;
+    }
+
+    #time {
+        font-size: 2.9vw;
+    }
+
+    .article-content {
+        width: 97%;
+        font-size: 2.5vw;
+    }
+
+    #matrix {
+        font-size: 2.9vw;
+    }
+
+    #matrix-header h1 {
+        font-size: 6.1vw;
+        padding-top: 15%;
+    }
+
+    #matrix-header h2 {
+        font-size: 3.9vw;
+        width: 100%;
+    }
+
+    #matrix-header h4 {
+        width: 100%;
+        font-size: 3vw;
+    }
+
+    .blog-main {
+        top: 200px;
+        margin-top: -50%;
+    }
+}
+
+@media all and (max-width: 550px)  {
+    .article-content p {
+        width: 110%;
+    }
+
+    .blog-header h1 {
+        font-size: 11.5vw;
+        width: 100.5%;
+        padding: 7% 11% 10% 10%;
+    }
+
+    #ali {
+        font-size: 3.5vw;
+    }
+
+    #time-quote {
+        width: 65%;
+    }
+
+    #time {
+        font-size: 3.5vw;
+    }
+
+    .article-content {
+        width: 97%;
+        font-size: 3vw;
+    }
+
+    #matrix {
+        font-size: 3.3vw;
+    }
+
+    #matrix-header h1 {
+        font-size: 6.6vw;
+        padding-top: 15%;
+    }
+
+    #matrix-header h2 {
+        font-size: 4.3vw;
+        width: 100%;
+    }
+
+    #matrix-header h4 {
+        width: 100%;
+        font-size: 3.1vw;
+    }
+
+}
+
+@media all and (max-width: 425px) {
+    .blog-main {
+        top: 200px;
+        margin-top: -70%;
+    }
+
+    #matrix-header {
+        position: relative;
+        text-align: center;
+        z-index: 2;
+        font-size: 5.2vw;
+        color: #e0e2db;
+        font-family: 'Prompt', sans-serif;
+        margin-top: -5%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 27%;
+    }
 }

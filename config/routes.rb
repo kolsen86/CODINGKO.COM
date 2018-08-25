@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   root to: 'pages#home'
   get 'blog', to: 'pages#blog'
+  get 'W5HHTML', to: 'pages#W5HHTML'
   get 'about', to: 'pages#about'
   get 'grind', to: 'pages#grind'
   get 'tutorials', to: 'pages#tutorials'

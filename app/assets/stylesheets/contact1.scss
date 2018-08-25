@@ -2,7 +2,7 @@
 .contact-body {
     background-color: #e0e2db;
     margin: 0 auto;
-    width: auto;
+    width: 100%;
     height: auto;
 }
 
@@ -11,9 +11,9 @@
     margin-left: 6%;
     margin-right: 0;
     z-index: 3;
-    width: 96%;
+    width: 88%;
     height: 120vh;
-    left: -9%;
+    left: -8%;
 }
 
 
@@ -89,7 +89,7 @@ display: block;
 left: 60%;
 top: 15%;
 height: 600px;
-width: 400px;
+width: 50%;
 font-size: 2vw;
 font-family: 'Special Elite', serif;
 margin-top: 0 auto;
@@ -102,7 +102,7 @@ display: block;
 position: absolute;
 font-size: 2.8vw;
 font-family: 'Special Elite', serif;
-top: -45%;
+top: -40%;
 }
 
 .contact-reasons ul {
@@ -120,14 +120,15 @@ top: -45%;
     font-weight: 700;
     height: 100%;
     width: 100%;
+    margin-left: 10%;
 }
 
 .anything-wrap {
     margin-top: 43%;
-    margin-left: 9%;
+    margin-left: 12%;
     position: absolute;
     height: 60px;
-    width: 100px;
+    width: 95%;
     bottom: 8%;
     padding-top: 2%;
 }
@@ -258,7 +259,7 @@ fieldset {
         margin-left: 7%;
         position: absolute;
         height: 60px;
-        width: 975px;
+        width: 95%;;
         bottom: 8%;
         padding-top: 2%;
     }
@@ -330,7 +331,7 @@ fieldset {
         left: 53%;
         top: 15%;
         height: 600px;
-        width: 455px;
+        width: 50%;
         font-size: 2vw;
         font-family: 'Special Elite', serif;
         margin-top: 0 auto;
@@ -515,7 +516,7 @@ fieldset {
         left: 60%;
         top: 15%;
         height: 600px;
-        width: 600px;
+        width: 50%;
         font-size: 2vw;
         font-family: 'Special Elite', serif;
         margin-top: 0 auto;
@@ -528,7 +529,7 @@ fieldset {
             margin-left: 15%;
             position: absolute;
             height: 50px;
-            width: 1600px;
+            width: 95%;
             bottom: 8%;
             padding-top: 2%;
         }
@@ -735,7 +736,7 @@ fieldset {
         left: 50%;
         top: 25%;
         height: 600px;
-        width: 600px;
+        width: 50%;
         font-size: 2.4vw;
         font-family: 'Special Elite', serif;
         margin-top: 0 auto;
@@ -824,6 +825,35 @@ fieldset {
 
 }
 
+@media all and (max-width: 650px) {
+    #name-icon {
+        position: absolute;
+        margin-left: 5px;
+        margin-top: -175px;
+        display: block;
+        height: 92%;
+        width: 100%;
+    }
+
+    #email-icon {
+        position: absolute;
+        margin-left: 33px;
+        margin-top: -155px;
+        display: block;
+        height: 42%;
+        width: 45%;
+    }
+
+    #comments-icon {
+        position: absolute;
+        margin-left: -35px;
+        margin-top: -130px;
+        display: block;
+        height: 132%;
+        width: 150%;
+    }
+}
+
 @media all and (max-width: 600px) {
 
     .linkedin {
@@ -868,10 +898,20 @@ fieldset {
         margin-left: -4%;
     }
 
+    #new_contact > fieldset > div:nth-child(4) > label {
+        margin-left: -6%;
+        padding-bottom: 1%;
+    }
+
+    #new_contact > fieldset > div:nth-child(6) > label {
+        margin-left: 63%;
+        margin-top: -40%;
+    }
+
     #name-icon {
         position: absolute;
-        margin-left: -10px;
-        margin-top: -140px;
+        margin-left: -12px;
+        margin-top: -164px;
         display: block;
         height: 90%;
         width: 100%;
@@ -889,7 +929,7 @@ fieldset {
     #comments-icon {
         position: absolute;
         margin-left: -30px;
-        margin-top: -130px;
+        margin-top: -50px;
         display: block;
         height: 130%;
         width: 150%;
@@ -897,8 +937,10 @@ fieldset {
 
     #contact_comments {
         height: 23vh;
-        width: 26vw;
+        width: 60vw;
         z-index: 3;
+        margin-top: 40%;
+        margin-left: -5%;
     }
 
     #contact_email {
@@ -906,6 +948,8 @@ fieldset {
         width: 25vw;
         z-index: 3;
         font-size: 1.3vw;
+        margin-left: 93%;
+        margin-top: -60%;
     }
 
     #contact_name {
@@ -913,6 +957,8 @@ fieldset {
         width: 25vw;
         z-index: 3;
         font-size: 1.3vw;
+        margin-left: -15%;
+        margin-top: -2%;
     }
 
     .tear-away-header {
@@ -927,7 +973,7 @@ fieldset {
         left: 50%;
         top: 25%;
         height: 600px;
-        width: 600px;
+        width: 50%;
         font-size: 2.5vw;
         font-family: 'Special Elite', serif;
         margin-top: 0 auto;
@@ -1100,7 +1146,7 @@ fieldset {
             left: 32%;
             top: 13.5%;
             height: 700px;
-            width: 600px;
+            width: 50%;
             font-size: 3vw;
             font-family: 'Special Elite', serif;
             margin-top: 0 auto;
@@ -1159,15 +1205,5 @@ fieldset {
             border: 2px solid black;
             line-height: 0.5em;
             border-radius: 5%;
-            }
-
-            .form-area {
-                margin-top: 5%;
-                margin-left: 14%;
-                margin-right: 0;
-                z-index: 3;
-                width: 99%;
-                height: 120vh;
-                left: -9%;
             }
 }
