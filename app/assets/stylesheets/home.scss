@@ -2,6 +2,7 @@
     background-color: #191716;
     margin: 0;
     height: auto;
+    padding-bottom: 10%;
 }
 
 .home-nav {
@@ -29,7 +30,7 @@
 }
 
 .first-place {
-    padding-top: 6%;
+    padding-top: 4%;
     color: #e6af2e;
     margin-left: 30%;
 
@@ -42,4 +43,136 @@
             padding-top: 2%;
             margin-left: 13%;
         }
+}
+
+.dad-quote {
+    display: inline-block;
+    width: 29%;
+    height: 100vh;
+    background-color: #e0e2db;
+    color: #3d348b;
+    border: 10px solid #e6af2e;
+    border-radius: 25%;
+    font-size: 1.9vw;
+    text-align: center;
+    margin-left: 3%;
+    font-weight: 600;
+    margin-top: 5%;
+
+        p {
+            margin-left: 15%;
+            margin-top: 45%;
+            width: 65%;
+        }
+
+        h3 {
+            margin-top: 30%;
+            margin-left: 35%;
+            font-size: 1.5vw;
+        }
+
+        .fa-quote-left {
+            padding-right: 10%;
+        }
+
+        .fa-quote-right {
+            padding-left: 10%;
+        }
+}
+
+.mom-quote {
+    display: inline-block;
+    width: 29%;
+    height: 100vh;
+    background-color: #e0e2db;
+    color: #3d348b;
+    border: 10px solid #e6af2e;
+    border-radius: 25%;
+    font-size: 1.8vw;
+    text-align: center;
+    margin-left: 2.5%;
+    font-weight: 600;
+    margin-top: 5%;
+    padding-bottom: 5%;
+
+        p {
+            margin-left: 15%;
+            margin-top: 31%;
+            width: 75%;
+        }
+
+        h3 {
+            margin-top: 30%;
+            margin-left: 35%;
+            font-size: 1.5vw;
+        }
+
+        .fa-quote-left {
+            padding-right: 10%;
+        }
+
+        .fa-quote-right {
+            padding-left: 10%;
+        }
+}
+
+.girlfriend-quote {
+    display: inline-block;
+    width: 29%;
+    height: 100vh;
+    background-color: #e0e2db;
+    color: #3d348b;
+    border: 10px solid #e6af2e;
+    border-radius: 25%;
+    font-size: 1.9vw;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 2.5%;
+    font-weight: 600;
+
+        p {
+            margin-left: 15%;
+            margin-top: 30%;
+            width: 65%;
+        }
+
+        h3 {
+            margin-top: 30%;
+            margin-left: 35%;
+            font-size: 1.5vw;
+        }
+
+        .fa-quote-left {
+            padding-right: 10%;
+        }
+
+        .fa-quote-right {
+            padding-left: 10%;
+        }
+
+        span {
+            font-size: 1.2vw;
+        }
+}
+
+.testimonials {
+    font-size: 2.5vw;
+    color: #beb7a4;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.home-nav a {
+    color: #e0e2db;
+}
+
+.home-nav a:hover {
+    color: #e6af2e;
+}
+
+.real-quotes {
+    font-size: 2.5vw;
+    color: #beb7a4;
+    margin-left: 17%;
+    margin-top: 7%;
 }
