@@ -8,10 +8,10 @@
 
 .form-area {
     margin-top: 5%;
-    margin-left: 6%;
+    margin-left: 10.5%;
     margin-right: 0;
     z-index: 3;
-    width: 88%;
+    width: 84%;
     height: 120vh;
     left: -8%;
 }
@@ -21,7 +21,7 @@
     position: relative;
     height: 150vh;
     width: 93vw;
-    margin-left: 2%;
+    margin-left: 3%;
     margin-top: 2%;
     z-index: 1;
     align-self: center;
@@ -120,7 +120,7 @@ top: -40%;
     font-weight: 700;
     height: 100%;
     width: 100%;
-    margin-left: 10%;
+    margin-left: 2%;
 }
 
 .anything-wrap {
@@ -163,15 +163,15 @@ label {
 }
 
 #new_contact > fieldset > div:nth-child(8) > label {
-    margin-left: -11%;
+    margin-left: 15%;
 }
 
 #new_contact > fieldset > div:nth-child(6) > label {
-    margin-left: -5%;
+    margin-left: 20%;
 }
 
 #new_contact > fieldset > div:nth-child(4) > label {
-    margin-left: -5%;
+    margin-left: 20%;
 }
 
 #new_contact > fieldset > div:nth-child(10) > button {
@@ -899,48 +899,48 @@ fieldset {
     }
 
     #new_contact > fieldset > div:nth-child(4) > label {
-        margin-left: -6%;
+        margin-left: -4%;
         padding-bottom: 1%;
     }
 
     #new_contact > fieldset > div:nth-child(6) > label {
-        margin-left: 63%;
-        margin-top: -40%;
+        margin-left: -4%;
+        margin-top: 1%;
     }
 
     #name-icon {
         position: absolute;
-        margin-left: -12px;
-        margin-top: -164px;
+        margin-left: 150px;
+        margin-top: -155px;
         display: block;
-        height: 90%;
-        width: 100%;
+        height: 85%;
+        width: 90%;
     }
 
     #email-icon {
         position: absolute;
-        margin-left: 30px;
-        margin-top: -110px;
+        margin-left: 180px;
+        margin-top: -130px;
         display: block;
-        height: 40%;
+        height: 37%;
         width: 45%;
     }
 
     #comments-icon {
         position: absolute;
-        margin-left: -30px;
-        margin-top: -50px;
+        margin-left: 5px;
+        margin-top: -208px;
         display: block;
-        height: 130%;
-        width: 150%;
+        height: 194%;
+        width: 200%;
     }
 
     #contact_comments {
         height: 23vh;
-        width: 60vw;
+        width: 70vw;
         z-index: 3;
-        margin-top: 40%;
-        margin-left: -5%;
+        margin-top: 1%;
+        margin-left: -25%;
     }
 
     #contact_email {
@@ -948,8 +948,8 @@ fieldset {
         width: 25vw;
         z-index: 3;
         font-size: 1.3vw;
-        margin-left: 93%;
-        margin-top: -60%;
+        margin-left: -35%;
+        margin-top: 0%;
     }
 
     #contact_name {
@@ -957,7 +957,7 @@ fieldset {
         width: 25vw;
         z-index: 3;
         font-size: 1.3vw;
-        margin-left: -15%;
+        margin-left: -35%;
         margin-top: -2%;
     }
 
@@ -970,30 +970,31 @@ fieldset {
     .contact-reasons {
         position: absolute;
         display: block;
-        left: 50%;
-        top: 25%;
+        left: 42%;
+        top: 15%;
         height: 600px;
-        width: 50%;
-        font-size: 2.5vw;
+        width: 55%;
+        font-size: 2.75vw;
         font-family: 'Special Elite', serif;
         margin-top: 0 auto;
         line-height: 1.65em;
         font-weight: 800;
+        padding-left: 2%;
         }
 
     .contact-reasons h2 {
         display: block;
         position: absolute;
-        font-size: 3.5vw;
+        font-size: 3.8vw;
         font-family: 'Special Elite', serif;
-        top: -45%;
+        top: -30%;
         }
 
     .contact1 {
         position: relative;
         height: 130vh;
         width: 93vw;
-        margin-left: 0%;
+        margin-left: 2%;
         margin-top: 2%;
         z-index: 1;
         align-self: center;
@@ -1001,8 +1002,58 @@ fieldset {
         }
 
         #new_contact > fieldset > div:nth-child(8) > label {
-            margin-left: 5%;
+            margin-left: 43%;
+            margin-top: 60%;
         }
+
+        .anything-contact {
+            position: absolute;
+            font-size: 4vw;
+            font-family: 'Special Elite', serif;
+            font-weight: 700;
+            height: 100%;
+            width: 100%;
+            margin-left: 2%;
+            margin-top: 15%;
+        }
+
+        #new_contact > fieldset > div:nth-child(10) > button {
+            margin-top: 85%;
+            width: 17vw;
+            height: 7vh;
+            font-size: 2.2vw;
+            letter-spacing: 0.3vw;
+            font-weight: 900;
+            margin-left: 38%;
+            color: #acd88c;
+            border: 2px solid black;
+            line-height: 0.5em;
+            border-radius: 5%;
+            }
+
+            label {
+                font-size: 2.7vw;
+            }
+}
+
+@media all and (max-width: 550px) {
+    #name-icon {
+        position: absolute;
+        margin-left: 0px;
+        margin-top: -200px;
+        display: block;
+        height: 85%;
+        width: 90%;
+    }
+
+    #email-icon {
+        position: absolute;
+        margin-left: 30px;
+        margin-top: -175px;
+        display: block;
+        height: 37%;
+        width: 45%;
+    }
 }
 
 @media all and (max-width: 500px) {
@@ -1080,26 +1131,26 @@ fieldset {
         height: 29vh;
         width: 70vw;
         z-index: 3;
-        margin-left: 0%;
-        margin-top: 4%;
+        margin-left: -7%;
+        margin-top: 8%;
         }
 
     #contact_email {
         height: 6vh;
         width: 25vw;
         z-index: 3;
-        font-size: 1.3vw;
+        font-size: 2vw;
         margin-top: 4%;
-        margin-left: -5.5%
+        margin-left: -15.5%
         }
 
     #contact_name {
         height: 6vh;
         width: 25vw;
         z-index: 3;
-        font-size: 1.3vw;
+        font-size: 2vw;
         margin-top: 4%;
-        margin-left: -5.5%;
+        margin-left: -15.5%;
         }
 
     .form-group {
@@ -1114,20 +1165,20 @@ fieldset {
         margin-left: 15%;
         position: absolute;
         height: 30px;
-        width: 1600px;
+        width: 300px;
         bottom: 2.5%;
         padding-top: 2%;
     }
 
 
     #new_contact > fieldset > div:nth-child(10) > button {
-        margin-top: 55%;
+        margin-top: 85%;
         width: 17vw;
         height: 5vh;
         font-size: 2.5vw;
         letter-spacing: 0.3vw;
         font-weight: 900;
-        margin-left: 65%;
+        margin-left: 60%;
         color: #acd88c;
         border: 2px solid black;
         line-height: 0.5em;
@@ -1143,10 +1194,10 @@ fieldset {
         .contact-reasons {
             position: absolute;
             display: block;
-            left: 32%;
+            left: 33%;
             top: 13.5%;
             height: 700px;
-            width: 50%;
+            width: 59%;
             font-size: 3vw;
             font-family: 'Special Elite', serif;
             margin-top: 0 auto;
@@ -1163,7 +1214,8 @@ fieldset {
             }
 
             #new_contact > fieldset > div:nth-child(8) > label {
-                margin-left: 60%;
+                margin-left: 55%;
+                margin-top: 20%;
             }
 
             #new_contact > fieldset > div:nth-child(6) > label {
@@ -1194,7 +1246,7 @@ fieldset {
         }
 
         #new_contact > fieldset > div:nth-child(10) > button {
-            margin-top: 69%;
+            margin-top: 78%;
             width: 17vw;
             height: 8vh;
             font-size: 2.5vw;
@@ -1205,5 +1257,29 @@ fieldset {
             border: 2px solid black;
             line-height: 0.5em;
             border-radius: 5%;
+            }
+}
+
+@media all and (max-width: 350px) {
+    .contact-reasons {
+        position: absolute;
+        display: block;
+        left: 33%;
+        top: 13.5%;
+        height: 700px;
+        width: 59%;
+        font-size: 3.2vw;
+        font-family: 'Special Elite', serif;
+        margin-top: 0 auto;
+        line-height: 1.65em;
+        font-weight: 800;
+        }
+
+        #contact_comments {
+            height: 24vh;
+            width: 70vw;
+            z-index: 3;
+            margin-left: -7%;
+            margin-top: 8%;
             }
 }
