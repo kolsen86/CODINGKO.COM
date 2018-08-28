@@ -1,357 +1,284 @@
 
-
-.blog-main {
-    position: relative;
-    top: 200px;
-    background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533040995/matrix-bg.png);
-    margin-top: -26%;
-    padding-bottom: 30%;
-    z-index: 2;
-}
-
 .blog-body {
-    margin: 0 auto;
     width: 100%;
     height: auto;
+    margin: 0;
+    background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1533040995/matrix-bg.png);
+    padding-bottom: 15%;
 }
 
-.blog-header h1 {
-    position: relative;
+#blog-head {
+    width: 100%;
     background-color: #191716;
+    height: auto;
+    font-size: 9vw;
     font-family: 'Germania One', cursive;
-    font-size: 8.5vw;
-    width: 100.5%;
     color: #e0e2db;
-    margin-right: 0 auto;
-    margin-left: 0%;
-    padding: 7% 11% 9% 10%;
-    z-index: 3;
     text-align: center;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    text-shadow: 3px -2px 3px #e6af2e;
 }
 
-#matrix {
-    width: 650px;
-    position: relative;
-    margin-right: auto;
-    margin-left: auto;
-    z-index: 2;
-    color: #e0e2db;
-    top: 200px;
-    font-size: 2vw;
-}
-
-#matrix-header {
-    position: relative;
-    text-align: center;
-    z-index: 2;
-    font-size: 5.2vw;
+.matrix-head {
+    width: 95%;
+    height: auto;
     color: #e0e2db;
     font-family: 'Prompt', sans-serif;
-    margin-top: -5%;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 15%;
-}
-
-#matrix-header h1 {
-    font-size: 5vw;
-    margin-top: 5%;
-    padding-bottom: 3%;
-}
-
-#matrix-header h2 {
-    position: relative;
-    font-size: 3vw;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#matrix-header h4 {
-    position: relative;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 2vw;
-}
-
-.article-content p {
-    justify-content: left;
-    text-indent: 75px;
-    position: relative;
-    padding-bottom: 30px;
-    line-height: 1.9;
-    padding: 20px 55px 10px 55px;
-}
-
-.article-content {
-    background-color: #e0e2db;
-    position: relative;
-    width: 90%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    top: 15em;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    font-size: 1.6vw;
-    border-radius: 20px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.6em;
+    letter-spacing: 0.3em;
     padding-top: 5%;
-    padding-bottom: 10%;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    text-shadow: -2px 1px 2px #3d348b;
+
+        h1 {
+          margin: 0 auto;
+          color: #e6af2e;
+          font-size: 5.5vw;
+          border-bottom: 7px solid #3d348b;
+          width: 90%;
+        }
+
+        h2 {
+          color: #beb7a4;
+          font-size: 3.5vw;
+        }
+
+        h4 {
+          font-size: 2vw;
+        }
+    }
+
+#matrix-quote {
+    color: #e0e2db;
+    font-size: 2vw;
+    padding-top: 15%;
+    padding-bottom: 9%;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: left;
+    text-shadow: -2px 1px 2px #3d348b;
+
+        span {
+            color: #e6af2e;
+        }
 }
 
-.article-content span {
-    text-decoration: underline;
-    font-weight: 900;
-}
+#blog-content {
+    background-color: #e0e2db;
+    color: #191716;
+    width: 85%;
+    height: auto;
+    padding: 10% 8% 10% 8%;
+    line-height: 1.8em;
+    font-size: 1.6vw;
+    text-indent: 50px;
+    margin: 0 auto;
+    font-weight: 400;
+    border-radius: 1.5%;
+    border: 5px solid #191716;
+    font-family: 'Crete Round', serif;
+    text-shadow: 0.1px -0.15px 0.1px #3d348b;
 
-#ali {
-    position: relative;
-    left: 5%;
-    font-size: 1.8vw;
-    font-weight: 900;
-    text-decoration: underline solid;
+        p {
+            padding-bottom: 5%;
+        }
+
+        span {
+            color: #3d348b;
+        }
 }
 
 #time-quote {
-    position: relative;
-    width: 65%;
+    border: 10px solid #3d348b;
+    line-height: 1.9em;
+    width: 80%;
+    height: auto;
+    font-size: 2.3vw;
+    padding: 5%;
+    text-align: center;
     margin: 0 auto;
+    margin-top: -3%;
+    background-color: #e6af2e;
 }
 
-#time {
-    position: relative;
-    left: 2%;
-    margin: 0;
-    font-weight: 900;
-    font-size: 1.8vw;
-    text-decoration: underline solid;
-    line-height: 1.8em;
+#after-time {
+    padding-top: 5%;
 }
 
-footer {
-    position: relative;
-    top: 100%;
+#ali {
+    font-size: 2.2vw;
+    width: 70%;
+    padding: 3%;
+    margin: 0 auto;
+    border: 10px solid #3d348b;
+    background-color: #e6af2e;
+    line-height: 1.9em;
 }
 
-@media all and (max-width: 992px) {
-    .blog-header h1 {
-        font-size: 9.5vw;
-        width: 100.5%;
-        padding: 7% 11% 10% 10%;
+@media all and (max-width: 1100px) {
+
+    #blog-content {
+        font-size: 2vw;
     }
 
-    #ali {
-        font-size: 2.3vw;
-    }
-
-    #time-quote {
-        width: 65%;
-    }
-
-    #time {
-        font-size: 2.3vw;
-    }
-
-    .article-content {
-        width: 97%;
-        font-size: 1.9vw;
-    }
-
-    #matrix {
-        font-size: 2.3vw;
-    }
-
-    #matrix-header h1 {
-        font-size: 5.5vw;
-        padding-top: 5%;
-    }
-
-    #matrix-header h2 {
-        font-size: 3.3vw;
-        width: 100%;
-    }
-
-    #matrix-header h4 {
-        width: 100%;
-        font-size: 2.4vw;
-    }
-}
-
-@media all and (max-width: 805px) {
-    .blog-header h1 {
-        font-size: 10vw;
-        width: 100.5%;
-        padding: 7% 11% 10% 10%;
-    }
-
-    #ali {
-        font-size: 2.6vw;
-    }
-
-    #time-quote {
-        width: 65%;
-    }
-
-    #time {
-        font-size: 2.6vw;
-    }
-
-    .article-content {
-        width: 97%;
-        font-size: 2.2vw;
-    }
-
-    #matrix {
-        font-size: 2.6vw;
-    }
-
-    #matrix-header h1 {
-        font-size: 5.8vw;
-        padding-top: 9%;
-    }
-
-    #matrix-header h2 {
-        font-size: 3.6vw;
-        width: 100%;
-    }
-
-    #matrix-header h4 {
-        width: 100%;
-        font-size: 2.7vw;
-    }
-
-    .blog-main {
-        top: 200px;
-        margin-top: -35%;
-    }
-}
-
-@media all and (max-width: 768px) {
-    #matrix {
-        font-size: 2.6vw;
-        width: 90%;
-    }
-}
-
-@media all and (max-width: 650px) {
-    .blog-header h1 {
-        font-size: 10.7vw;
-        width: 100.5%;
-        padding: 7% 11% 10% 10%;
-    }
-
-    #ali {
-        font-size: 2.9vw;
-    }
-
-    #time-quote {
-        width: 65%;
-    }
-
-    #time {
-        font-size: 2.9vw;
-    }
-
-    .article-content {
-        width: 97%;
+    #ali, #time-quote, #matrix-quote {
         font-size: 2.5vw;
     }
 
-    #matrix {
+    .matrix-head {
+
+        h1 {
+            font-size: 6vw;
+        }
+
+        h2 {
+            font-size: 4vw;
+        }
+
+        h4 {
+            font-size: 2.4vw;
+        }
+    }
+
+    #blog-head {
+        font-size: 10vw;
+    }
+}
+
+@media all and (max-width: 825px) {
+    #blog-content {
+        font-size: 2.5vw;
+        width: 95%;
+    }
+
+    #ali, #time-quote, #matrix-quote {
+        font-size: 2.8vw;
+    }
+
+    .matrix-head {
+
+        h1 {
+            font-size: 6.5vw;
+        }
+
+        h2 {
+            font-size: 4.3vw;
+        }
+
+        h4 {
+            font-size: 2.6vw;
+        }
+    }
+
+    #blog-head {
+        font-size: 10.5vw;
+    }
+}
+
+@media all and (max-width: 600px) {
+    #blog-content {
         font-size: 2.9vw;
-    }
-
-    #matrix-header h1 {
-        font-size: 6.1vw;
-        padding-top: 15%;
-    }
-
-    #matrix-header h2 {
-        font-size: 3.9vw;
         width: 100%;
     }
 
-    #matrix-header h4 {
-        width: 100%;
+    #ali, #time-quote, #matrix-quote {
         font-size: 3vw;
     }
 
-    .blog-main {
-        top: 200px;
-        margin-top: -50%;
+    #ali, #time-quote {
+        width: 93%;
+    }
+
+    #matrix-quote {
+        width: 80%;
+    }
+
+    .matrix-head {
+
+        h1 {
+            font-size: 6.8vw;
+        }
+
+        h2 {
+            font-size: 4.5vw;
+        }
+
+        h4 {
+            font-size: 2.8vw;
+        }
+    }
+
+    #blog-head {
+        font-size: 10.9vw;
     }
 }
 
-@media all and (max-width: 550px)  {
-    .article-content p {
-        width: 110%;
-    }
-
-    .blog-header h1 {
-        font-size: 11.5vw;
-        width: 100.5%;
-        padding: 7% 11% 10% 10%;
-    }
-
-    #ali {
-        font-size: 3.5vw;
-    }
-
-    #time-quote {
-        width: 65%;
-    }
-
-    #time {
-        font-size: 3.5vw;
-    }
-
-    .article-content {
-        width: 97%;
-        font-size: 3vw;
-    }
-
-    #matrix {
+@media all and (max-width: 500px) {
+    #blog-content {
         font-size: 3.3vw;
-    }
-
-    #matrix-header h1 {
-        font-size: 6.6vw;
-        padding-top: 15%;
-    }
-
-    #matrix-header h2 {
-        font-size: 4.3vw;
         width: 100%;
     }
 
-    #matrix-header h4 {
-        width: 100%;
-        font-size: 3.1vw;
+    #ali, #time-quote, #matrix-quote {
+        font-size: 3.6vw;
     }
 
+    #matrix-quote {
+        width: 80%;
+    }
+
+    .matrix-head {
+
+        h1 {
+            font-size: 7vw;
+        }
+
+        h2 {
+            font-size: 4.8vw;
+        }
+
+        h4 {
+            font-size: 3vw;
+        }
+    }
+
+    #blog-head {
+        font-size: 11.3vw;
+    }
 }
 
-@media all and (max-width: 425px) {
-    .blog-main {
-        top: 200px;
-        margin-top: -70%;
+@media all and (max-width: 390px) {
+    #blog-content {
+        font-size: 4vw;
+        width: 100%;
     }
 
-    #matrix-header {
-        position: relative;
-        text-align: center;
-        z-index: 2;
-        font-size: 5.2vw;
-        color: #e0e2db;
-        font-family: 'Prompt', sans-serif;
-        margin-top: -5%;
-        margin-right: auto;
-        margin-left: auto;
-        padding-top: 27%;
+    #ali, #time-quote, #matrix-quote {
+        font-size: 4.3vw;
+    }
+
+    #matrix-quote {
+        width: 80%;
+    }
+
+    .matrix-head {
+
+        h1 {
+            font-size: 7.2vw;
+        }
+
+        h2 {
+            font-size: 5vw;
+        }
+
+        h4 {
+            font-size: 3.1vw;
+        }
+    }
+
+    #blog-head {
+        font-size: 11.6vw;
     }
 }

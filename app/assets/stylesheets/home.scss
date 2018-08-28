@@ -34,17 +34,26 @@
 .first-place {
     padding-top: 4%;
     color: #e6af2e;
-    margin-left: 30%;
 
         img {
-            margin-left: 17%;
+            width: 15%;
+            display: block;
+            margin: 0 auto;
             padding-top: 2%;
         }
 
         h3 {
             padding-top: 2%;
-            margin-left: 13%;
+            text-align: center;
         }
+
+        h1 {
+            text-align: center;
+        }
+}
+
+.row {
+    width: 101%;
 }
 
 .dad-quote {
@@ -57,7 +66,7 @@
     border-radius: 25%;
     font-size: 1.9vw;
     text-align: center;
-    margin-left: 3%;
+    margin-left: 5%;
     font-weight: 600;
     margin-top: 5%;
     font-family: 'Crete Round', serif;
@@ -163,7 +172,7 @@
 
 .testimonials {
     font-size: 2.5vw;
-    color: #024C99;
+    color: #e0e2db;
     text-align: center;
     padding-top: 3%;
     text-shadow: -1px 1px 1px #e6af2e;
@@ -180,12 +189,26 @@
 
 .real-quotes {
     font-size: 2.5vw;
-    color: #024C99;
+    color: #e0e2db;
     margin-left: 17%;
     margin-top: 7%;
     padding-top: 3%;
     text-shadow: -1px 1px 1px #e6af2e;
 }
+
+@media all and (max-width: 1250px) {
+.first-place {
+
+    h1 {
+margin-left: 1%;
+    }
+
+    h3 {
+        margin-left: -1%;
+    }
+}
+}
+
 
 @media all and (max-width: 1150px) {
     .girlfriend-quote, .dad-quote {
@@ -205,26 +228,6 @@
             margin-left: 10%;
         }
     }
-
-    .first-place {
-        padding-top: 4%;
-        color: #e6af2e;
-        margin-left: 28%;
-
-            img {
-                margin-left: 18%;
-                padding-top: 2%;
-            }
-
-            h1 {
-                margin-left: -3%;
-            }
-
-            h3 {
-                padding-top: 2%;
-                margin-left: 13%;
-            }
-    }
 }
 
 @media all and (max-width: 990px) {
@@ -238,6 +241,14 @@
         }
     }
 
+    .first-place {
+
+        h1 {
+            font-size: 2vw;
+    margin-left: 1%;
+        }
+    }
+
     .mom-quote {
         font-size: 2.2vw;
 
@@ -246,26 +257,6 @@
             width: 80%;
             margin-left: 10%;
         }
-    }
-
-    .first-place {
-        padding-top: 4%;
-        color: #e6af2e;
-        margin-left: 26%;
-
-            img {
-                margin-left: 18%;
-                padding-top: 2%;
-            }
-
-            h1 {
-                margin-left: -4%;
-            }
-
-            h3 {
-                padding-top: 2%;
-                margin-left: 11%;
-            }
     }
 
     .testimonials, .real-quotes {
@@ -281,28 +272,6 @@
     }
 }
 
-@media all and (max-width: 880px) {
-    .first-place {
-        padding-top: 4%;
-        color: #e6af2e;
-        margin-left: 25%;
-
-            img {
-                margin-left: 18%;
-                padding-top: 2%;
-            }
-
-            h1 {
-                margin-left: -8%;
-            }
-
-            h3 {
-                padding-top: 2%;
-                margin-left: 10%;
-            }
-}
-}
-
 @media all and (max-width: 800px) {
     .girlfriend-quote, .dad-quote {
         font-size: 2.7vw;
@@ -311,6 +280,19 @@
         margin-top: 90%;
         width: 88%;
         margin-left: 2%;
+        }
+    }
+
+    .first-place {
+
+        h1 {
+    margin-left: 1%;
+    font-size: 2.4vw;
+        }
+
+        h3 {
+            font-size: 2vw;
+            margin-left: -1%;
         }
     }
 
@@ -323,33 +305,9 @@
             margin-left: 2%;
         }
 }
-
-.first-place {
-
-    h1 {
-        margin-left: -10.5%;
-    }
-}
 }
 
 @media all and (max-width: 683px) {
-    .first-place {
-        margin-left: 15%;
-
-        h1 {
-            margin-left: -7.5%;
-        }
-
-        h3 {
-            padding-top: 2%;
-            margin-left: 14%;
-        }
-
-        img {
-            margin-left: 24%;
-            padding-top: 2%;
-        }
-    }
 
 .girlfriend-quote, .dad-quote {
     font-size: 2.9vw;
@@ -394,6 +352,19 @@
 .real-quotes {
     margin-left: 10%;
 }
+
+.first-place {
+
+    h1 {
+margin-left: 1%;
+font-size: 2.9vw;
+    }
+
+    h3 {
+        font-size: 2.5vw;
+        margin-left: -1%;
+    }
+}
 }
 
 @media all and (max-width: 622px) {
@@ -411,32 +382,12 @@
         padding-bottom: 3%;
     }
 
-    .first-place {
-        padding-top: 4%;
-        margin-left: 10%;
-
-            img {
-                margin-left: 25%;
-                padding-top: 2%;
-            }
-
-            h1 {
-                font-size: 3.4vw;
-                margin-left: 1%;
-            }
-
-            h3 {
-                padding-top: 2%;
-                margin-left: 15.5%;
-            }
-    }
-
     .dad-quote {
         display: block;
         width: 80%;
         height: 370px;
         font-size: 3.3vw;
-        margin-left: 10%;
+        margin-left: 14%;
         margin-top: 5%;
 
             p {
@@ -465,7 +416,7 @@
         width: 80%;
         height: 370px;
         font-size: 3.1vw;
-        margin-left: 10%;
+        margin-left: 14%;
         margin-top: 5%;
         padding-bottom: 5%;
 
@@ -496,7 +447,7 @@
         height: 370px;
         font-size: 3.3vw;
         margin-top: 5%;
-        margin-left: 10%;
+        margin-left: 14%;
 
             h3 {
                 margin-top: 10%;
@@ -541,38 +492,57 @@
         font-size: 3.7vw;
     }
 
+    .first-place {
+
+        h1 {
+    margin-left: 1%;
+    font-size: 3.3vw;
+        }
+
+        h3 {
+            font-size: 2.9vw;
+            margin-left: -1%;
+        }
+    }
+
     .girlfriend-quote, .dad-quote {
-        font-size: 3.8vw;
+        font-size: 4vw;
 
         p {
-        margin-top: 35%;
+        margin-top: 38%;
         }
     }
 
     .mom-quote {
-        font-size: 3.5vw;
+        font-size: 3.8vw;
 
         p {
-            margin-top: 30%;
+            margin-top: 31%;
         }
-}
-
-.first-place h3 {
-    margin-left: 11%;
 }
 }
 
 @media all and (max-width: 450px) {
-    .first-place h3 {
-        margin-left: 7%;
-    }
-
-    .first-place img {
-        margin-left: 20%;
-    }
 
     .testimonials, .real-quotes {
         font-size: 3.8vw;
+}
+
+.first-place {
+
+    h1 {
+margin-left: 1%;
+font-size: 3.8vw;
+    }
+
+    h3 {
+        font-size: 3.4vw;
+        margin-left: -1%;
+    }
+
+    img {
+        width: 20%;
+    }
 }
 
     .real-quotes {
@@ -593,14 +563,14 @@
     }
 
         .girlfriend-quote, .dad-quote {
-        font-size: 3.8vw;
+        font-size: 4.1vw;
 
         p {
-        margin-top: 43%;
+        margin-top: 58%;
         }
 
         h3 {
-            font-size: 2.5vw;
+            font-size: 2.6vw;
             margin-left: 55%;
         }
     }
@@ -611,45 +581,24 @@
     }
 
     .mom-quote h3 {
-        font-size: 2.5vw;
+        font-size: 2.6vw;
         margin-left: 55%;
     }
-
-        .first-place {
-        padding-top: 4%;
-        margin-left: 10%;
-
-            img {
-                width: 30%;
-                height: 30%;
-                margin-left: 28%;
-                padding-top: 2%;
-            }
-        }
 }
 
 @media all and (max-width: 380px) {
-    .first-place {
 
-        h1 {
-          font-size: 3.7vw;
-          margin-left: -2%;
+        .mom-quote {
+        font-size: 3.9vw;
+
+        p {
+            margin-top: 50%;
+            width: 85%;
+            margin-left: 4.9%;
         }
 
         h3 {
-          padding-top: 2%;
-          margin-left: 7.5%;
-          font-size: 3.7vw;
-        }
-    }
-
-        .mom-quote {
-        font-size: 3.6vw;
-
-        p {
-            margin-top: 40%;
-            width: 87%;
-            margin-left: 4.5%;
+            margin-left: 50%;
         }
 }
 
@@ -666,5 +615,22 @@
 
     .dad-quote h3 {
         font-size: 2.8vw;
+    }
+
+    .first-place {
+
+        h1 {
+    margin-left: 1%;
+    font-size: 4.1vw;
+        }
+
+        h3 {
+            font-size: 3.8vw;
+            margin-left: -1%;
+        }
+
+        img {
+            width: 23%;
+        }
     }
 }
