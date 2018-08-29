@@ -1,651 +1,416 @@
-.tutorials-info-m {
-    display: none;
-}
-
-.tutorials-body {
-    position: relative;
-    background-color: #e0e2db;
-    margin-top: -33px;
-    padding-bottom: -220px;
-}
-
-.tutsintro {
-    position: relative;
-    margin-top: 23%;
-    background-color: #e0e2db;
-    border-radius: 5%;
-    font-size: 1.9vw;
-    font-family: 'Ubuntu Mono', monospace;
-    text-indent: 50px;
-    padding: 40px;
-    line-height: 1.7;
-    box-shadow: 0px 0px 200px #191716;
-    border: 5px solid #191716;
-    font-weight: 900;
-}
-
-.zombie {
-    top: 1%;
-    margin-left: 20%;
-    margin-right: auto;
-    position: absolute;
-    border-radius: 50%;
-    z-index: 1;
-    max-width: 100%;
+.tuts-body {
+    width: 100%;
     height: auto;
-    display: inline-block;
-}
-
-.tutorials-header {
-    position: relative;
-    top: 450px;
-}
-
-.blue {
-    height: 740px;
-    width: 1510px;
-    background-color: #3d348b;
-    position: absolute;
-    top: 650px;
     margin: 0;
-    border: 10px solid #3d348b;
-    right: -6px;
-    /*z-index: 2;*/
+    padding-bottom: 15%;
+    padding-top: 5%;
+    background-color: #beb7a4;
 }
 
-.blue-two {
-    height: 740px;
-    width: 1510px;
-    background-color: #3d348b;
-    position: absolute;
-    top: 2130px;
-    margin: 0;
-    border: 10px solid #3d348b;
-    right: -6px;
-   /* z-index: 2;*/
-}
-
-.yellow {
-    height: 740px;
-    width: 1510px;
-    background-color: #e6af2e;
-    position: absolute;
-    top: 1390px;
-    margin: 0;
-    border: 10px solid #e6af2e;
-    right: -6px;
-    /*z-index: 2;*/
-}
-
-.yellow-two {
-    height: 770px;
-    width: 1510px;
-    background-color: #e6af2e;
-    position: absolute;
-    top: 2870px;
-    margin: 0;
-    border: 10px solid #e6af2e;
-    right: -6px;
-    /*z-index: 2;*/
-}
-
-.tutorials-header h1 {
-    top: -70px;
-    font-size: 4.5vw;
-    font-family: "Bungee Inline", cursive;
+#tuts-head {
+    width: 100%;
+    background-color: #191716;
+    height: auto;
     color: #e0e2db;
-    z-index: 2;
-    position: absolute;
-    background-color: #191716;
-}
-
-.black-header {
-    background-color: #191716;
-    position: relative;
-    height: 700px;
-}
-
-.tutorials-info {
-   position: relative;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+    font-size: 8.5vw;
+    font-family: 'Boogaloo', cursive;
+    z-index: 1;
+    padding-top: 1%;
     margin-top: -25%;
+    text-shadow: -3px 5px 4px #3d348b;
 }
 
-.freeCodeCamp {
-    background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1531579245/freecodecamp_1.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    position: relative;
-    top: 650px;
-    height: 740px;
-    padding-left: 5px;
-    padding-right: 5px;
-    /*z-index: 4;*/
+#zombie {
+    background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1535502983/Zombie2-min.png);
+    background-size: cover;
+    z-index: 5;
+    margin: 25% auto 0 auto;
+    width: 450px;
+    height: 470px;
+    border-radius: 25% 25% 5% 5%;
+    box-shadow: -3px 5px 4px #3d348b;
 }
 
-.videomooc {
-    background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1531579224/videomooc-min.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    position: relative;
-    top: 650px;
-    height: 740px;
-    padding-left: 5px;
-    padding-right: 5px;
-    /*z-index: 4;*/
-}
-
-.referanceandpathway {
-    background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1531579221/refandpath.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    position: relative;
-    top: 650px;
-    height: 740px;
-    padding-left: 5px;
-    padding-right: 5px;
-    /*z-index: 4;*/
-}
-
-.toolspic {
-    background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1531579247/tools-min.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    position: relative;
-    top: 650px;
-    height: 740px;
-    padding-left: 5px;
-    padding-right: 5px;
-    /*z-index: 4;*/
-}
-
-.inttutorials,
-.booktutorials,
-.videotutorials,
-.mooctutorials,
-.paidtutorialsandpath,
-.referanceandquestions,
-.tools {
-    position: relative;
-    top: 700px;
-    height: 600px;
-    background-color: #beb7a4;
-    box-shadow: -10px 10px 10px #e6af2e;
-    border: 9px solid #3d348b;
-    color: #191716;
-    /*z-index: 4;*/
-}
-
-.inttutorials h3,
-.booktutorials h3,
-.videotutorials h3,
-.mooctutorials h3,
-.paidtutorialsandpath h3,
-.referanceandquestions h3 {
-    font-family: 'Holtwood One SC', serif;
-    font-size: 1.85vw;
-    border-bottom: 2px solid #3d348b;
-}
-
-.inttutorials p,
-.booktutorials p,
-.videotutorials p,
-.mooctutorials p,
-.paidtutorialsandpath p,
-.referanceandquestions p {
-    padding-top: 15px;
-    font-family: 'Ubuntu Mono', monospace;
+#tuts-intro {
+    margin: 5% auto 0% auto;
     font-size: 1.6vw;
-    font-weight: 800;
-}
-
-.tools p {
-    font-family: 'Ubuntu Mono', monospace;
-    font-size: 1.85vw;
-}
-
-.tools h2 {
-    font-family: 'Holtwood One SC', serif;
-    font-size: 3vw;
-    border-bottom: 2px solid #3d348b;
-}
-
-#smallprint {
-    font-size: 0.9vw;
-}
-
-#foryou {
-    color: #FF0000;
-}
-
-#lottawords {
-    font-size: 1.3vw;
-}
-
-.inttutorials a,
-.booktutorials a,
-.videotutorials a,
-.mooctutorials a,
-.paidtutorialsandpath a,
-.referanceandquestions a,
-.tools a {
-    display: block;
+    text-indent: 50px;
     color: #191716;
+    background-color: #e6af2e;
+    padding: 7% 5% 7% 5%;
+    border-radius: 35%;
+    width: 80%;
+    border: 10px solid #3d348b;
+    box-shadow: -12px 15px 30px #191716;
+    font-weight: 500;
 }
 
-@media all and (max-width: 1124px) {
-
-.inttutorials h3,
-.booktutorials h3,
-.videotutorials h3,
-.mooctutorials h3,
-.paidtutorialsandpath h3,
-.referanceandquestions h3 {
-    font-family: 'Holtwood One SC', serif;
-    font-size: 1.8em;
-    border-bottom: 2px solid #3d348b;
-}
+#tuts-info {
+    max-width: 100%;
 }
 
-@media all and (max-width: 992px) {
-
-.zombie {
-    top: 10%;
-    margin-left: 15%;
-    margin-right: auto;
-    height: 400px;
-    width: 400px;
+#tuts1 {
+    width: 100%;
+    height: 600px;
+    font-size: 1.6vw;
+    background-color: #3d348b;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-top: 15%;
 }
-}
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-@media all and (max-width: 894px) {
 
-    .blue {
-       height: 470px;
-       width: 105%;
-        background-color: #3d348b;
-        position: absolute;
-        top: 655px;
-        margin: 0;
-        border: 10px solid #3d348b;
-        left: -3%;
-        /*z-index: 2;*/
-    }
-
-    .blue-two {
-        height: 470px;
-        width: 105%;
-        background-color: #3d348b;
-        position: absolute;
-        top: 1575px;
-        margin: 0;
-        border: 10px solid #3d348b;
-        left: -3%;
-       /* z-index: 2;*/
-    }
-
-    .yellow {
-        height: 470px;
-        width: 105%;
-        background-color: #e6af2e;
-        position: absolute;
-        top: 1105px;
-        margin: 0;
-        border: 10px solid #e6af2e;
-        left: -3%;
-        /*z-index: 2;*/
-    }
-
-    .yellow-two {
-        height: 490px;
-        width: 105%;
-        background-color: #e6af2e;
-        position: absolute;
-        top: 2055px;
-        margin: 0;
-        border: 10px solid #e6af2e;
-        left: -3%;
-        /*z-index: 2;*/
-    }
-
-    .inttutorials,
-.booktutorials,
-.videotutorials,
-.mooctutorials,
-.paidtutorialsandpath,
-.referanceandquestions,
-.tools {
+#inttuts {
     position: relative;
-    top: 700px;
-    height: 400px;
+    margin-left: 1%;
+    top: 5%;
+    display: block;
+    height: 90%;
+    width: 30%;
     background-color: #beb7a4;
-    box-shadow: -10px 10px 10px #e6af2e;
-    border: 9px solid #3d348b;
-    color: #191716;
-    font-size: 2vw;
-    /*z-index: 4;*/
-}
-
-.inttutorials p,
-.booktutorials p,
-.videotutorials p,
-.mooctutorials p,
-.paidtutorialsandpath p,
-.referanceandquestions p {
-    padding-top: 15px;
-    font-family: 'Ubuntu Mono', monospace;
-    font-size: 1.9vw;
-    font-weight: 800;
-}
-
-.tools p {
-    font-family: 'Ubuntu Mono', monospace;
-    font-size: 2.1vw;
-}
-
-.tutsintro {
-    position: relative;
-    top: 13%;
-    background-color: #e0e2db;
-    border-radius: 5%;
-    font-size: 2.3vw;
-    font-family: 'Ubuntu Mono', monospace;
-    text-indent: 50px;
-    padding: 40px;
-    line-height: 1.7;
-    box-shadow: 0px 0px 200px #191716;
+    color: #3d348b;
     border: 5px solid #191716;
-    font-weight: 900;
-    -webkit-border-radius: 5%;
-    -moz-border-radius: 5%;
-    -ms-border-radius: 5%;
-    -o-border-radius: 5%;
-}
+    border-right-width: 0px;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 40px;
 
-.tutorials-info-m {
-    display: block;
-    position: relative;
-     height: auto;
-     margin-left: auto;
-     margin-right: auto;
-     margin-top: -30%;
-}
+        a {
+            color: #191716;
+        }
 
-.tutorials-info {
-    display: none;
-    position: relative;
-     height: auto;
-     margin-left: auto;
-     margin-right: auto;
- }
+        a:hover {
+            color: #3d348b;
+        }
 
-    .freeCodeCamp {
-        display: none;
-        background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1531579245/freecodecamp_1.png);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        position: relative;
-        top: 650px;
-        height: 740px;
-        padding-left: 5px;
-        padding-right: 5px;
-        /*z-index: 4;*/
-    }
+        h3 {
+            font-family: 'Holtwood One SC', serif;
+            font-size: 1.85vw;
+            border-bottom: 2px solid #3d348b;
+            text-align: center;
+            padding-bottom: 2%;
+            padding-top: 4%;
+            text-shadow: -2px -1px 2px #e6af2e;
+        }
 
-    .videomooc {
-        display: none;
-        background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1531579224/videomooc-min.png);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        position: relative;
-        top: 650px;
-        height: 740px;
-        padding-left: 5px;
-        padding-right: 5px;
-        /*z-index: 4;*/
-    }
-
-    .referanceandpathway {
-        display: none;
-        background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1531579221/refandpath.png);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        position: relative;
-        top: 650px;
-        height: 740px;
-        padding-left: 5px;
-        padding-right: 5px;
-        /*z-index: 4;*/
-    }
-
-    .toolspic {
-        display: none;
-        background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1531579247/tools-min.png);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        position: relative;
-        top: 650px;
-        height: 740px;
-        padding-left: 5px;
-        padding-right: 5px;
-        /*z-index: 4;*/
-    }
-
-}
-
-@media all and (max-width: 690px) {
-
-    .zombie {
-        top: 20%;
-        margin-left: 17%;
-        margin-right: auto;
-        height: 300px;
-        width: 300px;
-    }
-
-    .inttutorials p,
-.booktutorials p,
-.videotutorials p,
-.mooctutorials p,
-.paidtutorialsandpath p,
-.referanceandquestions p {
-    padding-top: 15px;
-    font-family: 'Ubuntu Mono', monospace;
-    font-size: 2.4vw;
-    font-weight: 800;
-}
-
-.tools p {
-    font-family: 'Ubuntu Mono', monospace;
-    font-size: 2.6vw;
-}
-
-.tutsintro {
-    position: relative;
-    top: 13%;
-    background-color: #e0e2db;
-    border-radius: 5%;
-    font-size: 2.8vw;
-    font-family: 'Ubuntu Mono', monospace;
-    text-indent: 50px;
-    padding: 40px;
-    line-height: 1.7;
-    box-shadow: 0px 0px 200px #191716;
-    border: 5px solid #191716;
-    font-weight: 900;
-    -webkit-border-radius: 5%;
-    -moz-border-radius: 5%;
-    -ms-border-radius: 5%;
-    -o-border-radius: 5%;
-}
-}
-
-@media all and (max-width: 576px) {
-
-    .zombie {
-        top: 0%;
-        margin-left: 23%;
-        margin-right: auto;
-        position: absolute;
-        border-radius: 50%;
-        z-index: 1;
-        max-width: 100%;
-        height: auto;
-        display: inline-block;
-    }
-
-    .tutorials-header {
-        margin-left: -2%;
-        position: relative;
-        top: 360px;
-    }
-
-    .black-header {
-        background-color: #191716;
-        position: relative;
-        height: 500px;
-    }
-
-         .tutorials-info-m .blue, .blue-two, .yellow-two, .yellow {
-             display: none;
-             height: 0px;
-             width: 0px;
-         }
-
-         .inttutorials p,
-         .booktutorials p,
-         .videotutorials p,
-         .mooctutorials p,
-         .paidtutorialsandpath p,
-         .referanceandquestions p {
-             padding-top: 15px;
-             font-family: 'Ubuntu Mono', monospace;
-             font-size: 3vw;
-             font-weight: 800;
-         }
-
-         .tools p {
-             font-family: 'Ubuntu Mono', monospace;
-             font-size: 3vw;
-         }
-
-         #smallprint {
-            font-size: 1.3vw;
+        p {
+            padding-top: 2%;
+            text-indent: 50px;
         }
 
         #foryou {
-            color: #FF0000;
+            color: rgb(40, 161, 18);
+            font-size: 1.6vw;
+        }
+
+        #smallprint {
+            color: rgb(214, 68, 0);
+            font-size: 1.2vw;
+        }
+}
+
+#booktuts {
+    position: relative;
+    top: 5%;
+    margin-left: 31%;
+    margin-top: -38%;
+    display: block;
+    height: 90%;
+    width: 30%;
+    background-color: #beb7a4;
+    color: #3d348b;
+    border: 5px solid #191716;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 40px;
+
+        a {
+            color: #191716;
+        }
+
+        a:hover {
+            color: #3d348b;
+        }
+
+        h3 {
+            font-family: 'Holtwood One SC', serif;
+            font-size: 1.85vw;
+            border-bottom: 2px solid #3d348b;
+            text-align: center;
+            padding-bottom: 2%;
+            padding-top: 4%;
+            text-shadow: -2px -1px 2px #e6af2e;
+        }
+
+        p {
+            padding-top: 2%;
+            text-indent: 50px;
+        }
+}
+
+#freeCodeCamp {
+    margin-left: 63%;
+    margin-top: -33%;
+    display: block;
+    background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1531579245/freecodecamp_1.png);
+    background-size: 100% 100%;
+    height: 454.72px;
+    width: 500px;
+}
+
+#tuts2 {
+    width: 100%;
+    height: 600px;
+    font-size: 1.6vw;
+    background-color: #e6af2e;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+#videotuts {
+    position: relative;
+    margin-left: 69%;
+    top: 5%;
+    display: block;
+    height: 90%;
+    width: 30%;
+    background-color: #beb7a4;
+    color: #3d348b;
+    border: 5px solid #191716;
+    border-left-width: 0px;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 40px;
+
+        a {
+            color: #191716;
+        }
+
+        a:hover {
+            color: #3d348b;
+        }
+
+        h3 {
+            font-family: 'Holtwood One SC', serif;
+            font-size: 1.85vw;
+            border-bottom: 2px solid #3d348b;
+            text-align: center;
+            padding-bottom: 2%;
+            padding-top: 4%;
+            text-shadow: -2px -1px 2px #e6af2e;
+            margin-top: -132%;
+        }
+
+        p {
+            padding-top: 2%;
+            text-indent: 50px;
         }
 
         #lottawords {
-            font-size: 1.8vw;
+            color: rgb(214, 68, 0);
+            font-size:1.2vw;
+        }
+}
+
+#mooctuts {
+    position: relative;
+    top: 5%;
+    margin-left: 39%;
+    margin-top: -38%;
+    display: block;
+    height: 90%;
+    width: 30%;
+    background-color: #beb7a4;
+    color: #3d348b;
+    border: 5px solid #191716;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 40px;
+
+        a {
+            color: #191716;
         }
 
-        .tutorials-header h1 {
-            top: -100px;
-            font-size: 6.5vw;
-            font-family: "Bungee Inline", cursive;
-            color: #e0e2db;
-            z-index: 2;
-            position: absolute;
-            background-color: #191716;
+        a:hover {
+            color: #3d348b;
         }
 
+        h3 {
+            font-family: 'Holtwood One SC', serif;
+            font-size: 1.85vw;
+            border-bottom: 2px solid #3d348b;
+            text-align: center;
+            padding-bottom: 2%;
+            padding-top: 4%;
+            text-shadow: -2px -1px 2px #e6af2e;
+        }
+
+        p {
+            padding-top: 2%;
+            text-indent: 50px;
+        }
 }
 
-@media all and (max-width: 496px) {
-    .zombie {
-        top: 19%;
-        margin-left: 20%;
-        margin-right: auto;
-        height: 220px;
-        width: 220px;
-    }
-
-    .tutsintro {
-        position: relative;
-        background-color: #e0e2db;
-        border-radius: 5%;
-        font-size: 3.5vw;
-        margin-top: 45%;
-        font-weight: 900;
-        font-family: 'Ubuntu Mono', monospace;
-        text-indent: 50px;
-        padding: 40px;
-        line-height: 1.7;
-        box-shadow: 0px 0px 200px #191716;
-        border: 5px solid #191716;
-    }
-
-    .tutorials-info-m {
-        margin-top: -160%;
-    }
-
-    .inttutorials p,
-    .booktutorials p,
-    .videotutorials p,
-    .mooctutorials p,
-    .paidtutorialsandpath p,
-    .referanceandquestions p {
-        padding-top: 15px;
-        font-family: 'Ubuntu Mono', monospace;
-        font-size: 3.5vw;
-        font-weight: 800;
-    }
-
-    .tools p {
-        font-family: 'Ubuntu Mono', monospace;
-        font-size: 3.5vw;
-    }
-}
-    @media all and (max-width: 448px) {
-
-    .tools {
-       height: 600px;
-    }
+#videomooc {
+    margin-left: -270%;
+    margin-top: 8%;
+    display: block;
+    background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1531579224/videomooc-min.png);
+    background-size: 100% 100%;
+    height: 454.72px;
+    width: 500px;
 }
 
-@media all and (max-width: 366px) {
+#tuts3 {
+    width: 100%;
+    height: 600px;
+    font-size: 1.6vw;
+    background-color: #3d348b;
+    font-family: 'Ubuntu Mono', monospace;
+}
 
-     .zombie {
-        top: 19%;
-        margin-left: 10%;
-        margin-right: auto;
-        height: 220px;
-        width: 220px;
+#paidandpath {
+    position: relative;
+    margin-left: 1%;
+    top: 5%;
+    display: block;
+    height: 90%;
+    width: 30%;
+    background-color: #beb7a4;
+    color: #3d348b;
+    border: 5px solid #191716;
+    border-left-width: 0px;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 40px;
+
+        a {
+            color: #191716;
+        }
+
+        a:hover {
+            color: #3d348b;
+        }
+
+        h3 {
+            font-family: 'Holtwood One SC', serif;
+            font-size: 1.85vw;
+            border-bottom: 2px solid #3d348b;
+            text-align: center;
+            padding-bottom: 2%;
+            padding-top: 4%;
+            text-shadow: -2px -1px 2px #e6af2e;
+        }
+
+        p {
+            padding-top: 2%;
+            text-indent: 50px;
+        }
+}
+
+#refandquest {
+    position: relative;
+    top: 5%;
+    margin-left: 31%;
+    margin-top: -38%;
+    display: block;
+    height: 90%;
+    width: 30%;
+    background-color: #beb7a4;
+    color: #3d348b;
+    border: 5px solid #191716;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 40px;
+
+        a {
+            color: #191716;
+        }
+
+        a:hover {
+            color: #3d348b;
+        }
+
+        h3 {
+            font-family: 'Holtwood One SC', serif;
+            font-size: 1.85vw;
+            border-bottom: 2px solid #3d348b;
+            text-align: center;
+            padding-bottom: 2%;
+            padding-top: 4%;
+            text-shadow: -2px -1px 2px #e6af2e;
+        }
+
+        p {
+            padding-top: 2%;
+            text-indent: 50px;
+        }
+}
+
+#refandpath {
+    margin-left: 63%;
+    margin-top: -33%;
+    display: block;
+    background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1531579221/refandpath.png);
+    background-size: 100% 100%;
+    height: 454.72px;
+    width: 500px;
+}
+
+#tuts4 {
+    width: 100%;
+    height: 600px;
+    font-size: 1.75vw;
+    background-color: #e6af2e;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-top: -8%;
+}
+
+#tools  {
+    position: relative;
+    margin-left: 39%;
+    top: -70.5%;
+    display: block;
+    height: 90%;
+    width: 60%;
+    background-color: #beb7a4;
+    color: #3d348b;
+    border: 5px solid #191716;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 40px;
+
+        a {
+            color: #191716;
+        }
+
+        a:hover {
+            color: #3d348b;
+        }
+
+        h2 {
+            font-family: 'Holtwood One SC', serif;
+            font-size: 2.5vw;
+            border-bottom: 2px solid #3d348b;
+            text-align: center;
+            padding-bottom: 2%;
+            padding-top: 4%;
+            text-shadow: -2px -1px 2px #e6af2e;
+        }
+
+        p {
+            padding-top: 2%;
+            text-indent: 50px;
+        }
     }
 
-    .inttutorials p,
-    .booktutorials p,
-    .videotutorials p,
-    .mooctutorials p,
-    .paidtutorialsandpath p,
-    .referanceandquestions p {
-        padding-top: 15px;
-        font-family: 'Ubuntu Mono', monospace;
-        font-size: 4.5vw;
-        font-weight: 800;
-    }
-
-    .tools p {
-        font-family: 'Ubuntu Mono', monospace;
-        font-size: 4.5vw;
-    }
-
-    .tutsintro {
-        position: relative;
-        background-color: #e0e2db;
-        border-radius: 5%;
-        font-size: 4.5vw;
-        margin-top: 45%;
-        font-family: 'Ubuntu Mono', monospace;
-        text-indent: 50px;
-        padding: 40px;
-        line-height: 1.7;
-        box-shadow: 0px 0px 200px #191716;
-        border: 5px solid #191716;
-        font-weight: 900;
-    }
+#tools-pic {
+    position: relative;
+    top: 13%;
+    margin-top: 8%;
+    margin-left: 2%;
+    padding-top: 4%;
+    display: block;
+    background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1531579247/tools-min.png);
+    background-size: 100% 100%;
+    height: 454.72px;
+    width: 500px;
 }
