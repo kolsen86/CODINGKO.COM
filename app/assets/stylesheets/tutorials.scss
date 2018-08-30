@@ -57,6 +57,28 @@
     background-color: #3d348b;
     font-family: 'Ubuntu Mono', monospace;
     margin-top: 10%;
+    background: linear-gradient(0deg, #3d348b, #e6af2e);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 37s ease infinite;
+    -moz-animation: AnimationName 37s ease infinite;
+    animation: AnimationName 37s ease infinite;
+
+    @-webkit-keyframes AnimationName {
+        0%{background-position:50% 0%}
+        50%{background-position:51% 100%}
+        100%{background-position:50% 0%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:50% 0%}
+        50%{background-position:51% 100%}
+        100%{background-position:50% 0%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:50% 0%}
+        50%{background-position:51% 100%}
+        100%{background-position:50% 0%}
+    }
 }
 
 #inttuts {
@@ -73,6 +95,7 @@
     padding-left: 2%;
     padding-right: 2%;
     border-radius: 40px;
+
 
         a {
             color: #191716;
@@ -164,6 +187,28 @@
     font-size: 1.6vw;
     background-color: #e6af2e;
     font-family: 'Ubuntu Mono', monospace;
+    background: linear-gradient(181deg, #e6af2e, #3d348b);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 37s ease infinite;
+    -moz-animation: AnimationName 37s ease infinite;
+    animation: AnimationName 37s ease infinite;
+
+    @-webkit-keyframes AnimationName {
+        0%{background-position:50% 0%}
+        50%{background-position:51% 100%}
+        100%{background-position:50% 0%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:50% 0%}
+        50%{background-position:51% 100%}
+        100%{background-position:50% 0%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:50% 0%}
+        50%{background-position:51% 100%}
+        100%{background-position:50% 0%}
+    }
 }
 
 #videotuts {
@@ -266,6 +311,28 @@
     font-size: 1.6vw;
     background-color: #3d348b;
     font-family: 'Ubuntu Mono', monospace;
+    background: linear-gradient(0deg, #3d348b, #e6af2e);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 37s ease infinite;
+    -moz-animation: AnimationName 37s ease infinite;
+    animation: AnimationName 37s ease infinite;
+
+    @-webkit-keyframes AnimationName {
+        0%{background-position:50% 0%}
+        50%{background-position:51% 100%}
+        100%{background-position:50% 0%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:50% 0%}
+        50%{background-position:51% 100%}
+        100%{background-position:50% 0%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:50% 0%}
+        50%{background-position:51% 100%}
+        100%{background-position:50% 0%}
+    }
 }
 
 #paidandpath {
@@ -363,6 +430,28 @@
     background-color: #e6af2e;
     font-family: 'Ubuntu Mono', monospace;
     margin-top: -8%;
+    background: linear-gradient(181deg, #e6af2e, #3d348b);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 37s ease infinite;
+    -moz-animation: AnimationName 37s ease infinite;
+    animation: AnimationName 37s ease infinite;
+
+    @-webkit-keyframes AnimationName {
+        0%{background-position:50% 0%}
+        50%{background-position:51% 100%}
+        100%{background-position:50% 0%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:50% 0%}
+        50%{background-position:51% 100%}
+        100%{background-position:50% 0%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:50% 0%}
+        50%{background-position:51% 100%}
+        100%{background-position:50% 0%}
+    }
 }
 
 #tools  {

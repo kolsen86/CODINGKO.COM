@@ -1,112 +1,147 @@
+<div class="int-body">
 
-<div class="sidenav"></div>
-<div class="container-fluid interactive-body">
+	<header><h1 id="int-head">Interactive Tutorials</h1></header>
 
-	<header class="interactive-header">
-		<h1>Interactive Tutorials</h1>
-		<div class="container wrapper">
-<ul class="int-menu">
-	<li><%= link_to "Tutorials Home", tutorials_path %></li>
-	<li><%= link_to "Interactive Tutorials", inttutorials_path %></li>
-	<li><%= link_to "Book Tutorials", booktutorials_path %></li>
-	<li><%= link_to "Video Tutorials", videotutorials_path %></li>
-	<li class="slider"></li>
+	<ul class="int-menu">
+
+		<li><%= link_to "Tutorials Home", tutorials_path %></li>
+
+		<li><%= link_to "Interactive Tutorials", inttutorials_path %></li>
+
+		<li><%= link_to "Book Tutorials", booktutorials_path %></li>
+
+		<li><%= link_to "Video Tutorials", videotutorials_path %></li>
+
+		<li class="slider"></li>
+
 	</ul>
+
 	<ul class="int-menu2">
-	<li><%= link_to "MOOC Tutorials", mooctutorials_path %></li>
-	<li><%= link_to "Paid Tutorials & Pathways", paidtutorialsandpath_path %></li>
-	<li><%= link_to "Reference & Questions", referanceandquestions_path %></li>
-	<li><%= link_to "Useful Tools", tools_path %></li>
-	<li class="slider2"></li>
-  </ul>
-  </div>
-	</header>
 
-	<div class="container interactive-online-tutorials">
+		<li><%= link_to "MOOC Tutorials", mooctutorials_path %></li>
 
-		<h2 id="int-intro-header">Interactive Online Tutorials</h2>
-<br>
-		<p id="int-intro">If you are brand-new to programming, you should start right here. Most of these cover multiple languages and technologies,
-		but don't get overwhelmed by the options. Just pick one of the languages that we covered earlier and STICK WITH IT! These
-		are listed in order of how I think you should complete them, but they are all great. So LET'S HAVE A LOOK!!</p>
-<br>
+		<li><%= link_to "Paid Tutorials & Pathways", paidtutorialsandpath_path %></li>
+
+		<li><%= link_to "Reference & Questions", referanceandquestions_path %></li>
+
+		<li><%= link_to "Useful Tools", tools_path %></li>
+
+		<li class="slider2"></li>
+
+	</ul>
+
+	<div id="int-online-tuts">
+
+		<div id="int-intro">
+
+			<p>
+					If you are brand-new to programming, you should start right here. Most of these cover multiple languages and technologies,
+					but don't get overwhelmed by the options. Just pick one of the languages that we covered earlier and STICK WITH IT! These
+					are listed in order of how I think you should complete them, but they are all great. So LET'S HAVE A LOOK!!
+			</p>
+
+		</div>
+
+		<div id="int-content">
+
 			<ol>
+
 				<li>
-					<h2><a href="http://www.codeacademy.com/" target="_blank"><img class="img-responsive" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579221/codeacademy.png"></a></h2>
+						<h2><a href="http://www.codeacademy.com/" target="_blank"><img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579221/codeacademy.png">
+						</a></h2>
+
+						<p>
+							Code Academy offers free lessons that cover the basics of many different languages such as Python, Ruby, and JavaScript.  As well as many more. It is a great place to get started learning how to code. They really ease you in to everything, starting out with the absolute basics. They also offer a paid version, but I wouldn't spend the money unless you have money to burn. If you just follow the pathway I, or others, have laid out for you, then you should be able to get the same education at very little cost.
+						</p>
+
 				</li>
-<br>
-					<p>Code Academy offers free lessons that cover the basics of many different languages such as Python, Ruby, and JavaScript.
-					As well as many more. It is a great place to get started learning how to code. They really ease you in to everything,
-					starting out with the absolute basics. They also offer a paid version, but I wouldn't spend the money unless you have
-					money to burn. If you just follow the pathway I, or others, have laid out for you, then you should be able to get the
-					same education at very little cost.</p>
-<br>
+
 				<li>
-					<h2><a href="http://www.freecodecamp.org/" target="_blank"><img class="img-responsive" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579221/freecodecamp.png"></a></h2>
-				</li>
-<br>
-					<p>FreeCodeCamp is interchangeable with CodeAcademy as far as where you should start, as it eases you in very slowly as
-					well. FreeCodeCamp is set up a bit different though, in that they have their own path set out for you with their own
-					tutorials. Some of the great things about FreeCodeCamp are that they go much more in-depth with everything than CodeAcademy,
-					they give you projects to add to your portfolio, you can earn a few different certificates from them, and once you finish
-					all of their challenges they will set you up with a non-profit to volunteer for to get actual real world expierience.
-					Once again THAT IS ALL FREE! The only drawback being that it takes a pretty long time to finish it all. I believe they
-					estimate that in around a year you will be able to graduate from FreeCodeCamp.</p>
-<br>
-				<li>
-					<h2><a href="https://www.tutorialspoint.com/" target="_blank"><img class="img-responsive" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579222/tutorialspoint-min.png"></a></h2>
-				</li>
-<br>
-					<p>Tutorials Point is not one that I have a whole lot of expierience with, but they sure do offer ALOT! They have tutorials
-					for pretty much any language and framework. They even offer a service to hook you up with a tutor if you wish, you would
-					have to pay the tutor however. Still that ain't half bad. Not only do they have tutorials for programming and development,
-					but you can also get tutorials for math, foriegn languages, and a variety of other subjects.</p>
-<br>
-				<li>
-					<h2><a href="https://dash.generalassemb.ly/" target="_blank"><img class="img-responsive" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579221/generalassembly-min.png"></a></h2>
-				</li>
-<br>
-					<p>Dash from the people at General Assembly is a wonderful quick tutorial on HTML, CSS, and JavaScript. The company itself
-					,General Assembly, is a for profit bootcamp, however they provide this nice, quick, and ffairly easy tutorial for free
-					just to get you started on your journey through programming. This is one of the more fun ones, simply because it moves
-					along so quickly but is loaded with information.</p>
-<br>
-				<li>
-					<h2><a href="http://www.htmldog.com/" target="_blank"><img class="img-responsive" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579245/htmldog.png"></a></h2>
-				</li>
-<br>
-					<p>Another tutorial site with front-end development in mind. The HTML, CSS, and JavaScript tutorials are each broke up into
-					beginner, intermediate, and advanced sections and they do a good job of covering all the topics.</p>
-<br>
-				<li>
-					<h2><a href="https://flatironschool.com/" target="_blank"><img class="img-responsive" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579245/flatiron.png"></a></h2>
-				</li>
-<br>
-					<p>I stumbled across Flat Iron School while I was researching bootcamps. While their bootcamp is a paid service, they do
-					offer a pretty in depth free beginners JavaScript course. They have their own IDE and everything for you to run the
-					code.
-				</p>
-<br>
-				<li>
-					<h2><a href="https://tutsplus.com/" target="_blank"><img class="img-responsive" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579223/tuts_-min.png"></a></h2>
-				</li>
-<br>
-					<p>Tuts Plus for some reason is one that I never start out looking for, but once I google a question I need answered or
-					a tutorial I want to try they always pop up with quality content. Watch out though because quite a bit of their content
-					is paid, but there are definitly some free gems of a tutorial on there as well.</p>
-<br>
-			<span>BONUS!!</span>
-				<li>
-					<h2><a href="https://www.sololearn.com/" target="_blank"><img class="img-responsive" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579247/sololearn-min.png"></a></h2>
-				</li>
-<br>
-					<p>I call SoloLearn a bonus because it is more of a phone app, at least to me. They do have the lessons online though. They
-					offer a pretty in depth explanation on many different languages and frameworks and has a very active community. After
-					you complete one of their courses they give you a certificate you can print out, if you choose to. I wouldn't personally
-					put it up against some of the other ones in this list, but as a phone app, it is the best of the best for learning to
-					code.
+
+					<h2><a href="http://www.freecodecamp.org/" target="_blank"><img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579221/freecodecamp.png">
+					</a></h2>
+
+					<p>
+							FreeCodeCamp is interchangeable with CodeAcademy as far as where you should start, as it eases you in very slowly as well. FreeCodeCamp is set up a bit different though, in that they have their own path set out for you with their own tutorials. Some of the great things about FreeCodeCamp are that they go much more in-depth with everything than CodeAcademy, they give you projects to add to your portfolio, you can earn a few different certificates from them, and once you finish all of their challenges they will set you up with a non-profit to volunteer for to get actual real world expierience.  Once again THAT IS ALL FREE! The only drawback being that it takes a pretty long time to finish it all. I believe they estimate that in around a year you will be able to graduate from FreeCodeCamp.
 					</p>
+
+				</li>
+
+				<li>
+
+						<h2 id="pointh2"><a href="https://www.tutorialspoint.com/" target="_blank"><img id="tutspoint" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579222/tutorialspoint-min.png">
+						</a></h2>
+
+						<p>
+								Tutorials Point is not one that I have a whole lot of expierience with, but they sure do offer ALOT! They have tutorials for pretty much any language and framework. They even offer a service to hook you up with a tutor if you wish, you would have to pay the tutor however. Still that ain't half bad. Not only do they have tutorials for programming and development, but you can also get tutorials for math, foriegn languages, and a variety of other subjects.
+						</p>
+
+				</li>
+
+				<li>
+
+						<h2 id="dashh2"><a href="https://dash.generalassemb.ly/" target="_blank"><img id="dash" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579221/generalassembly-min.png">
+						</a></h2>
+
+						<p>
+								Dash from the people at General Assembly is a wonderful quick tutorial on HTML, CSS, and JavaScript. The company itself, General Assembly, is a for profit bootcamp, however they provide this nice, quick, and ffairly easy tutorial for free just to get you started on your journey through programming. This is one of the more fun ones, simply because it moves along so quickly but is loaded with information.
+						</p>
+
+				</li>
+
+				<li>
+
+						<h2><a href="http://www.htmldog.com/" target="_blank"><img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579245/htmldog.png">
+						</a></h2>
+
+						<p>
+								Another tutorial site with front-end development in mind. The HTML, CSS, and JavaScript tutorials are each broke up into beginner, intermediate, and advanced sections and they do a good job of covering all the topics.
+						</p>
+
+				</li>
+
+				<li>
+
+						<h2><a href="https://flatironschool.com/" target="_blank"><img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579245/flatiron.png">
+						</a></h2>
+
+						<p>
+								I stumbled across Flat Iron School while I was researching bootcamps. While their bootcamp is a paid service, they do offer a pretty in depth free beginners JavaScript course. They have their own IDE and everything for you to run the
+								code.
+						</p>
+
+				</li>
+
+				<li>
+
+						<h2><a href="https://tutsplus.com/" target="_blank"><img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579223/tuts_-min.png">
+						</a></h2>
+
+						<p>
+								Tuts Plus for some reason is one that I never start out looking for, but once I google a question I need answered or a tutorial I want to try they always pop up with quality content. Watch out though because quite a bit of their content is paid, but there are definitly some free gems of a tutorial on there as well.
+						</p>
+
+				</li>
+
+				<li>
+
+						<span>BONUS!!</span>
+
+						<h2><a href="https://www.sololearn.com/" target="_blank"><img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579247/sololearn-min.png">
+						</a></h2>
+
+						<p>
+								I call SoloLearn a bonus because it is more of a phone app, at least to me. They do have the lessons online though. They offer a pretty in depth explanation on many different languages and frameworks and has a very active community. After
+								you complete one of their courses they give you a certificate you can print out, if you choose to. I wouldn't personally put it up against some of the other ones in this list, but as a phone app, it is the best of the best for learning to
+								code.
+						</p>
+
+				</li>
+
 			</ol>
+
+		</div>
+
 	</div>
 
 </div>
