@@ -1,98 +1,102 @@
-<div class="sidenav"></div>
-<div class="container-fluid books-body">
+<div class="books-body">
 
-	<header class="books-header">
-		<h1>Free Online Book Tutorials</h1>
-		<div class="container wrapper">
-<ul class="menu-book">
-	<li><a href="/tutorials">Tutorials Home</a></li>
-	<li><a href="/inttutorials">Interactive Tutorials</a></li>
-	<li><a href="/booktutorials">Book Tutorials</a></li>
-	<li><a href="/videotutorials">Video Tutorials</a></li>
-	<li class="slider"></li>
+	<header><h1 id="books-head">Book Tutorials</h1></header>
+
+	<ul class="books-menu">
+
+		<li><%= link_to "Tutorials Home", tutorials_path %></li>
+
+		<li><%= link_to "Interactive Tutorials", inttutorials_path %></li>
+
+		<li><%= link_to "Book Tutorials", booktutorials_path %></li>
+
+		<li><%= link_to "Video Tutorials", videotutorials_path %></li>
+
+		<li class="slider"></li>
+
 	</ul>
-	<ul class="menu2-book">
-	<li><a href="/mooctutorials">MOOC Tutorials</a></li>
-	<li><a href="/paidtutorialsandpath">Paid Tutorials / Pathways</a></li>
-	<li><a href="/referanceandquestions">Reference / Questions</a></li>
-	<li><a href="/tools">Useful Tools</a></li>
-	<li class="slider2"></li>
-  </ul>
-  </div>
-  </header>
-<div class="container books-tutorials">
 
-		<h2 id="books-intro-header">Quality Books (FREE!!)</h2>
-<br>
-			<p id="books-intro">Here are some great books for learning programming that the authors were kind enough to put online for free! There are
-			many other books online for free, but when searching for them watch out for the publish date. Many of the books online
-			for free are old and the technologies they are for have passed them up. Once again I will put them in the order I think
-			you should read them, but with these (since they are all for beginners) it really doesnt matter too much the order in
-			which you read them.</p>
-<br>
-			<ol>
-				<li>
-					<h2><a href="https://learnpythonthehardway.org/book/ex0.html" target="_blank">Learn Python The Hard Way</a></h2>
-						<img class="img-fluid book-pics" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579221/thehardway-min.png" alt="The cover of 'Learn Python The Hard Way' By: Zed Shaw">
-				</li>
-<br>
-					<p>This book, by Zed A. Shaw, is actually where I started my journey to learning programming and development many moons
-					ago. It is one of the most recomennded books out there for learning Python. He has a style of teaching that is unlike
-					many other books or online resources in that he believes repitition is the key to learning, at least at the beginning.
-					It's an idea I can definitly get behind as it helped me out drastically, especially being a complete beginner. He basically
-					tells you what's going on, but then tells you to just literally copy what he's doing. It worked for me, and kept me
-					engaged and interested the whole time. As a beginner, I wanted to create something that works. If I had to deal with
-					the frustration of not being able to do something extremely simple right off the bat, I may have given up. However with
-					Learn Python the Hard Way, as I said before, you get to complete working applications by simply copying what Mr. Shaw
-					does as he explains it to you. Then once you have the basics down he starts expecting you to know how to complete tasks
-					on your own. This book is probably the reason I stuck with learning everything instead of getting frustrated and throwing
-					my computer at a wall.</p>
-<br>
-				<li>
-					<h2><a href="https://automatetheboringstuff.com/" target="_blank">Automate the Boring Stuff with Python</a></h2>
-					<img class="book-pics" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579225/automatetheboringstuff-min.png" alt="The cover of the book 'Automate The Boring Stuff With Python' By: Al Swiegart">
-				</li>
-<br>
-					<p>Automate the Boring Stuff by Al Swiegart is a great next step after Learn Python the Hard Way or it is great as the first
-					Python book you read. The only reason I recomennd this one second is because of Zed A. Shaw's teaching style with so
-					much repitition. With Automate the Boring Stuff you get a good look at the more practical abilities of Python. It is
-					really cool to see things, that would have taken you forever to do on your own, done in seconds by your computer with
-					a program that you coded yourself. The book teaches you to do what it says in the title, Automate the Boring Stuff,
-					like sending yourself and others reminder e-mails and texts or searching for certain text in a documaent or across multiple
-					documents. This book actuallt brought me a bit more joy than Learn Python the Hard Way, but only because there is a
-					lot more of seeing your code in action doing actual useful things.</p>
-<br>
-				<li>
-					<h2><a href="https://eloquentjavascript.net/" target="_blank">Eloquent JavaScript</a></h2>
-					<img class="book-pics" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579221/eloquentjavascript.png" alt="The cover of the book 'Eloquent JavaScript' By: Marijn Haverbeke">
-				</li>
-<br>
-					<p>Eloquent JavaScript by Marijn Haverbeke is probably the #1 most recomended book for beginners learning JavaScript, the
-					language of the internet. I had a bit of trouble understanding it all right out of the gate, (JavaScript can be quite
-					the cofusing language) but after completing a few online tutorials and then going back to it, it was much easier to
-					pick up. If your dream is to be a web developer, I would recomend doing CodeAcademy's JavaScript course and maybe starting
-					into FreeCodeCamp's JavaScript challenges and then coming back to this book.
-					<br>
-					<br>
-					<br>
-					</p>
-<br>
-				<li>
-					<h2><a href="https://github.com/getify/You-Dont-Know-JS" target="_blank">You Don't Know JS (6 Books)</a></h2>
-					<img class="book-pics" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579225/youdontknowjs-min.png" alt="The cover of the book 'You Dont't Know JS' By: Kyle Simpson">
-				</li>
-<br>
-					<p>You Don't Know JS is actually a series of 6 books by Kyle Simpson. With book one he eases you into the JavaScript language,
-					but after that WATCH OUT! He starts hitting on some deep and hard to understand, for a beginner, topics such as closures.
-					It is also one of the most recomended series of books on JavaScript, but he wastes no time getting into advanced topics.
-					So be sure you have at least a pretty solid grasp of vanilla JavaScript before you start getting to deep into this collection
-					of books.
-					<br>
-					<br>
-					<br>
-					</p>
-<br>
-			</ol>
-	</div>
+	<ul class="books-menu2">
+
+		<li><%= link_to "MOOC Tutorials", mooctutorials_path %></li>
+
+		<li><%= link_to "Paid Tutorials & Pathways", paidtutorialsandpath_path %></li>
+
+		<li><%= link_to "Reference & Questions", referanceandquestions_path %></li>
+
+		<li><%= link_to "Useful Tools", tools_path %></li>
+
+		<li class="slider2"></li>
+
+		</ul>
+
+		<div id="books-tuts">
+
+			<h2 id="books-intro-header">Quality Books (FREE!!)</h2>
+
+			<div id="books-intro">
+
+				<p>
+					Here are some great books for learning programming that the authors were kind enough to put online for free! There are many other books online for free, but when searching for them watch out for the publish date. Many of the books online for free are old and the technologies they are for have passed them up. Once again I will put them in the order I think you should read them, but with these (since they are all for beginners) it really doesnt matter too much the order in which you read them.
+				</p>
+
+			</div>
+
+				<div id="books-content">
+
+					<ol>
+
+						<li>
+								<h2><a href="https://learnpythonthehardway.org/book/ex0.html" target="_blank">
+									Learn Python The Hard Way
+								</a></h2> <img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579221/thehardway-min.png" alt="The cover of 'Learn Python The Hard Way' By: Zed Shaw">
+
+								<p>
+									This book, by Zed A. Shaw, is actually where I started my journey to learning programming and development many moons ago. It is one of the most recomennded books out there for learning Python. He has a style of teaching that is unlike many other books or online resources in that he believes repitition is the key to learning, at least at the beginning.  It's an idea I can definitly get behind as it helped me out drastically, especially being a complete beginner. He basically tells you what's going on,but then tells you to just literally copy what he's doing. It worked for me, and kept me engaged and interested the whole time. As a beginner, I wanted to create something that works. If I had to deal with the frustration of not being able to do something extremely simple right off the bat, I may have given up. However with Learn Python the Hard Way, as I said before, you get to complete working applications by simply copying what Mr. Shaw does as he explains it to you. Then once you have the basics down he starts expecting you to know how to complete tasks on your own. This book is probably the reason I stuck with learning everything instead of getting frustrated and throwing my computer at a wall.
+								</p>
+
+						</li>
+
+						<li>
+
+								<h2 id="auto2"><a id="auto" href="https://automatetheboringstuff.com/" target="_blank">
+									Automate the Boring Stuff with Python
+								</a></h2><img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579225/automatetheboringstuff-min.png" alt="The cover of the book 'Automate The Boring Stuff With Python' By: Al Swiegart">
+
+								<p>
+									Automate the Boring Stuff by Al Swiegart is a great next step after Learn Python the Hard Way or it is great as the first Python book you read. The only reason I recomennd this one second is because of Zed A. Shaw's teaching style with so much repitition. With Automate the Boring Stuff you get a good look at the more practical abilities of Python. It is really cool to see things, that would have taken you forever to do on your own, done in seconds by your computer with a program that you coded yourself. The book teaches you to do what it says in the title, Automate the Boring Stuff, like sending yourself and others reminder e-mails and texts or searching for certain text in a documaent or across multiple documents. This book actuallt brought me a bit more joy than Learn Python the Hard Way, but only because there is a lot more of seeing your code in action doing actual useful things.
+								</p>
+
+						</li>
+
+						<li>
+
+								<h2><a href="https://eloquentjavascript.net/" target="_blank">
+									Eloquent JavaScript
+								</a></h2><img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579221/eloquentjavascript.png" alt="The cover of the book 'Eloquent JavaScript' By: Marijn Haverbeke">
+
+								<p>
+									Eloquent JavaScript by Marijn Haverbeke is probably the #1 most recomended book for beginners learning JavaScript, the language of the internet. I had a bit of trouble understanding it all right out of the gate, (JavaScript can be quite the cofusing language) but after completing a few online tutorials and then going back to it, it was much easier to pick up. If your dream is to be a web developer, I would recomend doing CodeAcademy's JavaScript course and maybe starting into FreeCodeCamp's JavaScript challenges and then coming back to this book.
+								</p>
+
+						</li>
+
+						<li>
+
+								<h2><a href="https://github.com/getify/You-Dont-Know-JS" target="_blank">
+									You Don't Know JS (6 Books)
+								</a></h2><img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579225/youdontknowjs-min.png" alt="The cover of the book 'You Dont't Know JS' By: Kyle Simpson">
+
+								<p>
+									You Don't Know JS is actually a series of 6 books by Kyle Simpson. With book one he eases you into the JavaScript language but after that WATCH OUT! He starts hitting on some deep and hard to understand, for a beginner, topics such as closures. It is also one of the most recomended series of books on JavaScript, but he wastes no time getting into advanced topics. So be sure you have at least a pretty solid grasp of vanilla JavaScript before you start getting to deep into this collection of books.
+								</p>
+
+						</li>
+
+					</ol>
+
+				</div>
+
+		</div>
 
 </div>

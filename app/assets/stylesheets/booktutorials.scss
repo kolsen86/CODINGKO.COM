@@ -1,7 +1,7 @@
-.menu-book {
+.books-menu {
   list-style: none;
   padding: 0;
-  width: 100%;
+  width: 105%;
   height: 8em;
   margin: 13% auto auto 10%;
   position: relative;
@@ -36,10 +36,10 @@
   }
 }
 
-.menu2-book {
+.books-menu2 {
   list-style: none;
   padding: 0;
-  width: 100%;
+  width: 105%;
   height: 8em;
   margin: 0% auto auto 0%;
   position: relative;
@@ -101,9 +101,9 @@ li.slider2 {
   transition: left .4s, background-color .4s;
 }
 
-.menu-book li:nth-child(1):hover,
-.menu-book li:nth-child(1):focus,
-.menu-book li:nth-child(1):active {
+.books-menu li:nth-child(1):hover,
+.books-menu li:nth-child(1):focus,
+.books-menu li:nth-child(1):active {
   & ~ .slider {
     left: 0;
     background-color: #3498db;
@@ -111,36 +111,36 @@ li.slider2 {
 }
 
 
-.menu-book li:nth-child(2):hover,
-.menu-book li:nth-child(2):focus,
-.menu-book li:nth-child(2):active {
+.books-menu li:nth-child(2):hover,
+.books-menu li:nth-child(2):focus,
+.books-menu li:nth-child(2):active {
   & ~ .slider {
     left: 25%;
     background-color: #9b59b6;
   }
 }
 
-.menu-book li:nth-child(3):hover,
-.menu-book li:nth-child(3):focus,
-.menu-book li:nth-child(3):active {
+.books-menu li:nth-child(3):hover,
+.books-menu li:nth-child(3):focus,
+.books-menu li:nth-child(3):active {
   & ~ .slider {
     left: 50%;
     background-color: #e67e22;
   }
 }
 
-.menu-book li:nth-child(4):hover,
-.menu-book li:nth-child(4):focus,
-.menu-book li:nth-child(4):active {
+.books-menu li:nth-child(4):hover,
+.books-menu li:nth-child(4):focus,
+.books-menu li:nth-child(4):active {
   & ~ .slider {
     left: 75%;
     background-color: #16a085;
   }
 }
 
-.menu2-book li:nth-child(1):hover,
-.menu2-book li:nth-child(1):focus,
-.menu2-book li:nth-child(1):active {
+.books-menu2 li:nth-child(1):hover,
+.books-menu2 li:nth-child(1):focus,
+.books-menu2 li:nth-child(1):active {
   & ~ .slider2 {
     left: 0%;
     background-color: #3498db;
@@ -148,346 +148,299 @@ li.slider2 {
 }
 
 
-.menu2-book li:nth-child(2):hover,
-.menu2-book li:nth-child(2):focus,
-.menu2-book li:nth-child(2):active {
+.books-menu2 li:nth-child(2):hover,
+.books-menu2 li:nth-child(2):focus,
+.books-menu2 li:nth-child(2):active {
   & ~ .slider2 {
     left: 25%;
     background-color: #9b59b6;
   }
 }
 
-.menu2-book li:nth-child(3):hover,
-.menu2-book li:nth-child(3):focus,
-.menu2-book li:nth-child(3):active {
+.books-menu2 li:nth-child(3):hover,
+.books-menu2 li:nth-child(3):focus,
+.books-menu2 li:nth-child(3):active {
   & ~ .slider2 {
     left: 50%;
     background-color: #e67e22;
   }
 }
 
-.menu2-book li:nth-child(4):hover,
-.menu2-book li:nth-child(4):focus,
-.menu2-book li:nth-child(4):active {
+.books-menu2 li:nth-child(4):hover,
+.books-menu2 li:nth-child(4):focus,
+.books-menu2 li:nth-child(4):active {
   & ~ .slider2 {
     left: 75%;
     background-color: #16a085;
   }
 }
 
-ul.menu-book, ul.menu2-book {
-  margin-left: 12%;
-  width: 90%;
+ul.books-menu {
+  width: 95%;
+  margin: 10% auto 0 auto;
 }
 
-.wrapper {
-width: 100%;
-height: auto;
-margin-left: 20%;
-margin-top: -4%;
-}
-
-
-.books-header h1 {
-    font-size: 5.6vw;
-    color: #e0e2db;
-    position: relative;
-    font-family: 'Graduate', cursive;
-    text-shadow: -7px -5px 6px #beb7a4;
-    text-align: center;
-    margin-right: 0 auto;
-    margin-left: 0 auto;
-    padding: 9% 11% 8% 9%;
-    background-color: #191716;
+ul.books-menu2 {
+  width: 95%;
+  margin: 0 auto 10% auto;
 }
 
 .books-body {
-    background-color: #e0e2db;
-    margin-top: -33px;
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding-bottom: 15%;
+  background-color: #191716;
 }
 
-.books-tutorials {
-    position: relative;
-    margin-top: 20%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 99%;
-    padding-bottom: 250px;
-    height: auto;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    font-size: 1.6vw;
-    color: #191716;
+#books-head {
+  width: 100%;
+  background-color: #191716;
+  height: auto;
+  font-size: 10.5vw;
+  color: #e0e2db;
+  text-align: center;
+  padding-top: 8%;
+  font-family: 'Special Elite', cursive;
+  text-shadow: -3px 5px 4px #3d348b;
 }
 
-.books-tutorials ol {
-    position: relative;
-    margin-left: 12%;
-}
-
-.books-tutorials ol p {
-    width: 88%;
-    position: relative;
-    border-bottom: 7px solid #e6af2e;
-    padding-bottom: 25px;
-    font-weight: 800;
-}
-
-.books-tutorials h2 {
-    border-bottom: 10px solid #3d348b;
-    width: 45%;
-    font-size: 2vw;
-    border-radius: 5%;
-    padding-bottom: 15px;
-    -webkit-border-radius: 5%;
-    -moz-border-radius: 5%;
-    -ms-border-radius: 5%;
-    -o-border-radius: 5%;
-}
-
-.books-tutorials a {
-    color: #3d348b;
-}
-
-.books-tutorials p {
-    text-indent: 50px;
-    position: relative;
-    margin: 0;
-    line-height: 1.8em;
-}
-
-.book-pics {
-    position: relative;
-    float: right;
-    margin: 5px;
-    height: 38%;
-    width: 38%;
-}
-
-#eloquentjavascriptborder {
-    border-bottom: 7px solid #e6af2e;
+#books-tuts {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #e0e2db;
+  border-radius: 50px;
+  padding-top: 3%;
 }
 
 #books-intro-header {
-    position: relative;
-    margin-left: 18%;
+  font-size: 4.5vw;
+  text-align: center;
+  padding-top: 5%;
+  text-shadow: -2px 2px 1px #e6af2e;
+  font-family: 'Alfa Slab One', cursive;
 }
 
 #books-intro {
-    position: relative;
-    margin-left: 16%;
-    width: 85%;
-    font-weight: 600;
+  margin: 15% auto 0% auto;
+  font-size: 1.8vw;
+  text-indent: 50px;
+  color: #191716;
+  background-color: #e6af2e;
+  padding: 7% 5% 7% 5%;
+  border-radius: 35px;
+  width: 80%;
+  border: 10px solid #3d348b;
+  box-shadow: -12px 15px 30px #beb7a4;
+  font-weight: 500;
+  line-height: 1.7em;
+  font-family: 'Crete Round', serif;
+  letter-spacing: 0.02em;
 }
 
-.sidenav {
-  height: 100%;
-  width: 160px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #191716;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-
-@media all and (max-width: 1200px) {
-  ul.menu-book, ul.menu2-book {
-    width: 85%;
-    margin-left: 18%;
+#books-content {
+  margin: 0 auto;
+  font-size: 1.8vw;
+  text-indent: 50px;
+  font-weight: 500;
+  line-height: 1.7em;
+  letter-spacing: 0.02em;
+  font-family: 'Crete Round', serif;
 
     a {
-      font-size: 2vw;
+      font-size: 3.3vw;
+      margin: 0 auto;
+      color: #191716;
     }
-  }
+
+    a#auto {
+      font-size: 2.8vw;
+      margin-left: -4%;
+      padding-left: 3%;
+    }
+
+    a:hover {
+      color: #3d348b;
+      text-shadow: -3px 3px 2px #e6af2e;
+    }
+
+    h2 {
+      border-bottom: 10px solid #e6af2e;
+      padding-bottom: 1%;
+      border-radius: 45px;
+      font-family: 'Alfa Slab One', cursive;
+    }
+
+    ol {
+      margin-top: 5%;
+      padding: 0 5% 15% 5%;
+    }
+
+    li {
+      margin-top: 15%;
+    }
+
+    img {
+      margin-bottom: 8%;
+      float: right;
+      height: 39%;
+      width: 39%;
+      margin-top: 5%;
+      box-shadow: -5px -5px 5px #191716;
+      margin-left: 2%;
+    }
+
+    p {
+      padding-top: 5%;
+      border-bottom: 15px solid #3d348b;
+      padding-bottom: 4%;
+      width: 95%;
+      border-radius: 20px;
+    }
 }
 
-@media all and (max-width: 992px) {
-
-  ul.menu-book, ul.menu2-book {
-    width: 85%;
-    margin-left: 18%;
-  }
-
-  .books-tutorials ol p {
-    margin-left: 0%;
-  }
-
-  .book-pics {
-    position: relative;
-    float: right;
-    margin-left: 0%;
-    margin-right: -3%;
-    height: 37%;
-    width: 37%;
+#auto {
+  font-size: 2.1vw;
 }
 
-  .books-tutorials ol {
-    margin-left: 11%;
-    width: 95%;
+@media all and (max-width: 800px) {
+
+  #books-head {
+    font-size: 11.5vw;
   }
 
   #books-intro-header {
-    position: relative;
-    margin-left: 20%;
-}
-
-#books-intro {
-    width: 92%;
-    position: relative;
-    margin-left: 14%;
-}
-
-.books-tutorials h2 {
-  margin-left: 8%;
-}
-}
-
-@media all and (max-width: 890px) {
-  .books-header h1 {
-    font-size: 6vw;
-    left: 2%;
-}
-
-.books-tutorials {
-  width: 99%;
-  font-size: 2.2vw;
-}
-
-#books-intro-header {
-  position: relative;
-  margin-left: 20%;
-}
-
-#books-intro {
-  width: 90%;
-  position: relative;
-  margin-left: 17%;
-}
-
-.books-tutorials h2 {
-  border-bottom: 10px solid #3d348b;
-  width: 45%;
-  font-size: 2.8vw;
-  border-radius: 5%;
-  padding-bottom: 15px;
-  -webkit-border-radius: 5%;
-  -moz-border-radius: 5%;
-  -ms-border-radius: 5%;
-  -o-border-radius: 5%;
-}
-}
-
-@media all and (max-width: 825px) {
-
-  ul.menu-book, ul.menu2-book {
-    width: 90%;
-    margin-left: 6%;
-  }
-
-  .books-header h1 {
-    font-size: 6.6vw;
-}
-
-#books-intro-header {
-  position: relative;
-  margin-left: 10%;
-}
-
-#books-intro {
-  width: 98%;
-  position: relative;
-  margin-left: 0%;
-  padding-bottom: 15%;
-}
-
-.books-tutorials {
-  font-size: 2.4vw;
-}
-
-.books-tutorials ol {
-  margin-left: -2%
-}
-
-.books-tutorials ol p {
-  width: 100%;
-  margin-left: -2%;
-}
-
-.books-tutorials h2 {
-  font-size: 3vw;
-  margin-left: 2%;
-}
-}
-
-@media all and (max-width: 765px) {
-  ul.menu-book, ul.menu2-book {
-    width: 100%;
-    margin-left: 0%;
-  }
-
-  .books-tutorials ol {
-    margin-left: -15%;
-    width: 120%;
+    font-size: 5vw;
   }
 
   #books-intro {
-      width: 120%;
-      position: relative;
-      margin-left: -10%;
-      padding-bottom: 15%;
-    }
-
-  .books-tutorials {
     font-size: 2.4vw;
   }
-}
 
-@media all and (max-width: 640px) {
-  .books-tutorials ol {
-    margin-left: -0%;
-    width: 100%;
-  }
+  #books-content {
+    font-size: 2.4vw;
 
-  #books-intro {
-      width: 100%;
-      position: relative;
-      margin-left: 0%;
-      padding-bottom: 15%;
+    a {
+      font-size: 3.6vw;
     }
+
+    a#auto {
+      font-size: 2.9vw;
+      padding-left: 1%;
+    }
+  }
 }
 
 @media all and (max-width: 550px) {
-
-  .books-tutorials h2 {
-    font-size: 3.5vw;
-    margin-left: 2%;
+  #books-head {
+    font-size: 12.5vw;
   }
 
-  .books-tutorials {
-    font-size: 2.7vw;
+  #books-intro-header {
+    font-size: 6vw;
+  }
+
+  #books-intro {
+    font-size: 2.9vw;
+  }
+
+  #books-content {
+    font-size: 2.9vw;
+
+    a {
+      font-size: 3.9vw;
+    }
+
+    a#auto {
+      font-size: 3.0vw;
+      padding-left: 0.05%;
+      margin-left: -13%;
+    }
+
+    img {
+      height: 45%;
+      width: 45%;
+    }
   }
 }
 
-@media all and (max-width: 440px) {
-  .books-tutorials {
-    font-size: 3.8vw;
+@media all and (max-width: 450px) {
+  #books-head {
+    font-size: 13vw;
   }
 
-  .books-tutorials h2 {
-    font-size: 4vw;
-    margin-left: 2%;
-  }
-
-  .books-header h1 {
+  #books-intro-header {
     font-size: 7vw;
+  }
+
+  #books-intro {
+    font-size: 3.3vw;
+  }
+
+  #books-content {
+    font-size: 3.3vw;
+
+    a {
+      font-size: 4vw;
+    }
+
+    a#auto {
+      font-size: 3.7vw;
+    }
+
+    img {
+      height: 55%;
+      width: 55%;
+    }
+  }
+
+    #books-tuts {
+      width: 97%;
+    }
+
+    ul.books-menu {
+
+      a {
+        font-size: 2.5vw;
+      }
+  }
+
+    ul.books-menu2 {
+
+        a {
+          font-size: 2.5vw;
+        }
+    }
 }
 
-.books-tutorials ol {
-  margin-left: -10%;
-  width: 108%;
-}
+@media all and (max-width: 370px) {
+  #books-head {
+    font-size: 13.5vw;
+  }
+
+  #books-intro-header {
+    font-size: 8vw;
+  }
+
+  #books-intro {
+    font-size: 3.7vw;
+  }
+
+  #books-content {
+    font-size: 3.7vw;
+
+    a {
+      font-size: 4.2vw;
+    }
+
+    a#auto {
+      font-size: 3.6vw;
+      margin-left: -15%;
+    }
+
+    img {
+      height: 55%;
+      width: 55%;
+    }
+  }
 }
