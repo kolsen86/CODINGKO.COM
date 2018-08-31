@@ -297,11 +297,7 @@ ul.books-menu2 {
       width: 95%;
       border-radius: 20px;
     }
-}
-
-#auto {
-  font-size: 2.1vw;
-}
+  }
 
 @media all and (max-width: 800px) {
 
@@ -361,6 +357,10 @@ ul.books-menu2 {
       height: 45%;
       width: 45%;
     }
+  }
+
+  #book-tuts {
+    width: 97%;
   }
 }
 
