@@ -1,111 +1,181 @@
-<div class="sidenav"></div>
-<div class="container-fluid tools-body">
-	<header class="tools-header">
-			<h1>Useful Tools</h1>
-					<div class="container wrapper">
-<ul class="tools-menu">
-	<li><a href="/tutorials">Tutorials Home</a></li>
-	<li><a href="/inttutorials">Interactive Tutorials</a></li>
-	<li><a href="/booktutorials">Book Tutorials</a></li>
-	<li><a href="/videotutorials">Video Tutorials</a></li>
-	<li class="slider"></li>
-	</ul>
-	<ul class="tools-menu2">
-	<li><a href="/mooctutorials">MOOC Tutorials</a></li>
-	<li><a href="/paidtutorialsandpath">Paid Tutorials / Pathways</a></li>
-	<li><a href="/referanceandquestions">Reference / Questions</a></li>
-	<li><a href="/tools">Useful Tools</a></li>
-	<li class="slider2"></li>
-  </ul>
-  </div>
-	</header>
-    <div class="container tools-page">
+<div class="tools-body">
 
-			<h2 class="free-editor" id="free-edit-intro-header">Free Downloadable Code Editors</h2>
-			<br>
-			<p id="free-edit-intro">For those of you that want to be able to code even when your offline. These editors provide everything you could need
-				through extensions, and best of all THEY ARE ALL FREE!</p>
-			<br>
-			<ul>
-				<li>
-					<h2><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a></h2>
-					<img class="tools-pics" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579248/vscode-min.png">
-				</li>
-				<br>
-				<p>Visual Studio Code is my personal favorite.  It has all the feature you could ever want, and if they don't provide the feature, you can pretty much garuntee there is a extension for it.  It has the features like autocomplete and intellisense and is highly customizable.  Plus, Microsoft updates it pretty regularly with new features.<br><br><br><br></p>
-				<li>
-					<h2><a href="https://www.sublimetext.com/" target="_blank">Sublime Text</a></h2>
-					<img class="tools-pics" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531606572/sublime.jpg">
-					</li>
-					<br>
-					<p>Sublime text is probably the one I see recomended most out of all of them.  I have used it a couple times, and it's definitly worth checking out.  Just one thing to clear up, functionally all these editor are pretty much the same.  Each one may have very minor differences, but not big enough to really make a difference.  So it's all preferance with these.<br><br><br><br></p><br>
-					<li>
-						<h2><a href="https://atom.io/" target="_blank">Atom Text Editor</a></h2>
-						<img class="tools-pics" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531618310/atom.png">
-					</li>
-					<br>
-					<p>Thee Atom text editor is another highly recomended one.  It's from the people of GitHub.  Pretty much the same features as all the rest.<br><br><br><br><br><br></p><br>
+		<header><h1 id="tools-head">Useful Tools</h1></header>
 
-					<li>
-						<h2><a href="https://notepad-plus-plus.org/" target="_blank">NotePad++</a></h2>
-						<img class="tools-pics" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531618309/notepad.png">
-					</li>
-					<br>
-					<p>NotePad++ is pretty much the same as the others, except with NotePad++ you don't get all the features right out of the box.  You have to add them all manually, but some people like that it doesn't autocomplete for you and things like that.<br><br><br><br><br></p><br>
-					<li>
-						<h2><a href="brackets.io/" target="_blank">Brackets</a></h2>
-						<img class="tools-pics" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531618310/brackets.png">
-					</li>
-					<br>
-					<p>Brackets I have never actually used, but I have heard good thing.  Anyways, like I said, they are all functionally the same.<br><br><br><br><br><br><br><br></p>
-					<li>
-						<h2><a href="https://netbeans.org/" target="_blank">NetBeans</a></h2>
-						<img class="tools-pics" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531618309/netbeans.png">
-					</li>
-					<br>
-					<p>Netbeans is actually a bit different than the others in that it is actually a full IDE (Integrated Development Enviroment).  Being an IDE means that it does have a bit more functionality than the others, but at the cost of being much slower and taking up a lot more space.<br><br> </p><br>
+		<ul class="tools-menu">
+
+			<li><%= link_to "Tutorials Home", tutorials_path %></li>
+
+			<li><%= link_to "Interactive Tutorials", inttutorials_path %></li>
+
+			<li><%= link_to "Book Tutorials", booktutorials_path %></li>
+
+			<li><%= link_to "Video Tutorials", videotutorials_path %></li>
+
+			<li class="slider"></li>
+
+		</ul>
+
+		<ul class="tools-menu2">
+
+			<li><%= link_to "MOOC Tutorials", mooctutorials_path %></li>
+
+			<li><%= link_to "Paid Tutorials & Pathways", paidtutorialsandpath_path %></li>
+
+			<li><%= link_to "Reference & Questions", referanceandquestions_path %></li>
+
+			<li><%= link_to "Useful Tools", tools_path %></li>
+
+			<li class="slider2"></li>
+
 			</ul>
-		</div>
-		<div class="container tools-page2">
-			<h2 id="online-edit-intro-header">Online Code Editors</h2>
-			<br>
-			<p id="online-edit-intro">These online code editors will allow you to practice your code or even create full apps online, without having to download
-				any languages, IDE's, or editors on your own computer.  I am not going to explain every one of these as they are all pretty much the same.  They are all nice because you can see your work immediatly, usually in a side screen right next to where you are writing your code.  If you don't want to install a code editor on your machine then these are all very nice options. </p>
-			<br>
-			<ul>
-				<li>
-					<h2><a href="https://codepen.io/" target="_blank">Code Pen</a></h2>
-					<img class="otools-pics" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531618309/codepen.png">
-				</li>
-				<br>
-				<br><br>
-				<li>
-					<h2><a href="https://jsfiddle.net/" target="_blank">JS Fiddle</a></h2>
-					<img class="otools-pics" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531618309/jsfiddle.png">
-				</li>
-				<br>
-				<br><br>
-				<li>
-					<h2><a href="http://jsbin.com/?html,output" target="_blank">JS Bin</a></h2>
-					<img class="otools-pics" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531618309/jsbin.png">
-				</li>
-				<br><br>
-				<br>
-				<li>
-					<h2><a href="http://plnkr.co/" target="_blank">Plunker</a></h2>
-					<img class="otools-pics" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531618309/plnkr.png">
-				</li>
-				<br><br>
-				<li>
-					<h2><a href="https://codeanywhere.com/" target="_blank">CodeAnywhere</a></h2>
-					<img class="otools-pics" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531618310/codeanywhere.png">
-				</li>
-				<br><br>
-				<li>
-					<h2><a href="https://c9.io/login" target="_blank">Cloud 9</a></h2>
-					<img class="otools-pics" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531618310/cloud9.png">
-				</li>
-				<br>
-			</ul>
-		</div>
-       </div>
+
+			<div id="tools-page">
+
+				<h2 id="tools-intro-header">Useful Tools for Programming and Development</h2>
+
+				<div id="tools-intro">
+
+					<p>
+						The right tools can make or break a programmer or developer.  They can cut your time spent developing in half, solve common issues, or make your product really stand out.  There are tools for every language and technology.  This list will be continuosly upgraded as I find tools that will help to make your (and my) life easier.
+					</p>
+
+				</div>
+
+					<div id="tools-content">
+
+					<h2 id="tools-intro-header1">Text-Editors and Integrated Development Environments (IDE)</h2>
+
+					<div id="tools-intro1">
+
+						<p id="editor-intro">
+							A necessary tool in any programmers toolbox, text-editors and IDEs are where you will do most of your programming.  There are both downloadable text-editors or IDEs and ones you can use in your browser online. There are also free or paid versions of both.  Ass a beginner, I would recomend using the free ones, but as you progress, if you would like to try out a paid one that has more bells and whistles, then more power to you.  Briefly, I would like to point out the difference between an IDE and a text-editor.  A text-editor is sort of general purpose. It can be used for multiple languages through the use of plug-ins.  It can also be used for debugging and compiling with the right plug-ins, but none of these features come with it.  An IDE, on the other hand, is usually geared towards a particular language and comes with all the extensions, debuggers, and compilers among other things, that you would ever need for that particular language.  IDEs, also, usually have a much larger file size, and depending on your machine can be slow and laggy.  Ok!  Enough with the intro's.  Let's get into some tools.<br> <span>*As a side note, many of these offer the same features.  It is totally up to the programmer, which to use.  So, I am only going to give a description if there is some feature that sets it apart from the others.*</span>
+						</p>
+
+					</div>
+
+						<ul>
+
+							<li>
+
+									<h2><a href="https://code.visualstudio.com/" target="_blank">
+										Visual Studio Code
+									</a></h2><img id="floated" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579248/vscode-min.png">
+
+
+									<p>
+										Visual Studio Code is my personal favorite.  It has all the feature you could ever want, and if they don't provide the feature, you can pretty much garuntee there is a extension for it.  It has the features like autocomplete and intellisense and is highly customizable.  Plus, Microsoft updates it pretty regularly with new features.
+									</p>
+
+							</li>
+
+							<li>
+									<h2><a href="https://www.sublimetext.com/" target="_blank">
+										Sublime Text
+									</a></h2><img id="floated" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531606572/sublime.jpg">
+
+									<p>
+										Sublime text is the editor that I most see recomended.  I have used it, and functionally, it and Visual Studio Code are equals.  It offers many of the same plug-ins and features, so it's all preferance with these.
+									</p>
+
+							</li>
+
+							<li>
+
+									<h2><a href="https://atom.io/" target="_blank">
+										Atom Text Editor (Made by GitHub)
+									</a></h2><img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531618310/atom.png">
+
+							</li>
+
+							<li>
+
+									<h2><a href="https://notepad-plus-plus.org/" target="_blank">
+										NotePad++ (only for Windows)
+									</a></h2><img id="floated" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531618309/notepad.png">
+
+									<p>
+										Notepad++ is a pretty bare bones text-editor.  It does have plug-ins available for it, but not nearly as many as some of the others.  If simplicity is your thing, then Notepad++ is for you.
+									</p>
+
+									</li>
+
+									<li>
+
+											<h2><a href="brackets.io/" target="_blank">
+												Brackets (Made by Adobe)
+											</a></h2><img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531618310/brackets.png">
+
+									</li>
+
+									<li>
+
+											<h2><a href="https://netbeans.org/" target="_blank">
+												NetBeans
+											</a></h2><img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531618309/netbeans.png">
+
+											<p>
+												Go back to this.  Also add Eclipse and Visual Studio
+											</p>
+
+									</li>
+
+									<li>
+
+											<h2><a href="https://codepen.io/" target="_blank">
+												Code Pen
+											</a></h2><img id="floated" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531618309/codepen.png">
+
+											<p>
+												Code Pen is our first online text-editor.  Thses are usually only for developing in HTML, CSS, and JavaScript.  They don't allow for plug-ins, but they do come with some extra features.  Code Pen is the most used of the online editors and is a fantastic product for whipping up some fast code.
+											</p>
+
+									</li>
+
+									<li>
+
+											<h2><a href="https://jsfiddle.net/" target="_blank">
+												JS Fiddle
+											</a></h2><img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531618309/jsfiddle.png">
+
+									</li>
+
+									<li>
+
+											<h2><a href="http://jsbin.com/?html,output" target="_blank">
+												JS Bin
+											</a></h2><img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531618309/jsbin.png">
+
+									</li>
+
+									<li>
+
+											<h2><a href="http://plnkr.co/" target="_blank">
+												Plunker
+											</a></h2><img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531618309/plnkr.png">
+
+									</li>
+
+									<li>
+
+											<h2><a href="https://codeanywhere.com/" target="_blank">
+												CodeAnywhere
+											</a></h2><img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531618310/codeanywhere.png">
+
+									</li>
+
+									<li>
+
+											<h2><a href="https://c9.io/login" target="_blank">
+												Cloud 9
+											</a></h2><img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531618310/cloud9.png">
+
+									</li>
+
+						</ul>
+
+					</div>
+
+			</div>
+
+	</div>
