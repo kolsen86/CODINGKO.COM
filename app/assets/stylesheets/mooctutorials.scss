@@ -1,473 +1,423 @@
 .mooc-menu {
-    list-style: none;
-    padding: 0;
-    width: 100%;
-    height: 8em;
-    margin: 15% auto auto 0%;
-    position: relative;
-    background-color: #e0e2db;
-    z-index: 7;
-    border-top: 2px solid #191716;
-    border-left: 2px solid #191716;
-    text-align: center;
+  list-style: none;
+  padding: 0;
+  width: 105%;
+  height: 8em;
+  margin: 13% auto auto 10%;
+  position: relative;
+  background-color: #e0e2db;
+  z-index: 7;
+  border-top: 2px solid #191716;
+  border-left: 2px solid #191716;
+  text-align: center;
 
 
-    li {
-      float: left;
-      width: 25%;
-      height: 100%;
-      margin: 0;
-      padding: 0;
-      border-right: 2px solid #191716;
-    }
-
-    a {
-      display: flex;
-      width: 100%;
-      height: 100%;
-      justify-content: center;
-      align-items: center;
-      color: #191716;
-      text-decoration: none;
-      position: relative;
-      font-size: 2.1vw;
-      z-index: 9;
-      font-family: 'Graduate', cursive;
-    }
-  }
-
-  .mooc-menu2 {
-    list-style: none;
-    padding: 0;
-    width: 100%;
-    height: 8em;
-    margin: 0% auto auto 0%;
-    position: relative;
-    background-color: #e0e2db;
-    z-index: 7;
-    border-top: 2px solid #191716;
-    border-bottom: 2px solid #191716;
-    border-left: 2px solid #191716;
-    text-align: center;
-
-    li {
-      float: left;
-      width: 25%;
-      height: 100%;
-      margin: 0;
-      padding: 0;
-      border-right: 2px solid #191716;
-    }
-
-    a {
-      display: flex;
-      width: 100%;
-      height: 100%;
-      justify-content: center;
-      align-items: center;
-      color: #191716;
-      text-decoration: none;
-      position: relative;
-      font-size: 2.1vw;
-      z-index: 9;
-      font-family: 'Graduate', cursive;
-    }
-  }
-
-  a.active {
-    background-color: #e74c3c;
-    pointer-events: none;
-  }
-
-  li.slider {
+  li {
+    float: left;
     width: 25%;
     height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-color: #e74c3c;
-    z-index: 8;
-    transition: left .4s, background-color .4s;
-  }
-
-  li.slider2 {
-    width: 25%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-color: #e74c3c;
-    z-index: 8;
-    transition: left .4s, background-color .4s;
-  }
-
-  .mooc-menu li:nth-child(1):hover,
-  .mooc-menu li:nth-child(1):focus,
-  .mooc-menu li:nth-child(1):active {
-    & ~ .slider {
-      left: 0;
-      background-color: #3498db;
-    }
-  }
-
-
-  .mooc-menu li:nth-child(2):hover,
-  .mooc-menu li:nth-child(2):focus,
-  .mooc-menu li:nth-child(2):active {
-    & ~ .slider {
-      left: 25%;
-      background-color: #9b59b6;
-    }
-  }
-
-  .mooc-menu li:nth-child(3):hover,
-  .mooc-menu li:nth-child(3):focus,
-  .mooc-menu li:nth-child(3):active {
-    & ~ .slider {
-      left: 50%;
-      background-color: #e67e22;
-    }
-  }
-
-  .mooc-menu li:nth-child(4):hover,
-  .mooc-menu li:nth-child(4):focus,
-  .mooc-menu li:nth-child(4):active {
-    & ~ .slider {
-      left: 75%;
-      background-color: #16a085;
-    }
-  }
-
-  .mooc-menu2 li:nth-child(1):hover,
-  .mooc-menu2 li:nth-child(1):focus,
-  .mooc-menu2 li:nth-child(1):active {
-    & ~ .slider2 {
-      left: 0%;
-      background-color: #3498db;
-    }
-  }
-
-
-  .mooc-menu2 li:nth-child(2):hover,
-  .mooc-menu2 li:nth-child(2):focus,
-  .mooc-menu2 li:nth-child(2):active {
-    & ~ .slider2 {
-      left: 25%;
-      background-color: #9b59b6;
-    }
-  }
-
-  .mooc-menu2 li:nth-child(3):hover,
-  .mooc-menu2 li:nth-child(3):focus,
-  .mooc-menu2 li:nth-child(3):active {
-    & ~ .slider2 {
-      left: 50%;
-      background-color: #e67e22;
-    }
-  }
-
-  .mooc-menu2 li:nth-child(4):hover,
-  .mooc-menu2 li:nth-child(4):focus,
-  .mooc-menu2 li:nth-child(4):active {
-    & ~ .slider2 {
-      left: 75%;
-      background-color: #16a085;
-    }
-  }
-
-  ul.mooc-menu, ul.mooc-menu2 {
-    margin-left: 8%;
-    width: 98%;
-  }
-
-.wrapper {
-  width: 99%;
-  height: auto;
-}
-
-
-.moocs-header h1 {
-    background-color: #191716;
-    font-size: 6vw;
-    color: #e0e2db;
-    position: relative;
-    font-family: 'Graduate', cursive;
-    text-shadow: -7px -5px 6px #beb7a4;
-    z-index: 9;
-    text-align: center;
-    width: 101%;
-    padding: 5% 9% 5% 9%;
-}
-
-.moocs-body {
-    background-color: #e0e2db;
-    margin-top: -33px;
-    padding-bottom: 3%;
-}
-
-.moocs-tutorials {
-    position: relative;
-    margin-top: 20%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    padding-bottom: 250px;
-    height: auto;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    font-size: 1.6vw;
-    color: #191716;
-}
-
-.moocs-tutorials ul {
-    position: relative;
-    left: 5%;
-}
-
-.moocs-tutorials p {
-    text-indent: 50px;
-    position: relative;
     margin: 0;
-    line-height: 1.8em;
-}
-
-.moocs-tutorials ul p {
-    width: 88%;
-    position: relative;
-    border-bottom: 7px solid #e6af2e;
-    padding-bottom: 25px;
-    font-weight: 800;
-}
-
-.moocs-tutorials h2 {
-    border-bottom: 10px solid #3d348b;
-    width: 45%;
-    border-radius: 5%;
-    padding-bottom: 15px;
-    font-size: 2vw;
-}
-
-.moocs-tutorials a {
-    color: #3d348b;
-}
-
-.moocs-pics {
-    position: relative;
-    float: right;
-    margin: 20px;
-    bottom: 25px;
-    height: 40%;
-    width: 40%;
-}
-
-#moocs-intro {
-    position: relative;
-    margin-left: 11%;
-    width: 90%;
-    padding-bottom: 10%;
-}
-
-#moocs-intro-header {
-    position: relative;
-    margin-left: 20%;
-}
-
-.sidenav {
-    display: block;
-    height: 100%;
-    width: 1%;
-    position: fixed;
-    z-index: 7;
-    top: 0;
-    left: 0;
-    background-color: #191716;
-    overflow-x: hidden;
-    padding-top: 20px;
+    padding: 0;
+    border-right: 2px solid #191716;
   }
 
-  @media all and (max-width: 1300px) {
+  a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #191716;
+    text-decoration: none;
+    position: relative;
+    font-size: 2vw;
+    z-index: 9;
+    font-family: 'Graduate', cursive;
+  }
+}
 
-    ul.mooc-menu, ul.mooc-menu2 {
-      margin-left: 12%;
-      width: 88%;
+.mooc-menu2 {
+  list-style: none;
+  padding: 0;
+  width: 105%;
+  height: 8em;
+  margin: 0% auto auto 0%;
+  position: relative;
+  background-color: #e0e2db;
+  z-index: 7;
+  border-top: 2px solid #191716;
+  border-bottom: 2px solid #191716;
+  border-left: 2px solid #191716;
+  text-align: center;
+
+  li {
+    float: left;
+    width: 25%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border-right: 2px solid #191716;
+  }
+
+  a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #191716;
+    text-decoration: none;
+    position: relative;
+    font-size: 2vw;
+    z-index: 9;
+    font-family: 'Graduate', cursive;
+  }
+}
+
+a.active {
+  background-color: #e74c3c;
+  pointer-events: none;
+}
+
+li.slider {
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #e74c3c;
+  z-index: 8;
+  transition: left .4s, background-color .4s;
+}
+
+li.slider2 {
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #e74c3c;
+  z-index: 8;
+  transition: left .4s, background-color .4s;
+}
+
+.mooc-menu li:nth-child(1):hover,
+.mooc-menu li:nth-child(1):focus,
+.mooc-menu li:nth-child(1):active {
+  & ~ .slider {
+    left: 0;
+    background-color: #3498db;
+  }
+}
+
+
+.mooc-menu li:nth-child(2):hover,
+.mooc-menu li:nth-child(2):focus,
+.mooc-menu li:nth-child(2):active {
+  & ~ .slider {
+    left: 25%;
+    background-color: #9b59b6;
+  }
+}
+
+.mooc-menu li:nth-child(3):hover,
+.mooc-menu li:nth-child(3):focus,
+.mooc-menu li:nth-child(3):active {
+  & ~ .slider {
+    left: 50%;
+    background-color: #e67e22;
+  }
+}
+
+.mooc-menu li:nth-child(4):hover,
+.mooc-menu li:nth-child(4):focus,
+.mooc-menu li:nth-child(4):active {
+  & ~ .slider {
+    left: 75%;
+    background-color: #16a085;
+  }
+}
+
+.mooc-menu2 li:nth-child(1):hover,
+.mooc-menu2 li:nth-child(1):focus,
+.mooc-menu2 li:nth-child(1):active {
+  & ~ .slider2 {
+    left: 0%;
+    background-color: #3498db;
+  }
+}
+
+
+.mooc-menu2 li:nth-child(2):hover,
+.mooc-menu2 li:nth-child(2):focus,
+.mooc-menu2 li:nth-child(2):active {
+  & ~ .slider2 {
+    left: 25%;
+    background-color: #9b59b6;
+  }
+}
+
+.mooc-menu2 li:nth-child(3):hover,
+.mooc-menu2 li:nth-child(3):focus,
+.mooc-menu2 li:nth-child(3):active {
+  & ~ .slider2 {
+    left: 50%;
+    background-color: #e67e22;
+  }
+}
+
+.mooc-menu2 li:nth-child(4):hover,
+.mooc-menu2 li:nth-child(4):focus,
+.mooc-menu2 li:nth-child(4):active {
+  & ~ .slider2 {
+    left: 75%;
+    background-color: #16a085;
+  }
+}
+
+ul.mooc-menu {
+  width: 95%;
+  margin: 10% auto 0 auto;
+}
+
+ul.mooc-menu2 {
+  width: 95%;
+  margin: 0 auto 10% auto;
+}
+
+.mooc-body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding-bottom: 15%;
+  background-color: #191716;
+}
+
+#mooc-head {
+  width: 100%;
+  background-color: #191716;
+  height: auto;
+  font-size: 8.5vw;
+  color: #e0e2db;
+  text-align: center;
+  padding-top: 8%;
+  font-family: 'Special Elite', cursive;
+  text-shadow: -3px 5px 4px #3d348b;
+}
+
+#mooc-tuts {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #e0e2db;
+  border-radius: 50px;
+  padding-top: 3%;
+}
+
+#mooc-intro-header {
+  font-size: 4.5vw;
+  text-align: center;
+  padding-top: 5%;
+  text-shadow: -2px 2px 1px #e6af2e;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+#mooc-intro {
+  margin: 15% auto 0% auto;
+  font-size: 1.8vw;
+  text-indent: 50px;
+  color: #191716;
+  background-color: #e6af2e;
+  padding: 7% 5% 7% 5%;
+  border-radius: 35px;
+  width: 80%;
+  border: 10px solid #3d348b;
+  box-shadow: -12px 15px 30px #beb7a4;
+  font-weight: 500;
+  line-height: 1.7em;
+  font-family: 'Crete Round', serif;
+  letter-spacing: 0.02em;
+}
+
+#mooc-content {
+  margin: 0 auto;
+  font-size: 1.8vw;
+  text-indent: 50px;
+  font-weight: 500;
+  line-height: 1.7em;
+  letter-spacing: 0.02em;
+  font-family: 'Crete Round', serif;
+
+    a {
+      font-size: 3.3vw;
+      margin: 0 auto;
+      color: #191716;
     }
 
-    .moocs-header h1 {
-      background-color: #191716;
-      font-size: 6vw;
-      color: #e0e2db;
-      position: relative;
-      font-family: 'Graduate', cursive;
-      text-shadow: -7px -5px 6px #beb7a4;
-      z-index: 9;
-      text-align: center;
-      width: 100%;
-      padding: 5% 7% 5% 7%;
+    a:hover {
+      color: #3d348b;
+      text-shadow: -3px 3px 2px #e6af2e;
+    }
+
+    h2 {
+      border-bottom: 10px solid #e6af2e;
+      padding-bottom: 1%;
+      border-radius: 45px;
+      font-family: 'Alfa Slab One', cursive;
+    }
+
+    ol {
+      margin-top: 5%;
+      padding: 0 5% 15% 5%;
+    }
+
+    li {
+      margin-top: 15%;
+    }
+
+    img {
+      margin-bottom: 8%;
+      float: right;
+      height: 39%;
+      width: 39%;
+      margin-top: 5%;
+      margin-left: 2%;
+    }
+
+    p#udacity {
+      padding-bottom: 7%;
+    }
+
+    p {
+      padding-top: 5%;
+      border-bottom: 15px solid #3d348b;
+      padding-bottom: 4%;
+      width: 95%;
+      border-radius: 20px;
+    }
   }
 
-  .moocs-tutorials ul {
-    margin-left: 8%;
-    width: 90%;
-}
-  }
+  @media all and (max-width: 800px) {
 
-  @media all and (max-width: 1200px) {
-ul.mooc-menu, ul.mooc-menu2 {
-      margin-left: 12%;
-      width: 88%;
+    #mooc-head {
+      font-size: 10.5vw;
+    }
+
+    #mooc-intro-header {
+      font-size: 5vw;
+    }
+
+    #mooc-intro {
+      font-size: 2.4vw;
+    }
+
+    #mooc-content {
+      font-size: 2.4vw;
 
       a {
-        font-size: 2vw;
+        font-size: 3.6vw;
       }
     }
   }
 
-
-  @media all and (max-width: 1125px) {
-    .moocs-tutorials ul {
-      position: relative;
-      margin-left: 10%;
-  }
-
-  ul.mooc-menu, ul.mooc-menu2 {
-    margin-left: 17.5%;
-    width: 85%;
-  }
-
-  .moocs-header h1 {
-    font-size: 6vw;
-    margin-left: 0%;
-    padding: 5% 7% 5% 7%;
-}
-
-.moocs-tutorials {
-  margin-top: 20%;
-  font-size: 2vw;
-}
-
-.moocs-tutorials h2 {
-  font-size: 2.6vw;
-}
-
-#moocs-intro {
-  position: relative;
-  margin-left: 17%;
-  width: 83%;
-  padding-bottom: 10%;
-}
-
-#moocs-intro-header {
-  position: relative;
-  margin-left: 25%;
-}
-  }
-
-  @media all and (max-width: 1020px) {
-    ul.mooc-menu, ul.mooc-menu2 {
-      margin-left: 17%;
-      width: 80%;
+  @media all and (max-width: 550px) {
+    #mooc-head {
+      font-size: 10.5vw;
     }
 
-    ul.mooc-menu {
-      margin-top: 10%;
+    #mooc-intro-header {
+      font-size: 6vw;
+    }
+
+    #mooc-intro {
+      font-size: 2.9vw;
+      width: 100%;
+      border-right-style: none;
+      border-left-style: none;
+      border-top-style: 20px solid #3d348b;
+      border-bottom-style: 20px solid #3d348b;
+    }
+
+    #mooc-content {
+      font-size: 2.9vw;
+
+      a {
+        font-size: 3.9vw;
+      }
+
+      img {
+        height: 45%;
+        width: 45%;
+      }
+    }
+
+    #mooc-tuts {
+      width: 97%;
     }
   }
 
-  @media all and (max-width: 923px) {
-    ul.mooc-menu, ul.mooc-menu2 {
-      margin-left: 15%;
-      width: 90%;
+  @media all and (max-width: 450px) {
+    #mooc-head {
+      font-size: 11vw;
     }
 
-    .moocs-tutorials ul {
-      margin-left: -15%;
-      width: 105%;
-  }
-
-  .moocs-pics {
-    position: relative;
-    float: right;
-    margin: 5px;
-    bottom: 25px;
-    height: 37%;
-    width: 37%;
-}
-
-#moocs-intro {
-  position: relative;
-  margin-left: 25%;
-  width: 80%;
-  padding-bottom: 10%;
-}
-  }
-
-  @media all and (max-width: 825px) {
-    .moocs-header h1 {
-      font-size: 6.8vw;
-  }
-
-  ul.mooc-menu, ul.mooc-menu2 {
-    margin-left: 5%;
-    width: 90%;
-  }
-
-  #moocs-intro {
-    position: relative;
-    margin-left: 5%;
-    width: 96%;
-    padding-bottom: 10%;
-  }
-
-  .moocs-tutorials ul {
-    margin-left: -10%;
-    width: 105%;
-}
-
-#moocs-intro-header {
-  position: relative;
-  margin-left: 15%;
-}
-  }
-
-  @media all and (max-width: 635px) {
-
-    .moocs-header h1 {
-      font-size: 7.6vw;
-      padding-top: 13%;
+    #mooc-intro-header {
+      font-size: 7vw;
     }
 
-  .moocs-tutorials {
-    margin-top: 20%;
-    font-size: 4.3vw;
+    #mooc-intro {
+      font-size: 3.3vw;
+    }
+
+    #mooc-content {
+      font-size: 3.3vw;
+
+      a {
+        font-size: 4vw;
+      }
+
+      img {
+        height: 55%;
+        width: 55%;
+      }
+    }
+
+      #mooc-tuts {
+        width: 97%;
+      }
+
+      ul.mooc-menu {
+
+        a {
+          font-size: 2.5vw;
+        }
+    }
+
+      ul.mooc-menu2 {
+
+          a {
+            font-size: 2.5vw;
+          }
+      }
   }
 
-  .moocs-tutorials h2 {
-    font-size: 4.6vw;
-  }
+  @media all and (max-width: 370px) {
+    #mooc-head {
+      font-size: 11.5vw;
+    }
 
-  #moocs-intro {
-    position: relative;
-    margin-left: 3%;
-    width: 104%;
-    padding-bottom: 10%;
-  }
+    #mooc-intro-header {
+      font-size: 8vw;
+    }
 
-  #moocs-intro-header {
-    position: relative;
-    margin-left: 10%;
-  }
+    #mooc-intro {
+      font-size: 3.7vw;
+    }
 
-  .moocs-tutorials ul {
-    margin-left: -15%;
-    width: 115%;
-}
+    #mooc-content {
+      font-size: 3.7vw;
 
-ul.mooc-menu, ul.mooc-menu2 {
-  margin-left: 0%;
-  width: 100%;
-
-  a {
-    font-size: 2.5vw
-  }
-}
+      a {
+        font-size: 4.2vw;
+      }
+    }
   }

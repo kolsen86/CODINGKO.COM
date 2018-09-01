@@ -1,97 +1,115 @@
-<div class="sidenav"></div>
-<div class="container-fluid moocs-body">
-	<header class="moocs-header">
-		<h1>Massive Online Open Courses (MOOC's) Tutorials</h1>
-		<div class="container wrapper">
-<ul class="mooc-menu">
-	<li><a href="/tutorials">Tutorials Home</a></li>
-	<li><a href="/inttutorials">Interactive Tutorials</a></li>
-	<li><a href="/booktutorials">Book Tutorials</a></li>
-	<li><a href="/videotutorials">Video Tutorials</a></li>
-	<li class="slider"></li>
-	</ul>
-	<ul class="mooc-menu2">
-	<li><a href="/mooctutorials">MOOC Tutorials</a></li>
-	<li><a href="/paidtutorialsandpath">Paid Tutorials / Pathways</a></li>
-	<li><a href="/referanceandquestions">Reference / Questions</a></li>
-	<li><a href="/tools">Useful Tools</a></li>
-	<li class="slider2"></li>
-  </ul>
-  </div>
-  </header>
-<div class="container moocs-tutorials">
+<div class="mooc-body">
 
-	<h2 id="moocs-intro-header">Massive Online Open Courses (MOOCs)</h2>
-<br>
-		<p id="moocs-intro">These MOOC's are for people that enjoyed school. They are normally much slower paced than the other stuff, but generally
-		pretty effective at taking you from very beginner to having a pretty solid understanding of the course material. A few
-		of these even offer courses that you can recieve actual college credit for! The drawback being that the courses that
-		you recieve credit for or certificates for generally cost, and sometimes that price can be fairly steep. There are courses
-		on just about everything you can imagine as well. Just check them out and have a look for yourself. </p>
-<br>
-			<ul>
-				<li>
-					<h2><a href="https://www.coursera.org/" target="_blank">Coursera</a></h2>
-					<img class="moocs-pics" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579221/coursera.png">
-				</li>
-<br>
-				<p>Coursera is probably the most well known of the MOOC's. It offer courses on everything from learning a language to social
-				sciences and of course web development and software development. It is one that allows you to earn actual college credits
-				or you can even earn a full degree from some of their courses. Of course though, for that service it is goiong to cost
-				you. Prices vary by course, but you can audit the courses for free. With the audit opttion you do not get access to
-				everything that the paid users get, but all the lessons are free. They make it a little tricky to audit the course,
-				but here is how you do it. After you select the course you want you click the enroll now button. A big screen will come
-				up telling you the price, but in small lettering at the bottom corner of that page you will find the audit this course
-				link, and TADA! you have access to learning materials from professioal institutions for free.</p>
-<br>
-				<li>
-					<h2><a href="https://www.udacity.com/" target="_blank">Udacity</a></h2>
-					<img class="moocs-pics" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579247/udacity-min.png">
-				</li>
-<br>
-					<p>Udacity is another well known MOOC. It essentially does the same thing as Coursera except they offer what are called
-					"Nano Degrees". The value of the nano degree is debatable, but it sure couldn't hurt. Alot of their content is only
-					for paid subscribers, however they do offer alot of their more basic courses for free. Just go have a look around.
-					<br>
-					<br>
-					<br>
-					</p>
-<br>
-				<li>
-					<h2><a href="https://www.khanacademy.org/" target="_blank">Khan Academy</a></h2>
-					<img class="moocs-pics" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579222/khanacademy.png">
-<br>
-				</li>
-					<p>I have not personally used Khan Academy, but whenever someone talks about free resources to learn programming they
-					always come up. From what I have heard they seem to have some pretty respectable material. Only one way to know though,
-					and that's to check it out for yourself.
-					<br>
-					<br>
-					</p>
-<br>            <li>
-					<h2><a href="https://www.edx.org/" target="_blank">EdX</a></h2>
-					<img class="moocs-pics" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579221/edx.png">
-				</li>
-<br>
-					<p>EdX was the first MOOC that I tried out of them. It is basically the same as the rest except their paid certificates
-					are a bit cheaper bit cheaper than Coursera or Udacity. They offer high quality content from major universities as
-					well. The first MOOC class I ever took was Harvard's CS50 class on EdX. Also EdX has a partnership with Microsoft.
-					So with EdX you will be able to take many classes actually taught by the people at Microsoft specialists.</p>
-<br>
-				<li>
-					<h2><a href="https://www.udemy.com/" target="_blank">Udemy</a></h2>
-					<img class="moocs-pics" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579248/udemy-min.png">
-				</li>
-<br>
-					<p>Udemy is slightly different than the rest in that anyone can make a course on there. So it can be kind of hit and miss
-					on the content you are going to get. If you do your research before hand though and check reviews, you shouldn't have
-					an issue. Plus, the courses on Udemy are much cheaper in comparison to the others, usually costing only around 10 to
-					15 dollars. They also offer many free courses. I have only paid for 3 courses off of there, but the 3 I paid for I
-					did plenty of checking on before I purchased and they all turned out to be high quality. Udemy is really the only one
-					that I would recomennd spending a few dollars on, but that's only because of the price.</p>
-<br>
+		<header><h1 id="mooc-head">Massive Online Open Courses (MOOC)</h1></header>
+
+		<ul class="mooc-menu">
+
+			<li><%= link_to "Tutorials Home", tutorials_path %></li>
+
+			<li><%= link_to "Interactive Tutorials", inttutorials_path %></li>
+
+			<li><%= link_to "Book Tutorials", booktutorials_path %></li>
+
+			<li><%= link_to "Video Tutorials", videotutorials_path %></li>
+
+			<li class="slider"></li>
+
+		</ul>
+
+		<ul class="mooc-menu2">
+
+			<li><%= link_to "MOOC Tutorials", mooctutorials_path %></li>
+
+			<li><%= link_to "Paid Tutorials & Pathways", paidtutorialsandpath_path %></li>
+
+			<li><%= link_to "Reference & Questions", referanceandquestions_path %></li>
+
+			<li><%= link_to "Useful Tools", tools_path %></li>
+
+			<li class="slider2"></li>
+
 			</ul>
 
+			<div id="mooc-tuts">
 
-</div>
-</div>
+				<h2 id="mooc-intro-header">Massive Online Open Courses (MOOC)</h2>
+
+				<div id="mooc-intro">
+
+					<p>
+						These MOOC's are for people that enjoyed school. They are normally much slower paced than the other stuff, but generally pretty effective at taking you from very beginner to having a pretty solid understanding of the course material. A few of these even offer courses that you can recieve actual college credit for! The drawback being that the courses that you recieve credit for or certificates for generally cost, and sometimes that price can be fairly steep. There are courses on just about everything you can imagine as well. Just check them out and have a look for yourself.
+					</p>
+
+				</div>
+
+					<div id="mooc-content">
+
+						<ol>
+
+							<li>
+
+									<h2><a href="https://www.coursera.org/" target="_blank">
+										Coursera
+									</a></h2><img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579221/coursera.png">
+
+									<p>
+										Coursera is probably the most well known of the MOOC's. It offer courses on everything from learning a language to social sciences and of course web development and software development. It is one that allows you to earn actual college credits or you can even earn a full degree from some of their courses. Of course though, for that service it is goiong to cost you. Prices vary by course, but you can audit the courses for free. With the audit opttion you do not get access to everything that the paid users get, but all the lessons are free. They make it a little tricky to audit the course, but here is how you do it. After you select the course you want you click the enroll now button. A big screen will come up telling you the price, but in small lettering at the bottom corner of that page you will find the audit this course link, and TADA! you have access to learning materials from professioal institutions for free.
+									</p>
+
+							</li>
+
+							<li>
+
+									<h2><a href="https://www.udacity.com/" target="_blank">
+										Udacity
+									</a></h2><img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579247/udacity-min.png">
+
+									<p id="udacity">
+										Udacity is another well known MOOC. It essentially does the same thing as Coursera except they offer what are called "Nano Degrees". The value of the nano degree is debatable, but it sure couldn't hurt. Alot of their content is only for paid subscribers, however they do offer alot of their more basic courses for free. Just go have a look around.
+									</p>
+
+							</li>
+
+							<li>
+
+									<h2><a href="https://www.khanacademy.org/" target="_blank">
+										Khan Academy
+									</a></h2><img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579222/khanacademy.png">
+
+									<p>
+										I have not personally used Khan Academy, but whenever someone talks about free resources to learn programming they always come up. From what I have heard they seem to have some pretty respectable material. Only one way to know though, and that's to check it out for yourself.
+									</p>
+
+							</li>
+
+							<li>
+
+									<h2><a href="https://www.edx.org/" target="_blank">
+										EdX
+									</a></h2><img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579221/edx.png">
+
+									<p>
+										EdX was the first MOOC that I tried out of them. It is basically the same as the rest except their paid certificates are a bit cheaper bit cheaper than Coursera or Udacity. They offer high quality content from major universities as well. The first MOOC class I ever took was Harvard's CS50 class on EdX. Also EdX has a partnership with Microsoft. So with EdX you will be able to take many classes actually taught by the people at Microsoft specialists.
+									</p>
+
+									<li>
+
+										<h2><a href="https://www.udemy.com/" target="_blank">
+											Udemy
+										</a></h2><img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579248/udemy-min.png">
+
+										<p>
+											Udemy is slightly different than the rest in that anyone can make a course on there. So it can be kind of hit and miss on the content you are going to get. If you do your research before hand though and check reviews, you shouldn't have an issue. Plus, the courses on Udemy are much cheaper in comparison to the others, usually costing only around 10 to 15 dollars. They also offer many free courses. I have only paid for 3 courses off of there, but the 3 I paid for I did plenty of checking on before I purchased and they all turned out to be high quality. Udemy is really the only one that I would recomennd spending a few dollars on, but that's only because of the price.
+										</p>
+
+									</li>
+
+							</li>
+
+						</ol>
+
+					</div>
+
+			</div>
+
+	</div>
