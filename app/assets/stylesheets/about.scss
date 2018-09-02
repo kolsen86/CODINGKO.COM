@@ -1,158 +1,393 @@
-
-
-.about-title {
-    font-family: "Acme", sans-serif;
-    position: relative;
-    top: 25%;
-    left: -1%;
-    font-size: 3vw;
-    border-bottom: 15px solid #e6af2e;
-    width: 55%;
-    border-radius: 20%;
-    padding-top: 5%;
-    -webkit-border-radius: 20%;
-    -moz-border-radius: 20%;
-    -ms-border-radius: 20%;
-    -o-border-radius: 20%;
-
-}
-
-body.about {
+.grind-body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding-bottom: 15%;
     background-color: #e0e2db;
-    padding-bottom: 5%;
 }
 
-.about-header {
+#about-head {
+    font-family: 'IM Fell Great Primer SC', serif;
+    width: 100%;
+    height: 100%;
     background-color: #191716;
-    height: 75%;
-}
-
-.about-header h1 {
-    font-family: "Bungee Inline", cursive;
+    font-size: 7vw;
     color: #e0e2db;
-    font-size: 5vw;
-    line-height: 1.4em;
-    text-shadow: -5px -3px 5px #beb7a4;
-    margin-top: 5%;
-    padding-top: 5%;
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    text-shadow: 3px -2px 3px #e6af2e;
 }
 
-.about-content {
-    text-indent: 75px;
-    line-height: 1.6;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    font-size: 2vw;
-    position: relative;
-    top: 30%;
-    left: 1%;
-    padding-top: 5%;
-    padding-bottom: 10%;
+#lotsomouths {
+    z-index: 2;
+    background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1535844893/lotslittlemoutheyes.png);
+    width: 35%;
+    height: 100%;
+    background-size: 100% 100%;
+    margin-top: -38%;
+    position: absolute;
+    display: block;
+}
+
+#lotsomouths2 {
+    z-index: 2;
+    background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1535844893/lotslittlemoutheyes.png);
+    width: 35%;
+    height: 100%;
+    background-size: 100% 100%;
+    margin-top: -38%;
+    margin-left: 65%;
+    position: absolute;
+    display: block;
+}
+
+#mouth-wrapper {
+    height: 450px;
+    width: 100%;
 }
 
 #me {
-    position: relative;
-    top: 15%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 55%;
+    height: 450px;
     width: 30%;
-    border: 10px solid #e6af2e;
-    display: block;
-    left: -1%;
-    margin-top: 5%;
+    background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1531755040/KennethOlsenWebDeveloperDetroit.png);
+    background-size: 100% 100%;
+    margin: 5% auto 5% auto;
+    box-shadow: -7px 9px 5px #191716;
+    z-index: 4;
 }
 
-footer.about {
-    position: absolute;
-    top: 250%;
+#about-content {
+    text-indent: 50px;
+    width: 90%;
+    font-size: 1.8vw;
+    letter-spacing: 0.02em;
+    line-height: 1.8em;
+    margin: -18% auto 0 auto;
+    color: #191716;
+    font-family: 'Crete Round', serif;
+    padding-left: 5%;
+
+        h2 {
+            font-size: 4.3vw;
+            text-shadow: 2px 4px 3px #191716;
+            color: #3d348b;
+            text-align: center;
+            padding-bottom: 4%;
+            padding-top: 3%;
+            margin-left: -4%;
+            border-bottom: 10px solid #3d348b;
+            border-radius: 360px;
+        }
+
+        a {
+            color: #3d348b;
+        }
+
+        a:hover {
+            font-size: 2.5vw;
+            text-shadow: -3px 3px 2px #e6af2e;
+        }
+
+        p {
+            padding-bottom: 3%;
+            padding-top: 2%;
+        }
 }
 
-@media all and (max-width: 995px) {
-    .about-content {
-        text-indent: 75px;
-        line-height: 1.6;
-        font-family: 'Josefin Sans', sans-serif;
-        font-weight: 600;
-        font-size: 2.2vw;
-        position: relative;
-        top: 30%;
-        left: 1%;
-        padding-top: 5%;
-    }
+#awards {
+    font-size: 2vw;
+    margin-left: 2.5%;
 
-    .about-title {
-        font-family: "Acme", sans-serif;
-        position: relative;
-        top: 25%;
-        left: -1%;
-        font-size: 3.1vw;
-        border-bottom: 15px solid #e6af2e;
-        width: 55%;
-        border-radius: 20%;
-        padding-top: 5%;
-        -webkit-border-radius:20%;
-        -moz-border-radius:20%;
-        -ms-border-radius:20%;
-        -o-border-radius:20%;
+        ul {
+            padding-top: 10%;
+            margin-left: -5.5%;
+            list-style-position: inside;
+        }
+
+        h2 {
+            font-size: 3.5vw;
+            padding-bottom: 2%;
+            margin-top: -3%;
+            border-bottom: 10px solid #e6af23;
+            padding-top: 15%;
+            border-radius: 20%;
+            text-align: center;
+            margin-left: -2%;
+        }
+
+        li {
+            padding-bottom: 2.5%;
+            padding-top: 2.5%;
+            text-align: center;
+        }
+
+        li:nth-child(odd) {
+            color: #e6af23;
+            background-color: #3d348b;
+
+                span {
+                    color: #e0e2db;
+                    font-weight: 900;
+                }
+        }
+
+        li:nth-child(even) {
+            color: #3d348b;
+            background-color: #e6af23;
+
+                span {
+                    color: #191716;
+                    font-weight: 900;
+                }
+        }
 }
-}
 
-@media all and (max-width: 500px) {
-    .about-content {
-        text-indent: 75px;
-        line-height: 1.9;
-        font-family: 'Josefin Sans', sans-serif;
-        font-weight: 600;
-        font-size: 3.5vw;
-        position: relative;
-        top: 30%;
-        left: 1%;
-        padding-top: 5%;
-    }
-
-    .about-title {
-        font-family: "Acme", sans-serif;
-        position: relative;
-        top: 25%;
-        left: -1%;
-        font-size: 4vw;
-        border-bottom: 8px solid #e6af2e;
-        width: 55%;
-        border-radius: 20%;
-        padding-top: 5%;
-        -webkit-border-radius: 20%;
-        -moz-border-radius: 20%;
-        -ms-border-radius: 20%;
-        -o-border-radius: 20%;
-
+@media all and (max-width: 1000px) {
+    #lotsomouths, #lotsomouths2 {
+        height: 80%;
+        width: 32%;
+        margin-top: -55%;
     }
 
     #me {
-        position: relative;
-        top: 15%;
-        margin-left: auto;
-        margin-right: auto;
-        height: 55%;
+        height: 360px;
+        width: 27%;
+        margin-top: 25%;
+    }
+
+    #about-head {
+        font-size: 8vw;
+    }
+
+    #about-content {
+        margin-top: -28%;
+        font-size: 2vw;
+
+            h2 {
+                font-size: 4.6vw;
+                padding-right: 5%;
+            }
+
+            a:hover {
+                font-size: 2.8vw;
+            }
+    }
+
+    #awards {
+        font-size: 2.2vw;
+
+            h2 {
+                font-size: 3.8vw;
+            }
+    }
+}
+
+@media all and (max-width: 800px) {
+    #lotsomouths, #lotsomouths2 {
+        height: 70%;
         width: 30%;
-        border: 5px solid #e6af2e;
-        display: block;
-        left: -1%;
-        margin-top: 5%;
+        margin-top: -55%;
     }
 
-    .about-header {
-        background-color: #191716;
-        height: 17em;
+    #me {
+        height: 310px;
+        width: 31%;
+        margin-top: 26%;
     }
 
-    .about-header h1 {
-        font-family: "Bungee Inline", cursive;
-        color: #e0e2db;
-        font-size: 5vw;
-        line-height: 1.4em;
-        text-shadow: -5px -3px 5px #beb7a4;
-        margin-top: 15%;
-        padding-top: 5%;
+    #about-head {
+        font-size: 8vw;
+    }
+
+    #about-content {
+        margin-top: -35%;
+        font-size: 2.3vw;
+
+            h2 {
+                font-size: 4.9vw;
+                padding-right: 5%;
+            }
+
+            a:hover {
+                font-size: 3vw;
+            }
+    }
+
+    #awards {
+        font-size: 2.5vw;
+
+            h2 {
+                font-size: 4vw;
+            }
+    }
+}
+
+@media all and (max-width: 650px) {
+    #lotsomouths {
+        background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1535844893/lotslittlemoutheyes.png);
+        width: 95%;
+        height: 390px;
+        background-size: 100% 100%;
+        margin-top: -118%;
+    }
+
+    #lotsomouths2 {
+        background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1535844893/lotslittlemoutheyes.png);
+        width: 95%;
+        height: 400px;
+        background-size: 100% 100%;
+        margin-top: -2%;
+        margin-left: 0%;
+    }
+
+    #me {
+        height: 300px;
+        width: 48%;
+        background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1531755040/KennethOlsenWebDeveloperDetroit.png);
+        background-size: 100% 100%;
+        margin: 70% auto 5% auto;
+    }
+
+    #about-content {
+        margin-top: -15%;
+        font-size: 2.7vw;
+        padding-left: 2%;
+
+            h2 {
+                font-size: 6vw;
+                padding-right: 5%;
+            }
+
+            a:hover {
+                font-size: 3.5vw;
+            }
+    }
+
+    #awards {
+        font-size: 2.8vw;
+
+            h2 {
+                font-size: 4.7vw;
+            }
+    }
+
+}
+
+@media all and (max-width: 500px) {
+    #lotsomouths {
+        background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1535844893/lotslittlemoutheyes.png);
+        width: 95%;
+        height: 390px;
+        background-size: 100% 100%;
+        margin-top: -150%;
+    }
+
+    #lotsomouths2 {
+        background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1535844893/lotslittlemoutheyes.png);
+        width: 95%;
+        height: 400px;
+        background-size: 100% 100%;
+        margin-top: -2%;
+        margin-left: 0%;
+    }
+
+    #me {
+        height: 280px;
+        width: 50%;
+        background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1531755040/KennethOlsenWebDeveloperDetroit.png);
+        background-size: 100% 100%;
+        margin: 90% auto 5% auto;
+    }
+
+    #about-content {
+        margin-top: -15%;
+        font-size: 3.2vw;
+        padding-left: 2%;
+
+            h2 {
+                font-size: 6.5vw;
+                padding-right: 5%;
+            }
+
+            a:hover {
+                font-size: 3.8vw;
+            }
+    }
+
+    #awards {
+        font-size: 3.2vw;
+
+            h2 {
+                font-size: 5vw;
+            }
+    }
+}
+
+@media all and (max-width: 420px) {
+    #lotsomouths {
+        background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1535844893/lotslittlemoutheyes.png);
+        width: 95%;
+        height: 370px;
+        background-size: 100% 100%;
+        margin-top: -170%;
+    }
+
+    #lotsomouths2 {
+        background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1535844893/lotslittlemoutheyes.png);
+        width: 95%;
+        height: 400px;
+        background-size: 100% 100%;
+        margin-top: -2%;
+        margin-left: 0%;
+    }
+
+    #me {
+        height: 260px;
+        width: 52%;
+        background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1531755040/KennethOlsenWebDeveloperDetroit.png);
+        background-size: 100% 100%;
+        margin: 100% auto 5% auto;
+    }
+
+    #about-content {
+        margin-top: -15%;
+        font-size: 3.5vw;
+        padding-left: 2%;
+
+            h2 {
+                font-size: 7vw;
+                padding-right: 5%;
+            }
+
+            a:hover {
+                font-size: 4vw;
+            }
+    }
+
+    #awards {
+        font-size: 3.5vw;
+
+            h2 {
+                font-size: 5.2vw;
+            }
+    }
+}
+
+@media all and (max-width: 380px) {
+    #lotsomouths {
+        background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1535844893/lotslittlemoutheyes.png);
+        width: 96%;
+        height: 350px;
+        background-size: 100% 100%;
+        margin-top: -190%;
+    }
+
+    #me {
+        height: 220px;
+        width: 58%;
+        background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1531755040/KennethOlsenWebDeveloperDetroit.png);
+        background-size: 100% 100%;
+        margin: 110% auto 5% auto;
     }
 }
