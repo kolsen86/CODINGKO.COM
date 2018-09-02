@@ -1,70 +1,104 @@
 <div class="contact-body">
+
+    <header>
+        <h1 id="contact-head">Let's Keep in Touch</h1>
+    </header>
+
+    <div id="contact-content">
+
         <div class="form-area">
-                <% flash.each do |type, msg| %>
-                <%= content_tag :div, msg, class: "alert alert-#{type}" %>
-                <% end %>
-            <%= form_for @contact do |f| %>
-             <form class="form-horizontal" method="post">
 
-             <fieldset>
+            <% flash.each do |type, msg| %>
 
-             <legend class="text-center tear-away-header">Contact Me</legend>
+            <%= content_tag :div, msg, class: "alert alert-#{type}" %>
 
-            <div class="contact-reasons">
-
-                <ul>
-                        <h2>Contact Me For</h2>
-                    <li>Building You A Website</li>
-                    <li>Maintain A Website For You</li>
-                    <li>To Make A New Friend</li>
-                    <li>To Give Me A Compliment</li>
-                    <li>To Get A Compliment From Me</li>
-                    <li>To Insult Me</li>
-                    <li>Questions For Me</li>
-                    <li>Give Me A Job</li>
-                    <li>Take Me To Lunch</li>
-                </ul>
-            </div>
-            <div class="anything-wrap"><span class="anything-contact">Contact Me For Anything At All!!!</span></div>
-             <div class="form-group">
-
-
-              <%= f.label :name %>
-              <%= f.text_field :name, class: 'form-control', placeholder: 'John Doe' %>
-
-             </div>
-             <div class="stop-moving"><img id="name-icon" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1534279841/name.png"></div>
-             <div class="form-group">
-
-
-             <%= f.label :email %>
-             <%= f.text_field :email, class: 'form-control', placeholder: 'yourEmail@email.com' %>
-
-             </div>
-             <div class="stop-moving"><img id="email-icon" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1534279834/yourEmail.png"></div>
-             <div class="form-group">
-
-
-              <%= f.label :comments %>
-              <%= f.text_area :comments, class: 'form-control' %>
-
-             </div>
-             <div class="stop-moving"><img id="comments-icon" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1534279848/comments.png"></div>
-             <div class="form-group">
-
-             <button type="submit" class="btn btn-primary btn-lg">Submit</button>
             <% end %>
 
-             </div>
+            <%= form_for @contact do |f| %>
 
-             </fieldset>
+            <form class="form-horizontal" method="post">
 
-             </form>
+                <fieldset>
+
+                    <legend>Contact Me</legend>
+
+                    <div id="form-group1">
+
+                        <%= f.label :name %>
+
+                        <%= f.text_field :name, class: 'form-control', placeholder: 'John Doe' %>
+
+                        <img id="name-icon"
+                        src="https://res.cloudinary.com/dmks1qdth/image/upload/v1534279841/name.png">
+
+                    </div>
+
+                    <div id="form-group2">
+
+                        <%= f.label :email %>
+
+                        <%= f.text_field :email, class: 'form-control', placeholder: 'yourEmail@email.com' %>
+
+                        <img id="email-icon" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1534279834/yourEmail.png">
+
+                    </div>
+
+                    <div id="form-group3">
+
+                        <%= f.label :comments %>
+
+                        <%= f.text_area :comments, class: 'form-control' %>
+
+                        <img id="comments-icon" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1534279848/comments.png">
+                        <div id="anything-contact">
+                            <h2>
+                                CONTACT ME FOR ANYTHING AT ALL!!!
+                            </h2>
+                        </div>
+                    </div>
+
+                    <div id="form-group4">
+
+                        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+
+                        <% end %>
+
+                    </div>
+
+                </fieldset>
+
+            </form>
+
+        </div>
+
+        <div id="contact-reasons">
+
+            <ul>
+                    <h2>Contact Me For</h2>
+                <li>Building You A Website</li>
+                <li>Maintain A Website For You</li>
+                <li>To Make A New Friend</li>
+                <li>To Give Me A Compliment</li>
+                <li>To Get A Compliment From Me</li>
+                <li>To Insult Me</li>
+                <li>Questions For Me</li>
+                <li>Give Me A Job</li>
+                <li>Take Me To Lunch</li>
+            </ul>
+
+        </div>
+
+            <div id="tear-away">
+
+                <img id="contact1" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1534252134/ContactMe-noOther.png">
+                <div id="email"><a id="email-me" href="mailto:kolsen86@yahoo.com"></a></div>
+                <div id="github"><a id="git-at-me" href="https://github.com/kolsen86"></a></div>
+                <div id="linkedin"><a id="connect" href="https://www.linkedin.com/in/codingko"></a></div>
             </div>
 
-<img class="contact1" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1534252134/ContactMe-noOther.png">
-<div class="linkedin"><a class="connect" href="https://www.linkedin.com/in/codingko"></a></div>
-<div class="email"><a class="email-me" href="mailto:kolsen86@yahoo.com"></a></div>
-<div class="github"><a class="git-at-me" href="https://github.com/kolsen86"></a></div>
+
+
+
+    </div>
+
 </div>
-<!--<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>-->

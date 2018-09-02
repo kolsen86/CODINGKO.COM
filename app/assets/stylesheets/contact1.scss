@@ -1,1285 +1,277 @@
-
 .contact-body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding-bottom: 1%;
     background-color: #e0e2db;
-    margin: 0 auto;
+}
+
+#contact-head {
+    font-family: 'IM Fell Great Primer SC', serif;
+    width: 100%;
+    background-color: #191716;
+    height: auto;
+    font-size: 8vw;
+    color: #e0e2db;
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    text-shadow: 3px -2px 3px #e6af2e;
+}
+
+#contact-content {
     width: 100%;
     height: auto;
 }
 
 .form-area {
-    margin-top: 5%;
-    margin-left: 10.5%;
-    margin-right: 0;
-    z-index: 3;
-    width: 84%;
-    height: 120vh;
-    left: -8%;
-}
-
-
-.contact1 {
-    position: relative;
-    height: 150vh;
-    width: 93vw;
-    margin-left: 3%;
-    margin-top: 2%;
-    z-index: 1;
-    align-self: center;
-    padding-bottom: 10%;
-}
-
-.email a {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    display: block;
-    z-index: 2;
-}
-
-.email {
-    position: absolute;
-    height: 22%;
-    z-index: 2;
-    margin-left: 2%;
-    margin-top: -30%;
-    width: 11%;
-}
-
-
-
-.github {
-    position: absolute;
-    height: 18.6%;
-    width: 10%;
-    display:  block;
-    margin-left: 37%;
-    margin-top: -27.5%;
-    z-index: 2;
-}
-
-.git-at-me {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    display: block;
-    z-index: 2;
-}
-
-.connect {
-    position: absolute;
-    height: 100%;
-    display: block;
-    z-index: 5;
-    width: 100%;
-}
-
-.linkedin {
-    position: absolute;
-    height: 18%;
-    width: 9%;
-    display:  block;
-    margin-left: 52.3%;
-    margin-top: -26.5%;
-    z-index: 5;
-}
-
-.contact-reasons {
-position: absolute;
-display: block;
-left: 60%;
-top: 15%;
-height: 600px;
-width: 50%;
-font-size: 2vw;
-font-family: 'Special Elite', serif;
-margin-top: 0 auto;
-line-height: 1.9em;
-font-weight: 500;
-}
-
-.contact-reasons h2 {
-display: block;
-position: absolute;
-font-size: 2.8vw;
-font-family: 'Special Elite', serif;
-top: -40%;
-}
-
-.contact-reasons ul {
-    display: block;
-    position: absolute;
-    margin: 0 auto;
-    height: 20%;
-    width: 100%;
-}
-
-.anything-contact {
-    position: absolute;
-    font-size: 4vw;
-    font-family: 'Special Elite', serif;
-    font-weight: 700;
-    height: 100%;
-    width: 100%;
-    margin-left: 2%;
-}
-
-.anything-wrap {
-    margin-top: 43%;
-    margin-left: 12%;
-    position: absolute;
-    height: 60px;
-    width: 95%;
-    bottom: 8%;
-    padding-top: 2%;
-}
-
-form#new_contact.new_contact {
     background-color: #F7F3AA;
-}
-
-#contact_comments {
-    height: 18vh;
-    width: 23vw;
-    z-index: 3;
-}
-
-#contact_email {
-    height: 6vh;
-    width: 23vw;
-    z-index: 3;
-    font-size: 1.3vw;
-}
-
-#contact_name {
-    height: 6vh;
-    width: 23vw;
-    z-index: 3;
-    font-size: 1.3vw;
-}
-
-label {
-    font-size: 2vw;
-    font-family: 'Graduate', cursive;
-}
-
-#new_contact > fieldset > div:nth-child(8) > label {
-    margin-left: 15%;
-}
-
-#new_contact > fieldset > div:nth-child(6) > label {
-    margin-left: 20%;
-}
-
-#new_contact > fieldset > div:nth-child(4) > label {
-    margin-left: 20%;
-}
-
-#new_contact > fieldset > div:nth-child(10) > button {
-    margin-top: 13%;
-    width: 19vw;
-    height: 7vh;
-    font-size: 2vw;
-    letter-spacing: 0.3vw;
-    font-weight: 900;
-    margin-left: 5%;
-    color: #acd88c;
-    border: 2px solid black;
-    line-height: 0.5em;
-    border-radius: 5%;
-}
-
-.form-group {
-    height: 20vh;
-    width: 39vw;
-    margin-left: 20%;
-}
-
-.tear-away-header {
-    color: #acd88c;
-    font-size: 2.8vw;
-    text-shadow: 1px 1px 2px black;
-}
-
-#name-icon {
-    position: absolute;
-    margin-left: -10px;
-    margin-top: -180px;
-    display: block;
-    height: 90%;
     width: 100%;
-}
+    height: auto;
+    font-family: 'Graduate', cursive;
 
-#email-icon {
-    position: absolute;
-    margin-left: 50px;
-    margin-top: -110px;
-    display: block;
-    height: 40%;
-    width: 45%;
-}
-
-#comments-icon {
-    position: absolute;
-    margin-left: -70px;
-    margin-top: -170px;
-    display: block;
-    height: 130%;
-    width: 150%;
-}
-
-.stop-moving {
-    position: absolute;
-    height: 200px;
-    width: 220px;
-    display: block;
-    padding-top: 5%;
-    margin-top: -5%;
-}
-
-form {
-    margin-left: -3%;
-    margin-top: 5%;
-    position: relative;
-    width: 99%;
-    height: 100%;
-    box-shadow: 5px -7px 5px 9px #191716, -5px 7px 5px 9px #191716;
-}
-
-textarea {
-    height: 50%;
-}
-
-fieldset {
-    z-index: 2;
-}
-
-@media all and (max-height: 1110px) {
-    .anything-wrap {
-        margin-top: 43%;
-        margin-left: 7%;
-        position: absolute;
-        height: 60px;
-        width: 95%;;
-        bottom: 8%;
-        padding-top: 2%;
-    }
-
-    .email a {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        display: block;
-        z-index: 2;
-    }
-
-    .email {
-
-        position: absolute;
-        height: 32%;
-        z-index: 2;
-        margin-left: 2%;
-        margin-top: -32%;
-        width: 11%;
-    }
-
-
-
-    .github {
-
-        position: absolute;
-        height: 28.6%;
-        width: 10%;
-        display:  block;
-        margin-left: 37%;
-        margin-top: -31.5%;
-        z-index: 2;
-    }
-
-    .git-at-me {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        display: block;
-        z-index: 2;
-    }
-
-    .connect {
-        position: absolute;
-        height: 100%;
-        display: block;
-        z-index: 5;
-        width: 100%;
-    }
-
-    .linkedin {
-
-        position: absolute;
-        height: 28%;
-        width: 9%;
-        display:  block;
-        margin-left: 52.3%;
-        margin-top: -30.5%;
-        z-index: 5;
-    }
-
-}
-
-@media all and (max-height: 1010px) {
-    .contact-reasons {
-        position: absolute;
-        display: block;
-        left: 53%;
-        top: 15%;
-        height: 600px;
-        width: 50%;
-        font-size: 2vw;
-        font-family: 'Special Elite', serif;
-        margin-top: 0 auto;
-        line-height: 1.65em;
-        font-weight: 500;
-        }
-}
-
-@media all and (max-height: 900px) {
-    .linkedin {
-
-        position: absolute;
-        height: 31%;
-        width: 9%;
-        display:  block;
-        margin-left: 52.3%;
-        margin-top: -29.5%;
-        z-index: 5;
-    }
-
-    .github {
-
-        position: absolute;
-        height: 31.6%;
-        width: 10%;
-        display:  block;
-        margin-left: 37%;
-        margin-top: -30.5%;
-        z-index: 2;
-    }
-
-    .email {
-
-        position: absolute;
-        height: 35%;
-        z-index: 2;
-        margin-left: 2%;
-        margin-top: -34%;
-        width: 11%;
-    }
-}
-
-@media all and (max-height: 800px) {
-    .linkedin {
-
-        position: absolute;
-        height: 34%;
-        width: 9%;
-        display:  block;
-        margin-left: 52.3%;
-        margin-top: -27.5%;
-        z-index: 5;
-    }
-
-    .github {
-
-        position: absolute;
-        height: 33.6%;
-        width: 10%;
-        display:  block;
-        margin-left: 37%;
-        margin-top: -28.5%;
-        z-index: 2;
-    }
-
-    .email {
-
-        position: absolute;
-        height: 39%;
-        z-index: 2;
-        margin-left: 2%;
-        margin-top: -30%;
-        width: 11%;
-    }
-}
-
-@media all and (max-height: 700px) {
-    .linkedin {
-
-        position: absolute;
-        height: 36%;
-        width: 9%;
-        display:  block;
-        margin-left: 52.3%;
-        margin-top: -25.5%;
-        z-index: 5;
-    }
-
-    .github {
-
-        position: absolute;
-        height: 35.6%;
-        width: 10%;
-        display:  block;
-        margin-left: 37%;
-        margin-top: -26.5%;
-        z-index: 2;
-    }
-
-    .email {
-
-        position: absolute;
-        height: 40%;
-        z-index: 2;
-        margin-left: 2%;
-        margin-top: -27%;
-        width: 11%;
-    }
-}
-
-@media all and (max-height: 600px) {
-    .linkedin {
-
-        position: absolute;
-        height: 36%;
-        width: 9%;
-        display:  block;
-        margin-left: 52.3%;
-        margin-top: -24.5%;
-        z-index: 5;
-    }
-
-    .github {
-
-        position: absolute;
-        height: 36.6%;
-        width: 10%;
-        display:  block;
-        margin-left: 37%;
-        margin-top: -25%;
-        z-index: 2;
-    }
-
-    .email {
-
-        position: absolute;
-        height: 42%;
-        z-index: 2;
-        margin-left: 2%;
-        margin-top: -27%;
-        width: 11%;
-    }
-}
-
-@media all and (max-height: 498px) {
-
-    .linkedin {
-
-        position: absolute;
-        height: 36%;
-        width: 9%;
-        display:  block;
-        margin-left: 52.3%;
-        margin-top: -21.5%;
-        z-index: 5;
-    }
-
-    .github {
-
-        position: absolute;
-        height: 36.6%;
-        width: 10%;
-        display:  block;
-        margin-left: 37%;
-        margin-top: -22%;
-        z-index: 2;
-    }
-
-    .email {
-
-        position: absolute;
-        height: 42%;
-        z-index: 2;
-        margin-left: 2%;
-        margin-top: -24%;
-        width: 11%;
-    }
-
-    .contact-reasons {
-        position: absolute;
-        display: block;
-        left: 60%;
-        top: 15%;
-        height: 600px;
-        width: 50%;
-        font-size: 2vw;
-        font-family: 'Special Elite', serif;
-        margin-top: 0 auto;
-        line-height: 1.35em;
-        font-weight: 500;
-        }
-
-        .anything-wrap {
-            margin-top: 43%;
-            margin-left: 15%;
-            position: absolute;
-            height: 50px;
-            width: 95%;
-            bottom: 8%;
-            padding-top: 2%;
-        }
-}
-
-@media all and (max-height: 420px) {
-.linkedin {
-
-        position: absolute;
-        height: 38%;
-        width: 11%;
-        display:  block;
-        margin-left: 52.3%;
-        margin-top: -18.5%;
-        z-index: 5;
-    }
-
-    .github {
-
-        position: absolute;
-        height: 37.6%;
-        width: 12%;
-        display:  block;
-        margin-left: 37%;
-        margin-top: -18%;
-        z-index: 2;
-    }
-
-    .email {
-
-        position: absolute;
-        height: 44%;
-        z-index: 2;
-        margin-left: 2%;
-        margin-top: -20%;
-        width: 13%;
-    }
-}
-
-@media all and (max-width: 1110px) {
-    .linkedin {
-
-        position: absolute;
-        height: 39%;
-        width: 9%;
-        display:  block;
-        margin-left: 52.3%;
-        margin-top: -28.5%;
-        z-index: 5;
-    }
-
-    .github {
-
-        position: absolute;
-        height: 39.6%;
-        width: 10%;
-        display:  block;
-        margin-left: 37%;
-        margin-top: -29%;
-        z-index: 2;
-    }
-
-    .email {
-
-        position: absolute;
-        height: 43%;
-        z-index: 2;
-        margin-left: 2%;
-        margin-top: -31%;
-        width: 11%;
-    }
-}
-
-@media all and (max-width: 992px) {
-
-    .linkedin {
-
-        position: absolute;
-        height: 39%;
-        width: 9%;
-        display:  block;
-        margin-left: 52.3%;
-        margin-top: -35.5%;
-        z-index: 5;
-    }
-
-    .github {
-
-        position: absolute;
-        height: 39.6%;
-        width: 10%;
-        display:  block;
-        margin-left: 37%;
-        margin-top: -35%;
-        z-index: 2;
-    }
-
-    .email {
-
-        position: absolute;
-        height: 43%;
-        z-index: 2;
-        margin-left: 2%;
-        margin-top: -37%;
-        width: 11%;
-    }
-    .stop-moving {
-        position: absolute;
-        height: 200px;
-        width: 220px;
-        display: block;
-        padding-top: 5%;
-        margin-top: -2%;
-        margin-left: -4%;
-    }
-
-    #new_contact > fieldset > div:nth-child(8) > label {
-        margin-left: 7%;
-    }
-
-    #new_contact > fieldset > div:nth-child(6) > label {
-        margin-left: 13%;
-    }
-
-    #new_contact > fieldset > div:nth-child(4) > label {
-        margin-left: 15%;
-    }
-}
-
-@media all and (max-width: 800px) {
-
-    .linkedin {
-
-        position: absolute;
-        height: 42%;
-        width: 10%;
-        display:  block;
-        margin-left: 52.3%;
-        margin-top: -40.5%;
-        z-index: 5;
-    }
-
-    .github {
-
-        position: absolute;
-        height: 42.6%;
-        width: 10%;
-        display:  block;
-        margin-left: 37%;
-        margin-top: -40%;
-        z-index: 2;
-    }
-
-    .email {
-
-        position: absolute;
-        height: 45%;
-        z-index: 2;
-        margin-left: 2%;
-        margin-top: -42%;
-        width: 11%;
-    }
-
-    .stop-moving {
-        position: absolute;
-        height: 160px;
-        width: 180px;
-        display: block;
-        padding-top: 5%;
-        margin-top: -2%;
-        margin-left: -4%;
-    }
-
-    #name-icon {
-        position: absolute;
-        margin-left: -10px;
-        margin-top: -160px;
-        display: block;
-        height: 90%;
-        width: 100%;
-    }
-
-    #email-icon {
-        position: absolute;
-        margin-left: 40px;
-        margin-top: -120px;
-        display: block;
-        height: 40%;
-        width: 45%;
-    }
-
-    #comments-icon {
-        position: absolute;
-        margin-left: -50px;
-        margin-top: -160px;
-        display: block;
-        height: 130%;
-        width: 150%;
-    }
-
-    .contact-reasons {
-        position: absolute;
-        display: block;
-        left: 50%;
-        top: 25%;
-        height: 600px;
-        width: 50%;
-        font-size: 2.4vw;
-        font-family: 'Special Elite', serif;
-        margin-top: 0 auto;
-        line-height: 1.55em;
-        font-weight: 500;
-        }
-
-    #contact_comments {
-        height: 23vh;
-        width: 26vw;
-        z-index: 3;
-        }
-
-    #contact_email {
-        height: 6vh;
-        width: 25vw;
-        z-index: 3;
-        font-size: 1.3vw;
-        margin-top: 4%;
-        }
-
-    #contact_name {
-        height: 6vh;
-        width: 25vw;
-        z-index: 3;
-        font-size: 1.3vw;
-        margin-top: 4%;
-        }
-
-    label {
-        margin-top: 4%;
-        font-size: 2.5vw;
-        font-family: 'Graduate', cursive;
-        }
-
-    .stop-moving {
-        position: absolute;
-        height: 110px;
-        width: 130px;
-        display: block;
-        padding-top: 4%;
-        margin-top: 5%;
-        margin-left: -4%;
-        }
-
-    #name-icon {
-        position: absolute;
-        margin-left: -1px;
-        margin-top: -180px;
-        display: block;
-        height: 120%;
-        width: 140%;
-        }
-
-    #comments-icon {
-        position: absolute;
-        margin-left: -30px;
-        margin-top: -160px;
-        display: block;
-        height: 170%;
-        width: 190%;
-        }
-
-    #email-icon {
-        position: absolute;
-        margin-left: 47px;
-        margin-top: -140px;
-        display: block;
-        height: 60%;
-        width: 65%;
-        }
-
-    #new_contact > fieldset > div:nth-child(10) > button {
-        margin-top: 26%;
-        width: 19vw;
-        height: 7vh;
-        font-size: 2.2vw;
-        letter-spacing: 0.3vw;
-        font-weight: 900;
-        margin-left: 8%;
-        color: #acd88c;
-        border: 2px solid black;
-        line-height: 0.5em;
-        border-radius: 5%;
-        }
-
-}
-
-@media all and (max-width: 650px) {
-    #name-icon {
-        position: absolute;
-        margin-left: 5px;
-        margin-top: -175px;
-        display: block;
-        height: 92%;
-        width: 100%;
-    }
-
-    #email-icon {
-        position: absolute;
-        margin-left: 33px;
-        margin-top: -155px;
-        display: block;
-        height: 42%;
-        width: 45%;
-    }
-
-    #comments-icon {
-        position: absolute;
-        margin-left: -35px;
-        margin-top: -130px;
-        display: block;
-        height: 132%;
-        width: 150%;
-    }
-}
-
-@media all and (max-width: 600px) {
-
-    .linkedin {
-
-        position: absolute;
-        height: 42%;
-        width: 13%;
-        display:  block;
-        margin-left: 52.3%;
-        margin-top: -45.5%;
-        z-index: 5;
-    }
-
-    .github {
-
-        position: absolute;
-        height: 42.6%;
-        width: 13%;
-        display:  block;
-        margin-left: 37%;
-        margin-top: -45%;
-        z-index: 2;
-    }
-
-    .email {
-
-        position: absolute;
-        height: 47%;
-        z-index: 2;
-        margin-left: 2%;
-        margin-top: -50%;
-        width: 13%;
-    }
-
-    .stop-moving {
-        position: absolute;
-        height: 110px;
-        width: 130px;
-        display: block;
-        padding-top: 5%;
-        margin-top: 1%;
-        margin-left: -4%;
-    }
-
-    #new_contact > fieldset > div:nth-child(4) > label {
-        margin-left: -4%;
-        padding-bottom: 1%;
-    }
-
-    #new_contact > fieldset > div:nth-child(6) > label {
-        margin-left: -4%;
-        margin-top: 1%;
-    }
-
-    #name-icon {
-        position: absolute;
-        margin-left: 150px;
-        margin-top: -155px;
-        display: block;
-        height: 85%;
-        width: 90%;
-    }
-
-    #email-icon {
-        position: absolute;
-        margin-left: 180px;
-        margin-top: -130px;
-        display: block;
-        height: 37%;
-        width: 45%;
-    }
-
-    #comments-icon {
-        position: absolute;
-        margin-left: 5px;
-        margin-top: -208px;
-        display: block;
-        height: 194%;
-        width: 200%;
-    }
-
-    #contact_comments {
-        height: 23vh;
-        width: 70vw;
-        z-index: 3;
-        margin-top: 1%;
-        margin-left: -25%;
-    }
-
-    #contact_email {
-        height: 6vh;
-        width: 25vw;
-        z-index: 3;
-        font-size: 1.3vw;
-        margin-left: -35%;
-        margin-top: 0%;
-    }
-
-    #contact_name {
-        height: 6vh;
-        width: 25vw;
-        z-index: 3;
-        font-size: 1.3vw;
-        margin-left: -35%;
-        margin-top: -2%;
-    }
-
-    .tear-away-header {
-        color: #acd88c;
-        font-size: 3.5vw;
-        text-shadow: 1px 1px 2px black;
-    }
-
-    .contact-reasons {
-        position: absolute;
-        display: block;
-        left: 42%;
-        top: 15%;
-        height: 600px;
-        width: 55%;
-        font-size: 2.75vw;
-        font-family: 'Special Elite', serif;
-        margin-top: 0 auto;
-        line-height: 1.65em;
-        font-weight: 800;
-        padding-left: 2%;
-        }
-
-    .contact-reasons h2 {
-        display: block;
-        position: absolute;
-        font-size: 3.8vw;
-        font-family: 'Special Elite', serif;
-        top: -30%;
-        }
-
-    .contact1 {
-        position: relative;
-        height: 130vh;
-        width: 93vw;
-        margin-left: 2%;
-        margin-top: 2%;
-        z-index: 1;
-        align-self: center;
-        padding-bottom: 10%;
-        }
-
-        #new_contact > fieldset > div:nth-child(8) > label {
-            margin-left: 43%;
-            margin-top: 60%;
-        }
-
-        .anything-contact {
-            position: absolute;
+        legend {
             font-size: 4vw;
-            font-family: 'Special Elite', serif;
-            font-weight: 700;
-            height: 100%;
-            width: 100%;
-            margin-left: 2%;
-            margin-top: 15%;
+            color: #191716;
+            text-align: center;
+            text-shadow: 1px -1px 2px #3d348b;
         }
 
-        #new_contact > fieldset > div:nth-child(10) > button {
-            margin-top: 85%;
-            width: 17vw;
-            height: 7vh;
-            font-size: 2.2vw;
-            letter-spacing: 0.3vw;
-            font-weight: 900;
-            margin-left: 38%;
-            color: #acd88c;
-            border: 2px solid black;
-            line-height: 0.5em;
-            border-radius: 5%;
-            }
+        #form-group1 {
 
             label {
-                font-size: 2.7vw;
-            }
-}
-
-@media all and (max-width: 550px) {
-    #name-icon {
-        position: absolute;
-        margin-left: 0px;
-        margin-top: -200px;
-        display: block;
-        height: 85%;
-        width: 90%;
-    }
-
-    #email-icon {
-        position: absolute;
-        margin-left: 30px;
-        margin-top: -175px;
-        display: block;
-        height: 37%;
-        width: 45%;
-    }
-}
-
-@media all and (max-width: 500px) {
-
-    .linkedin {
-
-        position: absolute;
-        height: 42%;
-        width: 15%;
-        display:  block;
-        margin-left: 50.3%;
-        margin-top: -51.5%;
-        z-index: 5;
-    }
-
-    .github {
-
-        position: absolute;
-        height: 42.6%;
-        width: 15%;
-        display:  block;
-        margin-left: 35%;
-        margin-top: -51%;
-        z-index: 2;
-    }
-
-    .email {
-
-        position: absolute;
-        height: 47%;
-        z-index: 2;
-        margin-left: 1%;
-        margin-top: -56%;
-        width: 15%;
-    }
-
-    #name-icon {
-        position: absolute;
-        margin-left: -10px;
-        margin-top: -140px;
-        display: none;
-        height: 90%;
-        width: 100%;
-    }
-
-    #email-icon {
-        position: absolute;
-        margin-left: 30px;
-        margin-top: -110px;
-        display: none;
-        height: 40%;
-        width: 45%;
-    }
-
-    #comments-icon {
-        position: absolute;
-        margin-left: -30px;
-        margin-top: -130px;
-        display: none;
-        height: 130%;
-        width: 150%;
-    }
-
-    .stop-moving {
-        position: absolute;
-        height: 110px;
-        width: 130px;
-        display: none;
-        padding-top: 5%;
-        margin-top: 1%;
-        margin-left: -4%;
-    }
-
-    #contact_comments {
-        height: 29vh;
-        width: 70vw;
-        z-index: 3;
-        margin-left: -7%;
-        margin-top: 8%;
-        }
-
-    #contact_email {
-        height: 6vh;
-        width: 25vw;
-        z-index: 3;
-        font-size: 2vw;
-        margin-top: 4%;
-        margin-left: -15.5%
-        }
-
-    #contact_name {
-        height: 6vh;
-        width: 25vw;
-        z-index: 3;
-        font-size: 2vw;
-        margin-top: 4%;
-        margin-left: -15.5%;
-        }
-
-    .form-group {
-        height: 20vh;
-        width: 39vw;
-        margin-left: 10%;
-        margin-top: 5%;
-    }
-
-    .anything-wrap {
-        margin-top: 54%;
-        margin-left: 15%;
-        position: absolute;
-        height: 30px;
-        width: 300px;
-        bottom: 2.5%;
-        padding-top: 2%;
-    }
-
-
-    #new_contact > fieldset > div:nth-child(10) > button {
-        margin-top: 85%;
-        width: 17vw;
-        height: 5vh;
-        font-size: 2.5vw;
-        letter-spacing: 0.3vw;
-        font-weight: 900;
-        margin-left: 60%;
-        color: #acd88c;
-        border: 2px solid black;
-        line-height: 0.5em;
-        border-radius: 5%;
-        }
-
-        .tear-away-header {
-            color: #acd88c;
-            font-size: 4.5vw;
-            text-shadow: 1px 1px 2px black;
-        }
-
-        .contact-reasons {
-            position: absolute;
-            display: block;
-            left: 33%;
-            top: 13.5%;
-            height: 700px;
-            width: 59%;
-            font-size: 3vw;
-            font-family: 'Special Elite', serif;
-            margin-top: 0 auto;
-            line-height: 1.65em;
-            font-weight: 800;
+                font-size: 2.5vw;
+                margin-left: 26.5%;
+                margin-top: 7%;
+                text-shadow: 1px -1px 2px #3d348b;
             }
 
-        .contact-reasons h2 {
-            display: block;
-            position: absolute;
-            font-size: 4vw;
-            font-family: 'Special Elite', serif;
-            top: -20%;
+            #contact_name {
+                width: 30%;
+                height: 3.5em;
+                background-color: #e0e2db;
+                margin-left: 15%;
+                margin-top: 0%;
+                font-size: 1vw;
+                text-align: center;
             }
 
-            #new_contact > fieldset > div:nth-child(8) > label {
-                margin-left: 55%;
-                margin-top: 20%;
-            }
-
-            #new_contact > fieldset > div:nth-child(6) > label {
-                margin-left: -5%;
-            }
-
-            #new_contact > fieldset > div:nth-child(4) > label {
+            #name-icon {
+                width: 20%;
+                height: 10%;
+                margin-top: -10%;
                 margin-left: -4%;
             }
-
-            label {
-                margin-top: 4%;
-                font-size: 4vw;
-                font-family: 'Graduate', cursive;
-                }
-}
-
-@media all and (max-width: 400px) {
-    .contact1 {
-        position: relative;
-        height: 110vh;
-        width: 93vw;
-        margin-left: 0%;
-        margin-top: 2%;
-        z-index: 1;
-        align-self: center;
-        padding-bottom: 10%;
         }
 
-        #new_contact > fieldset > div:nth-child(10) > button {
-            margin-top: 78%;
-            width: 17vw;
-            height: 8vh;
+
+    #form-group2 {
+        label {
             font-size: 2.5vw;
-            letter-spacing: 0.3vw;
-            font-weight: 900;
-            margin-left: 65%;
-            color: #acd88c;
-            border: 2px solid black;
-            line-height: 0.5em;
-            border-radius: 5%;
+            margin-left: 26.5%;
+            margin-top: 3%;
+            text-shadow: 1px -1px 2px #3d348b;
             }
+
+            #contact_email {
+                width: 30%;
+                height: 3.5em;
+                background-color: #e0e2db;
+                margin-left: 15%;
+                margin-top: 0%;
+                font-size: 1vw;
+                text-align: center;
+            }
+
+            #email-icon {
+                width: 8%;
+                height: 5%;
+                margin-top: -8%;
+                margin-left: 2%;
+            }
+    }
+
+    #form-group3 {
+        label {
+            font-size: 2.5vw;
+            margin-left: 28.5%;
+            margin-top: 6%;
+            text-shadow: 1px -1px 2px #3d348b;
+            }
+
+            #contact_comments {
+                width: 40%;
+                height: 14.5em;
+                background-color: #e0e2db;
+                margin-left: 15%;
+                margin-top: 0%;
+                font-size: 1vw;
+                text-align: center;
+            }
+
+            #comments-icon {
+                width: 38%;
+                height: auto;
+                margin-top: -20%;
+                margin-left: -12%;
+            }
+
+            #anything-contact {
+                position: absolute;
+                margin-top: 5.5%;
+                text-align: center;
+                width: 100%;
+                font-family: 'Merienda', cursive;
+
+                    h2 {
+                        width: 100%;
+                        font-size: 4vw;
+                        font-weight: 900;
+                    }
+            }
+    }
+
+    #form-group4 {
+
+        .btn-lg {
+                margin-top: 1%;
+                margin-left: 24.5%;
+                width: 20%;
+                height: auto;
+                padding: 0.1%;
+                font-size: 2vw;
+                box-shadow: -2px 2px 4px #191716;
+            }
+
+            .btn {
+                margin-bottom: 10%;
+            }
+    }
 }
 
-@media all and (max-width: 350px) {
-    .contact-reasons {
-        position: absolute;
-        display: block;
-        left: 33%;
-        top: 13.5%;
-        height: 700px;
-        width: 59%;
-        font-size: 3.2vw;
-        font-family: 'Special Elite', serif;
-        margin-top: 0 auto;
-        line-height: 1.65em;
-        font-weight: 800;
+#contact-reasons {
+    position: absolute;
+    font-size: 2.5vw;
+    margin-left: 18%;
+    margin-top: -68%;
+    font-family: 'Merienda', cursive;
+    font-weight: 600;
+
+        ul {
+            margin-left: 93%;
+            width: 100%;
+            max-width: 100%;
+
+                li {
+                    width: 100%;
+                    padding-top: 2.5%;
+                }
         }
 
-        #contact_comments {
-            height: 24vh;
-            width: 70vw;
-            z-index: 3;
-            margin-left: -7%;
-            margin-top: 8%;
-            }
+        h2 {
+            font-size: 4.5vw;
+            width: 100%;
+            margin-left: -8%;
+        }
 }
+
+#tear-away {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    position: relative;
+
+        #contact1 {
+            width: 100%;
+            height: 100%;
+            z-index: 2;
+        }
+
+        #email {
+            position: absolute;
+            width: 12.7%;
+            height: 29%;
+            margin-top: -20%;
+            z-index: 4;
+
+                a#email-me {
+                    width: 100%;
+                    height: 300px;
+                    z-index: 5;
+                    position: absolute;
+                }
+        }
+
+        #github {
+            position: absolute;
+            width: 10.7%;
+            height: 28%;
+            margin-top: -20%;
+            margin-left: 37%;
+            z-index: 4;
+
+            a#git-at-me {
+                width: 100%;
+                height: 300px;
+                z-index: 5;
+                position: absolute;
+            }
+        }
+
+        #linkedin {
+            position: absolute;
+            width: 10.5%;
+            height: 28%;
+            margin-top: -20%;
+            margin-left: 53%;
+            z-index: 4;
+
+                a#connect {
+                    width: 100%;
+                    height: 300px;
+                    z-index: 5;
+                    position: absolute;
+                }
+        }
+    }
+
+    @media all and (max-width: 937px) {
+        #contact-reasons {
+
+                ul {
+                    margin-left: 86%;
+                }
+        }
+    }
+
+    @media all and (max-width: 711px) {
+        #contact-reasons {
+
+            ul {
+                margin-left: 80%;
+            }
+    }
+    }
+
+    @media all and (max-width: 585px) {
+        #contact-reasons {
+
+            ul {
+                margin-left: 75%;
+            }
+    }
+    }
+
+    @media all and (max-width: 506px) {
+        #contact-reasons {
+            font-size: 2.7vw;
+            ul {
+                margin-left: 45%;
+                margin-top: -23%;
+
+                li {
+                        padding: 0%;
+                    }
+            }
+    }
+    }
