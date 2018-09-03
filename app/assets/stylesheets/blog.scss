@@ -75,11 +75,10 @@
     font-size: 1.6vw;
     text-indent: 50px;
     margin: 0 auto;
-    font-weight: 400;
+    font-weight: 800;
     border-radius: 40px;
     border: 5px solid #191716;
     font-family: 'Crete Round', serif;
-    text-shadow: 0.1px -0.15px 0.1px #3d348b;
 
         p {
             padding-bottom: 5%;
@@ -179,8 +178,10 @@
 
 @media all and (max-width: 600px) {
     #blog-content {
-        font-size: 2.9vw;
+        font-size: 3vw;
         width: 100%;
+        padding-left: 2%;
+        padding-right: 1%;
     }
 
     #ali, #time-quote, #matrix-quote {
@@ -217,12 +218,12 @@
 
 @media all and (max-width: 500px) {
     #blog-content {
-        font-size: 3.3vw;
+        font-size: 3.5vw;
         width: 100%;
     }
 
     #ali, #time-quote, #matrix-quote {
-        font-size: 3.6vw;
+        font-size: 4vw;
     }
 
     #matrix-quote {
@@ -251,12 +252,12 @@
 
 @media all and (max-width: 390px) {
     #blog-content {
-        font-size: 4vw;
+        font-size: 4.4vw;
         width: 100%;
     }
 
     #ali, #time-quote, #matrix-quote {
-        font-size: 4.3vw;
+        font-size: 4.9vw;
     }
 
     #matrix-quote {
@@ -270,7 +271,7 @@
         }
 
         h2 {
-            font-size: 5vw;
+            font-size: 5.4vw;
         }
 
         h4 {

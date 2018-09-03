@@ -328,7 +328,7 @@
         }
 
         #video-intro {
-            font-size: 2.7vw;
+            font-size: 3vw;
             width: 100%;
             border-right-style: none;
             border-left-style: none;
@@ -337,7 +337,7 @@
         }
 
         #video-content {
-            font-size: 2.7vw;
+            font-size: 3vw;
 
                 a {
                   font-size: 3.5vw;
@@ -346,18 +346,18 @@
                 a#upskill {
                     margin-left: -13%;
                     padding-left: 0.1%;
-                    font-size: 3.0vw;
+                    font-size: 3.2vw;
                 }
 
                 span {
-                  font-size: 2.7vw;
+                  font-size: 3vw;
                 }
         }
     }
 
     @media all and (max-width: 485px) {
         #video-tuts {
-            width: 97%;
+            width: 100%;
         }
 
         #video-head {
@@ -365,11 +365,11 @@
         }
 
         #video-intro {
-            font-size: 3vw;
+            font-size: 3.5vw;
         }
 
         #video-content {
-            font-size: 3vw;
+            font-size: 3.5vw;
 
                 a {
                   font-size: 3.8vw;
@@ -378,11 +378,11 @@
                 a#upskill {
                     margin-left: -5%;
                     padding-left: 0.1%;
-                    font-size: 3.3vw;
+                    font-size: 3.7vw;
                 }
 
                 span {
-                  font-size: 3.2vw;
+                  font-size: 3.5vw;
                 }
         }
 
@@ -406,25 +406,25 @@
         }
 
         #video-intro {
-            font-size: 3.5vw;
+            font-size: 4.2vw;
         }
 
         #video-content {
-            font-size: 3.5vw;
+            font-size: 4.2vw;
 
                 a {
                     margin-left: -9%;
-                  font-size: 4.1vw;
+                  font-size: 4.5vw;
                 }
 
                 a#upskill {
-                    margin-left: -11%;
+                    margin-left: -15%;
                     padding-left: 0.1%;
-                    font-size: 3.3vw;
+                    font-size: 3.8vw;
                 }
 
                 span {
-                  font-size: 3.5vw;
+                  font-size: 4.3vw;
                 }
         }
     }

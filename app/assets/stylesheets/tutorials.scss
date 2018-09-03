@@ -747,24 +747,33 @@
     }
 
 #tuts-intro {
-    font-size: 3.5vw;
+    font-size: 3.6vw;
 }
 }
 
 @media all and (max-width: 400px) {
     #tuts1, #tuts2, #tuts3 {
-        font-size: 3.9vw;
+        font-size: 4.2vw;
 
             h3 {
-                font-size: 4.2vw;
+                font-size: 4.5vw;
+            }
+
+            p {
+                text-indent: 10px;
+                padding-left: 1%;
+            }
+
+            #smallprint {
+                font-size: 2.5vw;
             }
     }
 
     #tuts4 {
-        font-size: 4.4vw;
+        font-size: 4.7vw;
 
             h2 {
-                font-size: 4.8vw;
+                font-size: 5vw;
             }
     }
 
@@ -773,10 +782,12 @@
     }
 
 #tuts-intro {
-    font-size: 4vw;
+    font-size: 4.4vw;
+    padding-left: 3%;
+    padding-right:1%;
 }
 
 #zombie {
-    height: 150px;
+    height: 125px;
 }
 }

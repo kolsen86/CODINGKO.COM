@@ -374,11 +374,11 @@
             border-left-style: none;
             border-top-style: 20px solid #3d348b;
             border-bottom-style: 20px solid #3d348b;
-            font-size: 3vw;
+            font-size: 3.5vw;
         }
 
         #tools-content {
-            font-size: 3vw;
+            font-size: 3.5vw;
 
                 a {
                     font-size: 4.4vw;
@@ -391,7 +391,21 @@
         }
 
         #tools-page {
-            width: 97%;
+            width: 100%;
+        }
+
+        ul.tools-menu {
+
+          a {
+            font-size: 2.5vw;
+          }
+        }
+
+        ul.tools-menu2 {
+
+          a {
+            font-size: 2.5vw;
+          }
         }
     }
 
@@ -405,14 +419,18 @@
         }
 
         #tools-intro, #tools-intro1 {
-            font-size: 3.5vw;
+            font-size: 4.2vw;
+        }
+
+        #tools-intro1 {
+          padding-right: 0%;
         }
 
         #tools-content {
-            font-size: 3.5vw;
+            font-size: 4.2vw;
 
                 a {
-                    font-size: 4.8vw;
+                    font-size: 4.9vw;
                 }
         }
     }

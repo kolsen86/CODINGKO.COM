@@ -249,7 +249,7 @@ ul.ref-quest-menu2 {
 
     a {
       font-size: 3.3vw;
-      margin: 0 auto;
+      margin: 0 auto 0 auto;
       color: #191716;
     }
 
@@ -264,6 +264,8 @@ ul.ref-quest-menu2 {
       border-radius: 45px;
       font-family: 'Alfa Slab One', cursive;
       text-align: center;
+      margin-left: -2%;
+      padding-right: 20%;
     }
 
     ul {
@@ -332,6 +334,7 @@ ul.ref-quest-menu2 {
         border-radius: 45px;
         font-family: 'Alfa Slab One', cursive;
         text-align: center;
+        padding-right: 20%;
       }
 
       ul {
@@ -430,7 +433,7 @@ ul.ref-quest-menu2 {
     }
 
     #ref-quest-tuts {
-      width: 97%;
+      width: 100%;
     }
 
     ul.ref-quest-menu {
@@ -458,22 +461,22 @@ ul.ref-quest-menu2 {
     }
 
     #ref-intro, #quest-intro {
-      font-size: 3.2vw;
+      font-size: 4.4vw;
     }
 
     #ref-content {
-      font-size: 3.2vw;
+      font-size: 4.4vw;
 
       a {
-        font-size: 4.6vw;
+        font-size: 5vw;
       }
     }
 
     #quest-content {
-      font-size: 3.2vw;
+      font-size: 4.4vw;
 
         a {
-          font-size: 4.6vw;
+          font-size: 5vw;
         }
     }
   }
