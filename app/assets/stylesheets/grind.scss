@@ -108,7 +108,7 @@
 
 @media all and (max-width: 950px) {
     #grind-intro {
-        font-size: 2vw;
+        font-size: 2.4vw;
         width: 90%;
         padding: 9%;
     }
@@ -125,20 +125,21 @@
     }
 
     #grind-content {
-        font-size: 2.1vw;
+        font-size: 2.4vw;
         width: 85%;
 
             h4 {
-                font-size: 2.5vw;
+                font-size: 2.8vw;
             }
     }
 }
 
 @media all and (max-width: 740px) {
     #grind-intro {
-        font-size: 2.3vw;
+        font-size: 2.9vw;
         width: 98%;
         padding: 9%;
+        border-radius: 175px;
     }
 
     #intro-head-graphs {
@@ -153,20 +154,20 @@
     }
 
     #grind-content {
-        font-size: 2.4vw;
+        font-size: 2.9vw;
         width: 95%;
 
             h4 {
-                font-size: 2.9vw;
+                font-size: 3.4vw;
             }
     }
 }
 
 @media all and (max-width: 600px) {
     #grind-intro {
-        font-size: 2.9vw;
-        width: 99.9%;
-        padding: 9%;
+        font-size: 3.5vw;
+        width: 100%;
+        padding: 15% 7% 15% 7%;
     }
 
     #intro-head-graphs {
@@ -181,11 +182,11 @@
     }
 
     #grind-content {
-        font-size: 2.9vw;
-        width: 99%;
+        font-size: 3.5vw;
+        width: 100%;
 
             h4 {
-                font-size: 3.4vw;
+                font-size: 3.9vw;
             }
     }
 }
@@ -193,7 +194,7 @@
 @media all and (max-width: 450px) {
     #grind-intro {
         margin: 5% auto 0% auto;
-        font-size: 3.9vw;
+        font-size: 4.2vw;
         padding: 7% 3% 7% 3%;
         border-radius: 0%;
         width: 100%;
@@ -223,7 +224,7 @@
     }
 
     #grind-content {
-    font-size: 3.7vw;
+    font-size: 4.2vw;
     padding: 5%;
     margin: 5% auto 0 auto;
     width: 100%;
@@ -240,7 +241,7 @@
         }
 
         h4 {
-            font-size: 4.1vw;
+            font-size: 5vw;
             text-shadow: -1px 2px 4px #beb7a4;
             border: 5px solid #3d348b;
             width: 80%;
@@ -254,7 +255,7 @@
 @media all and (max-width: 380px) {
     #grind-intro {
         font-size: 4.4vw;
-        width: 99.9%;
+        width: 100%;
         padding: 9% 2% 9% 2%;
     }
 

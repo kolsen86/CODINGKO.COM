@@ -38,12 +38,12 @@
     text-indent: 50px;
     color: #191716;
     background-color: #e6af2e;
-    padding: 7% 5% 7% 5%;
+    padding: 7% 7% 7% 7%;
     border-radius: 250px;
     width: 80%;
     border: 10px solid #3d348b;
     box-shadow: -12px 15px 30px #191716;
-    font-weight: 700;
+    font-weight: 650;
     font-family: 'Source Serif Pro', serif;
 }
 
@@ -545,11 +545,12 @@
     }
 
     #tuts-head {
-        font-size: 9.5vw;
+        font-size: 8vw;
     }
 
 #tuts-intro {
-    font-size: 2vw;
+    font-size: 1.9vw;
+    padding: 8% 8% 10% 8%;
 }
 }
 
@@ -580,18 +581,20 @@
     }
 
     #tuts-head {
-        font-size: 10vw;
+        font-size: 8.05vw;
     }
 
 #tuts-intro {
-    font-size: 2.4vw;
+    font-size: 2.7vw;
+    padding: 9.5%;
+    border-radius: 150px;
 }
 }
 
 @media all and (max-width: 600px) {
 
     #tuts-head {
-        font-size: 10.5vw;
+        font-size: 8.1vw;
     }
 
     #zombie {
@@ -600,16 +603,11 @@
 
     #tuts-intro {
         margin: 5% auto 0% auto;
-        font-size: 2.9vw;
-        text-indent: 50px;
-        color: #191716;
-        background-color: #e6af2e;
+        font-size: 3.2vw;
         padding: 7% 5% 7% 5%;
         border-radius: 0%;
         width: 100%;
         border: 10px solid #3d348b;
-        box-shadow: -12px 15px 30px #191716;
-        font-weight: 500;
     }
 
     #tuts1 {
@@ -744,7 +742,7 @@
     }
 
     #tuts-head {
-        font-size: 11vw;
+        font-size: 8.1vw;
     }
 
 #tuts-intro {
@@ -779,7 +777,7 @@
     }
 
     #tuts-head {
-        font-size: 12vw;
+        font-size: 8vw;
     }
 
 #tuts-intro {

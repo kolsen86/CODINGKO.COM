@@ -197,7 +197,7 @@ ul.ref-quest-menu2 {
   width: 100%;
   background-color: #191716;
   height: auto;
-  font-size: 6.5vw;
+  font-size: 7.7vw;
   color: #e0e2db;
   text-align: center;
   padding-top: 8%;
@@ -223,7 +223,7 @@ ul.ref-quest-menu2 {
 
 #ref-intro, #quest-intro {
   margin: 15% auto 0% auto;
-  font-size: 1.8vw;
+  font-size: 2vw;
   text-indent: 50px;
   color: #191716;
   background-color: #e6af2e;
@@ -240,7 +240,7 @@ ul.ref-quest-menu2 {
 
 #ref-content {
   margin: 0 auto;
-  font-size: 1.8vw;
+  font-size: 2vw;
   text-indent: 50px;
   font-weight: 650;
   line-height: 1.7em;
@@ -305,7 +305,7 @@ ul.ref-quest-menu2 {
 
   #quest-content {
     margin: 0 auto;
-    font-size: 1.8vw;
+    font-size: 2vw;
     text-indent: 50px;
     font-weight: 650;
     line-height: 1.7em;
@@ -370,7 +370,7 @@ ul.ref-quest-menu2 {
 
   @media all and (max-width: 800px) {
     #ref-quest-head {
-      font-size: 6.75vw;
+      font-size: 8.75vw;
     }
 
     #ref-intro-header, #quest-intro-header {
@@ -378,11 +378,11 @@ ul.ref-quest-menu2 {
     }
 
     #ref-intro, #quest-intro {
-      font-size: 2.2vw;
+      font-size: 2.5vw;
     }
 
     #ref-content {
-      font-size: 2.2vw;
+      font-size: 2.5vw;
 
       a {
         font-size: 3.7vw;
@@ -390,7 +390,7 @@ ul.ref-quest-menu2 {
     }
 
     #quest-content {
-      font-size: 2.2vw;
+      font-size: 2.5vw;
 
         a {
           font-size: 3.7vw;
@@ -400,7 +400,7 @@ ul.ref-quest-menu2 {
 
   @media all and (max-width: 600px) {
     #ref-quest-head {
-      font-size: 7vw;
+      font-size: 9vw;
     }
 
     #ref-intro-header, #quest-intro-header {
@@ -408,7 +408,7 @@ ul.ref-quest-menu2 {
     }
 
     #ref-intro, #quest-intro {
-      font-size: 2.8vw;
+      font-size: 3vw;
       width: 100%;
       border-right-style: none;
       border-left-style: none;
@@ -417,7 +417,7 @@ ul.ref-quest-menu2 {
     }
 
     #ref-content {
-      font-size: 2.8vw;
+      font-size: 3vw;
 
       a {
         font-size: 4.1vw;
@@ -425,7 +425,7 @@ ul.ref-quest-menu2 {
     }
 
     #quest-content {
-      font-size: 2.8vw;
+      font-size: 3vw;
 
         a {
           font-size: 4.1vw;
@@ -453,7 +453,7 @@ ul.ref-quest-menu2 {
 
   @media all and (max-width: 450px) {
     #ref-quest-head {
-      font-size: 7.5vw;
+      font-size: 9vw;
     }
 
     #ref-intro-header, #quest-intro-header {

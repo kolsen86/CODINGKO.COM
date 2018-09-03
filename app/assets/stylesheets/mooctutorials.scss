@@ -223,7 +223,7 @@ ul.mooc-menu2 {
 
 #mooc-intro {
   margin: 15% auto 0% auto;
-  font-size: 1.8vw;
+  font-size: 2vw;
   text-indent: 50px;
   color: #191716;
   background-color: #e6af2e;
@@ -240,7 +240,7 @@ ul.mooc-menu2 {
 
 #mooc-content {
   margin: 0 auto;
-  font-size: 1.8vw;
+  font-size: 2vw;
   text-indent: 50px;
   font-weight: 650;
   line-height: 1.7em;
@@ -263,6 +263,8 @@ ul.mooc-menu2 {
       padding-bottom: 1%;
       border-radius: 45px;
       font-family: 'Alfa Slab One', cursive;
+      text-align: center;
+      padding-right: 5%;
     }
 
     ol {
@@ -329,7 +331,7 @@ ul.mooc-menu2 {
     }
 
     #mooc-intro {
-      font-size: 2.9vw;
+      font-size: 3.2vw;
       width: 100%;
       border-right-style: none;
       border-left-style: none;
@@ -338,7 +340,7 @@ ul.mooc-menu2 {
     }
 
     #mooc-content {
-      font-size: 2.9vw;
+      font-size: 3.2vw;
 
       a {
         font-size: 3.9vw;
@@ -351,7 +353,7 @@ ul.mooc-menu2 {
     }
 
     #mooc-tuts {
-      width: 97%;
+      width: 100%;
     }
   }
 
@@ -365,14 +367,15 @@ ul.mooc-menu2 {
     }
 
     #mooc-intro {
-      font-size: 3.7vw;
+      font-size: 4vw;
     }
 
     #mooc-content {
-      font-size: 3.7vw;
+      font-size: 4vw;
 
       a {
-        font-size: 4.2vw;
+        font-size: 4.5vw;
+        padding-right: 10%;
       }
 
       img {
@@ -410,14 +413,14 @@ ul.mooc-menu2 {
     }
 
     #mooc-intro {
-      font-size: 4.2vw;
+      font-size: 4.4vw;
     }
 
     #mooc-content {
-      font-size: 4.2vw;
+      font-size: 4.4vw;
 
       a {
-        font-size: 4.6vw;
+        font-size: 4.7vw;
       }
     }
   }
