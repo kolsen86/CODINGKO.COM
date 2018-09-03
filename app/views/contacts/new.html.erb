@@ -96,36 +96,64 @@
                 <div id="linkedin"><a id="connect" href="https://www.linkedin.com/in/codingko"></a></div>
             </div>
 
-<!-- Button to open the modal login form -->
-<button id="contact-popout" onclick="document.getElementById('id01').style.display='block'">Login</button>
 
-<!-- The Modal -->
+<button id="contact-popout" onclick="document.getElementById('id01').style.display='block'">Login</button>
 <div id="id01" class="modal">
   <span onclick="document.getElementById('id01').style.display='none'"
 class="close" title="Close Modal">&times;</span>
 
-  <!-- Modal Content -->
-  <form class="modal-content animate" action="/action_page.php">
-    <div class="imgcontainer">
-      <img src="img_avatar2.png" alt="Avatar" class="avatar">
-    </div>
 
-    <div class="container">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
+            <% flash.each do |type, msg| %>
 
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
+            <%= content_tag :div, msg, class: "alert alert-#{type}" %>
 
-      <button type="submit">Login</button>
-      <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
-    </div>
+            <% end %>
 
+            <%= form_for @contact do |f| %>
+
+            <form class="form-horizontal modal-content animate" action="/action_page.php" method="post">
+
+                <fieldset id="r-form">
+
+                    <legend id="r-legend">Contact Me</legend>
+
+                    <div id="form-groupr1">
+
+                        <%= f.label :name %>
+
+                        <%= f.text_field :name, class: 'form-control', placeholder: 'John Doe' %>
+
+                    </div>
+
+                    <div id="form-groupr2">
+
+                        <%= f.label :email %>
+
+                        <%= f.text_field :email, class: 'form-control', placeholder: 'yourEmail@email.com' %>
+
+                    </div>
+
+                    <div id="form-groupr3">
+
+                        <%= f.label :comments %>
+
+                        <%= f.text_area :comments, class: 'form-control' %>
+
+                    </div>
+
+                    <div id="form-group4">
+
+                        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+
+                        <% end %>
+
+                    </div>
+
+                </fieldset>
+
+            </form>
     <div class="container" style="background-color:#f1f1f1">
       <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
     </div>
   </form>
 </div>
