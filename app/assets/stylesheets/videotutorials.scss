@@ -200,7 +200,7 @@
     font-size: 10.5vw;
     color: #e0e2db;
     text-align: center;
-    padding-top: 8%;
+    padding-top: 11%;
     font-family: 'IM Fell Great Primer SC', serif;
     text-shadow: -3px 5px 4px #3d348b;
   }
@@ -326,6 +326,7 @@
     @media all and (max-width: 600px) {
         #video-head {
             font-size: 12.5vw;
+            padding-top: 17%;
         }
 
         #video-intro {

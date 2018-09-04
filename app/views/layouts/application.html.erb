@@ -19,9 +19,11 @@
         <header>
                 <div class="menu-cont" id="toggle">
                     <span class="menu-txt" data-text="CLOSE-">
-                      -MENU
+                        *MENU*
                     </span>
+                    <i class="fa fa-bars" aria-hidden="true"></i>
                 </div>
+
                 </header>
                 <div class="overlay" id="overlay">
                   <nav class="overlay-menu">
@@ -103,6 +105,17 @@
          });
 
   </script>
-
+<script>
+  var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("toggle").style.top = "0";
+  } else {
+    document.getElementById("toggle").style.top = "-110px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
   </body>
 </html>

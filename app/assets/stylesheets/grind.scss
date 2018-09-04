@@ -14,7 +14,7 @@
     font-size: 12vw;
     color: #e0e2db;
     text-align: center;
-    padding-top: 7%;
+    padding-top: 12%;
     padding-bottom: 7%;
     text-shadow: 3px -2px 3px #e6af2e;
 }
@@ -188,6 +188,12 @@
             h4 {
                 font-size: 3.9vw;
             }
+    }
+}
+
+@media all and (max-width: 550px) {
+    #grind-head {
+        padding-top: 17%;
     }
 }
 

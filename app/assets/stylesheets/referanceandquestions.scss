@@ -200,7 +200,7 @@ ul.ref-quest-menu2 {
   font-size: 7.7vw;
   color: #e0e2db;
   text-align: center;
-  padding-top: 8%;
+  padding-top: 11%;
   font-family: 'IM Fell Great Primer SC', serif;
   text-shadow: -3px 5px 4px #3d348b;
 }
@@ -401,6 +401,7 @@ ul.ref-quest-menu2 {
   @media all and (max-width: 600px) {
     #ref-quest-head {
       font-size: 9vw;
+      padding-top: 17%;
     }
 
     #ref-intro-header, #quest-intro-header {
