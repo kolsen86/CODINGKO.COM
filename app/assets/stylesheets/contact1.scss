@@ -24,6 +24,22 @@
     height: auto;
 }
 
+#mobile-contact {
+    display: none;
+
+    #contact-reasons-mobile {
+        display: none;
+    }
+}
+
+#anything-contact-mobile {
+    display: none;
+}
+
+#push-button {
+    display: none;
+}
+
 .form-area {
     background-color: #F7F3AA;
     width: 100%;
@@ -235,141 +251,10 @@
         }
     }
 
-/* The Modal (background) */
-.modal {
-    display: none;
-    position: static;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: scroll;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
-    padding-top: 60px;
-}
-
-#contact-popout {
-    margin-left: 50%;
-}
-
-#r-form {
-    background-color: white;
-    height: 100%;
-    width: 100%;
-}
-
-#form-groupr1 {
-    height: 50px;
-    width: 30%;
-    margin-left: 20%;
-    margin-top: 5%;
-
-    #contact_name {
-        height: 300px;
-        width: 700px;
-        border: 3px solid black;
+    #contact-popout {
+        display: none;
+        margin-left: 30%;
     }
-
-    label {
-        font-size: 2.5vw;
-        text-align: center;
-        margin-top: -5%;
-    }
-}
-
-#form-groupr2 {
-    height: 50px;
-    width: 30%;
-    margin-left: 20%;
-    margin-top: 10%;
-
-    #contact_email {
-        height: 300px;
-        width: 700px;
-        border: 3px solid black;
-    }
-
-    label {
-        font-size: 2.5vw;
-        text-align: center;
-        margin-top: -5%;
-    }
-}
-
-#form-groupr3 {
-    height: 200px;
-    width: 30%;
-    margin-left: 20%;
-    margin-top: 10%;
-
-        #contact_comments {
-            height: 300px;
-            width: 700px;
-            border: 3px solid black;
-        }
-
-        label {
-            font-size: 2.5vw;
-            text-align: center;
-            margin-top: -5%;
-        }
-}
-
-#id01 #new_contact {
-    height: 900px;
-    width: 100%;
-    margin-top: -4.5%;
-}
-
-#r-legend {
-    margin-top: 5%;
-    font-size: 5vw;
-    padding-top: 5%;
-}
-
-/* Modal Content/Box */
-.modal-content {
-    background-color: #fefefe;/* 15% from the top and centered */
-    border: 1px solid #888;
-    width: 100%;
-    height: 100%; /* Could be more or less, depending on screen size */
-}
-
-/* The Close Button */
-.close {
-    /* Position it in the top right corner outside of the modal */
-    position: absolute;
-    right: 25px;
-    top: 0;
-    color: #000;
-    font-size: 35px;
-    font-weight: bold;
-}
-
-/* Close button on hover */
-.close:hover,
-.close:focus {
-    color: red;
-    cursor: pointer;
-}
-
-/* Add Zoom Animation */
-.animate {
-    -webkit-animation: animatezoom 0.6s;
-    animation: animatezoom 0.6s
-}
-
-@-webkit-keyframes animatezoom {
-    from {-webkit-transform: scale(0)}
-    to {-webkit-transform: scale(1)}
-}
-
-@keyframes animatezoom {
-    from {transform: scale(0)}
-    to {transform: scale(1)}
-}
 
     @media all and (max-width: 937px) {
         #contact-reasons {
@@ -381,6 +266,26 @@
     }
 
     @media all and (max-width: 711px) {
+
+        .form-area {
+
+        #form-group1 {
+            font-size: 4vw;
+
+                #contact_name {
+                    height: 4.5em;
+                }
+        }
+
+        #form-group2 {
+            font-size: 4vw;
+
+            #contact_email {
+                height: 4.5em
+            }
+        }
+        }
+
         #contact-reasons {
 
             ul {
@@ -399,6 +304,32 @@
     }
 
     @media all and (max-width: 506px) {
+
+    .form-area {
+
+        #form-group1 {
+            font-size: 5vw;
+
+            #contact_name {
+                height: 5.3em;
+            }
+    }
+
+    #form-group2 {
+        font-size: 5vw;
+
+        #contact_email {
+            height: 5.7em
+        }
+    }
+    }
+
+    #contact-reasons {
+
+        ul {
+            margin-left: 80%;
+        }
+}
         #contact-reasons {
             font-size: 2.7vw;
             ul {
@@ -411,3 +342,279 @@
             }
     }
     }
+
+    @media all and (max-width: 480px) {
+        .form-area {
+            display: none;
+    }
+
+        .modal {
+            display: none;
+            position: static;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: scroll;
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0,0.4);
+            padding-top: 25px;
+        }
+
+        #contact-popout {
+            position: absolute;
+            margin-top: -135%;
+            display: block;
+            margin-left: 15%;
+            width: 70%;
+            height: 20%;
+            font-size: 8.5vw;
+            font-family: 'Merienda', serif;
+            font-weight: 900;
+            background-color: #028c0e;
+            color: #191716;
+            letter-spacing: 0.08em;
+            text-shadow: -2px 1px 2px #e6af2e;
+            border: 5px outset #3d348b;
+        }
+
+        #r-form {
+            background-color: #beb7a4;;
+            height: 100%;
+            width: 100%;
+        }
+
+        #form-groupr1 {
+            height: 45px;
+            width: 30%;
+            margin-left: 23%;
+            margin-top: 0.5%;
+            font-family: 'Corben', cursive;
+            letter-spacing: 0.15em;
+            font-weight: 800;
+
+            #contact_name {
+                height: 35px;
+                width: 185%;
+                border: 3px solid black;
+            }
+
+            input#contact_name {
+                font-size: 4.5vw;
+            }
+
+            label {
+                font-size: 4.5vw;
+                margin-left: 63%;
+                margin-top: -7%;
+            }
+        }
+
+        #form-groupr2 {
+            height: 45px;
+            width: 30%;
+            margin-left: 23%;
+            margin-top: 5.5%;
+            font-family: 'Corben', cursive;
+            letter-spacing: 0.15em;
+            font-weight: 800;
+
+            #contact_email {
+                height: 35px;
+                width: 185%;
+                border: 3px solid black;
+            }
+
+            input#contact_email {
+                font-size: 4.5vw;
+            }
+
+            label {
+                font-size: 4.5vw;
+                margin-left: 65%;
+                margin-top: -6%;
+            }
+        }
+
+        #form-groupr3 {
+            height: 200px;
+            width: 30%;
+            margin-left: 10.5%;
+            margin-top: 7%;
+            font-family: 'Corben', cursive;
+            letter-spacing: 0.15em;
+            font-weight: 800;
+
+                #contact_comments {
+                    height: 145px;
+                    width: 270%;
+                    border: 3px solid black;
+                    font-size: 4.5vw;
+                }
+
+                label {
+                    font-size: 4.5vw;
+                    margin-left: 88%;
+                    margin-top: -7%;
+                }
+        }
+
+        #form-groupr4 {
+            margin-left: 24.5%;
+            margin-top: -5%;
+
+            .btn-lg {
+                padding: 3%;
+                font-size: 4vw;
+                width: 70%;
+                font-family: 'Corben', cursive;
+                letter-spacing: 0.15em;
+                font-weight: 800;
+            }
+        }
+
+        #id01 #new_contact {
+            height: 100%;
+            width: 100%;
+            margin-top: -.5%;
+        }
+
+        #r-legend {
+            margin-top: 5%;
+            font-size: 6vw;
+            padding-top: 11%;
+            text-align: center;
+            font-weight: 900;
+            font-family: 'IM Fell Great Primer SC', serif;
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            border: 1px solid #888;
+            width: 100%;
+            height: 100%;
+        }
+
+        .close {
+            position: absolute;
+            right: 25px;
+            top: 5%;
+            color: #000;
+            font-size: 55px;
+            font-weight: 900;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: red;
+            cursor: pointer;
+        }
+
+        .animate {
+            -webkit-animation: animatezoom 0.6s;
+            animation: animatezoom 0.6s
+        }
+
+        @-webkit-keyframes animatezoom {
+            from {-webkit-transform: scale(0)}
+            to {-webkit-transform: scale(1)}
+        }
+
+        @keyframes animatezoom {
+            from {transform: scale(0)}
+            to {transform: scale(1)}
+        }
+
+
+        #contact-reasons {
+            display: none;
+
+                ul {
+                    display: none;
+                }
+            }
+
+            #mobile-contact {
+                display: block;
+                z-index: 5;
+                width: 100%;
+                height: auto;
+                background-color: #F7F3AA;
+                color: #191716;
+                margin-top: -5%;
+                padding-bottom: 5%;
+                padding-top: 5%;
+
+                #contact-reasons-mobile {
+                    display: block;
+                    font-size: 3.9vw;
+                    font-family: 'Merienda', cursive;
+                    font-weight: 800;
+                    z-index: 5;
+                    width: 100%;
+                    height: auto;
+
+                        ul {
+                            column-count: 2;
+                            z-index: 5;
+                            width: 100%;
+                            height: 100%;
+                            margin-top: 2%;
+                            column-width: 55%;
+                            margin-left: -5%;
+                            column-gap: 30px;
+                            padding-bottom: 80%;
+
+                                li {
+                                    margin-top: 8%;
+                                }
+                        }
+
+                        h2 {
+                            font-size: 7vw;
+                            column-span: all;
+                            margin-top: -3%;
+                            text-align: center;
+                            padding-bottom: 5%;
+                            font-weight: 900;
+                        }
+                    }
+
+                    #anything-contact-mobile {
+                        display: block;
+                        position: absolute;
+                        margin-top: -78%;
+
+                            h2 {
+                                font-size: 5vw;
+                                font-family: 'Merienda', cursive;
+                                font-weight: 900;
+                            }
+                    }
+
+                    #push-button {
+                        display: inline-block;
+                        position: absolute;
+                        width: 100%;
+                        height: auto;
+                        font-family: 'Trade Winds', cursive;
+                        font-weight: 900;
+                        text-shadow: -3px -2px 3px #3d348b;
+                        color: #FF2900;
+                        letter-spacing: 0.06em;
+
+                            #push {
+                                font-size: 8vw;
+                                margin-top: -68%;
+                                margin-left: 9.5%;
+                            }
+
+                            #do-it {
+                                font-size: 9.5vw;
+                                margin-left: 32%;
+                                margin-top: 35%;
+                            }
+                    }
+                }
+        }
