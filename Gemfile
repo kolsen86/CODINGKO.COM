@@ -29,6 +29,8 @@ gem 'jquery-rails', '4.3.1'
 gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
+#Use Meta Tag gem to help with SEO
+gem 'meta-tags'
 # Use active_link_to gem to create active links in nav menu
 gem 'active_link_to'
 # Use ActiveStorage variant

@@ -1,8 +1,9 @@
 .contact-body {
     width: 100%;
     height: auto;
+    max-height: 100%;
     margin: 0;
-    padding-bottom: 3.9%;
+    padding-bottom: 10%;
     background-color: #e0e2db;
 }
 
@@ -194,7 +195,6 @@
 #tear-away {
     width: 100%;
     height: auto;
-    max-height: 100%;
     position: relative;
 
         #contact1 {
@@ -202,6 +202,11 @@
             height: 100%;
             z-index: 2;
         }
+
+        #tear-wrap {
+            width: 100%;
+            height: 280px;
+            position: relative;
 
         #email {
             position: absolute;
@@ -212,7 +217,7 @@
 
                 a#email-me {
                     width: 100%;
-                    height: 300px;
+                    height: 285px;
                     z-index: 5;
                     position: absolute;
                 }
@@ -228,7 +233,7 @@
 
             a#git-at-me {
                 width: 100%;
-                height: 300px;
+                height: 285px;
                 z-index: 5;
                 position: absolute;
             }
@@ -244,10 +249,11 @@
 
                 a#connect {
                     width: 100%;
-                    height: 300px;
+                    height: 285px;
                     z-index: 5;
                     position: absolute;
                 }
+            }
         }
     }
 
@@ -263,6 +269,20 @@
                     margin-left: 86%;
                 }
         }
+
+        #tear-away {
+
+            #tear-wrap {
+                height: 175px;
+
+            #linkedin, #github, #email {
+
+                a#email-me, a#git-at-me, a#connect {
+                    height: 175px;
+                }
+            }
+            }
+    }
     }
 
     @media all and (max-width: 711px) {
@@ -295,6 +315,20 @@
     }
 
     @media all and (max-width: 585px) {
+        #tear-away {
+
+            #tear-wrap {
+                height: 150px;
+
+            #linkedin, #github, #email {
+
+                a#email-me, a#git-at-me, a#connect {
+                    height: 150px;
+                }
+            }
+        }
+    }
+
         #contact-reasons {
 
             ul {
@@ -328,12 +362,6 @@
     }
     }
 
-    #contact-reasons {
-
-        ul {
-            margin-left: 80%;
-        }
-}
         #contact-reasons {
             font-size: 2.7vw;
             ul {
@@ -345,7 +373,21 @@
                     }
             }
     }
+
+    #tear-away {
+
+        #tear-wrap {
+
+        #linkedin, #github, #email {
+
+            a#email-me, a#git-at-me, a#connect {
+                height: 130px;
+            }
+        }
     }
+    }
+}
+
 
     @media all and (max-width: 480px) {
         .form-area {
@@ -368,7 +410,7 @@
 
         #contact-popout {
             position: absolute;
-            margin-top: -135%;
+            margin-top: -168%;
             display: block;
             margin-left: 15%;
             width: 70%;
@@ -622,3 +664,20 @@
                     }
                 }
         }
+
+        @media all and (max-width: 410px) {
+
+        #tear-away {
+
+            #tear-wrap {
+                height: 90px;
+
+            #linkedin, #github, #email {
+
+                a#email-me, a#git-at-me, a#connect {
+                    height: 90px;
+                }
+            }
+        }
+    }
+}
