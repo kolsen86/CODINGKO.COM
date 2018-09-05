@@ -31,7 +31,7 @@ html, body {
 footer {
   background-color: #beb7a4;
   width: 100%;
-  height: 150px;
+  height: 13%;
   font-family: 'IM Fell Great Primer SC', serif;
   color: #191716;
 
@@ -47,8 +47,10 @@ footer {
       .social-media-f {
           position: relative;
           display: block;
-          font-size: 3rem;
-          margin: 1% 0 0 25%;
+          font-size: 2.5vw;
+          margin: 0% 0 0 20%;
+          width: 90%;
+          height: auto;
 
 
            a {
