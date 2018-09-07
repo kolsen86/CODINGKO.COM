@@ -31,15 +31,15 @@ html, body {
 footer {
   background-color: #beb7a4;
   width: 100%;
-  height: 13%;
+  height: 20%;
   font-family: 'IM Fell Great Primer SC', serif;
   color: #191716;
 
       #foot {
           font-size: 5vw;
           margin-left: 12%;
-          margin-top: -5%;
-          padding: 0;
+          margin-top: -8%;
+          padding: 2% 0 0 0;
           letter-spacing: 0.8em;
           font-weight: 900;
       }
@@ -47,10 +47,14 @@ footer {
       .social-media-f {
           position: relative;
           display: block;
-          font-size: 2.5vw;
-          margin: 0% 0 0 20%;
-          width: 90%;
+          font-size: 2.89vw;
+          margin: 0% 0 0 17%;
+          width: 80%;
           height: auto;
+
+          #social-media2-f, #social-media3-f {
+            margin-left: 8%;
+          }
 
 
            a {
@@ -253,7 +257,7 @@ footer {
   }
 
   .rotate {
-    font-family: "Righteous";
+    font-family: 'IM Fell Great Primer SC', serif;
     font-size: 8.5em;
     height:180px;
     overflow:hidden;

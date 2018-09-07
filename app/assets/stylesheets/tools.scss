@@ -249,16 +249,15 @@
 
   #tools-intro-header1 {
     font-size: 4.5vw;
-    text-align: center;
     padding-top: 20%;
     text-shadow: -2px 2px 1px #e6af2e;
     font-family: 'Alfa Slab One', cursive;
+    text-align: center;
   }
 
   #tools-intro1 {
     margin: 15% auto 0% auto;
     font-size: 2vw;
-    text-indent: 50px;
     color: #191716;
     background-color: #e6af2e;
     padding: 7% 5% 7% 5%;
@@ -273,6 +272,7 @@
 
         p#editor-intro {
             border-style: none;
+            text-indent: 50px;
         }
 
         span {
@@ -379,11 +379,6 @@
             font-size: 5.5vw;
         }
 
-        #tools-intro-header1 {
-            padding-left: 5%;
-            margin-left: 2%;
-        }
-
         #tools-intro, #tools-intro1 {
             width: 100%;
             border-right-style: none;
@@ -430,8 +425,12 @@
             font-size: 14.5vw;
         }
 
-        #tools-intro-header, #tools-intro-header1 {
+        #tools-intro-header {
             font-size: 6vw;
+        }
+
+        #tools-intro-header1 {
+          font-size: 5vw;
         }
 
         #tools-intro, #tools-intro1 {
