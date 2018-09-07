@@ -414,7 +414,7 @@
             display: block;
             margin-left: 15%;
             width: 70%;
-            height: 20%;
+            height: 15%;
             font-size: 8.5vw;
             font-family: 'Merienda', serif;
             font-weight: 900;
@@ -640,7 +640,7 @@
                     }
 
                     #push-button {
-                        display: inline-block;
+                        display: block;
                         position: absolute;
                         width: 100%;
                         height: auto;
@@ -665,7 +665,17 @@
                 }
         }
 
-        @media all and (max-width: 410px) {
+        @media all and (max-width: 419px) {
+
+            #contact-popout {
+                position: absolute;
+                margin-top: -158%;
+                display: block;
+                margin-left: 15%;
+                width: 70%;
+                height: 15%;
+                font-size: 8.5vw;
+            }
 
         #tear-away {
 
@@ -679,5 +689,29 @@
                 }
             }
         }
+    }
+}
+
+@media all and (max-width: 370px) {
+    #contact-popout {
+        position: absolute;
+        margin-top: -162%;
+        display: block;
+        margin-left: 15%;
+        width: 70%;
+        height: 15%;
+        font-size: 8.5vw;
+    }
+}
+
+@media all and (max-width: 340px) {
+    #contact-popout {
+        position: absolute;
+        margin-top: -166%;
+        display: block;
+        margin-left: 15%;
+        width: 70%;
+        height: 15%;
+        font-size: 8.5vw;
     }
 }
