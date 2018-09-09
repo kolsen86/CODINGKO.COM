@@ -1,10 +1,10 @@
 
 
-        <div class="W5HHTML-body">
-                <header><h1>The Who, What, When, Where, Why, and How's of HTML</h1><br><h4>By: Kenneth Olsen</h4></header>
+        <div class="html-body">
+                <header><h1 id="html-head">The Who, What, When, Where, Why, and How's of HTML</h1><br><h4 id="html-by">By: Kenneth Olsen</h4></header>
 
-            <p>Hello!  Welcome to the new series on codingko.com, the “Who, What, When, Where, Why, and How’s of Programming”.  In this series I will explain everything you need to know about different programming languages, frameworks, tools, and many other technologies related to programming.  When you get done reading an article you should have a much better grasp of the technology, as well as the best ways and places to start learning how to use it.  So, without any further ado, I present to you, the first in the series, “The Who, What, Where, When, Why, and How’s of HTML”</p><br>
-
+            <p id="html-intro">Hello!  Welcome to the new series on codingko.com, the “Who, What, When, Where, Why, and How’s of Programming”.  In this series I will explain everything you need to know about different programming languages, frameworks, tools, and many other technologies related to programming.  When you get done reading an article you should have a much better grasp of the technology, as well as the best ways and places to start learning how to use it.  So, without any further ado, I present to you, the first in the series, “The Who, What, Where, When, Why, and How’s of HTML”</p><br>
+<div id="html-content">
             <h2>What is HTML?</h2>
 
                 <h3>Short Version:</h3>
@@ -102,4 +102,80 @@
                     </ul>
 
             <h2>What is the very minimum of HTML I need to know to create a basic web-page?</h2>
+
+            <h2>Are there any alternatives to HTML?</h2>
+
+            <p>No.  If you want your website to be viewable online, you must write it in HTML.  There are, however, other markup languages that compile to HTML.  These languages offer different features, but mostly different syntax.  Some of the more popular markup languages that compile down to HTML include XHTML, HAML, and YAML.  In the end, though, it's all HTML.</p>
+
+            <h2>What other things about HTML should I know, or are important?</h2>
+
+            <h3>HTML and accessability</h3>
+            <p>Internet accessability is defined as, the inclusive practice of removing barriers that prevent interaction with, or access to websites, by people with disabilities.  When web-sites are correctly designed, developed, and edited, all users have equal access of information and functionality.  In other words, accesseability is all about making sure EVERYBODY can have access to all the knowledge, opinions, and cat videos available online, know matter if they are disabled or not.  So, make sure your website works, with not only a mouse and keyboard, but also with screen readers, retina devices,and any other device a disabled person might have to use to enjoy the internet the same as everyone else.</p>
+
+            <p>HTML plays a big role in accessability.  Some things you can do to make sure your site is accessible to everyone include:</p>
+
+            <ul>
+                <li>
+                    <p>
+                        Make sure to always use HTML's "alt" attribute for images on your site.  The alt attribute assists the visually impaired, who may have to use screen-readers, to access content online.  The alt attribute is simply a brief sentence or 2 explaining an image and/or the context of the image and what it is supposed to mean.  Here is an examply of how to use the alt attribute.</p>
+                        <img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1536365003/youth-active-jump-happy-40815_1.jpg">
+                        <img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1536373092/accsessability.png" alt="Example of alt HTML attribute tag">
+
+                    <p>It is that simple.  You just link to the image inside the image tag.  After the url of the image, but before the closing bracket, just add alt="Description of image".  Not hard at all!!, and it assists people to enjoy your website.</p>
+                </li>
+
+                <li>
+                    <p>
+                        The next way you can assist people with disabilities to be able to enjoy your websites content is by only using HTML tags for what they were intended for.  Let me explain what I mean by this.  In the late 1990's and early 2000's developers used to do things like putting all of thier HTML inside of a table.  By doing this, they would easily be able to control the layout of thier web-site and the positioning of thier HTML elements.  Since then, there have been major upgrades to both HTML and CSS.  Today, doing things like that is very much frowned upon.  In the present time, you should be using CSS to position your elements and to design your page layout.  Using HTML tags the wrong way (such as using the table tag to control positioning and layout) confuses screen-readers and by extension, the visually inpaired person trying to navigate your website.
+
+                            * I will be doing a full article on accessability in the coming weeks, so stay tuned to codingko.com to learn all about it.
+                    </p>
+                </li>
+            </ul>
+
+            <h3>HTML Boilerplate</h3>
+
+            <p>While a boilerplate is not a feature built into HTML, it is a big help and a time save for developers.  An HTML boilerplate is a pre-made basic HTML layout, either made by you, or downloaded from other developers, that gives you the complete basic structure of your HTML, all ready to go.  It is very easy to make and impliment one, and is a definite time saver.  Here is an eaxample of a basic HTML boilerplate.</p>
+
+            <img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1536367725/codingko_boilerplate.png" alt="image of an HTML boilerplate">
+
+            <p>As you can see, it has the complete structure you would need to write a webpage.  This particular boilerplate came as an extension on Visual Studio Code.  If you create your own, you can create it specifically to how your HTML usually looks.  As I said before, having a few different types of boilerplates can save you a nice amount of time.</p>
+
+            <h3>HTML Tools and Generators</h3>
+
+            <p>There are hundreds of HTML tools and generators available online.  These can help you with any number of different aspects of your code.  A word of advice about them though,  try not to rely to heavily upon them, or you will not actually be learning any skills.  The outcome may be what you wanted, but you will not have known how it got that way.</p>
+
+            <p>An example of what I am asking you to not rely to much on is called a WYSIWYG editor, or a "What You See Is What You Get" editor.  With these editors, you can create a website by simply dragging and dropping the elements you want in your website from a list of pre made elements.  While this makes creating a website much easier, they are generally frowned upon in the developer community.  Some of the common complaints about them are that they produce sloppy, unmaintainable code, or that the websites created by these all look the same.  These editors can also make your site less accessible with the afformentioned sloppy code.  With sloppy code the screen readers may have trouble navigating your site.</p>
+
+            <p>While these editors can be helpful, in certain situations, as a beginner looking to get in to web development, you should steer clear of them.  You should be learning how to code up a website using just your own know how of HTML, so you can get a broader understanding of how it all works and fits together.  There are many other tools available online.  The best way to find them is to just Google "HTML tools", or visit the <a href="/tools">"Useful Tools"</a> section of codingko.com, where I have listed the most useful tools I have found online for many languages and technologies.</p>
+
+            <p>One last HTML tool/resource available to you online is the World Wide Web Consortium, or W3C.  The World Wide Web Consortium is the orginization responsible for creating web standards, such as HTML and CSS themselves.  Tim Berners-Lee (Who you may remember as the creator of HTML, and the person credited with creating the internet as we know it.) is the director of the World Wide Web Consortium, and is responsible for many of the standards they put in place.  The orginization does a lot of work, not only with web standards, but with the accessability of the internet as well.  One handy tool they have on thier website is thier HTML validator. All you have to do is plug your website into the validator and it will check your website for accessability and HTML best practices.  It is actually advisable that you run your website through the validator before deploying it to the internet.</p>
+
+            <h2>What are the best resources available for learning HTML?</h2>
+
+            <p>With any new skill you are trying to learn, including web development and computer programming, the very best way to learn it, is by doing.  So, take a look at some of these resources and get the basics of HTML down, then find a project you like, and start working on it.  I promise you, you will learn much quicker and more thouroughly this way, instead of just jumping from tutorial to tutorial.  That being said, let's have a look at the top 3 resources for a beginner to learn HTML.</p>
+
+            <ol>
+                <li>
+                    <h3>CodeAcademy</h3>
+                    <p>
+                        CodeAcademy could be on this list for many different technologies and languages.  They provide fun, interactive, very beginner friendly courses for, not only HTML, but for CSS, JavaScript, Python, Ruby, and many other languages and technologies.  CodeAcademy offers both free and paid versions of thier courses.  The paid verion gets a bit more in depth, but in my opinion is not neccassary.  All the material you need to learn web development and computer programming is availbale for free online, you just have to know where to look.  CodeAcademy's free course does a very nice job of teaching you the basics.  It really holds your habd at the beginning, but as you progress, that stops.  For almost any programming language you want to learn, CodeAcademy is a great place to start.
+                    </p>
+                </li>
+                <li>
+                    <h3>W3Schools</h3>
+                    <p>
+                        There are only a couple of languages I would actually suggest learning from W3Schools, and that is HTML and CSS.  I only say this because W3Schools doesn't really get to in depth any lessons.  I view them as more of reference material, but very, very good reference material.  Learning HTML, and CSS, is acceptable from them though, as there is no real "logic" to the languages.  They are simply memorization.  The W3Schools website is great for HTML because there is alot of knowledge packed in there and you can test it all out right in the browser on thier site.  As I said though, I ony suggest learning HTML and CSS from them as these languages don't deal with logic and only deal with presentation.
+                    </p>
+                </li>
+                <li>
+                    <h3>General Assembly: Dash</h3>
+                    <p>Dash, by General Assembly, is a short tutorial, but very well done and educational.  Dash only deals with the basics of HTML, as well as CSS and JavaScript, but like I said, they do it well.  General Assembly also offers paid courses, but as I stated earlier, as long as you know where to look you shouldn't have to spend much money at all.</p>
+                </li>
+            </ul>
+
+            <p>There you have it!  The Who, What, Where, When, Why, and How's of HTML.  I hope you learned somethng today.  Please come back next week, as we dive into the next section of the Who, What Wher When Why, and How's of Programming and take a look at CSS.</p>
+
+            <p>If you would like to see any language or technology featured here, please feel free to contact me.  I would love to hear from you.</p>
+        </div>
         </div>

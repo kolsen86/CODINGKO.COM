@@ -33,6 +33,8 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'meta-tags'
 # Use active_link_to gem to create active links in nav menu
 gem 'active_link_to'
+# Use Sitemap generator gem for building sitemap
+gem 'sitemap_generator'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
