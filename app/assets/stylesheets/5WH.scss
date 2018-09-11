@@ -6,6 +6,7 @@
     background-color: #e0e2db;
 
 
+
 #html-head {
     font-family: 'IM Fell Great Primer SC', serif;
     width: 100%;
@@ -33,7 +34,7 @@
     color: #191716;
     background-color: #e6af2e;
     padding: 7% 5% 7% 5%;
-    border-radius: 35%;
+    border-radius: 125px;
     width: 80%;
     border: 10px solid #3d348b;
     box-shadow: -12px 15px 30px #beb7a4;
@@ -50,47 +51,67 @@ img {
 }
 
 #html-content {
-    background-color: #e6af2e;
+    background-color: #e0e2db;
     width: 100%;
     color: #191716;
     margin: 0 auto;
     padding: 5%;
     border-radius: 100px;
+    line-height: 1.47;
+    font-family: 'Source Serif Pro', serif;
+    word-spacing: 0.15em;
+    font-weight: 550;
 
     h2 {
-        font-size: 5vw;
+        font-size: 2.7vw;
         text-align: center;
         color: #191716;
         padding-bottom: 3%;
         padding-top: 4%;
         border-bottom: 15px solid #191716;
         border-radius: 50px 50px 150px 150px;
+        font-family: 'IM Fell Great Primer SC', serif;
+        background-color: #beb7a4;
+        text-shadow: -2px -2px 1px #e0e2db;
+        font-weight: 600;
     }
 
     h3 {
-        font-size: 3vw;
+        font-family: 'IM Fell Great Primer SC', serif;
+        border-bottom: 9px solid #191716;
+        font-size: 2.1vw;
         padding-top: 3%;
     }
 
     p {
         color: #191716;
-        font-size: 1.8vw;
-        width: 95%;
+        font-size: 1.75vw;
+        width: 92%;
         margin-left: 5%;
         padding-top: 3%;
         text-indent: 50px;
+        padding-bottom: 3%;
     }
 
+    a {
+        color: #3d348b;
+    }
 
+    a:hover {
+        color: #e6af2e;
+        font-size: 3.5vw;
+    }
 
     ul, ol {
         background-color: #191716;
         color: #beb7a4;
-        width: 90%;
+        width: 98.75%;
         margin: 5% auto 0 auto;
-        border-radius: 75px;
+        border-radius: 27.5px;
+        padding: 5% 2.5%;
 
         h3 {
+            font-family: 'IM Fell Great Primer SC', serif;
             font-size: 4vw;
             text-align: center;
             color: #e0e2db;
@@ -99,20 +120,32 @@ img {
         li {
             font-size: 1.7vw;
             color: #beb7a4;
-            padding: 3%;
+            padding: 3% 5%;
+            font-family: 'Source Serif Pro', serif;
         }
 
         p {
             font-size: 1.7vw;
             color: #beb7a4;
             text-indent: 50px;
+            font-family: 'Source Serif Pro', serif;
+
         }
 
         img {
-            margin-left: 5%;
+            margin-left: 4.5%;
             padding: 5% 0 5% 0;
             width: 90%;
             height: auto;
+        }
+
+        a {
+            color: #e6af2e;
+        }
+
+        a:hover {
+            color: #3d348b;
+            font-size: 4.5vw;
         }
 
     }

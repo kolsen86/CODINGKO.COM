@@ -1,42 +1,29 @@
+# frozen_string_literal: true
+
 class PagesController < ApplicationController
+  def about; end
 
+  def tutorials; end
 
-    def about
-    end
+  def inttutorials; end
 
-    def tutorials
-    end
+  def booktutorials; end
 
-    def inttutorials
-    end
+  def videotutorials; end
 
-    def booktutorials
-    end
+  def mooctutorials; end
 
-    def videotutorials
-    end
+  def paidtutorialsandpath; end
 
-    def mooctutorials
-    end
+  def referanceandquestions; end
 
-    def paidtutorialsandpath
-    end
+  def tools; end
 
-    def referanceandquestions
-    end
+  def blog; end
 
-    def tools
-    end
+  def grind; end
 
-    def blog
-    end
+  def contact1; end
 
-    def grind
-    end
-
-    def contact1
-    end
-
-    def W5HHTML
-    end
+  def W5HHTML; end
 end

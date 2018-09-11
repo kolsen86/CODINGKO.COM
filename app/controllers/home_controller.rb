@@ -1,6 +1,7 @@
-class HomeController < ApplicationController
-layout "home"
+# frozen_string_literal: true
 
-def home
-end
+class HomeController < ApplicationController
+  layout 'home'
+
+  def home; end
 end
