@@ -58,6 +58,7 @@ group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
+
 end
 
 group :development do
@@ -65,6 +66,8 @@ group :development do
   gem 'rubocop'
   # Bullet gem for finding N+1 queries
   gem 'bullet'
+    #meta_request gem for adding a panel for Rails to Chrome DevTools
+  gem 'meta_request'
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'listen', '>= 3.1.5', '< 3.2'
   gem 'web-console', '>= 3.5.1'
