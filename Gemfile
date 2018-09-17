@@ -80,7 +80,7 @@ group :development do
 end
 group :production do
   # Use PostgreSQL gem for Heroku production servers
-  gem 'pg', '~> 1.0'
+  #gem 'pg', '~> 1.0'
 end
 group :test do
   # Adds support for Capybara system testing and selenium driver
