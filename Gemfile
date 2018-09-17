@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.5.0'
+ruby '2.5.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.0'
@@ -41,7 +41,10 @@ gem 'sitemap_generator'
 # gem 'mini_magick', '~> 4.8'
 
 # Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
+ gem 'capistrano-rails', group: :development
+gem 'capistrano'
+gem "capistrano-passenger", "~> 0.2.0"
+ gem 'capistrano-rvm'
 # Use twitter bootstrap library for front-end UI and layout
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 # Use Hirb gem for better console data presentation
