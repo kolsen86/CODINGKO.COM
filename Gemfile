@@ -37,14 +37,17 @@ gem 'meta-tags'
 gem 'active_link_to'
 # Use Sitemap generator gem for building sitemap
 gem 'sitemap_generator'
+# Use social-share-button gen for social media buttons 
+gem 'social-share-button'
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
 # Use Capistrano for deployment
- gem 'capistrano-rails', group: :development
-gem 'capistrano'
-gem "capistrano-passenger", "~> 0.2.0"
- gem 'capistrano-rvm'
+ #gem 'capistrano-rails', group: :development
+#gem 'capistrano'
+#gem "capistrano-passenger", "~> 0.2.0"
+# gem 'capistrano-rvm'
 # Use twitter bootstrap library for front-end UI and layout
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 # Use Hirb gem for better console data presentation
@@ -79,8 +82,8 @@ group :development do
   gem 'spring-watcher-listen', '2.0.1'
 end
 group :production do
-  # Use PostgreSQL gem for Heroku production servers
-  #gem 'pg', '~> 1.0'
+# Use PostgreSQL gem for Heroku production servers
+  gem 'pg', '~> 1.0'
 end
 group :test do
   # Adds support for Capybara system testing and selenium driver

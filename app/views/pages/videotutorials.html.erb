@@ -1,4 +1,5 @@
 <!doctype html>
+
 <head>
 	<% title 'Video Tutorials' %>
 	<% description 'I have scoured the internet looking for the best video tutorials for learning web development and computer programming so you do not have to!! Here they are.  You are welcome.' %>
@@ -7,17 +8,27 @@
 
 <div class="video-body">
 
-	<header><h1 id="video-head">Video Tutorials</h1></header>
+	<header>
+		<h1 id="video-head">Video Tutorials</h1>
+	</header>
 
 	<ul class="video-menu">
 
-		<li><%= link_to "Tutorials Home", tutorials_path %></li>
+		<li>
+			<%= link_to "Tutorials Home", tutorials_path %>
+		</li>
 
-		<li><%= link_to "Interactive Tutorials", inttutorials_path %></li>
+		<li>
+			<%= link_to "Interactive Tutorials", inttutorials_path %>
+		</li>
 
-		<li><%= link_to "Book Tutorials", booktutorials_path %></li>
+		<li>
+			<%= link_to "Book Tutorials", booktutorials_path %>
+		</li>
 
-		<li><%= link_to "Video Tutorials", videotutorials_path %></li>
+		<li>
+			<%= link_to "Video Tutorials", videotutorials_path %>
+		</li>
 
 		<li class="slider"></li>
 
@@ -25,84 +36,110 @@
 
 	<ul class="video-menu2">
 
-		<li><%= link_to "MOOC Tutorials", mooctutorials_path %></li>
+		<li>
+			<%= link_to "MOOC Tutorials", mooctutorials_path %>
+		</li>
 
-		<li><%= link_to "Paid Tutorials & Pathways", paidtutorialsandpath_path %></li>
+		<li>
+			<%= link_to "Paid Tutorials & Pathways", paidtutorialsandpath_path %>
+		</li>
 
-		<li><%= link_to "Reference & Questions", referanceandquestions_path %></li>
+		<li>
+			<%= link_to "Reference & Questions", referanceandquestions_path %>
+		</li>
 
-		<li><%= link_to "Useful Tools", tools_path %></li>
+		<li>
+			<%= link_to "Useful Tools", tools_path %>
+		</li>
 
 		<li class="slider2"></li>
 
-		</ul>
+	</ul>
 
-		<div id="video-tuts">
+	<div id="video-tuts">
 
-			<div id="video-intro">
+		<div id="video-intro">
 
-				<p>
-					For those of you that are more of the visual learning type these video tutorials are the best that I have done. The internet is full of bad and halfway done video tutorials, so finding quality video tutorials is a bit more of a challenge. There are some great ones here,also listed in the order in which believe you should check them out
-				</p>
-
-			</div>
-
-				<div id="video-content">
-
-					<ol>
-
-						<li>
-
-								<h2><a href="https://www.udemy.com/the-web-developer-bootcamp/" target="_blank" rel="noopener">
-									The Web Developer Boot camp <br> <span>(Paid course on Udemy)</span>
-								</a></h2><img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579224/Udemy-the-web-developer-bootcamp-min.png" alt="Udemy's The web developer bootcamp logo">
-
-								<p>
-									This video course is one of the most highly recommended courses not only on Udemy, but in general, among those learning to code. It moves very slow at the beginning, but picks up the pace as it gets into more advanced stuff. It takes you through the front-end languages (HTML, CSS, and JavaScript) and also covers some frameworks, such as Bootstrap. This is however a paid course on Udemy. You can usually catch it on sale though, through one of Udemy's site wide sales for only around 10 dollars, and it is well worth the price.
-								</p>
-
-						</li>
-
-						<li>
-
-								<h2><a href="http://railsforzombies.org/" target="_blank" rel="noopener">
-									Rails For Zombies
-								</a></h2><img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579221/railsforzombies.png" alt="Skull being electrified with text reading Rails for Zombies.">
-
-								<p id="rfz">
-									To be honest with you, I never did this one. I just stumbled upon it and briefly fast forwarded through it to see if it seemed any good. And it did. I have also heard some praise for this course from other reputable sources. Plus knowing a bit of the Ruby programming language will probably help you out with the next tutorial.
-								</p>
-
-						</li>
-
-						<li>
-
-								<h2><a id="upskill" href="https://upskillcourses.com/p/essential-web-developer-course" target="_blank" rel="noopener">
-									 Essential Web Developer Course
-								</a></h2><img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579224/upskill-min.png" alt="Upskill logo">
-
-								<p>
-									This course is probably my absolute favorite out of the ones I have done. The instructor , Rob Dey, really knows his stuff, and walks you all the way through the course with great instruction. He starts out with explaining the internet and things like what HTTP is. You then start on building a real world application. He walks you through the HTML for the layout of your app, then to CSS for the looks of your app, then swings in to learning Ruby and Ruby on Rails. You will also learn extremely important things like how to use GitHub and Bootstrap properly. Out of all the tutorials I have taken this one is by far my favorite and the one I learnt the most from.
-								</p>
-
-						</li>
-
-						<li>
-
-								<h2><a href="https://www.youtube.com/user/thenewboston" target="_blank" rel="noopener">
-									The New Boston <br> <span>(YouTube)</span>
-								</a></h2><img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579222/thenewboston-min.png" alt="The New Boston Logo">
-
-								<p>
-									This is a series of tutorials on YouTube. The instructor ,Bucky, is highly thought of in the programming community and many times holds joint tutorials with other YouTube programming teachers. His videos not only teach you a lot,but his sense of humor is on point and he will have you chuckling as your learning. Unfortunately he seems to have moved on from his website ,The New Boston, and his YouTube channel for bigger things, but his tutorials are still relevant for now.
-								</p>
-
-						</li>
-
-					</ol>
-
-				</div>
+			<p>
+				For those of you that are more of the visual learning type these video tutorials are the best that I have done. The
+				internet is full of bad and halfway done video tutorials, so finding quality video tutorials is a bit more of a
+				challenge. There are some great ones here,also listed in the order in which believe you should check them out
+			</p>
 
 		</div>
+
+		<div id="video-content">
+
+			<ol>
+
+				<li>
+
+					<h2><a href="https://www.udemy.com/the-web-developer-bootcamp/" target="_blank" rel="noopener">
+							The Web Developer Boot camp <br> <span>(Paid course on Udemy)</span>
+						</a></h2><img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579224/Udemy-the-web-developer-bootcamp-min.png"
+					 alt="Udemy's The web developer bootcamp logo">
+
+					<p>
+						This video course is one of the most highly recommended courses not only on Udemy, but in general, among those
+						learning to code. It moves very slow at the beginning, but picks up the pace as it gets into more advanced stuff.
+						It takes you through the front-end languages (HTML, CSS, and JavaScript) and also covers some frameworks, such as
+						Bootstrap. This is however a paid course on Udemy. You can usually catch it on sale though, through one of
+						Udemy's site wide sales for only around 10 dollars, and it is well worth the price.
+					</p>
+
+				</li>
+
+				<li>
+
+					<h2><a href="http://railsforzombies.org/" target="_blank" rel="noopener">
+							Rails For Zombies
+						</a></h2><img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579221/railsforzombies.png" alt="Skull being electrified with text reading Rails for Zombies.">
+
+					<p id="rfz">
+						To be honest with you, I never did this one. I just stumbled upon it and briefly fast forwarded through it to see
+						if it seemed any good. And it did. I have also heard some praise for this course from other reputable sources.
+						Plus knowing a bit of the Ruby programming language will probably help you out with the next tutorial.
+					</p>
+
+				</li>
+
+				<li>
+
+					<h2><a id="upskill" href="https://upskillcourses.com/p/essential-web-developer-course" target="_blank" rel="noopener">
+							Essential Web Developer Course
+						</a></h2><img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579224/upskill-min.png" alt="Upskill logo">
+
+					<p>
+						This course is probably my absolute favorite out of the ones I have done. The instructor , Rob Dey, really knows
+						his stuff, and walks you all the way through the course with great instruction. He starts out with explaining the
+						internet and things like what HTTP is. You then start on building a real world application. He walks you through
+						the HTML for the layout of your app, then to CSS for the looks of your app, then swings in to learning Ruby and
+						Ruby on Rails. You will also learn extremely important things like how to use GitHub and Bootstrap properly. Out
+						of all the tutorials I have taken this one is by far my favorite and the one I learnt the most from.
+					</p>
+
+				</li>
+
+				<li>
+
+					<h2><a href="https://www.youtube.com/user/thenewboston" target="_blank" rel="noopener">
+							The New Boston <br> <span>(YouTube)</span>
+						</a></h2><img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1531579222/thenewboston-min.png" alt="The New Boston Logo">
+
+					<p>
+						This is a series of tutorials on YouTube. The instructor ,Bucky, is highly thought of in the programming
+						community and many times holds joint tutorials with other YouTube programming teachers. His videos not only teach
+						you a lot,but his sense of humor is on point and he will have you chuckling as your learning. Unfortunately he
+						seems to have moved on from his website ,The New Boston, and his YouTube channel for bigger things, but his
+						tutorials are still relevant for now.
+					</p>
+
+				</li>
+
+			</ol>
+
+		</div>
+
+	</div>
 
 </div>
