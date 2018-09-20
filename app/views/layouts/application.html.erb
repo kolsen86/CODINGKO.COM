@@ -17,14 +17,18 @@
   <%= csp_meta_tag %>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126087848-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-126087848-1');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-126087848-1');
+  </script>
   <%= javascript_include_tag  'application', 'data-turbolinks-track': 'reload' %>
+  <meta name="google-site-verification" content="dyH-BH7Q1beOm6rnLisNbv4E68OWEH5l79w2IuFf8Ps" />
 </head>
 
 <body>
