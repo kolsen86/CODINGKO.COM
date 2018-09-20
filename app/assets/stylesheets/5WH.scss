@@ -5,8 +5,6 @@
     padding-bottom: 4%;
     background-color: #e0e2db;
 
-
-
     #html-head {
         font-family: 'IM Fell Great Primer SC', serif;
         width: 100%;
@@ -77,7 +75,6 @@
         background-color: #beb7a4;
         text-shadow: -2px -2px 1px #e0e2db;
         font-weight: 600;
-
     }
 
     h3 {
@@ -213,9 +210,7 @@
             color: #3d348b;
             font-size: 4.5vw;
         }
-
     }
-
 
     #html-tuts1 {
         width: 50%;
@@ -466,5 +461,345 @@
             -o-border-radius: 50px;
         }
     }
+}
 
+@media all and (max-width: 800px) {
+    .html-body {
+        #html-by {
+            font-size: 2.5vw;
+        }
+
+        #html-intro {
+            font-size: 2.2vw;
+        }
+    }
+
+    #html-content {
+        h2 {
+            font-size: 3.1vw;
+        }
+
+        h3 {
+            font-size: 2.5vw;
+        }
+
+        p,
+        #html-tuts-list3,
+        #html-wide2,
+        #html-tuts-list2,
+        #html-wide1 {
+            font-size: 2.1vw;
+        }
+
+        #imp-html {
+
+            li,
+            p {
+                font-size: 2.1vw;
+            }
+        }
+
+        #learn-html {
+
+            li,
+            p {
+                font-size: 2.1vw;
+            }
+        }
+
+        ul,
+        ol {
+            h3 {
+                font-size: 4.4vw;
+            }
+
+            h4 {
+                font-size: 3vw;
+            }
+
+            li,
+            p {
+                font-size: 2.1vw;
+            }
+        }
+
+        #html-tuts1 {
+            width: 110%;
+            height: auto;
+            margin-left: -5%;
+            display: block;
+            border-right: none;
+            border-top: 15px solid #3d348b;
+        }
+
+        #html-tuts-list1 {
+            width: 110%;
+            margin-left: -5%;
+            margin-top: 0%;
+
+            li {
+                margin-left: 7%;
+            }
+
+            li::before {
+                content: counter(html-points, upper-alpha) ".";
+                padding: 3% 3.6% 3% 3.3%;
+            }
+        }
+
+        #html-tuts2 {
+            width: 110%;
+            height: auto;
+            margin-left: -5%;
+            display: block;
+            border-right: none;
+            border-top: none;
+            padding-top: 0%;
+        }
+
+        #html-tuts-list2 {
+            width: 110%;
+            margin-left: -5%;
+            margin-top: 0%;
+        }
+
+        #html-tuts3 {
+            padding-top: 0%;
+            width: 110%;
+            height: auto;
+            margin-left: -5%;
+            display: block;
+            border-right: none;
+            border-top: none;
+        }
+
+        #html-tuts-list3 {
+            width: 110%;
+            margin-left: -5%;
+            margin-top: 0%;
+        }
+
+        #html-tuts-list4 {
+            border-bottom: 15px solid #3d348b;
+            margin-top: -15.1%;
+            margin-left: -5%;
+            width: 110%;
+            padding-top: 12%;
+        }
+    }
+}
+
+@media all and (max-width: 600px) {
+    .html-body {
+        img {
+            margin-left: -2.5%;
+            padding-top: 5%;
+            width: 105%;
+        }
+    }
+
+    #html-content {
+
+        ul,
+        ol {
+            img {
+                width: 118%;
+                margin-left: -10%;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 500px) {
+
+    #html-head {
+        font-size: 7vw;
+    }
+
+    .html-body {
+        #html-by {
+            font-size: 3vw;
+        }
+
+        #html-intro {
+            font-size: 3.1vw;
+            border: none;
+            border-top: 10px solid #3d348b;
+            border-bottom: 10px solid #3d348b;
+            width: 100%;
+            border-radius: 0%;
+            -webkit-border-radius: 0%;
+            -moz-border-radius: 0%;
+            -ms-border-radius: 0%;
+            -o-border-radius: 0%;
+        }
+
+        #p-tag {
+            height: 125px;
+        }
+    }
+
+    #html-content {
+
+        #boil {
+            height: 400px;
+        }
+
+        h2 {
+            font-size: 4.2vw;
+        }
+
+        h3 {
+            font-size: 3.9vw;
+        }
+
+        p,
+        #html-tuts-list3,
+        #html-wide2,
+        #html-tuts-list2,
+        #html-wide1 {
+            font-size: 3vw;
+        }
+
+        #imp-html {
+
+            li,
+            p {
+                font-size: 3vw;
+            }
+        }
+
+        #learn-html {
+
+            li,
+            p {
+                font-size: 3vw;
+            }
+        }
+
+        ul,
+        ol {
+            width: 110%;
+            margin-left: -5%;
+
+            h3 {
+                font-size: 5.2vw;
+            }
+
+            h4 {
+                font-size: 4.1vw;
+            }
+
+            li,
+            p {
+                font-size: 3vw;
+            }
+
+            img {
+                width: 118%;
+                margin-left: -10%;
+                height: 350px;
+            }
+
+            #ex-attr {
+                height: 125px;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 400px) {
+
+    #html-head {
+        font-size: 7vw;
+    }
+
+    .html-body {
+        #html-by {
+            font-size: 3.2vw;
+        }
+
+        #html-intro {
+            font-size: 3.5vw;
+            border: none;
+            border-top: 10px solid #3d348b;
+            border-bottom: 10px solid #3d348b;
+            width: 100%;
+            border-radius: 0%;
+            -webkit-border-radius: 0%;
+            -moz-border-radius: 0%;
+            -ms-border-radius: 0%;
+            -o-border-radius: 0%;
+        }
+
+        #p-tag {
+            height: 105px;
+        }
+    }
+
+    #html-content {
+
+        #boil {
+            height: 360px;
+        }
+
+        h2 {
+            font-size: 4.5vw;
+        }
+
+        h3 {
+            font-size: 4.2vw;
+        }
+
+        p,
+        #html-tuts-list3,
+        #html-wide2,
+        #html-tuts-list2,
+        #html-wide1 {
+            font-size: 3.3vw;
+        }
+
+        #imp-html {
+
+            li,
+            p {
+                font-size: 3.3vw;
+            }
+        }
+
+        #learn-html {
+
+            li,
+            p {
+                font-size: 3.3vw;
+            }
+        }
+
+        ul,
+        ol {
+
+            h3 {
+                font-size: 5.5vw;
+            }
+
+            h4 {
+                font-size: 4.5vw;
+            }
+
+            li,
+            p {
+                font-size: 3.3vw;
+            }
+
+            img {
+                width: 118%;
+                margin-left: -10%;
+                height: 320px;
+            }
+
+            #ex-attr {
+                height: 105px;
+            }
+        }
+    }
 }
