@@ -409,6 +409,20 @@ i.fab.fa-linkedin {
 
 @media all and (max-width: 1050px) {
 
+  a.ssb-icon.ssb-email,
+  a.ssb-icon.ssb-facebook,
+  a.ssb-icon.ssb-twitter,
+  a.ssb-icon.ssb-google_plus,
+  a.ssb-icon.ssb-tumblr,
+  a.ssb-icon.ssb-reddit,
+  a.ssb-icon.ssb-hacker_news,
+  a.ssb-icon.ssb-linkedin,
+  a.ssb-icon.ssb-pinterest {
+    background-size: 40px 40px;
+    height: 40px;
+    width: 40px;
+  }
+
   .social-media {
     margin-top: -10%;
     position: relative;
@@ -648,6 +662,21 @@ i.fab.fa-linkedin {
 }
 
 @media all and (max-width: 550px) {
+
+  a.ssb-icon.ssb-email,
+  a.ssb-icon.ssb-facebook,
+  a.ssb-icon.ssb-twitter,
+  a.ssb-icon.ssb-google_plus,
+  a.ssb-icon.ssb-tumblr,
+  a.ssb-icon.ssb-reddit,
+  a.ssb-icon.ssb-hacker_news,
+  a.ssb-icon.ssb-linkedin,
+  a.ssb-icon.ssb-pinterest {
+    background-size: 25px 25px;
+    height: 25px;
+    width: 25px;
+  }
+
   .social-media {
     margin-top: -5%;
     position: relative;
@@ -699,6 +728,20 @@ i.fab.fa-linkedin {
 }
 
 @media all and (max-width: 408px) {
+
+  a.ssb-icon.ssb-email,
+  a.ssb-icon.ssb-facebook,
+  a.ssb-icon.ssb-twitter,
+  a.ssb-icon.ssb-google_plus,
+  a.ssb-icon.ssb-tumblr,
+  a.ssb-icon.ssb-reddit,
+  a.ssb-icon.ssb-hacker_news,
+  a.ssb-icon.ssb-linkedin,
+  a.ssb-icon.ssb-pinterest {
+    background-size: 19px 19px;
+    height: 19px;
+    width: 19px;
+  }
 
   i.fab.fa-twitter,
     {
