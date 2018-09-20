@@ -2,8 +2,8 @@
     width: 100%;
     height: auto;
     margin: 0;
-    background-image: url(https:/res.cloudinary.com/dmks1qdth/image/upload/v1533040995/matrix-bg.png);
     padding-bottom: 15%;
+    background-color: #191716;
 }
 
 #blog-head {
@@ -17,6 +17,12 @@
     padding-top: 7%;
     padding-bottom: 7%;
     text-shadow: 3px -2px 3px #e6af2e;
+}
+
+#bg-pic {
+    background-image: url('https://res.cloudinary.com/dmks1qdth/image/upload/v1537403982/matrix.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .matrix-head {
