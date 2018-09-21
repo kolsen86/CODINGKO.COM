@@ -13,6 +13,7 @@
  *= require_tree .
  *= require_self
  */
+
 @import "social-share-button";
 @import "bootstrap";
 @import "bootstrap-sprockets";
@@ -71,7 +72,6 @@ footer {
   color: #191716;
   margin-top: 10%;
 
-
   #foot {
     font-size: 5.7vw;
     margin-top: -10%;
@@ -94,7 +94,6 @@ footer {
     #social-media3-f {
       margin-left: 8%;
     }
-
 
     a {
       color: #191716;
@@ -127,7 +126,7 @@ footer {
 #nav-menu-width2 {
   margin-left: -5%;
   display: block;
-  margin-top: -29%;
+  margin-top: -27%;
   column-count: 2;
   column-gap: 0.07em;
   font-weight: 600;
@@ -142,11 +141,9 @@ footer {
   }
 
   a {
-    width: 97%;
+    width: 100%;
   }
 }
-
-
 
 .menu-cont {
   background-color: #3d348b;
@@ -208,7 +205,7 @@ footer {
 .overlay.open {
   opacity: .9;
   visibility: visible;
-  height: 686px;
+  height: 100%;
 }
 
 .overlay.open li {
@@ -261,7 +258,6 @@ footer {
   min-height: 50px;
   position: relative;
   opacity: 0;
-
 }
 
 .overlay ul li a {
@@ -292,7 +288,6 @@ footer {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   height: 3px;
-
   -webkit-transition: .35s;
   transition: .35s;
 }
@@ -310,11 +305,11 @@ footer {
 }
 
 .overlay ul li a:hover {
-  -webkit-transform: scale(1.45);
-  transform: scale(1.45);
-  -moz-transform: scale(1.45);
-  -ms-transform: scale(1.45);
-  -o-transform: scale(1.45);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
 }
 
 .overlay ul li a:hover:before {
@@ -331,7 +326,6 @@ footer {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   height: 3px;
-
   -webkit-transition: .35s;
   transition: .35s;
 }
@@ -362,16 +356,13 @@ footer {
   overflow: hidden;
   position: relative;
   z-index: 30;
-
 }
 
 .inner {
   height: 170px;
   -webkit-transition: -webkit-transform 0.3s ease;
   -webkit-backface-visibility: hidden;
-
 }
-
 
 .social-media {
   margin-top: -6%;
@@ -405,6 +396,95 @@ i.fab.fa-github {
 i.fab.fa-linkedin {
   color: #191716;
   margin-left: 10%;
+}
+
+@media all and (max-height: 600px) {
+
+  .social-media {
+    margin-top: 2%;
+    position: relative;
+    display: block;
+    font-size: 2.4vw;
+    margin-left: 4%;
+  }
+
+  #nav-menu-width {
+    margin-top: 0%;
+    margin-left: -2%;
+    width: 99%;
+    font-size: 2.2vw;
+
+    li {
+      float: left;
+      margin-left: 6.5%;
+    }
+  }
+
+  #nav-menu-width2 {
+    margin-left: -5%;
+    display: block;
+    margin-top: -24%;
+    column-count: 2;
+    column-gap: 0.07em;
+    font-weight: 600;
+    font-size: 2vw;
+
+    #tuts-res {
+      text-align: center;
+      font-size: 3.2vw;
+      column-span: all;
+      padding-bottom: 3%;
+      font-weight: 600;
+    }
+
+    a {
+      width: 100%;
+    }
+  }
+}
+
+@media all and (max-height: 525px) {
+  .social-media {
+    margin-top: 2%;
+    position: relative;
+    display: block;
+    font-size: 2.4vw;
+    margin-left: 4%;
+  }
+
+  #nav-menu-width {
+    margin-top: 0%;
+    margin-left: -2%;
+    width: 99%;
+    font-size: 2.2vw;
+
+    li {
+      float: left;
+      margin-left: 6.5%;
+    }
+  }
+
+  #nav-menu-width2 {
+    margin-left: -5%;
+    display: block;
+    margin-top: -18%;
+    column-count: 2;
+    column-gap: 0.07em;
+    font-weight: 600;
+    font-size: 2vw;
+
+    #tuts-res {
+      text-align: center;
+      font-size: 3.2vw;
+      column-span: all;
+      padding-bottom: 3%;
+      font-weight: 600;
+    }
+
+    a {
+      width: 100%;
+    }
+  }
 }
 
 @media all and (max-width: 1050px) {
@@ -487,7 +567,7 @@ i.fab.fa-linkedin {
     }
 
     a {
-      width: 97%;
+      width: 100%;
     }
   }
 
@@ -500,9 +580,7 @@ i.fab.fa-linkedin {
   }
 }
 
-
 @media all and (max-width: 1004px) {
-
   .menu-cont {
     margin: -7% auto 0 auto;
     top: 1%;
@@ -522,6 +600,12 @@ i.fab.fa-linkedin {
     margin-left: 0%;
     margin-right: 0%;
     letter-spacing: 5px;
+  }
+
+  .overlay.open {
+    opacity: .9;
+    visibility: visible;
+    height: 100%;
   }
 }
 
@@ -585,17 +669,17 @@ i.fab.fa-linkedin {
   }
 
   .social-media {
-    margin-top: -25%;
+    margin-top: -65%;
     position: relative;
     display: block;
-    font-size: 3vw;
+    font-size: 3.3vw;
     margin-left: 4%;
   }
 
   #social-media1,
   #social-media2,
   #social-media3 {
-    height: 100px;
+    height: 120px;
     width: 100%;
   }
 
@@ -619,45 +703,100 @@ i.fab.fa-linkedin {
   }
 
   #nav-menu-width {
-    margin-top: -5%;
-    margin-left: -2%;
-    width: 99%;
-    font-size: 2.7vw;
+    margin-top: 13%;
+    margin-left: -0%;
+    width: 100%;
+    font-size: 3.7vw;
 
     li {
       float: none;
-      margin-left: 6.5%;
+      margin-left: 2.5%;
+      margin-top: -10%;
     }
   }
 
   #nav-menu-width2 {
-    margin-left: -5%;
+    margin-left: 5%;
     display: block;
-    margin-top: -73%;
-    column-count: 2;
-    column-gap: 0.07em;
+    margin-top: -110%;
+    column-count: 1;
+    column-gap: 0em;
     font-weight: 600;
-    font-size: 2.5vw;
+    font-size: 3.3vw;
+
+    li {
+      margin-top: -11%;
+      margin-left: 2%;
+    }
 
     #tuts-res {
       text-align: center;
-      font-size: 3.8vw;
+      font-size: 4.1vw;
       column-span: all;
-      padding-bottom: 3%;
+      padding-bottom: 15%;
       font-weight: 600;
     }
 
     a {
-      width: 97%;
+      width: 100%;
     }
   }
 
   .overlay ul li a:hover {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+  }
+
+  .overlay nav {
+    height: 100%;
+  }
+
+  .overlay.open {
+    height: 1000px;
+  }
+}
+
+@media all and (max-width: 590px) {
+  #nav-menu-width2 {
+    margin-left: 5%;
+    display: block;
+    margin-top: -140%;
+    column-count: 1;
+    column-gap: 0em;
+    font-weight: 600;
+    font-size: 3.3vw;
+
+    li {
+      margin-top: -14%;
+    }
+
+    #tuts-res {
+      padding-bottom: 18%;
+    }
+  }
+
+  #nav-menu-width {
+    margin-top: 15%;
+    margin-left: -0%;
+    width: 100%;
+    font-size: 3.7vw;
+
+    li {
+      float: none;
+      margin-left: 2.5%;
+      margin-top: -13%;
+    }
+  }
+
+  .social-media {
+    margin-top: -90%;
+    position: relative;
+    display: block;
+    font-size: 3.3vw;
+    margin-left: 4%;
   }
 }
 
@@ -675,20 +814,6 @@ i.fab.fa-linkedin {
     background-size: 25px 25px;
     height: 25px;
     width: 25px;
-  }
-
-  .social-media {
-    margin-top: -5%;
-    position: relative;
-    display: block;
-    font-size: 0.8em;
-    margin: 0.0em;
-    margin-left: 0%;
-  }
-
-  .social-media a {
-    color: #191716;
-    font-size: 0.8em;
   }
 
   .overlay nav {
@@ -727,7 +852,87 @@ i.fab.fa-linkedin {
   }
 }
 
+@media all and (max-width: 500px) {
+  #nav-menu-width2 {
+    margin-left: 5%;
+    display: block;
+    margin-top: -158%;
+    column-count: 1;
+    column-gap: 0em;
+    font-weight: 600;
+    font-size: 3.6vw;
+
+    li {
+      margin-top: -17%;
+    }
+
+    #tuts-res {
+      padding-bottom: 20%;
+    }
+  }
+
+  #nav-menu-width {
+    margin-top: 18%;
+    margin-left: -0%;
+    width: 100%;
+    font-size: 4vw;
+
+    li {
+      float: none;
+      margin-left: 2.5%;
+      margin-top: -15%;
+    }
+  }
+
+  .social-media {
+    margin-top: -115%;
+    position: relative;
+    display: block;
+    font-size: 3.9vw;
+    margin-left: 4%;
+  }
+}
+
 @media all and (max-width: 408px) {
+  #nav-menu-width2 {
+    margin-left: 5%;
+    display: block;
+    margin-top: -222%;
+    column-count: 1;
+    column-gap: 0em;
+    font-weight: 600;
+    font-size: 4.3vw;
+
+    li {
+      margin-top: -25%;
+    }
+
+    #tuts-res {
+      padding-bottom: 25%;
+      font-size: 5vw;
+    }
+  }
+
+  #nav-menu-width {
+    margin-top: 27%;
+    margin-left: -0%;
+    width: 100%;
+    font-size: 4.7vw;
+
+    li {
+      float: none;
+      margin-left: 2.5%;
+      margin-top: -21%;
+    }
+  }
+
+  .social-media {
+    margin-top: -130%;
+    position: relative;
+    display: block;
+    font-size: 4.5vw;
+    margin-left: 4%;
+  }
 
   a.ssb-icon.ssb-email,
   a.ssb-icon.ssb-facebook,
