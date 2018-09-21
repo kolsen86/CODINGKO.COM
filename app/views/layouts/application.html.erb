@@ -121,7 +121,7 @@
     </div>
   </div>
   <%= yield %>
-  <>
+  <footer>
     <h2 id="foot">codingko.com</h2>
     <div class="social-media-f">
       <span id="social-media1-f">
@@ -145,63 +145,63 @@
         </a>
       </span>
     </div>
-    </div>
-    </footer>
-    <script async>
-      $('#toggle').click(function () {
-        $(this).toggleClass('active');
-        $('#overlay').toggleClass('open');
-      });
-      $('.menu-cont').on('click', function () {
 
-        var menu = $('.menu-txt').text();
-        var close = $('.menu-txt').attr('data-text');
+  </footer>
+  <script async>
+    $('#toggle').click(function () {
+      $(this).toggleClass('active');
+      $('#overlay').toggleClass('open');
+    });
+    $('.menu-cont').on('click', function () {
 
-        $('.menu').toggleClass('active');
+      var menu = $('.menu-txt').text();
+      var close = $('.menu-txt').attr('data-text');
 
-        if ($('.menu-txt').text(menu)) {
-          $('.menu-txt').text(close);
-        } else {
-          $('.menu-txt').text(menu);
-        }
-        $('.menu-txt').attr('data-text', menu);
-      })
-      var findNCenter = function () {
-        var elems = document.querySelectorAll('.center-vertical');
+      $('.menu').toggleClass('active');
 
-        for (var i = 0; i < elems.length; i++) {
-          elems[i].style.marginTop = (elems[i].parentNode.offsetHeight - elems[i].offsetHeight) / 2 + 'px';
-        }
-      };
-
-      document.addEventListener && document.addEventListener('DOMContentLoaded', findNCenter);
-      window.addEventListener && window.addEventListener('resize', findNCenter);
-
-      $(document).ready(function () {
-
-        var count = $('#inner p').length;
-        var i = 1;
-
-        setInterval(function () {
-          if (i < count) {
-            $('#inner').css('-webkit-transform', 'translate3d(0,-' + i + '00%,0)');
-            i++;
-          }
-        }, 800);
-      });
-    </script>
-    <script async>
-      var prevScrollpos = window.pageYOffset;
-      window.onscroll = function () {
-        var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
-          document.getElementById("toggle").style.top = "0";
-        } else {
-          document.getElementById("toggle").style.top = "-110px";
-        }
-        prevScrollpos = currentScrollPos;
+      if ($('.menu-txt').text(menu)) {
+        $('.menu-txt').text(close);
+      } else {
+        $('.menu-txt').text(menu);
       }
-    </script>
+      $('.menu-txt').attr('data-text', menu);
+    })
+    var findNCenter = function () {
+      var elems = document.querySelectorAll('.center-vertical');
+
+      for (var i = 0; i < elems.length; i++) {
+        elems[i].style.marginTop = (elems[i].parentNode.offsetHeight - elems[i].offsetHeight) / 2 + 'px';
+      }
+    };
+
+    document.addEventListener && document.addEventListener('DOMContentLoaded', findNCenter);
+    window.addEventListener && window.addEventListener('resize', findNCenter);
+
+    $(document).ready(function () {
+
+      var count = $('#inner p').length;
+      var i = 1;
+
+      setInterval(function () {
+        if (i < count) {
+          $('#inner').css('-webkit-transform', 'translate3d(0,-' + i + '00%,0)');
+          i++;
+        }
+      }, 800);
+    });
+  </script>
+  <script async>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function () {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("toggle").style.top = "0";
+      } else {
+        document.getElementById("toggle").style.top = "-110px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+  </script>
 </body>
 
 </html>
