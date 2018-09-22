@@ -30,7 +30,7 @@
 
 <body>
 
-<% cache application do %>
+
   <header>
     <div class="menu-cont" id="toggle">
       <span class="menu-txt" data-text="CLOSE-">
@@ -117,9 +117,9 @@
       </nav>
     </div>
   </div>
-  <% end %>
+  
   <%= yield %>
-  <% cache application do %>
+  
   <footer>
     <h2 id="foot">codingko.com</h2>
     <div class="social-media-f">
@@ -146,7 +146,7 @@
     </div>
 
   </footer>
-  <% end %>
+  
   <script async>
     $('#toggle').click(function () {
       $(this).toggleClass('active');
