@@ -34,7 +34,7 @@ body {
 .social-share-button {
   height: auto;
   width: 100%;
-  margin: 0 auto;
+  margin-left: 2%;
 }
 
 .social-share-button-facebook,
@@ -48,6 +48,7 @@ body {
 .social-share-button-email {
   height: 28px;
   width: 28px;
+  margin-left: 0%;
 }
 
 a.ssb-icon.ssb-email,
@@ -62,6 +63,7 @@ a.ssb-icon.ssb-pinterest {
   background-size: 60px 60px;
   height: 60px;
   width: 60px;
+  margin-right: 3%;
 }
 
 footer {
@@ -138,6 +140,11 @@ footer {
     column-span: all;
     padding-bottom: 5%;
     font-weight: 600;
+    color: #191716;
+  }
+
+  #tuts-res:hover {
+    color: #3d348b;
   }
 
   li {

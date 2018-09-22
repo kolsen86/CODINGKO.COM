@@ -81,7 +81,7 @@
     line-height: 1.8em;
     font-size: 1.6vw;
     text-indent: 50px;
-    margin: 0 auto;
+    margin: 5% auto 0 auto;
     font-weight: 800;
     border-radius: 40px;
     border: 5px solid #191716;
@@ -93,6 +93,10 @@
 
     span {
         color: #3d348b;
+    }
+
+    img {
+        box-shadow: 6px -7px 6px #191716;
     }
 }
 

@@ -410,11 +410,11 @@
 
         #contact-popout {
             position: absolute;
-            margin-top: -168%;
+            margin-top: -160%;
             display: block;
-            margin-left: 15%;
-            width: 70%;
-            height: 15%;
+            margin-left: 18%;
+            width: 290px;
+            height: 70px;
             font-size: 8.5vw;
             font-family: 'Merienda', serif;
             font-weight: 900;
@@ -558,9 +558,9 @@
         }
 
         .animate {
-            -webkit-animation: animatezoom 0.6s;
-            animation: animatezoom 0.6s
-        }
+            -webkit-animation: animatezoom 0.6s        ;
+            animation: animatezoom 0.6s        ;
+}
 
         @-webkit-keyframes animatezoom {
             from {-webkit-transform: scale(0)}
@@ -569,7 +569,7 @@
 
         @keyframes animatezoom {
             from {transform: scale(0)}
-            to {transform: scale(1)}
+            to { transform: scale(1); -webkit-transform: scale(1); -moz-transform: scale(1); -ms-transform: scale(1); -o-transform: scale(1); }
         }
 
 
@@ -672,8 +672,8 @@
                 margin-top: -158%;
                 display: block;
                 margin-left: 15%;
-                width: 70%;
-                height: 15%;
+                width: 290px;
+                height: 70px;
                 font-size: 8.5vw;
             }
 
@@ -697,9 +697,9 @@
         position: absolute;
         margin-top: -162%;
         display: block;
-        margin-left: 15%;
-        width: 70%;
-        height: 15%;
+        margin-left: 9%;
+        width: 290px;
+        height: 70px;
         font-size: 8.5vw;
     }
 }
@@ -709,9 +709,9 @@
         position: absolute;
         margin-top: -166%;
         display: block;
-        margin-left: 15%;
-        width: 70%;
-        height: 15%;
+        margin-left: 2.5%;
+        width: 290px;
+        height: 70px;
         font-size: 8.5vw;
     }
 }
