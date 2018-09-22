@@ -69,32 +69,32 @@
     font-weight: 550;
     padding-left: 5%;
 
-        h2 {
-            font-size: 4.3vw;
-            text-shadow: -1px 1px 1px #191716;
-            color: #3d348b;
-            text-align: center;
-            padding-bottom: 4%;
-            padding-top: 3%;
-            margin-left: -4%;
-            border-bottom: 10px solid #3d348b;
-            border-radius: 360px;
-            padding-right: 5%;
-        }
+    h2 {
+        font-size: 4.3vw;
+        text-shadow: -1px 1px 1px #191716;
+        color: #3d348b;
+        text-align: center;
+        padding-bottom: 4%;
+        padding-top: 3%;
+        margin-left: -4%;
+        border-bottom: 10px solid #3d348b;
+        border-radius: 360px;
+        padding-right: 5%;
+    }
 
-        a {
-            color: #3d348b;
-        }
+    a {
+        color: #3d348b;
+    }
 
-        a:hover {
-            font-size: 2.5vw;
-            text-shadow: -3px 3px 2px #e6af2e;
-        }
+    a:hover {
+        font-size: 2.5vw;
+        text-shadow: -3px 3px 2px #e6af2e;
+    }
 
-        p {
-            padding-bottom: 3%;
-            padding-top: 2%;
-        }
+    p {
+        padding-bottom: 3%;
+        padding-top: 2%;
+    }
 }
 
 #awards {
@@ -102,48 +102,52 @@
     margin-left: 0.5%;
     font-family: 'Source Serif Pro', serif;
 
-        ul {
-            padding-top: 10%;
-            margin-left: -13.5%;
-            list-style-position: inside;
+    ul {
+        padding-top: 10%;
+        margin-left: -11.5%;
+        list-style-position: inside;
+    }
+
+    #sax {
+        font-size: 1.7vw;
+    }
+
+    h2 {
+        font-size: 3.5vw;
+        padding-bottom: 2%;
+        margin-top: -3%;
+        border-bottom: 10px solid #e6af23;
+        padding-top: 15%;
+        border-radius: 20%;
+        text-align: center;
+        margin-left: -2%;
+    }
+
+    li {
+        padding-bottom: 2.5%;
+        padding-top: 2.5%;
+        text-align: center;
+    }
+
+    li:nth-child(odd) {
+        color: #e6af23;
+        background-color: #3d348b;
+
+        span {
+            color: #e0e2db;
+            font-weight: 900;
         }
+    }
 
-        h2 {
-            font-size: 3.5vw;
-            padding-bottom: 2%;
-            margin-top: -3%;
-            border-bottom: 10px solid #e6af23;
-            padding-top: 15%;
-            border-radius: 20%;
-            text-align: center;
-            margin-left: -2%;
+    li:nth-child(even) {
+        color: #3d348b;
+        background-color: #e6af23;
+
+        span {
+            color: #191716;
+            font-weight: 900;
         }
-
-        li {
-            padding-bottom: 2.5%;
-            padding-top: 2.5%;
-            text-align: center;
-        }
-
-        li:nth-child(odd) {
-            color: #e6af23;
-            background-color: #3d348b;
-
-                span {
-                    color: #e0e2db;
-                    font-weight: 900;
-                }
-        }
-
-        li:nth-child(even) {
-            color: #3d348b;
-            background-color: #e6af23;
-
-                span {
-                    color: #191716;
-                    font-weight: 900;
-                }
-        }
+    }
 }
 
 @media all and (max-width: 1000px) {
@@ -167,22 +171,26 @@
         margin-top: -28%;
         font-size: 2vw;
 
-            h2 {
-                font-size: 4.6vw;
-                padding-right: 5%;
-            }
+        h2 {
+            font-size: 4.6vw;
+            padding-right: 5%;
+        }
 
-            a:hover {
-                font-size: 2.8vw;
-            }
+        a:hover {
+            font-size: 2.8vw;
+        }
     }
 
     #awards {
         font-size: 2.2vw;
 
-            h2 {
-                font-size: 3.8vw;
-            }
+        #sax {
+            font-size: 1.9vw;
+        }
+
+        h2 {
+            font-size: 3.8vw;
+        }
     }
 }
 
@@ -208,22 +216,26 @@
         margin-top: -35%;
         font-size: 2.3vw;
 
-            h2 {
-                font-size: 4.9vw;
-                padding-right: 5%;
-            }
+        h2 {
+            font-size: 4.9vw;
+            padding-right: 5%;
+        }
 
-            a:hover {
-                font-size: 3vw;
-            }
+        a:hover {
+            font-size: 3vw;
+        }
     }
 
     #awards {
         font-size: 2.5vw;
 
-            h2 {
-                font-size: 4vw;
-            }
+        #sax {
+            font-size: 2.1vw;
+        }
+
+        h2 {
+            font-size: 4vw;
+        }
     }
 }
 
@@ -249,7 +261,7 @@
         height: 300px;
         width: 48%;
         background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1531755040/KennethOlsenWebDeveloperDetroit.png);
-        background-size: 100% 100%;
+            background-size: 100% 100%;
         margin: 70% auto 5% auto;
     }
 
@@ -258,22 +270,26 @@
         font-size: 2.7vw;
         padding-left: 2%;
 
-            h2 {
-                font-size: 6vw;
-                padding-right: 12%;
-            }
+        h2 {
+            font-size: 6vw;
+            padding-right: 12%;
+        }
 
-            a:hover {
-                font-size: 3.5vw;
-            }
+        a:hover {
+            font-size: 3.5vw;
+        }
     }
 
     #awards {
         font-size: 2.8vw;
 
-            h2 {
-                font-size: 4.7vw;
-            }
+        #sax {
+            font-size: 2.6vw;
+        }
+
+        h2 {
+            font-size: 4.7vw;
+        }
     }
 
     #about-head {
@@ -304,7 +320,7 @@
         height: 280px;
         width: 50%;
         background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1531755040/KennethOlsenWebDeveloperDetroit.png);
-        background-size: 100% 100%;
+            background-size: 100% 100%;
         margin: 90% auto 5% auto;
     }
 
@@ -313,22 +329,26 @@
         font-size: 3.5vw;
         padding-left: 2%;
 
-            h2 {
-                font-size: 6.5vw;
-                padding-right: 12%;
-            }
+        h2 {
+            font-size: 6.5vw;
+            padding-right: 12%;
+        }
 
-            a:hover {
-                font-size: 3.8vw;
-            }
+        a:hover {
+            font-size: 3.8vw;
+        }
     }
 
     #awards {
         font-size: 3.2vw;
 
-            h2 {
-                font-size: 5vw;
-            }
+        #sax {
+            font-size: 3vw;
+        }
+
+        h2 {
+            font-size: 5vw;
+        }
     }
 }
 
@@ -363,22 +383,26 @@
         font-size: 4.2vw;
         padding-left: 2%;
 
-            h2 {
-                font-size: 7vw;
-                padding-right: 12%;
-            }
+        h2 {
+            font-size: 7vw;
+            padding-right: 12%;
+        }
 
-            a:hover {
-                font-size: 5vw;
-            }
+        a:hover {
+            font-size: 5vw;
+        }
     }
 
     #awards {
         font-size: 4.2vw;
 
-            h2 {
-                font-size: 5.5vw;
-            }
+        #sax {
+            font-size: 4vw;
+        }
+
+        h2 {
+            font-size: 5.5vw;
+        }
     }
 }
 
