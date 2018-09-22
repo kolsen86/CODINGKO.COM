@@ -3,8 +3,6 @@
 class PagesController < ApplicationController
   
   def about; 
-  caches_page :about
-  expire_page action: 'about'
   end
   def tutorials; end
 
