@@ -41,6 +41,8 @@ gem 'social-share-button'
 gem 'actionpack-action_caching'
 #Use actionpack-page_caching to cache html pages
 gem "actionpack-page_caching"
+# Use actionpack-cloudflare to speed up site
+gem 'actionpack-cloudflare'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
