@@ -37,12 +37,14 @@ gem 'meta-tags'
 gem 'sitemap_generator'
 # Use social-share-button gen for social media buttons 
 gem 'social-share-button'
-# Use actionpack-action-caching for caching
-gem 'actionpack-action_caching'
 #Use actionpack-page_caching to cache html pages
 gem "actionpack-page_caching"
-# Use actionpack-cloudflare to speed up site
-gem 'actionpack-cloudflare'
+# Use dalli gem for caching on Heroku
+gem 'dalli'
+# Use connection pool gem for dalli
+gem 'connection_pool'
+# Use rails_serve_static_assets gem to serve static content on heroku
+gem 'rails_serve_static_assets'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 

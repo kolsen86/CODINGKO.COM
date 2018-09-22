@@ -1,8 +1,11 @@
 # frozen_string_literal: true
 
 class PagesController < ApplicationController
-  def about; end
-
+  
+  def about; 
+  caches_page :about
+  expire_page action: 'about'
+  end
   def tutorials; end
 
   def inttutorials; end
