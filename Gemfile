@@ -33,13 +33,14 @@ gem 'redis', '~> 4.0'
 gem 'bcrypt', '~> 3.1.7'
 # Use Meta Tag gem to help with SEO
 gem 'meta-tags'
-# Use active_link_to gem to create active links in nav menu
-gem 'active_link_to'
 # Use Sitemap generator gem for building sitemap
 gem 'sitemap_generator'
 # Use social-share-button gen for social media buttons 
 gem 'social-share-button'
-
+# Use actionpack-action-caching for caching
+gem 'actionpack-action_caching'
+#Use actionpack-page_caching to cache html pages
+gem "actionpack-page_caching"
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
@@ -72,8 +73,6 @@ group :development do
   gem 'rubocop'
   # Bullet gem for finding N+1 queries
   gem 'bullet'
-    #meta_request gem for adding a panel for Rails to Chrome DevTools
-  gem 'meta_request'
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'listen', '>= 3.1.5', '< 3.2'
   gem 'web-console', '>= 3.5.1'
