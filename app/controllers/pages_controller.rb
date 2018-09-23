@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
 class PagesController < ApplicationController
-  
-  def about; 
-  end
+  caches_page :about, :tutorials, :blog, :blog2, :W5HHTML
+  def about; end
+
   def tutorials; end
 
   def inttutorials; end
@@ -22,9 +22,9 @@ class PagesController < ApplicationController
 
   def blog; end
 
-  def grind; end
+  def blog2; end
 
-  def contact1; end
+  def grind; end
 
   def W5HHTML; end
 end

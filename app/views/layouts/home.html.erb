@@ -2,6 +2,9 @@
 <html lang="en-US">
 
 <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <cache-control: max-age="31536000", public>
+                <%= display_meta_tags site: 'CodingKO.com' %>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126087848-1"></script>
     <script>
@@ -14,7 +17,7 @@
 
         gtag('config', 'UA-126087848-1');
     </script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Corben|Ubuntu+Mono:400,700|IM+Fell+Great+Primer+SC|Source+Serif+Pro:400,600,700">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
@@ -24,77 +27,80 @@
     <% title 'HomePage' %>
     <% description 'Interested in learning about computer programming and web development?  Stop in to codingko.com for lists of the best tools, resources, and tutorials available online.  Also, very beginner friendly tutorials on some of the stuff other tutorials available online seem to gloss over or assume that a beginner would know.' %>
     <% keywords 'codingko, web development, computer programming, development, programming, tutorials, web development tutorials, html, css, javascript, ruby, ruby on rails, python, interactive, tutorials, learn, learning' %>
-    <%= display_meta_tags site: 'CodingKO.com' %>
+    
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <meta name="google-site-verification" content="dyH-BH7Q1beOm6rnLisNbv4E68OWEH5l79w2IuFf8Ps" />
 </head>
-<div class="home-body">
+<main class="home-body">
     <!--<div class="logo"><img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1532826615/arm.png" height="400px" width="600px"></div>-->
     <div class="home-nav">
         <div class="home-blog">
             <a href="/blog">
                 <h1>K.O.'s Tech Corner</h1>
-                <h3>Some Opinions, Motivation, and How-to's from yours truly.</h3>
+                <h2>Some Opinions, Motivation, and How-to's from yours truly.</h2>
             </a>
         </div>
         <div class="home-tuts">
             <a href="/tutorials">
                 <h1>Tutorials and Other Resources</h1>
-                <h3>Some of the best computer programming and web development tutorials and courses I have found online
-                    or in bookstores. Updated regularly.</h3>
+                <h2>Some of the best computer programming and web development tutorials and courses I have found online
+                    or in bookstores. Updated regularly.</h2>
             </a>
         </div>
         <div class="home-tools">
             <a href="/tools">
                 <h1>Useful Tools</h1>
-                <h3>A regularly updated list of the best tools that I have found for computer programming and web
-                    development.</h3>
+                <h2>A regularly updated list of the best tools that I have found for computer programming and web
+                    development.</h2>
             </a>
         </div>
         <div class="home-grind">
             <a href="/grind">
                 <h1>My Daily Grind</h1>
-                <h3>Have a look at my Journey to Becoming a Web Developer, also quite a bit of me venting about one
-                    thing or another. Updated daily with all of my progress.</h3>
+                <h2>Have a look at my Journey to Becoming a Web Developer, also quite a bit of me venting about one
+                    thing or another. Updated daily with all of my progress.</h2>
             </a>
         </div>
         <div class="home-contact">
             <a href="/contact-me">
                 <h1>Contact Me</h1>
-                <h3>Offer me work, ask me questions, criticize me, praise me. It's a Contact Page! You know what to do
-                    with it!</h3>
+                <h2>Offer me work, ask me questions, criticize me, praise me. It's a Contact Page! You know what to do
+                    with it!</h2>
             </a>
         </div>
         <div class="home-about">
             <a href="/about">
                 <h1>About Me</h1>
-                <h3>Gather a little insight about the man that is Kenneth Olsen, learn what makes him tick, learn what
-                    he like and dislikes, and above all else learn About Him.</h3>
+                <h2>Gather a little insight about the man that is Kenneth Olsen, learn what makes him tick, learn what
+                    he like and dislikes, and above all else learn About Him.</h2>
             </a>
         </div>
     </div>
     <div class="first-place">
         <h1>Winner of "The Best Web Developer Ever Award"</h1>
         <img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1535156659/bg1stplace.png" alt="Image of a blue, first place ribbon">
-        <h3>As voted by Nancy Olsen, My Mom</h3>
+        <h2>As voted by Nancy Olsen, My Mom</h2>
     </div>
     <h2 class="testimonials">Here are some testimonials from those who have seen my work.</h2>
     <div class="row">
         <div class="dad-quote" title="Testimonial from Kenneth Olsen's father">
-            <h3> Gary Olsen (Dad)</h3>
+            <h2> Gary Olsen (Dad)</h2>
+            <img id="dad" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1537662859/dad.png" alt="Image of my father Gary" height="120px" width="100px">
             <p><i class="fas fa-quote-left"></i><i>It's about time he got out of my basement and is trying to find a
                     real job. HEY!! STOP EATING MY SALAMI AND CHEESE!!!</i><i class="fas fa-quote-right"></i></p>
         </div>
         <div class="mom-quote" title="Testimonial from Kenneth Olsen's mother">
-            <h3>Nancy Olsen (Mom)</h3>
+            <h2>Nancy Olsen (Mom)</h2>
+            <img id="mom" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1537662852/mom.png" alt="Image of my mother Nancy" height="120px" width="100px">
             <p><i class="fas fa-quote-left"></i><i>Oh. My BooBoo is just amazing at everything. Of course he won the
                     Best Web Developer Ever Award! I couldn't think of a better or more deserving web developer I have
                     ever met that would deserve it more.</i><i class="fas fa-quote-right"></i></p>
         </div>
         <div class="girlfriend-quote" title="testimonial from Kenneth Olsen's Girlfriend">
-            <h3>Crystal Waucaush (Girlfriend)</h3>
+            <h2>Crystal Waucaush (Girlfriend)</h2>
+            <img id="crystal" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1537662843/crystal.jpg" alt="Image of my girlfriend Crystal" height="130px" width="90px">
             <p><i class="fas fa-quote-left"></i><i>Yeah. He's great at computer development.. <span>Me: Its Web
                         Development babe..</span> I mean Web Development.. Ok. I said it, can we go now?</i><i class="fas fa-quote-right"></i></p>
         </div>
@@ -102,7 +108,7 @@
 
     <p class="real-quotes">That's right!! Those are real quotes, from real people!!!</p>
 
-</div>
+</main>
 
 <footer>
     <h2 id="foot">codingko.com</h2>
