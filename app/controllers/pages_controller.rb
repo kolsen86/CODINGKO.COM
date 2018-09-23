@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class PagesController < ApplicationController
-  caches_page :about, :tutorials, :blog, :blog2, :W5HHTML
+
   def about; end
 
   def tutorials; end
