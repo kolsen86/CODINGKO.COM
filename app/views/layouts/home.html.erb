@@ -2,35 +2,32 @@
 <html lang="en-US">
 
 <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <cache-control: max-age="31536000", public>
-                <%= display_meta_tags site: 'CodingKO.com' %>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126087848-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-126087848-1');
-    </script>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Corben|Ubuntu+Mono:400,700|IM+Fell+Great+Primer+SC|Source+Serif+Pro:400,600,700">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-        crossorigin="anonymous">
+    crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-        crossorigin="anonymous">
+    crossorigin="anonymous">
+    <%= display_meta_tags site: 'CodingKO.com' %>
     <% title 'HomePage' %>
     <% description 'Interested in learning about computer programming and web development?  Stop in to codingko.com for lists of the best tools, resources, and tutorials available online.  Also, very beginner friendly tutorials on some of the stuff other tutorials available online seem to gloss over or assume that a beginner would know.' %>
     <% keywords 'codingko, web development, computer programming, development, programming, tutorials, web development tutorials, html, css, javascript, ruby, ruby on rails, python, interactive, tutorials, learn, learning' %>
-    
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126087848-1"></script>
+     <script async>
+         window.dataLayer = window.dataLayer || [];
+ 
+         function gtag() {
+             dataLayer.push(arguments);
+         }
+         gtag('js', new Date());
+ 
+         gtag('config', 'UA-126087848-1');
+     </script>
     <meta name="google-site-verification" content="dyH-BH7Q1beOm6rnLisNbv4E68OWEH5l79w2IuFf8Ps" />
 </head>
 <main class="home-body">

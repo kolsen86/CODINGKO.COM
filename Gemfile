@@ -33,6 +33,8 @@ gem 'redis', '~> 4.0'
 gem 'bcrypt', '~> 3.1.7'
 # Use Meta Tag gem to help with SEO
 gem 'meta-tags'
+# Use Cloudinary gem for faster image delivery
+gem 'cloudinary'
 # Use Sitemap generator gem for building sitemap
 gem 'sitemap_generator'
 # Use social-share-button gen for social media buttons 

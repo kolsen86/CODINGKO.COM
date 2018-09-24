@@ -2,10 +2,6 @@
 
 class PagesController < ApplicationController
 
-  def about; end
-
-  def tutorials; end
-
   def inttutorials; end
 
   def booktutorials; end
@@ -20,11 +16,6 @@ class PagesController < ApplicationController
 
   def tools; end
 
-  def blog; end
-
-  def blog2; end
-
   def grind; end
 
-  def W5HHTML; end
 end
