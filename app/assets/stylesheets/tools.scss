@@ -230,7 +230,7 @@
     font-family: 'Alfa Slab One', cursive;
   }
 
-  #tools-intro {
+  #tools-intro, #html-tools-intro, #css-tools-intro {
     margin: 15% auto 0% auto;
     font-size: 2vw;
     text-indent: 50px;
@@ -300,13 +300,18 @@
         text-shadow: -3px 3px 2px #e6af2e;
       }
 
-      h2 {
+      h2, h3 {
         text-align: center;
         border-bottom: 10px solid #e6af2e;
         padding-bottom: 1%;
         border-radius: 45px;
         font-family: 'Alfa Slab One', cursive;
         padding-right: 5%;
+      }
+
+      h4 {
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 2.5vw;
       }
 
       ul {
@@ -333,12 +338,41 @@
           border-bottom: none;
       }
 
+      img.floater {
+        float: right;
+        margin: 5% auto 0.5% auto;
+        border-bottom: none;
+    }
+
       p {
         padding-top: 5%;
         border-bottom: 15px solid #3d348b;
         padding-bottom: 14%;
         width: 95%;
         border-radius: 20px;
+      }
+
+      #html-tools {
+
+          h2 {
+            font-size: 3.3vw;
+            padding-top: 10%;
+          }
+
+          p {
+            padding-bottom: 5%;
+            margin: 0 auto 10% auto;
+          }
+
+          #wysiwyg {
+            padding: 0% 0% 1% 5%;
+            border-bottom: 15px solid #3d348b;
+            border-radius: 20px;
+
+              li {
+                margin-top: 5%;
+              }
+          }
       }
     }
 
