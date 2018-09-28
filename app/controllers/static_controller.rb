@@ -10,4 +10,6 @@ class StaticController < ApplicationController
 
     def W5HHTML; end
 
+    def leasthtml; end
+
 end

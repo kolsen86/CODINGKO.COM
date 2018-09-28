@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get 'blog', to: 'static#blog'
   get 'blog2', to: 'static#blog2'
   get '5whhtml', to: 'static#5whhtml'
+  get 'leasthtml', to: 'static#leasthtml'
   get 'about', to: 'static#about'
   get 'grind', to: 'pages#grind'
   get 'tutorials', to: 'static#tutorials'
