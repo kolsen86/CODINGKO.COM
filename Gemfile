@@ -14,8 +14,6 @@ gem 'puma', '~> 3.11'
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '3.2.0'
-# See https://github.com/rails/execjs#readme for more supported runtimes
-# gem 'mini_racer', platforms: :ruby
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
@@ -35,8 +33,6 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'meta-tags'
 # Use Cloudinary gem for faster image delivery
 gem 'cloudinary'
-# Use Sitemap generator gem for building sitemap
-gem 'sitemap_generator'
 # Use social-share-button gen for social media buttons 
 gem 'social-share-button'
 #Use actionpack-page_caching to cache html pages
@@ -47,14 +43,7 @@ gem 'dalli'
 gem 'connection_pool'
 # Use rails_serve_static_assets gem to serve static content on heroku
 gem 'rails_serve_static_assets'
-# Use ActiveStorage variant
-# gem 'mini_magick', '~> 4.8'
 
-# Use Capistrano for deployment
- #gem 'capistrano-rails', group: :development
-#gem 'capistrano'
-#gem "capistrano-passenger", "~> 0.2.0"
-# gem 'capistrano-rvm'
 # Use twitter bootstrap library for front-end UI and layout
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 # Use Hirb gem for better console data presentation

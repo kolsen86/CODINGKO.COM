@@ -285,8 +285,6 @@ GEM
     selenium-webdriver (3.14.0)
       childprocess (~> 0.5)
       rubyzip (~> 1.2)
-    sitemap_generator (6.0.1)
-      builder (~> 3.0)
     social-share-button (1.1.0)
       coffee-rails
     spring (2.0.2)
@@ -375,7 +373,6 @@ DEPENDENCIES
   rubocop
   sass-rails (~> 5.0)
   selenium-webdriver
-  sitemap_generator
   social-share-button
   spring (= 2.0.2)
   spring-watcher-listen (= 2.0.1)
