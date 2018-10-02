@@ -8,7 +8,7 @@
 
 #tech-head {
     font-size: 13vw;
-    background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/v1538436299/news.jpg);
+    background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/b_rgb:1b0d0d,o_56/v1538436299/news.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: #3d348b;
@@ -27,6 +27,13 @@
             margin-left: 68%;
             margin-top: -18%;
         }
+}
+
+#tech-intro {
+    font-size: 2.5vw;
+    color: #e0e2db;
+    text-align: center;
+    margin-top: 5%;
 }
 
 .rss-item a {
@@ -100,3 +107,120 @@ a.rss-title {
     }
 
 } 
+
+@media all and (max-width: 800px) {
+    #tech-intro {
+        font-size: 2.8vw;
+    }
+
+    .rss-item {
+        font-size: 2vw;
+    }
+
+    .rss-item a {
+        font-size: 2.3vw;
+    }
+
+    span.rss-item {
+        font-size: 4.3vw;
+        margin-left: 20.5%;
+    }
+
+    .rss-box-hn {
+        span.rss-item {
+            font-size: 4.5vw;
+        }
+    }
+}
+
+@media all and (max-width: 600px) {
+    #tech-intro {
+        font-size: 3.2vw;
+    }
+
+    .rss-item {
+        font-size: 2.4vw;
+    }
+
+    .rss-item a {
+        font-size: 2.7vw;
+    }
+
+    span.rss-item {
+        font-size: 4.7vw;
+        margin-left: 20.5%;
+    }
+
+    .rss-box-hn {
+        span.rss-item {
+            font-size: 4.9vw;
+        }
+    }
+}
+
+@media all and (max-width: 500px) {
+    #tech-intro {
+        font-size: 3.5vw;
+    }
+
+    .rss-item {
+        font-size: 2.7vw;
+    }
+
+    .rss-item a {
+        font-size: 3vw;
+    }
+
+    span.rss-item {
+        font-size: 5vw;
+        margin-left: 17.5%;
+    }
+
+    .rss-box-hn {
+        span.rss-item {
+            font-size: 5.2vw;
+        }
+    }
+}
+
+@media all and (max-width: 400px) {
+
+    .rss-box {
+        width: 100%;
+    }
+
+    #tech-intro {
+        font-size: 4vw;
+    }
+
+    .rss-item {
+        font-size: 3.3vw;
+    }
+
+    .rss-item a {
+        font-size: 3.6vw;
+    }
+
+    span.rss-item {
+        font-size: 5.6vw;
+        margin-left: 10.5%;
+    }
+
+    .rss-box-hn {
+        width: 100%;
+        span.rss-item {
+            font-size: 5.8vw;
+            margin-left: 21%;
+        }
+
+        ul.rss-items {
+            margin-left: -10%;
+            list-style: none;
+        }
+    }
+
+    ul.rss-items {
+        margin-left: -10%;
+        list-style: none;
+    }
+}
