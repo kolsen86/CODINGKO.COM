@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   get 'grind', to: 'pages#grind'
   get 'tutorials', to: 'static#tutorials'
   get 'tools', to: 'pages#tools'
+  get 'technews', to: 'pages#technews'
   get 'inttutorials', to: 'pages#inttutorials'
   get 'booktutorials', to: 'pages#booktutorials'
   get 'videotutorials', to: 'pages#videotutorials'

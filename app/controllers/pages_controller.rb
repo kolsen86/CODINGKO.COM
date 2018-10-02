@@ -18,4 +18,6 @@ class PagesController < ApplicationController
 
   def grind; end
 
+  def technews; end
+
 end
