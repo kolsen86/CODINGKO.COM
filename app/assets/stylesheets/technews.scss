@@ -6,6 +6,22 @@
     padding-bottom: 15%;
 }
 
+#get-news {
+    font-size: 4vw;
+    text-shadow: 1px -2px 2px #191716;
+    background-color: #e6af2e;
+    color: #3d348b;
+    margin-left: 7%;
+    border: 8px solid #3d348b;
+    box-shadow: 2px -5px 4px #e0e2db;
+    padding: 1%;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
 #tech-head {
     font-size: 13vw;
     background-image: url(https://res.cloudinary.com/dmks1qdth/image/upload/b_rgb:1b0d0d,o_56/v1538436299/news.jpg);
@@ -34,6 +50,7 @@
     color: #e0e2db;
     text-align: center;
     margin-top: 5%;
+    padding-bottom: 5%;
 }
 
 .rss-item a {
