@@ -230,7 +230,7 @@
     font-family: 'Alfa Slab One', cursive;
   }
 
-  #tools-intro, #html-tools-intro, #css-tools-intro, #color-picker-intro, #gradient-intro, #color-palette-intro, #color-theory-intro {
+  #tools-intro, #html-tools-intro, #css-tools-intro, #color-picker-intro, #gradient-intro, #color-palette-intro, #color-theory-intro, #minifiers-intro {
     margin: 15% auto 0% auto;
     font-size: 2vw;
     text-indent: 50px;
@@ -247,12 +247,38 @@
     letter-spacing: 0.02em;
   }
 
+  #check-out {
+    font-size: 2.4vw;
+    color: #3d348b;
+    text-shadow: 2px -4px 3px #e6af2e;
+    text-align: center;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 900;
+  }
+
+#all-tools, #all-tools-html {
+  height: 15%;
+  width: 100%;
+  background-color: #e6af2e;
+
+
+  #all-tools-menu, #all-tools-menu-html {
+    font-size: 2.6vw;
+    text-align: center;
+    color: #3d348b;
+    font-family: 'Carter One', cursive;
+    font-weight: 900;
+    margin-top: 10%;
+  }
+}
+
   #tools-intro-header1 {
     font-size: 4.5vw;
     padding-top: 20%;
     text-shadow: -2px 2px 1px #e6af2e;
     font-family: 'Alfa Slab One', cursive;
     text-align: center;
+    margin-left: 5%;
   }
 
   #tools-intro1 {
@@ -350,6 +376,11 @@
         padding-bottom: 14%;
         width: 95%;
         border-radius: 20px;
+      }
+
+      #wysiwyg {
+        font-size: 3vw;
+        margin-top: 10%;
       }
 
       #html-tools, #css-tools {
