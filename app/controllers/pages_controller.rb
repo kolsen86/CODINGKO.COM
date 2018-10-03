@@ -20,4 +20,6 @@ class PagesController < ApplicationController
 
   def technews; end
 
+  def htmltools; end
+
 end
