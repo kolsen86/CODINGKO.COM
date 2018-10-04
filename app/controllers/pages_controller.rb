@@ -22,4 +22,6 @@ class PagesController < ApplicationController
 
   def htmltools; end
 
+  def csstools; end
+
 end

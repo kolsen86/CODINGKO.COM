@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get '5whhtml', to: 'static#5whhtml'
   get 'leasthtml', to: 'static#leasthtml'
   get 'htmltools', to: 'pages#htmltools'
+  get 'csstools', to: 'pages#csstools'
   get 'about', to: 'static#about'
   get 'grind', to: 'pages#grind'
   get 'tutorials', to: 'static#tutorials'

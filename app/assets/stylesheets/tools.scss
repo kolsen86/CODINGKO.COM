@@ -256,13 +256,13 @@
     font-weight: 900;
   }
 
-#all-tools, #all-tools-html {
+#all-tools, #all-tools-html, #all-tools-css {
   height: 15%;
   width: 100%;
   background-color: #e6af2e;
 
 
-  #all-tools-menu, #all-tools-menu-html {
+  #all-tools-menu, #all-tools-menu-html, #all-tools-menu-css {
     font-size: 2.6vw;
     text-align: center;
     color: #3d348b;
@@ -444,9 +444,9 @@
           font-size: 3.2vw;
         }
 
-        #all-tools, #all-tools-html {
+        #all-tools, #all-tools-html, #all-tools-css {
 
-        #all-tools-menu, #all-tools-menu-html {
+        #all-tools-menu, #all-tools-menu-html, #all-tools-menu-css {
           font-size: 4vw;
         }
       }
