@@ -87,7 +87,23 @@
 .rss-box {
     color: #3d348b;
     width: 95%;
-    margin-top: 10%;
+    margin-top: 5%;
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            height: auto;
+        }
+
+        .feedflare {
+            width: 20%;
+        }
+}
+
+li.rss-item {
+    max-height: 1200px;
 }
 
 ul.rss-items {
@@ -95,8 +111,7 @@ ul.rss-items {
 }
 
 span.rss-item {
-    margin-left: 22.5%;
-    font-size: 4vw;
+   display: none;
 }
 
 a.rss-title {
@@ -106,7 +121,7 @@ a.rss-title {
 
 
 .rss-box-hn {
-    margin-top: 10%;
+    margin-top: 5%;
     width: 95%;
 
     a.rss-title {
@@ -116,7 +131,7 @@ a.rss-title {
     span.rss-item {
         margin-left: 30%;
         font-size: 4.2vw;
-        margin-top: 10%;
+        margin-top: 1%;
     }
 
     ul.rss-items {
@@ -130,7 +145,50 @@ a.rss-title {
 
 }
 
+#hn-head, #tnw-head {
+    width: 70%;
+    padding: 1% 0%;
+    margin: 7% auto 3% auto;
+    text-align: center;
+    font-size: 6vw;
+    color: #e6af2e;
+    background-color: #3d348b;
+    border: 9px solid #e6af2e;
+    border-radius: 45px;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    -ms-border-radius: 45px;
+    -o-border-radius: 45px;
+}
+
+@media all and (max-width: 1000px) {
+    .rss-box {
+
+            img {
+                width: 60%;
+            }
+    }
+}
+
+@media all and (max-width: 870px) {
+    span.rss-item {
+        margin-left: 12%;
+        font-size: 2.5vw;
+    }
+}
+
 @media all and (max-width: 800px) {
+
+    #hn-head, #tnw-head {
+        margin-left: 17%;
+    }
+
+    .rss-box {
+
+        img {
+            width: 75%;
+        }
+}
     #tech-intro {
         font-size: 2.8vw;
     }
@@ -143,11 +201,6 @@ a.rss-title {
         font-size: 2.3vw;
     }
 
-    span.rss-item {
-        font-size: 4.3vw;
-        margin-left: 20.5%;
-    }
-
     .rss-box-hn {
         span.rss-item {
             font-size: 4.5vw;
@@ -156,6 +209,14 @@ a.rss-title {
 }
 
 @media all and (max-width: 600px) {
+
+    .rss-box {
+
+        img {
+            width: 100%;
+        }
+}
+
     #tech-intro {
         font-size: 3.2vw;
     }
@@ -169,8 +230,8 @@ a.rss-title {
     }
 
     span.rss-item {
-        font-size: 4.7vw;
-        margin-left: 20.5%;
+        font-size: 2.7vw;
+        margin-left: 10%;
     }
 
     .rss-box-hn {
