@@ -256,6 +256,8 @@
     font-weight: 900;
   }
 
+
+
 #all-tools, #all-tools-html, #all-tools-css {
   height: 15%;
   width: 100%;
@@ -314,6 +316,14 @@
     line-height: 1.7em;
     letter-spacing: 0.02em;
     font-family: 'Source Serif Pro', serif;
+
+    #color-theory-infographic {
+      height: auto;
+      width: 60%;
+      border-bottom-style: none;
+      margin-left: 20%;
+      padding-bottom: 5%;
+    }
 
       a {
         font-size: 3.3vw;
