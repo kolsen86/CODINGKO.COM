@@ -7,13 +7,38 @@
     padding-bottom: 10%;
 }
 
+#logo {
+    width: 95%;
+    margin-left: 2%;
+    text-align: center;
+    font-size: 9.8vw;
+    color: #e6af2e;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    font-family: 'Ubuntu Mono', monospace;
+    text-shadow: -0.6px 0.5px 2px #e0e2db;
+    border-bottom: 35px double #3d348b;
+    border-top: 35px double #e6af2e;
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    -ms-border-radius: 200px;
+    -o-border-radius: 200px;
+    
+        span {
+            font-size: 13vw;
+            color: #beb7a4;
+            text-shadow: 1.4px 1.8px 2.5px #3d348b;
+        }
+}
+
 .home-nav {
     text-align: center;
     color: #e0e2db;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
-.home-nav h1 {
+.home-nav h2 {
     font-size: 6vw;
     padding-bottom: 2%;
     font-family: 'Corben', cursive;
@@ -21,7 +46,7 @@
     padding-top: 7%;
 }
 
-.home-nav h2 {
+.home-nav h3 {
     font-size: 2vw;
     width: 80%;
     margin-left: 10%;
@@ -44,10 +69,6 @@
 
         h2 {
             padding-top: 2%;
-            text-align: center;
-        }
-
-        h1 {
             text-align: center;
         }
 }
