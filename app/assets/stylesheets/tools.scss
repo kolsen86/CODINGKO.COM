@@ -202,16 +202,21 @@
     background-color: #191716;
   }
 
-  #tools-head {
+  #tools-head, #css-head, #html-head {
     width: 100%;
     background-color: #191716;
     height: auto;
     font-size: 12.5vw;
-    color: #e0e2db;
+    color: #e6af2e;
     text-align: center;
     padding-top: 11%;
     font-family: 'IM Fell Great Primer SC', serif;
-    text-shadow: -3px 5px 4px #3d348b;
+    text-shadow: -3px 5px 4px #3d348b, -3.3px 5.2px 4.2px #e6af2e;
+  }
+
+  #css-head, #html-head {
+    padding-top: 7%;
+    padding-bottom: 5%;
   }
 
   #tools-page {
@@ -240,7 +245,7 @@
     border-radius: 35px;
     width: 80%;
     border: 10px solid #3d348b;
-    box-shadow: -12px 15px 30px #beb7a4;
+    box-shadow: -12px 15px 30px #beb7a4, -13px 15.5px 10px #191716;
     font-weight: 650;
     line-height: 1.7em;
     font-family: 'Source Serif Pro', serif;
@@ -297,6 +302,7 @@
     line-height: 1.7em;
     font-family: 'Source Serif Pro', serif;
     letter-spacing: 0.02em;
+    box-shadow: -12px 15px 30px #beb7a4, -13px 15.5px 10px #191716;
 
         p#editor-intro {
             border-style: none;
