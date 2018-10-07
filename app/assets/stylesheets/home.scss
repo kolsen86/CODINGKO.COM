@@ -10,6 +10,7 @@
 #logo {
     width: 95%;
     margin-left: 2%;
+    font-weight: 700;
     text-align: center;
     font-size: 9.8vw;
     color: #e6af2e;
@@ -29,6 +30,11 @@
             font-size: 13vw;
             color: #beb7a4;
             text-shadow: 1.4px 1.8px 2.5px #3d348b;
+        }
+
+        #slash {
+            font-size: 8vw;
+            font-weight: 750;
         }
 }
 
