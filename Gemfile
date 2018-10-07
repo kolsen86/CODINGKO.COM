@@ -43,6 +43,8 @@ gem 'dalli'
 gem 'connection_pool'
 # Use rails_serve_static_assets gem to serve static content on heroku
 gem 'rails_serve_static_assets'
+#New Relic gem for website monitoring
+gem 'newrelic_rpm'
 
 # Use twitter bootstrap library for front-end UI and layout
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
