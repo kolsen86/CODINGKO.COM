@@ -84,7 +84,27 @@
     width: 100%;
 }
 
-.rss-box {
+.rss-box-smash {
+    color: #3d348b;
+    width: 95%;
+    margin-top: 5%;
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            height: auto;
+        }
+
+        li.rss-item {
+            max-height: 1200px;
+            overflow: auto;
+        }
+
+}
+
+.rss-box, .rss-box-css {
     color: #3d348b;
     width: 95%;
     margin-top: 5%;
@@ -103,7 +123,7 @@
 }
 
 li.rss-item {
-    max-height: 1200px;
+    max-height: 1700px;
 }
 
 ul.rss-items {
@@ -145,7 +165,7 @@ a.rss-title {
 
 }
 
-#hn-head, #tnw-head {
+#hn-head, #tnw-head, #css-tricks-head, #smash-head {
     width: 70%;
     padding: 1% 0%;
     margin: 7% auto 3% auto;
@@ -162,7 +182,7 @@ a.rss-title {
 }
 
 @media all and (max-width: 1000px) {
-    .rss-box {
+    .rss-box, .rss-box-css {
 
             img {
                 width: 60%;
@@ -179,11 +199,11 @@ a.rss-title {
 
 @media all and (max-width: 800px) {
 
-    #hn-head, #tnw-head {
+    #hn-head, #tnw-head, #css-tricks-head, #smash-head {
         margin-left: 17%;
     }
 
-    .rss-box {
+    .rss-box, .rss-box-css {
 
         img {
             width: 75%;
@@ -201,7 +221,7 @@ a.rss-title {
         font-size: 2.3vw;
     }
 
-    .rss-box-hn {
+    .rss-box-hn, .rss-box-smash {
         span.rss-item {
             font-size: 4.5vw;
         }
@@ -210,7 +230,7 @@ a.rss-title {
 
 @media all and (max-width: 600px) {
 
-    .rss-box {
+    .rss-box, .rss-box-css {
 
         img {
             width: 100%;
@@ -234,7 +254,7 @@ a.rss-title {
         margin-left: 10%;
     }
 
-    .rss-box-hn {
+    .rss-box-hn, .rss-box-smash {
         span.rss-item {
             font-size: 4.9vw;
         }
@@ -259,7 +279,7 @@ a.rss-title {
         margin-left: 17.5%;
     }
 
-    .rss-box-hn {
+    .rss-box-hn, .rss-box-smash {
         span.rss-item {
             font-size: 5.2vw;
         }
@@ -268,7 +288,7 @@ a.rss-title {
 
 @media all and (max-width: 400px) {
 
-    .rss-box {
+    .rss-box, .rss-box-css {
         width: 100%;
     }
 
@@ -289,7 +309,7 @@ a.rss-title {
         margin-left: 10.5%;
     }
 
-    .rss-box-hn {
+    .rss-box-hn, .rss-box-smash {
         width: 100%;
         span.rss-item {
             font-size: 5.8vw;
