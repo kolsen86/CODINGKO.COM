@@ -63,9 +63,44 @@
 
         <h3>Animation with CSS</h3>
 
-        <p>
-            It used to be, that if you wanted to use animations on your website, you would have to use JavaScript.  While this is still true to a certain extent, for simpler animations you can now use CSS.  To use CSS to make animations, you need to use the CSS @keyframe selector.
-        </p>
+            <p>     
+                It used to be, that if you wanted to use animations on your website, you would have to use JavaScript.   While this is still true to a certain extent, for simpler animations you can now use CSS.  To use CSS to make animations, you need to use the CSS @keyframe selector.
+
+                !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            </p>
+
+        <h3>Accessibility with CSS</h3>
+        
+            <p>
+                Arguably the biggest role CSS plays in web development, other than decorating HTML, is with accessibility.  If it hasn't been drilled into your head yet, accessability is extrememly important.  Everyone, no matter if they have a disability or not, should be able to enjoy all the information, knowledge, opinions, entertainment, and cat memes available online.  One of the ways CSS assists with accessibility is through the use of external stylesheets.  By linking to your CSS externally in the head of your HTML, you can make it much easier for screen reading devices to navigate your website.  Inline CSS clutters up your HTML and can trick screen readers into reading your CSS rules instead of your actual content.  This not only helps people with disabilities, but also can help you, or another web developer, if they or you need to sift through your source code for any reason.  So, this is yet another great reason to link externally to your CSS stylesheet.
+            </p>
+            <p>
+                CSS can also help with accessibility by allowing you to precisly control word, letter, and line spacing.  As well as font size, weight, color, and a multitude of other things that can help the visually impaired enjoy your content.  Back in the old days, CSS was strictly used for decoration.  Web developers, at the time, used HTML tables to position much of their content.  HTML tag misuse, such as the prior table example, makes it nearly impossible for screen reading devices to navigate your content.  Screen readers are just machines that read whatever the computer is telling it to read.  So, if you use a table to position elements, what do you think happens?  That's right!  It will read the content in that HTML table as though it was in an actual table.  Always use CSS for positioning your HTML elements.  Use the HTML tags for what they were made for and everyone will be able to enjoy your content.
+            </p>
+            <p>
+                Bothe HTML and CSS have many more accessability features.  I have only listed some of the bigger ones in order to keep this as brief as possible.  However, in the coming weeks, I will be doing a full blown explanation and tutorial on accessability.  So make sure you stay tuned to codingko.com to learn all about it.  I would be remisce, however, if I did not mention the World Wide Web Consortium.  They are responsible for coming up with all the web standards in use today, including accessability standards.  So, if you want to read up more on accessability right now, visit the <a href="https://www.w3.org/" target="_blank" rel="noopener">World Wide Web Consortium</a> at their website and learn all about it.  Don't worry about me, I will be right here when you get back.
+            </p>
+
+    <h2>What is the very minimum amount of CSS needed to create a basic website?</h2>
+
+            <p>
+                Technically speaking, you could create an entire website with any CSS at all.  That website, however, woudl not look or perform very well at all.  For the most part, though, we have already covered the minimum amount of CSS you would need to know to create a very basic website.  For the sake of continuity, we will run down the list and add a few more things.
+            </p>
+            <p>
+                The very first thing you should know about CSS to create a basic website is how to create and link to an external stylesheet.  If you need a quick refresher, all you need to do is create a seperate file inside the same directory as your HTML file.  Let's just name ours styles.css.  Now that you have created your seperate sty;esheet, you need to link to it in between the openeing and closing head tags in your HTML.  Here is a short example,
+                
+                !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            </p>
+            <p>
+                The next thing you should know about CSS to get a website, with some basic styling, up and going is the CSS syntax to use in that seperate stylesheet. (The same syntax applies for inline CSS, but we want it to be good for accessability, RIGHT?  Same syntax applies for internal CSS as well.  You remember, that was the rules inside the head of your HTML.)  
+
+                !!!!!!!!!!!!!!!!!!!!!!!SHOW FULL STYLESHEET EXAMPLE, LIKE YOU DID WITH HTML!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            </p>
+            <p>
+                You will also want to know about the different types of CSS selectors and how to use them.  The most commonly used selectors are, in order of specificity (HOLY CRAP!!  I can't believe I haven't mentioned this yet, but the reason it's call "CASCADING Stylesheets" is because the CSS rules cascade downward.  Meaning if an HTML element falls under multiple CSS rules, the selector that is more specific to that element wins.  "." class selector is more specific than "*" universal selector, "#" id selector is more specific than "." class selector, etc.) the universal selector "*" which is an asterisk will style alllll of the HTML elements.  The type selector is the next most specific.  To use the type selector you just put the type of HTML you want to style.  Some HTML element types include H1-H6, div, span, p, etc.  The class selector ".", which is a period or decimal point, is the next most specific CSS selector.  With the class selector, you can style any number of HTML elements as long as you have assigned those elements a class name in your HTML.  In order to assign a class to your HTML elements you need to first know which elements you are going to style.  Then, inside the openeing and closing brackets of the opening tag of the HTML element you want to style just type class="yourClassName" and BOOM, you just assigned a class to an element.  Now you can assign that same class to as many elements as you want and they will all be styled the same.
+            </p>
+
+
     
     
         
