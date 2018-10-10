@@ -8,7 +8,9 @@ class StaticController < ApplicationController
 
     def blog2; end
 
-    def W5HHTML; end
+    def w5hhtml; end
+
+    def w5hcss; end
 
     def leasthtml; end
 
