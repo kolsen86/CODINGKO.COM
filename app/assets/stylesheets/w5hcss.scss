@@ -1,0 +1,123 @@
+.css-body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding-bottom: 4%;
+    background-color: #e0e2db;
+}
+
+#css-head {
+    font-family: 'IM Fell Great Primer SC', serif;
+    width: 100%;
+    height: 100%;
+    background-color: #e0e2db;
+    font-size: 6vw;
+    color: #191716;
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    text-shadow: 3px -2px 3px #e6af2e;
+}
+
+#html-by {
+    font-size: 2vw;
+    text-align: center;
+    color: #191716;
+    margin-top: -5%;
+}
+
+#html-intro {
+    margin: 5% auto 6% auto;
+    font-size: 1.6vw;
+    text-indent: 50px;
+    color: #191716;
+    background-color: #e6af2e;
+    padding: 7% 5% 7% 5%;
+    border-radius: 125px;
+    width: 80%;
+    border: 10px solid #3d348b;
+    box-shadow: -12px 15px 30px #beb7a4;
+    font-weight: 800;
+    font-family: 'Source Serif Pro', serif;
+}
+
+#css-content {
+    background-color: #e0e2db;
+    width: 100%;
+    color: #191716;
+    margin: 0 auto;
+    padding: 2% 5% 5% 5%;
+    border-radius: 100px;
+    line-height: 1.47;
+    font-family: 'Source Serif Pro', serif;
+    word-spacing: 0.15em;
+    font-weight: 550;
+
+    h2 {
+        font-size: 2.7vw;
+        text-align: center;
+        color: #191716;
+        padding-bottom: 2.5%;
+        padding-top: 3%;
+        margin-top: 2%;
+        border-top: 3px solid #191716;
+        border-bottom: 15px solid #191716;
+        border-radius: 50px 50px 150px 150px;
+        font-family: 'IM Fell Great Primer SC', serif;
+        background-color: #beb7a4;
+        text-shadow: -2px -2px 1px #e0e2db;
+        font-weight: 600;
+    }
+
+    h3 {
+        font-family: 'IM Fell Great Primer SC', serif;
+        border-bottom: 9px solid #191716;
+        font-size: 2.1vw;
+        padding-top: 8%;
+        text-shadow: -1px -1.25px 1.5px #3d348b;
+    }
+
+    p {
+        color: #191716;
+        font-size: 1.75vw;
+        width: 92%;
+        margin-left: 5%;
+        margin-top: 5%;
+        padding-top: 1%;
+        text-indent: 50px;
+        padding-bottom: 5%;
+    }
+
+    #drag {
+        margin-left: 43%;
+    }
+
+    .fa-arrow-left {
+        margin-left: 95%;
+        margin-top: -25%;
+        display: block;
+        font-size: 2vw;
+    }
+
+    #animation {
+        margin-top: 15%;
+    }
+
+    a {
+        color: #3d348b;
+    }
+
+    a:hover {
+        color: #e6af2e;
+        font-size: 3.5vw;
+    }
+
+    #resizable-ex {
+        resize: horizontal;
+        overflow: auto;
+        height: 75vh;
+        width: 80vw;
+        min-width: 580px;
+        max-width: 1106.240px;
+    }
+}

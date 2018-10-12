@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get 'blog2', to: 'static#blog2'
   get 'w5hhtml', to: 'static#w5hhtml'
   get 'w5hcss', to: 'static#w5hcss'
+  get 'w5hcssex', to: 'static#w5hcssex'
   get 'leasthtml', to: 'static#leasthtml'
   get 'htmltools', to: 'pages#htmltools'
   get 'csstools', to: 'pages#csstools'

@@ -1,0 +1,105 @@
+#css-ex-body {
+    background-color: #1950a8;
+    padding-bottom: 15%;
+}
+
+#CSS-ID {
+    font-size: 5vw;
+    text-align: center;
+    text-shadow: -3px 5px 3px #db7100;
+    color: #92db00;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 800;
+}
+
+#another-id {
+    font-size: 3.5vw;
+    text-align: center;
+    color: #db7100;
+}
+
+#example-div {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #1950a8;
+}
+
+.CSS-class {
+    font-size: 1.6vw;
+    background-color: #c7d2e2;
+    color: #000000;
+    padding: 40px;
+    line-height: 1.3em;
+    word-spacing: 0.2em;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+}
+
+footer {
+    display: none;
+}
+
+#foot {
+    display: none;
+}
+
+.social-media-f {
+    display: none;
+}
+
+#social-media2-f,
+#social-media3-f, #social-media1-f {
+    display: none;
+}
+
+#toggle {
+    display: none;
+}
+
+#body-2 {
+    display: none;
+}
+
+@media all and (max-width: 600px) {
+    #css-ex-body {
+        display: none;
+    }
+
+    #body-2 {
+        display: inline-block;
+        background-color: #92db00;
+        padding-bottom: 50%;
+    }
+
+    #CSS-ID {
+        font-size: 5vw;
+        text-align: center;
+        text-shadow: -3px 5px 3px #f8f0e8;
+        color: #1950a8;
+        font-family: "Times New Roman", Times, serif;
+        font-weight: 800;
+    }
+
+    .CSS-class {
+        font-size: 2.3vw;
+        background-color: #c7d2e2;
+        color: #000000;
+        padding: 40px;
+        line-height: 1.3em;
+        word-spacing: 0.2em;
+        letter-spacing: 0.1em;
+        font-weight: 900;
+    }
+
+    #logo-ex {
+        font-size: 8vw;
+        color: #ff7402;
+        text-align: center;
+        text-shadow: 1px 1px 3px #1950a8, -1px -1px 3px #1950a8;
+        margin-top: 8%;
+        border-bottom: 10px solid #1950a8;
+        width: 90%;
+        margin-left: 5%;
+    }
+   
+}
