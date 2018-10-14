@@ -235,7 +235,7 @@
     font-family: 'Alfa Slab One', cursive;
   }
 
-  #tools-intro, #html-tools-intro, #css-tools-intro, #color-picker-intro, #gradient-intro, #color-palette-intro, #color-theory-intro, #minifiers-intro {
+  #tools-intro, #html-tools-intro, #css-tools-intro, #color-picker-intro, #gradient-intro, #color-palette-intro, #color-theory-intro, #minifiers-intro, .framework-intro {
     margin: 15% auto 0% auto;
     font-size: 2vw;
     text-indent: 50px;
@@ -421,7 +421,86 @@
               }
           }
       }
+
+      #tools-frameworks {
+
+        .framework-head {
+          font-size: 3.4vw;
+        }
+
+        .framework-head2 {
+          font-size: 3vw;
+          margin-top: 7%;
+        }
+
+        .p1 {
+          border-bottom: none;
+        }
+
+        .list-nest {
+          width: 110%;
+          margin-left: -5%;
+          padding-top: 5%;
+          background-color: #beb7a4;
+          border-radius: 50px;
+          border: 2px solid #e6af2e;
+
+            h3 {
+              text-shadow: -2px 3px 2px #e0e2db;
+            }
+
+            #semantic-wrap {
+              width: 100%;
+              height: auto;
+              font-size: 1.3vw;
+              text-align: center;
+              padding: 0;
+              
+
+              #semantic-menu {
+                width: 62%;
+                margin-left: 20%;
+                height: auto;
+                display: block;
+                border-bottom: none;
+                border: 3px solid #3d348b;
+                padding: 0;
+                box-shadow: -3.5px -5px 3px #191716;
+            }
+            }
+
+        #bootstrap-wrap {
+          width: 100%;
+          height: auto;
+          font-size: 1.3vw;
+          text-align: center;
+          padding: 0;
+          
+
+          #BS-menu {
+            width: 110%;
+            margin-left: -5%;
+            height: auto;
+            display: block;
+            border-bottom: none;
+            border: 2px solid #3d348b;
+            padding: 0;
+            box-shadow: 1.5px -2px 2px #191716;
+        }
+        }
+      }
+
+        a {
+          font-size: 4vw;
+        }
+
+        p {
+          padding-bottom: 2%;
+        }
     }
+    }
+
+
 
     @media all and (max-width: 800px) {
         #tools-head {

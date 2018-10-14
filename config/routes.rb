@@ -17,6 +17,7 @@ Rails.application.routes.draw do
   get 'tutorials', to: 'static#tutorials'
   get 'tools', to: 'pages#tools'
   get 'technews', to: 'pages#technews'
+  get 'technews2', to: 'pages#technews2'
   get 'inttutorials', to: 'pages#inttutorials'
   get 'booktutorials', to: 'pages#booktutorials'
   get 'videotutorials', to: 'pages#videotutorials'

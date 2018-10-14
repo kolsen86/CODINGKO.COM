@@ -3,7 +3,7 @@
     margin: 0;
     width: 100%;
     height: auto;
-    padding-bottom: 15%;
+    padding-bottom: 20%;
 }
 
 #get-news {
@@ -98,7 +98,7 @@
         }
 
         li.rss-item {
-            max-height: 1200px;
+            max-height: 800px;
             overflow: auto;
         }
 
@@ -123,7 +123,8 @@
 }
 
 li.rss-item {
-    max-height: 1700px;
+    max-height: 800px;
+    overflow: auto;
 }
 
 ul.rss-items {

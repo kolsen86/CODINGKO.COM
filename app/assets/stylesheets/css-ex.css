@@ -35,30 +35,6 @@
     font-weight: 900;
 }
 
-footer {
-    display: none;
-}
-
-#foot {
-    display: none;
-}
-
-.social-media-f {
-    display: none;
-}
-
-#social-media2-f,
-#social-media3-f, #social-media1-f {
-    display: none;
-}
-
-#toggle {
-    display: none;
-}
-
-#body-2 {
-    display: none;
-}
 
 @media all and (max-width: 600px) {
     #css-ex-body {
