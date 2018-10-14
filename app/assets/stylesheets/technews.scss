@@ -58,6 +58,19 @@
     padding-bottom: 5%;
 }
 
+.tech-nav {
+    background-color: #e0e2db;
+    border: 5px solid #e6af2e;
+    margin-top: 3%;
+    padding: 1%;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 3.5vw;
+    color: #3d348b;
+    width: 90%;
+    margin-left: 5%;
+}
+
 .rss-item a {
     font-size: 2vw;
     border: none;
@@ -189,6 +202,10 @@ a.rss-title {
                 width: 60%;
             }
     }
+
+    .tech-nav {
+        margin-left: 6%;
+    }
 }
 
 @media all and (max-width: 870px) {
@@ -230,6 +247,10 @@ a.rss-title {
 }
 
 @media all and (max-width: 600px) {
+
+    .tech-nav {
+        margin-left: 7%;
+    }
 
     .rss-box, .rss-box-css {
 
@@ -326,5 +347,9 @@ a.rss-title {
     ul.rss-items {
         margin-left: -10%;
         list-style: none;
+    }
+
+    .tech-nav {
+        margin-left: 8%;
     }
 }
