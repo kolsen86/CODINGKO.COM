@@ -425,12 +425,13 @@
       #tools-frameworks {
 
         .framework-head {
-          font-size: 3.4vw;
+          font-size: 3.6vw;
         }
 
         .framework-head2 {
-          font-size: 3vw;
-          margin-top: 7%;
+          font-size: 3.3vw;
+          margin: 7% auto 0% auto;
+          padding-right: 15%;
         }
 
         .p1 {
@@ -496,6 +497,23 @@
 
         p {
           padding-bottom: 2%;
+        }
+
+        #more-frame {
+          margin: 0 auto;
+          border-top: 15px solid #e6af2e;
+          border-top-left-radius: -20px;
+          border-top-right-radius: -20px;
+          padding-top: 2%;
+        }
+
+        .frame-img {
+          width: 110%;
+          border-bottom-style: none;
+          padding: 0%;
+          margin: 0 auto 0 -5%;
+          max-height: 450px;
+          box-shadow: 5px 5px 3px #191716;
         }
     }
     }
