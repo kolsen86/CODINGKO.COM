@@ -507,6 +507,23 @@
           padding-top: 2%;
         }
 
+        #more-frame-list {
+
+          li {
+            margin-top: 4%;
+          }
+
+            li ul li {
+              margin-top: 3.5%;
+              font-size: 2vw;
+              border-bottom: 1px solid #191716;
+            }
+
+            li a {
+              border-bottom: 3px solid #3d348b;
+            }
+        }
+
         .frame-img {
           width: 110%;
           border-bottom-style: none;
