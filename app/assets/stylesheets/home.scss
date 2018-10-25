@@ -95,7 +95,7 @@
     color: #3d348b;
     border: 10px solid #e6af2e;
     border-radius: 25%;
-    font-size: 1.95vw;
+    font-size: 1.85vw;
     text-align: center;
     margin-left: 5%;
     font-weight: 600;
@@ -139,7 +139,7 @@
     color: #3d348b;
     border: 10px solid #e6af2e;
     border-radius: 25%;
-    font-size: 1.8vw;
+    font-size: 1.7vw;
     text-align: center;
     margin-left: 2.5%;
     font-weight: 600;
@@ -184,7 +184,7 @@
     color: #3d348b;
     border: 10px solid #e6af2e;
     border-radius: 25%;
-    font-size: 1.95vw;
+    font-size: 1.85vw;
     text-align: center;
     margin-top: 5%;
     margin-left: 2.5%;
@@ -396,41 +396,117 @@ margin-left: 1%;
 
 @media all and (max-width: 683px) {
 
-.girlfriend-quote, .dad-quote {
-    font-size: 2.9vw;
+    .dad-quote {
+        display: block;
+        width: 80%;
+        height: 370px;
+        font-size: 3.3vw;
+        margin-left: 14%;
+        margin-top: 5%;
 
-    p {
-      margin-top: 65%;
-      width: 90%;
-      margin-left: 2%;
-      }
+            p {
+                margin-left: 8%;
+                margin-top: 11%;
+                width: 85%;
+            }
 
-      h2 {
-        margin-top: 110%;
-        margin-left: 35%;
-        font-size: 1.85vw;
-    }
+            h2 {
+                margin-top: 10%;
+                margin-left: 65%;
+                font-size: 2.1vw;
+            }
 
-    span {
-        font-size: 1.5vw;
-    }
+            .fa-quote-left {
+                padding-right: 10%;
+            }
+
+            .fa-quote-right {
+                padding-left: 10%;
+            }
+
+            #dad {
+                margin-top: -11%;
+                width: 23%;
+                margin-left: -10%;
+            }
     }
 
     .mom-quote {
-      font-size: 2.7vw;
+        display: block;
+        width: 80%;
+        height: 370px;
+        font-size: 3vw;
+        margin-left: 14%;
+        margin-top: 5%;
+        padding-bottom: 5%;
 
-    p {
-      margin-top: 38%;
-      width: 90%;
-      margin-left: 2%;
-      }
+            p {
+                margin-left: 2%;
+                margin-top: 6%;
+                width: 93%;
+            }
 
-      h2 {
-        margin-top: 110%;
-        margin-left: 35%;
-        font-size: 1.85vw;
+            h2 {
+                margin-top: 10%;
+                margin-left: 65%;
+                font-size: 2.1vw;
+            }
+
+            .fa-quote-left {
+                padding-right: 10%;
+            }
+
+            .fa-quote-right {
+                padding-left: 10%;
+            }
+
+            #mom {
+                margin-top: -14%;
+                margin-left: -9%;
+                width: 24%;
+            }
     }
-}
+
+    .girlfriend-quote {
+        display: block;
+        width: 80%;
+        height: 370px;
+        font-size: 3.3vw;
+        margin-top: 5%;
+        margin-left: 14%;
+
+            h2 {
+                margin-top: 10%;
+                margin-left: 65%;
+                font-size: 2.1vw;
+            }
+
+            p {
+                margin-left: 8%;
+                margin-top: 9%;
+                width: 85%;
+            }
+
+            .fa-quote-left {
+                padding-right: 10%;
+            }
+
+            .fa-quote-right {
+                padding-left: 10%;
+            }
+
+            span {
+                font-size: 2vw;
+            }
+
+            #crystal {
+                margin-top: -17%;
+                width: 20%;
+                margin-left: -9%;
+            }
+    }
+
+
 
 .testimonials, .real-quotes {
     font-size: 3.2vw;
