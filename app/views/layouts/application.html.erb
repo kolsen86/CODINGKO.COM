@@ -31,70 +31,64 @@
 
 <body>
 
+<label>
+  <input type="checkbox">
+  <span class="menu">
+    <span class="hamburger"></span>
+  </span>
+  <ul>
+  <h1 id="logo-nav"><span>&lt;</span>CODING<span>&gt;</span>KO<span>&lt;</span>.<span id="slash">/</span>COM<span>&gt;</span></h1>
+  <li><a href="/">Home</a></li>
+ <li><a href="/blog">KO's Tech Spot</a></li>
+ <li><a href="/grind">Daily Grind</a></li>
+ <li><a href="/technews">Tech News</a></li>
+ <li><a href="/about">About</a></li>
+ <li><a href="/contact-me">Contact</a></li>
+ <li class="second-col"><a href="/tutorials">Tutorials and Other Resources</a></li>
+ <li class="second-col"><a href="/inttutorials">Interactive Tutorials</a></li>
+ <li class="second-col"><a href="/booktutorials">Book Tutorials</a></li>
+ <li class="second-col"><a href="/videotutorials">Video Tutorials</a></li>
+ <li class="second-col"><a href="/mooctutorials">MOOC Tutorials</a></li>
+ <li class="second-col"><a href="/paidtutorialsandpath">Paid Tutorials</a></li>
+ <li class="third-col"><a href="/referanceandquestions">Reference and Questions</a></li>
+ <li class="third-col"><a href="/tools">Tools</a>
+ <li class="third-col"><a href="/htmltools">HTML Tools</a></li>
+ <li class="third-col"><a href="/csstools">CSS Tools</a></li>
+ <li class="third-col"><a href="/w5hhtml">The Who, What, When, Where, Why, and How's of HTML</a></li>
+  </ul>
+</label>
 
-  <header>
-    <div class="menu-cont" id="toggle">
-      <span class="menu-txt" data-text="CLOSE-">
-        *MENU*
-      </span>
-      <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
 
-  </header>
-  <div class="overlay" id="overlay">
-    <div id="big-menu">
-      <nav class="overlay-menu">
-        <ul id="nav-menu-width">
+<!--<input type="checkbox" id="menu-toggle"/>
+  <label id="trigger" for="menu-toggle"></label>
+  <label id="burger" for="menu-toggle"></label>
+  <ul id="menu-main">
+    <li><a href="/">Home</a></li>
+ <li><a href="/blog">KO's Tech Spot</a></li>
+ <li><a href="/grind">Daily Grind</a></li>
+ <li><a href="/technews">Tech News</a></li>
+ <li><a id="tutsnres" href="/tutorials">Tutorials and Other Resources<i class="fas fa-angle-down"></i></a>
+  <ul>
+   <li><a href="/inttutorials">Interactive Tutorials</a></li>
+   <li><a href="/booktutorials">Book Tutorials</a></li>
+   <li><a href="/videotutorials">Video Tutorials</a></li>
+   <li><a href="/mooctutorials">MOOC Tutorials</a></li>
+   <li><a href="/paidtutorialsandpath">Paid Tutorials</a></li>
+   <li><a href="/referanceandquestions">Reference and Questions</a></li>
+  </ul>
+ </li>
+ <li><a href="/tools">Tools <i class="fas fa-angle-down"></i></a>
+  <ul id="tools-drop">
+   <li><a href="/htmltools">HTML Tools</a></li>
+   <li><a href="/csstools">CSS Tools</a></li>
+  </ul>
+ </li>
+ <li><a href="/about">About</a></li>
+ <li><a href="/contact-me">Contact</a></li>
+  </ul>-->
 
-          <li>
-            <%= link_to "Home", root_path %>
-          </li>
-          <li>
-            <%= link_to "K.O.'s Tech Corner", blog_path %>
-          </li>
-          <li>
-            <%= link_to "Daily Grind", grind_path %>
-          </li>
-          <li id="nav-about">
-            <%= link_to "About", about_path %>
-          </li>
-
-          <li id="nav-contact">
-            <%= link_to "Contact Me", new_contact_path %>
-          </li>
-        </ul>
-
-        <ul id="nav-menu-width2">
-          <a href="/tutorials">
-            <h3 id="tuts-res">Tutorials and Other Resources</h3>
-          </a>
-          <li>
-            <a href="/w5hhtml">The Who, What, When, Where,<br> Why, and How's of Programming</a>
-          </li>
-          <br>
-          <li>
-            <a href="/inttutorials">Interactive Tutorials</a>
-          </li>
-          <li>
-            <a href="/booktutorials">Book Tutorials</a>
-          </li>
-          <li>
-            <a href="videotutorials">Video Tutorials</a>
-          </li>
-          <li>
-            <a href="mooctutorials">Massive Open Online Courses(MOOCs)</a>
-          </li>
-          <li>
-            <a href="/paidtutorialsandpath">Paid Tutorials and Learning Pathways</a>
-          </li>
-          <li>
-            <a href="/referanceandquestions">Reference and Asking Questions</a>
-          </li>
-          <li>
-            <a href="/tools">Useful Tools</a>
-          </li>
-        </ul>
-        <div class="social-media">
+  
+        <!--<div class="social-media">
           <span id="social-media1">
             <a href="https://twitter.com/Coding_K_O">
               <i class="fab fa-twitter"></i>
@@ -115,9 +109,7 @@
               <span class="screen-reader-text">LinkedIn</span>
             </a>
           </span>
-      </nav>
-    </div>
-  </div>
+      -->
   
   <%= yield %>
   
@@ -147,62 +139,7 @@
     </div>
 
   </footer>
-  
-  <script async>
-    $('#toggle').click(function () {
-      $(this).toggleClass('active');
-      $('#overlay').toggleClass('open');
-    });
-    $('.menu-cont').on('click', function () {
 
-      var menu = $('.menu-txt').text();
-      var close = $('.menu-txt').attr('data-text');
-
-      $('.menu').toggleClass('active');
-
-      if ($('.menu-txt').text(menu)) {
-        $('.menu-txt').text(close);
-      } else {
-        $('.menu-txt').text(menu);
-      }
-      $('.menu-txt').attr('data-text', menu);
-    })
-    var findNCenter = function () {
-      var elems = document.querySelectorAll('.center-vertical');
-
-      for (var i = 0; i < elems.length; i++) {
-        elems[i].style.marginTop = (elems[i].parentNode.offsetHeight - elems[i].offsetHeight) / 2 + 'px';
-      }
-    };
-
-    document.addEventListener && document.addEventListener('DOMContentLoaded', findNCenter);
-    window.addEventListener && window.addEventListener('resize', findNCenter);
-
-    $(document).ready(function () {
-
-      var count = $('#inner p').length;
-      var i = 1;
-
-      setInterval(function () {
-        if (i < count) {
-          $('#inner').css('-webkit-transform', 'translate3d(0,-' + i + '00%,0)');
-          i++;
-        }
-      }, 800);
-    });
-  </script>
-  <script async>
-    var prevScrollpos = window.pageYOffset;
-    window.onscroll = function () {
-      var currentScrollPos = window.pageYOffset;
-      if (prevScrollpos > currentScrollPos) {
-        document.getElementById("toggle").style.top = "0";
-      } else {
-        document.getElementById("toggle").style.top = "-110px";
-      }
-      prevScrollpos = currentScrollPos;
-    }
-  </script>
 </body>
 
 </html>
