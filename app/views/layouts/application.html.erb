@@ -31,12 +31,11 @@
 
 <body>
 
-<label>
-  <input type="checkbox">
-  <span class="menu">
-    <span class="hamburger"></span>
-  </span>
-  <ul>
+
+    <div class="button_container" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
+    <div class="overlay" id="overlay">
+        <nav class="overlay-menu">
+<ul>
   <h1 id="logo-nav"><span>&lt;</span>CODING<span>&gt;</span>KO<span>&lt;</span>.<span id="slash">/</span>COM<span>&gt;</span></h1>
   <li><a href="/">Home</a></li>
  <li><a href="/blog">KO's Tech Spot</a></li>
@@ -55,61 +54,32 @@
  <li class="third-col"><a href="/htmltools">HTML Tools</a></li>
  <li class="third-col"><a href="/csstools">CSS Tools</a></li>
  <li class="third-col"><a href="/w5hhtml">The Who, What, When, Where, Why, and How's of HTML</a></li>
+   
+    <div class="social-media">
+      <span id="social-media1">
+        <a href="https://twitter.com/Coding_K_O">
+          <i class="fab fa-twitter"></i>
+          <span class="screen-reader-text">Twitter</span>
+        </a>
+      </span>
+
+      <span id="social-media2">
+        <a href="https://github.com/kolsen86">
+          <i class="fab fa-github"></i>
+          <span class="screen-reader-text">GitHub</span>
+        </a>
+      </span>
+
+      <span id="social-media3">
+        <a href="https://www.linkedin.com/in/CodingKO">
+          <i class="fab fa-linkedin"></i>
+          <span class="screen-reader-text">LinkedIn</span>
+        </a>
+      </span>
+    </div>
   </ul>
-</label>
-
-
-<!--<input type="checkbox" id="menu-toggle"/>
-  <label id="trigger" for="menu-toggle"></label>
-  <label id="burger" for="menu-toggle"></label>
-  <ul id="menu-main">
-    <li><a href="/">Home</a></li>
- <li><a href="/blog">KO's Tech Spot</a></li>
- <li><a href="/grind">Daily Grind</a></li>
- <li><a href="/technews">Tech News</a></li>
- <li><a id="tutsnres" href="/tutorials">Tutorials and Other Resources<i class="fas fa-angle-down"></i></a>
-  <ul>
-   <li><a href="/inttutorials">Interactive Tutorials</a></li>
-   <li><a href="/booktutorials">Book Tutorials</a></li>
-   <li><a href="/videotutorials">Video Tutorials</a></li>
-   <li><a href="/mooctutorials">MOOC Tutorials</a></li>
-   <li><a href="/paidtutorialsandpath">Paid Tutorials</a></li>
-   <li><a href="/referanceandquestions">Reference and Questions</a></li>
-  </ul>
- </li>
- <li><a href="/tools">Tools <i class="fas fa-angle-down"></i></a>
-  <ul id="tools-drop">
-   <li><a href="/htmltools">HTML Tools</a></li>
-   <li><a href="/csstools">CSS Tools</a></li>
-  </ul>
- </li>
- <li><a href="/about">About</a></li>
- <li><a href="/contact-me">Contact</a></li>
-  </ul>-->
-
-  
-        <!--<div class="social-media">
-          <span id="social-media1">
-            <a href="https://twitter.com/Coding_K_O">
-              <i class="fab fa-twitter"></i>
-              <span class="screen-reader-text">Twitter</span>
-            </a>
-          </span>
-
-          <span id="social-media2">
-            <a href="https://github.com/kolsen86">
-              <i class="fab fa-github"></i>
-              <span class="screen-reader-text">GitHub</span>
-            </a>
-          </span>
-
-          <span id="social-media3">
-            <a href="https://www.linkedin.com/in/CodingKO">
-              <i class="fab fa-linkedin"></i>
-              <span class="screen-reader-text">LinkedIn</span>
-            </a>
-          </span>
-      -->
+        </nav>
+    </div>
   
   <%= yield %>
   
@@ -139,6 +109,14 @@
     </div>
 
   </footer>
+
+  /* Open when someone clicks on the span element */
+<script>
+$('#toggle').click(function() {
+   $(this).toggleClass('active');
+   $('#overlay').toggleClass('open');
+  });
+</script>
 
 </body>
 
