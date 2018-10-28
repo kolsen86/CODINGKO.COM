@@ -7,10 +7,10 @@
 <div class="css-body">
     <header>
         <h1 id="css-head">The Who, What, When, Where, Why, and How's of CSS</h1><br>
-        <h4 id="css-by">By: Kenneth Olsen</h4>
+        <h4 id="html-by">By: Kenneth Olsen</h4>
     </header>
 
-    <p id="css-intro">Hello! Welcome two part 2 of the "Who, What, When, Where, When, Why, and How's of Programming".
+    <p id="html-intro">Hello! Welcome two part 2 of the "Who, What, When, Where, When, Why, and How's of Programming".
         Last time, we took a deep dive into HTML and learned, in depth, all about it. From who created it, to how it
         works, to the best places to learn it. This week, we are going to take a look at the second pillar of the
         internet, CSS. Now that introductions are out of the way, LET'S GET GOING!</p><br>
@@ -119,19 +119,30 @@
 
         </figure>
         <p>
-            That example takes an h1 HTML element!!!!!!!!!!!!!!!!!!!!!!!!! For styling a single HTML element you will
-            want
-            to use the id selector 'id="idSelector"' on your HTML element and in your CSS file you call that id by
+            That example takes an h1 HTML element and gives it the CSS ID of CSS-ID. With a CSS ID selector you can
+            only style a single HTML element. In your CSS file you call that id by
             using an
-            octothorpe "#" before the name of the selector. In this case it would look like #idSelector {color:
-            someColor;}. If you want to style multiple elements than use the HTML class selector
-            'class="classSelector"'
-            and in your CSS file you will put a period "." before calling your class name. In thins case it would be
-            .classSelector {color: someColor;}. There are many other types of CSS selectors, these are just the 2 that
+            octothorpe "#" before the name of the selector. In this case it would look like<br><br>
+
+            <span class="highlight">#CSS-ID {
+                color: someColor;
+                }</span><br><br>
+
+            If you want to style multiple elements than use the CSS class selector
+            'class="CSS-class"'
+            and in your CSS file you will put a period "." before calling your class name. In this case it would be<br><br>
+
+            <span class="highlight">.CSS-class {
+                color: someColor;
+                }</span><br><br>
+
+            There are many other types of CSS selectors, these are just the 2 that
             are
-            used most often. You can specify a type of HTML element such as "span" in your CSS file and the rules you
+            used most often. You can specify a type of HTML element such as "span" or "div" in your CSS file and the
+            rules you
             set
-            will apply to every "span" in your document or to style all HTML elements you can put "*", and every single
+            will apply to every "span" or "div" in your document or to style all HTML elements you can put "*", and
+            every single
             HTML element will be styled according to the rule you set for it.
         </p>
 
@@ -259,720 +270,1150 @@
             good
             for accessability, RIGHT? Same syntax applies for internal CSS as well. You remember, that was the rules
             inside
-            the head of your HTML.)
-
-            !!!!!!!!!!!!!!!!!!!!!!!SHOW FULL STYLESHEET EXAMPLE, LIKE YOU DID WITH HTML!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-            Here are the selectors used in that example.
-
-            <ul>
-                <li>background-color
-                    <p>Allows you to set a background color.</p>
-                </li>
-
-                <li>color
-                    <p>Sets a color to the element.</p>
-                </li>
-
-                <li>font-size
-                    <p>For setting the size of your font. Can be set to RELATIVE MEASUREMENTS: vw (view width), em(1
-                        em=
-                        16px), % (percentage), REM (Root HTML version of EM). ABSOLUTE MEASUREMENTS: px (pixels), mm
-                        (millimeter), cm (centimeter), in (inch), XX-small through xx-large. There are also a few more
-                        very
-                        seldomly used measurements types. </p>
-                </li>
-
-                <li>font-weight
-                    <p>Allows you to set the boldness of your font. Can be any number from 0-900. 400 is normal
-                        font-weight, anything lower is lighter, anything higher is darker.</p>
-                </li>
-
-                <li>text-align
-                    <p>Can be set to left, center, right, justify.</p>
-                </li>
-
-                <li>text-indent
-                    <p>For indenting paragraphs.</p>
-                </li>
-
-                <li>height
-                    <p>Sets the height of an element.</p>
-                </li>
-
-                <li>width
-                    <p>Sets the width of an element.</p>
-                </li>
-
-                <li>margin
-                    <p>Allows you to set all 4 directions (top, bottom, left, right) to the same margin.</p>
-                </li>
-
-                <li>margin-xxxx (xxxx= top, bottom, left, or right)
-                    <p>Allows you to set the margin for specific sides of an element. Most positioning of HTML elements
-                        is
-                        done with margins.</p>
-                </li>
-
-                <li>padding
-                    <p>Allows you to set all 4 sides of padding for an element. Padding is the space between your
-                        content
-                        and it's border. It's all part of the box-model, which we will talk about shortly.</p>
-                </li>
-
-                <li>padding-xxxx (xxxx= top, bottom, left, or right)
-                    <p>Allows you to set padding for certain sides of an element.</p>
-                </li>
-
-                <li>border
-                    <p>Allows you to create a border around your element. The "border" property is shorthand for
-                        border-width, border-style, and border-color. You can also specify any of these properties on
-                        their
-                        own.</p>
-                </li>
-
-                <li>background-image
-                    <p>Allows you to place an image in the background of an element.</p>
-                </li>
-
-                <li>background-size
-                    <p>Allows you to specify the size of a background-image. In addition to the normal measurements,
-                        you
-                        can also set the background-size value to cover or contain. Cover will stretch the image to
-                        make it
-                        take up the entire container without repeating, and contain will size the image so that it
-                        always
-                        fits inside its container.</p>
-                </li>
-
-                <li>background-repeat
-                    <p>When a background image is to small to fit in its container it will repeat itself until the
-                        container is full. By specifying background-repeat to no-repeat you can stop this. You can also
-                        specify repeat-x or repeat-y to repeat either vertically or horizontally.</p>
-                </li>
-
-                <li>border-radius
-                    <p>Allows you to set the radius of your border. Letting you round the corners of a square border.</p>
-                </li>
-
-                <li>box-shadow
-                    <p>Allows you to give an element a shadow. This can create a 3d effect.</p>
-                </li>
-            </ul>
-        </p>
-        <p>
-            You will also want to know about the different types of CSS selectors and how to use them. The most
-            commonly
-            used selectors are, in order of specificity (HOLY CRAP!! I can't believe I haven't mentioned this yet, but
-            the
-            reason it's call "CASCADING Stylesheets" is because the CSS rules cascade downward. Meaning if an HTML
-            element
-            falls under multiple CSS rules, the selector that is more specific to that element wins. "." class selector
-            is
-            more specific than "*" universal selector, "#" id selector is more specific than "." class selector, etc.)
-            the
-            universal selector "*" which is an asterisk will style allll of the HTML elements. The type selector is the
-            next most specific. To use the type selector you just put the type of HTML you want to style. Some HTML
-            element
-            types include H1-H6, div, span, p, etc. The class selector ".", which is a period or decimal point, is the
-            next
-            most specific CSS selector. With the class selector, you can style any number of HTML elements as long as
-            you
-            have assigned those elements a class name in your HTML. In order to assign a class to your HTML elements
-            you
-            need to first know which elements you are going to style. Then, inside the opening and closing brackets of
-            the
-            opening tag of the HTML element you want to style just type class="yourClassName" and BOOM, you just
-            assigned a
-            class to an element. Now you can assign that same class to as many elements as you want and they will all
-            be
-            styled the same. The last selector that I am going to talk about is the id selector and it is the 4th most
-            specific of the selectors. The process of assigning a CSS id selector is exactly the same as the class
-            selector, with one difference. You can only use an id selector on 1 HTML element.
-        </p>
-
-        <p>
-            So, know you know about the CSS selectors, but what do you do with them after you assign them in your HTML
-            and
-            put them down in your stylesheet? You need to set your CSS rules with CSS properties. Here is a list of
-            some of
-            the more commonly used CSS properties and some examples of the kinds of values you can assign to them.
-
-            <h4>CSS Commonly Used Color Properties</h4>
-
-            <ul>
-
-                <li>background-color
-                    <p>Allows you to set a background color.</p>
-                </li>
-
-                <li>color
-                    <p>Sets a color to the element.</p>
-                </li>
-
-                <li>opacity
-                    <p>Allows you to make an element more or less transparent.</p>
-                </li>
-
-                <li>border-xxxx-color(xxxx=top,bottom,left,or right)
-                    <p>Use if you want different sides of your border to be different colors.</p>
-                </li>
-
-                <li>filter
-                    <p>Allows you to add FX to an element, such as blurring or color-shifting.</p>
-                </li>
-
-            </ul>
-
-            <h4>CSS Commonly Used Font Properties</h4>
-
-            <ul>
-
-                <li>@font-face
-                    <p>Allows you to download and use, non web-safe fonts in your project.</p>
-                </li>
-
-                <li>font-family
-                    <p>For specifying what font you want to use.</p>
-                </li>
-
-                <li>font-size
-                    <p>For setting the size of your font. Can be set to RELATIVE MEASUREMENTS: vw (view width), em(1
-                        em=
-                        16px), % (percentage), REM (Root HTML version of EM). ABSOLUTE MEASUREMENTS: px (pixels), mm
-                        (millimeter), cm (centimeter), in (inch), XX-small through xx-large. There are also a few more
-                        very
-                        seldomly used measurements types. </p>
-                </li>
-
-                <li>font-weight
-                    <p>Allows you to set the boldness of your font. Can be any number from 0-900. 400 is normal
-                        font-weight, anything lower is lighter, anything higher is darker.</p>
-                </li>
-
-                <li>text-align
-                    <p>Can be set to left, center, right, justify.</p>
-                </li>
-
-                <li>text-indent
-                    <p>For indenting paragraphs.</p>
-                </li>
-
-                <li>word-spacing
-                    <p>Allows you to put as much space in between your words as you want.</p>
-                </li>
-
-                <li>letter-spacing
-                    <p>Allows you to put space in between your letters.</p>
-                </li>
-
-            </ul>
-
-            <h4>CSS Commonly Used Properties for Positioning and Layout</h4>
-
-            <ul>
-                <li>column-count
-                    <p>Allows you to create columns and specify how many you want.</p>
-                </li>
-
-                <li>column-gap
-                    <p>For specifying how large of a gap between your columns.</p>
-                </li>
-
-                <li>column-width
-                    <p>To specify the width of your columns</p>
-                </li>
-
-                <li>display
-                    <p>To specify how you want an HTML element to be displayed. Can be set to none, block, inline,
-                        inline-block. None takes the element off the page. I kow that sounds crazy, your probably
-                        thinking
-                        "Then why even put the element there", but it can come in very handy. I seem to use it mostly
-                        for
-                        hiding certain elements unless the screen-size is a certain width. Block display starts a new
-                        line
-                        and take up the whole width. Inline display makes the elements unresponsive to height and
-                        width.
-                        Inline-block display is the same as inline, only you can use height and width.</p>
-                </li>
-
-                <li>height
-                    <p>Sets the height of an element.</p>
-                </li>
-
-                <li>width
-                    <p>Sets the width of an element.</p>
-                </li>
-
-                <li>line-height
-                    <p>Allows you to increase or decrease the space between lines.</p>
-                </li>
-
-                <li>margin
-                    <p>Allows you to set all 4 directions (top, bottom, left, right) to the same margin.</p>
-                </li>
-
-                <li>margin-xxxx (xxxx= top, bottom, left, or right)
-                    <p>Allows you to set the margin for specific sides of an element. Most positioning of HTML elements
-                        is
-                        done with margins.</p>
-                </li>
-
-                <li>@media
-                    <p>@media is a media query. It allows you to set different style rules for different size devices,
-                        or
-                        for certain devices, and different types of devices.</p>
-                </li>
-
-                <li>padding
-                    <p>Allows you to set all 4 sides of padding for an element. Padding is the space between your
-                        content
-                        and it's border. It's all part of the box-model, which we will talk about shortly.</p>
-                </li>
-
-                <li>padding-xxxx (xxxx= top, bottom, left, or right)
-                    <p>Allows you to set padding for certain sides of an element.</p>
-                </li>
-
-                <li>position
-                    <p>Can be set to static (every element is static by default unless you specify otherwise.).
-                        Statically
-                        positioned elements appear in the order that you put them in your HTML. Position: absolute,
-                        Absolutely positioned elements are positioned relatively to it's nearest non-static ancestor
-                        and is
-                        taken out of the normal page flow. Position: relative, Relatively positioned elements are
-                        positioned relative to its normal position, so "right:40px" adds 40 pixels to the element's
-                        right
-                        position. Position: fixed, fixed position elements are positioned relative to the browser
-                        window.
-                        You will often see fixed positioning on things like a websites top navigation bar. Having the
-                        navigation bar set to fixed makes it so that no matter where you scroll on the page, the
-                        navigation
-                        bar will always be at the top. Position: sticky, A sticky element is between relative and fixed
-                        positioning, depending on the scroll position. A sticky positioned element is positioned
-                        relative
-                        until a specified position is met in the viewport, then it "sticks" in place.</p>
-                </li>
-
-                <li>z-index
-                    <p>Z-index lets you set a stacking order to your page. If you set something to z-index: 1; and
-                        another
-                        element to z-index: 2; and put them in the same spot, the element that is set to z-index: 2;
-                        will
-                        be stacked on top of the other.</p>
-                </li>
-
-            </ul>
-
-            <h4>Other Commonly Used CSS Properties</h4>
-
-            <ul>
-
-                <li>border
-                    <p>Allows you to create a border around your element. The "border" property is shorthand for
-                        border-width, border-style, and border-color. You can also specify any of these properties on
-                        their
-                        own.</p>
-                </li>
-
-                <li>background-image
-                    <p>Allows you to place an image in the background of an element.</p>
-                </li>
-
-                <li>background-size
-                    <p>Allows you to specify the size of a background-image. In addition to the normal measurements,
-                        you
-                        can also set the background-size value to cover or contain. Cover will stretch the image to
-                        make it
-                        take up the entire container without repeating, and contain will size the image so that it
-                        always
-                        fits inside its container.</p>
-                </li>
-
-                <li>background-repeat
-                    <p>When a background image is to small to fit in its container it will repeat itself until the
-                        container is full. By specifying background-repeat to no-repeat you can stop this. You can also
-                        specify repeat-x or repeat-y to repeat either vertically or horizontally.</p>
-                </li>
-
-                <li>border-radius
-                    <p>Allows you to set the radius of your border. Letting you round the corners of a square border.</p>
-                </li>
-
-                <li>box-shadow
-                    <p>Allows you to give an element a shadow. This can create a 3d effect.</p>
-                </li>
-
-                <li>overflow
-                    <p>Allows you to specify what happens to content that exceeds the border limit of an element. Can
-                        be
-                        set to scroll (which places a scrollbar and clips the content at the border.), auto (which does
-                        the
-                        same thing as scroll except it only add a scrollbar if the content exceeds the border limit.),
-                        hidden (hidden just clips the content at the border and does not show it.), or the default
-                        overflow
-                        value which is visible (visible will make the content keep going even if it exceeds the border
-                        limit.)</p>
-                </li>
-
-            </ul>
-
-        </p>
-
-        <h3>CSS Box-Model</h3>
-
-        <img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1539219989/CSSBoxModel.png" alt="An image of the CSS-box-model">
-
-        <p>To create a good looking website, you are going to want to have a solid grasp on the CSS box-model. The CSS
-            box-model. The CSS box-model is the name for a box that wraps around every single HTML element. It consists
-            of
-            your actual content, padding, border, and margin. Instead of myself talking about the box-model, I will
-            provide
-            you a link to one of the . <a href="https://learn.shayhowe.com/html-css/opening-the-box-model/" target="_blank"
-                rel="noopener">best explanations of it I have ever found</a></p>
-
-        <h2>Are there any alternatives to CSS?</h2>
-
-        <p>
-            As with HTML, there are no real alternatives to CSS for web development. Also like HTML, there are
-            extensions
-            to CSS called CSS preprocessor. These preprocessor allow you more control over your CSS by giving you the
-            ability to do things such as nesting rules, declaring functions in your CSS, and creating and calling
-            variables.
-            A couple of the more notable CSS preprocessors include Sass, Less, and Stylus.
-        </p>
-
-        <h2>What other things about CSS should I know or are notable?</h2>
-
-        <p>
-            One of the most helpful developments in web development in recent years is the creation of frameworks.
-            There
-            are hundreds of frameworks available for web development for just about every programming language you can
-            think of. The frameworks available for HTML/CSS are some of the most popular among web developers for a
-            number
-            of different reasons, which we will get into right now.
-        </p>
-
-        <h3>CSS/HTML Frameworks</h3>
-
-        <h4><a href="https://getbootstrap.com/" target="_blank" rel="noopener">Twitter's Bootstrap</a></h4>
-
-        <p>
-            By far the most popular and widely used CSS/HTML framework is Bootstrap by Twitter. Bootstrap is, what is
-            called, a mobile first framework. A mobile first framework sets certain parameters for you by default to
-            make
-            sure your website looks good on all devices. This makes developing mobile apps or responsive websites much
-            easier and more efficient.
-        </p>
-
-        <h4><a href="https://foundation.zurb.com/" target="_blank" rel="noopener">Foundation By: Zurb</a></h4>
-
-        <p>
-            The next framework I am going to talk about has been riding Bootstraps coat tails for a long time. Many web
-            developers swear by it, but it's popularity has never been able to catch up with Twitter Bootstrap. This
-            does
-            not mean it is not as good as Bootstrap though, just a bit less popular. The framework I speak of is
-            Foundation
-            by Zurb. Zurb is a Facebook company, so you know with a massive corporation, such as FaceBook, behind it
-            that
-            it is going to have some nice features and some great documentation. Foundation, like Bootstrap, is a
-            mobile
-            first framework and offers a comparable amount of components and features as Bootstrap. One of the main
-            features that set Foundation apart from Bootstrap is its grid system. While many web developers prefer
-            Bootstraps Flex-Box grid system, there are many others that prefer Foundations X Y grid system. The
-            developers
-            that use Foundation say that the X Y grid system is much more flexible than the Flex-Box grid, thus giving
-            you
-            the ability to make your website really stand apart from other "Bootstrap looking" websites. The ability to
-            customize your website with the X Y grid can also be viewed as a minor drawback as well though. Bootstrap's
-            Flex-Box setup is considered much more beginner friendly than the X Y grid that Foundation uses. However,
-            Bootstrap's grid seems to make all of the websites built with it look somewhat similar. That is not as much
-            of
-            an issue with Foundation, as the amount of customization can truly make your website stand apart from
-            others.
-        </p>
-
-        <h4><a href="http://getskeleton.com/" target="_blank" rel="noopener">Skeleton.ui</a></h4>
-
-        <p>
-            If you want a truly customizable CSS/HTML framework, than look no further than Skeleton.UI. Skeleton.UI is
-            a
-            tiny framework compared to the other 2, which means better performance for your website. Skeleton.UI is
-            also a
-            mobile first framework and many of the bells and whistles that the other frameworks come with can be added.
-            It
-            also lacks many of the constraints that the other 2 frameworks put on web developers, making it highly
-            customizable. The biggest drawback of Skeleton.UI is that it does not scale well, so it should only be used
-            on
-            smaller projects. It's perfect for a beginner web developer that is just starting out though.
-        </p>
-
-        <p>
-            There are many more HTML/CSS frameworks available for web developers, and more are getting made weekly.
-            This
-            was just a list of some of the more popular ones. As with anything, the best way to find your perfect
-            framework, is to get out there and give some of them a try. <a href="https://github.com/troxler/awesome-css-frameworks"
-                target="_blank" rel="noopener">Here</a> is a list of other CSS frameworks to check out and go
-            experiment
-            with.
-        </p>
-
-        <h3>CSS Tools</h3>
-
-        <p>
-            There is an abundant amount of free CSS tools and generators available for free online, to assist you with
-            a
-            number of tasks. I am only going to cover a few of them. As with everything else, get out there and
-            experiment
-            with some of them. A big part of web development is a web developers "Toolbag", which are just different
-            tools
-            to make your life easier as an aspiring web developer.
-        </p>
-
-        <h4>CSS Tools for Colors</h4>
-
-        <p>
-            One of the main CSS tools you will use, and use a lot, are CSS color pickers. A color picker is a simple
-            tool,
-            but a vital one. Many of them have a simple "point and click" interface that allow you to pinpoint the
-            exact
-            color you want to use. Then there are others that offer many additional features to help you pick the
-            perfect
-            color. There are hundreds of color pickers available free online or for download and many code editors come
-            with them right out of the box or as extensions, so you don't even have to leave your editor to find the
-            perfect color. I have listed some of the better ones in the "Useful Tools" section of codingko.com. So, <a
-                href="/csstools" target="_blank">head on over there</a> and have a look.
-        </p>
-
-        <h4>CSS Gradient Generators</h4>
-
-        <p>
-            First off, if you don't know what a gradient is, then Google it really quick, because I am unsure of how to
-            go
-            about explaining it. Anyways, gradient generators allow you to create, usually, linear and radial gradients
-            for
-            your website by picking out a few colors on a color picker and then picking the points that you want the
-            colors
-            to start mixing and changing. After you picked your colors and the points and have a gradient that you want
-            to
-            use, the generator will generate the CSS rules for you to just copy and paste right into your stylesheet.
-            There
-            are a large amount of gradient generators available online, but I have already covered a few of them in the
-            CSS
-            Tools page here on codingko.com. If you want to take a look at some of the better ones that I have found
-            just
-            click <a href="/csstools">this link</a> and have a look.
-        </p>
-
-        <p>
-            There are a huge amount of other color tools available for CSS online. I have barely started to scratch the
-            surface here. The best way to find them is to just Google CSS tools and take a look around, or, once again,
-            you
-            can go take a look at the <a href="/csstools">CSS Tools page</a> of codingko.com, where I am adding new
-            tools
-            weekly.
-        </p>
-
-        <h4>CSS Preprocessors</h4>
-
-        <p>
-            Nowadays, if you don't know how to use at least one or two CSS preprocessors you are considered a dinosaur.
-            ALLLLLLLL of the cool kids are using them now. Learning a CSS preprocessor is starting to become almost as
-            important as learning plain CSS. I am only briefly going to touch on a few of the more popular ones, but
-            sometime in the near future I will be giving some of them their own "Who, What, Where, When, Why, and How's
-            of
-            Programming" article.
-        </p>
-
-        <h5>CSS Preprocessor: <a href="https://sass-lang.com/" target="_blank" rel="noopener">Sass</a></h5>
-
-        <p>
-            Sass stands for "Syntactically Awesome Stylesheets" and hails itself as "The most mature, stable, and
-            powerful
-            professional grade CSS extension language in the world". It has been around for 11 years and during that
-            time
-            has amassed, probably, the largest user group out of all the preprocessors. Sass allows you to do quite a
-            few
-            different things to extend the capabilities of CSS such as, using variable in your CSS, nesting your rules,
-            and
-            a sort-of function calling ability called mixins. Also, if you know CSS than you already know Sass, at
-            least as
-            far as the syntax. To really take advantage of Sass, you need to know how to use some of the features
-            listed
-            above, as well as it's many other features. Good thing it has a large vibrant community around it! Sass's
-            large
-            community has created hundreds of tutorials and created some great documentation. So, learning Sass should
-            be a
-            breeze.
-        </p>
-
-        <h5>CSS Preprocessor: <a href="http://lesscss.org/" target="_blank" rel="noopener">Less</a></h5>
-
-        <p>
-            Less stands for "Leaner Stylesheets" and is the second most famous CSS preprocessor and offers much of the
-            same
-            functionality as Sass. Actually, as far as I can tell, functionally, they are pretty much the same. The
-            only
-            real differences are that Sass is written in Ruby and Less is written in JavaScript. Also when assigning
-            and
-            using variables you have to put a "$" for Sass and with Less you have to put "@". Other than that they
-            allow
-            you to do all the same things. Don't take my word for it though, go test them out for yourself.
-        </p>
-
-        <h5>CSS Preprocessor: <a href="http://stylus-lang.com/" target="_blank" rel="noopener">Stylus</a></h5>
-
-        <p>
-            Stylus offers all of the same features as the other two plus a few additional features. Those additional
-            features, however, are pretty advanced, so Stylus is not recommended for beginners. One of those features
-            is
-            the ability to call functions. The other 2 preprocessors allow this as well, but Stylus takes it a bit
-            farther.
-            With Stylus you can create the type of functions you would find in an actual programming language. Things
-            like
-            conditional statement and loops. If you are already comfortable with those things, then Stylus might be a
-            good
-            option for you, as it is probably the most powerful preprocessor out of the 3.
-        </p>
-
-        <p>
-            There are many other tools available for CSS onl;ine. Everything from @keyframe animation generators to
-            full
-            libraries of animation ready for you to use. There are CSS minifiers to eliminate the white-space from your
-            stylesheets and make them take up less space. There are media query generators where you just copy and
-            paste
-            your code into it and it will generate the media queries for all the popular screen sizes. There are color
-            pallette generators where you pick out a color or 2 you know you want to use and it generates a list of
-            complimentary colors. Really, the list is endless as far as CSS tools go. I said it before and I will say
-            it
-            again. The best way to find the perfect tools for your web developer toolbag is to Google CSS tools and
-            browse,
-            or check out the <a href="/tools">"Useful Tools"</a> section of codingko.com, where I keep a regularly
-            updated
-            list of the best tools I have found for multiple language, including <a href="/csstools">CSS</a>.
-        </p>
-
-        <h2>What are the best resources available for learning CSS?</h2>
-
-        <p>
-            There are many, many, many resources available online for learning CSS. We will cover the top 3 in a
-            moment.
-            First, I want to tell you about the absolute, 100%, best way to learn CSS (or anything for that matter) is
-            to
-            do!!! So, learn a bit from these tutorials, then pick a website that you think looks pretty cool. After you
-            find a website that you think looks fresh (Kids still say fresh, right...?) try to recreate with only CSS
-            and
-            HTML. I promise you, you will learn faster doing this than if you did 100 tutorials. That being said, let's
-            take a look at the top 3 resources to get you started with learning CSS.
-        </p>
-
-        <p>
-            As a quick side note. Since HTML and CSS go hand in hand, the best resources for learning them are the
-            same. I
-            wanted to try to make them all different, but the following tutorials and courses are too good not to put
-            on
-            here for CSS. I promise you, in the future, I am going to try to make these resources different for each
-            language, unless the resource is exceptional at multiple languages. My apologies.
-        </p>
-
-        <h3><a href="https://www.codecademy.com/" target="_blank" rel="noopener">CodeAcademy</a>: CSS Course</h3>
-
-        <p>
-            For a beginner to computer programming or web development, CodeAcademy is one of the absolute best
-            resources.
-            They offer beginner courses, for free, in many different programming languages and technologies, including
-            CSS.
-            CodeAcademy assumes no prior knowledge of the language you want to learn, so you are learning everything
-            from
-            the very beginning. As you progress in their course, they will start to hold your hand less and less.
-            Before
-            you know it, you will be able to style a website pretty confidently by yourself. CodeAcademy does offer 2
-            paid
-            services as well. A Pro version of their curriculum, which takes you through some more advanced features of
-            CSS
-            (or whatever language you are trying to learn), and a pro intensive program that is more like an actual
-            college
-            course. The pro intensive course gives you additional content, a structured syllabus with deadlines, access
-            to
-            their Slack channel where you can ask questions to your peers or the moderators. You also get to take
-            quiz's
-            and complete mini-projects as well as a few cumulative projects that get reviewed from professional
-            developers.
-            Both the Pro plan and the Pro Intensive plan offer certificates of completion as well. The Pro plan will
-            cost
-            you $20 a month and the Pro Intensive is a 1 time $199 dollar payment. Those are pretty hefty prices and I
-            believe, if you are truly focused and want to learn the material, that you are more than capable of
-            learning
-            everything you need to know online for FREE! You just have to know where to look, and that's what I am here
-            to
-            help you with. If you feel more comfortable in a more structured learning environment and have the money,
-            though, then by all means check out their paid subscriptions.
-        </p>
-
-        <h3><a href="https://www.w3schools.com/" target="_blank" rel="noopener">W3 Schools</a></h3>
-
-        <p>
-            As I said in the "Who, What, Where, When, Why, and How's of HTML", I view W3 Schools more as reference
-            material
-            than a tutorial or course. Don't get me wrong, W3 Schools is a fantastic resource and a great place to go
-            for
-            reference material when your stuck on something. As a matter of fact, it is the first place I would
-            recommend
-            to look when your stuck on something related to HTML, CSS, or JavaScript. It's just that W3 Schools doesn't
-            go
-            to in depth with anything and isn't really structured well as a course or tutorial. That being said, W3
-            Schools
-            is perfect for learning HTML and CSS as these technologies don't have a lot of "in depth" things to cover.
-            Learning CSS with W3 Schools is great, seeing as though CSS is basically just styles. On their website they
-            cover every selector and property that you would ever need to know about and they give you a "playground"
-            area
-            where you can test out all of it.
-        </p>
-
-        <h3><a href="https://css-tricks.com/" target="_blank" rel="noopener">CSS-Tricks</a></h3>
-
-        <p>
-            The only one on this list that is different than the HTML article, CSS-Tricks is an amazing website and
-            learning resource. The CSS-Tricks staff and users are always publishing new and interesting ways to use CSS
-            for
-            your projects. Before journeying off to CSS-Tricks, though, I would recommend completing at least the
-            CodeAcademy CSS course. Much of the material and tutorial on CSS-Tricks involves some more advanced CSS
-            techniques and a lot of mixing different properties and values, so as a beginner, it could get quite
-            confusing.
-            After you have laid a solid foundation for understanding CSS through CodeAcademy or another resource, than
-            you
-            can learn some pretty amazing things from CSS-Tricks. Even if your a seasoned web developer, I would
-            recommend
-            bookmarking CSS-Tricks or signing up for their newsletter because they are usually on the up and up with
-            any
-            new CSS selectors coming out and which browsers support them as well as always publishing new material for
-            their readers. CSS-Tricks is one of my personal favorites because every single time I visit the site I
-            leave
-            having learned something new.
-        </p>
-
-        <p>
-            There you have it!!! The "Who, What, Where, When, Why, and How's of CSS". I hope you learned something new
-            today. Come back to codingko.com next week as we finish out the big three pillars of the internet and take
-            a
-            look at the "Who, What, When, Where, Why, and How's of JavaScript".
-        </p>
-
-        <p>
-            I would also like to say thank you sooo much for visiting codingko.com. It really means a lot to me to know
-            that I am helping someone else. If you have ANY questions at all for me, or want to bring up a concern to
-            me,
-            or criticize me, tell me I have something wrong, or just to say "Hi", please do not hesitate to <a href="/contact-me">contact
-                me</a>. I promise I will get back to you in a timely fashion and I would love to hear from you. Also,
-            if
-            you have a language or technology you would like to see covered here, shoot me an E-mail and I will try my
-            best
-            to make it happen.
-        </p>
-
-        <p>
-            I HOPE YOU HAVE A GOOD ONE, AND I WILL SEE YOU NEXT WEEK!!
-        </p>
+            the head of your HTML.)</p>
+
+        <p>Next you will want to know how to do some basic styles. You should already know how to create an HTML file
+            and how to use an external stylesheet, so I will not cover them again. If you missed <a href="/w5hhtml"
+                target="_blank">"The Who, What, Where, When, Why, and How's of HTML"</a>, check that out first and then
+            come back. You should also already know how to call your CSS selectors inside of your HTML, but here's a
+            quick example / refresher. </p> <br><br>
+        <span class="highlight">&lt;div id="myId"&gt; <---- Creates a CSS ID, which is specific to an HTML element.</span>
+                <br><br>
+                <span class="highlight">&lt;div class="myClass"&gt; <----- Creates a CSS class, which can be placed on
+                        any number of HTML elements. You have to do this same thing for every element you wish to style
+                        with that class.</span> <br><br>
+
+                        <p>
+                            Now that we know how to write some HTML, create an external stylesheet in the head of that
+                            HTML, and call CSS selectors inside your HTML, we will take a look back at the CSS for the
+                            responsive design example from earlier and go over the CSS properties and values that were
+                            used. We will start out at the top of the file, which was "css-ex-body" and go over its
+                            properties and values and move down from there.
+                        </p>
+
+                        <ul>
+                            <li>body (calling just the "body" element in the CSS file is called a "type" selector. It
+                                styles every HTML element of a certain type. In this case its the body HTML element,
+                                but you could also use "span", "div", "h1-h6", "p", or any other HTML element.)
+                                <ul>
+                                    <li>background-color - Allows you to set the background color of an HTML element.
+                                        When placed on the HTML body element, it will style the entire body of your
+                                        web-site.</li>
+                                    <li>padding-bottom - Padding allows you to push an element away from its border.
+                                        You can set padding-top, padding-bottom, padding-left, padding-right, or use
+                                        the shorthand property, which is simply padding. If you use the shorthand of
+                                        padding than you can set all 4 sides the same by typing in 1 value (padding:
+                                        2%;), you can set all four sides (padding: 2% 5% 3% 10%; - The order for this
+                                        is padding: top right bottom left;), or you can set values for the top and
+                                        bottom together and the left and right together (padding: 5% 10%; - The order
+                                        for this is padding: top/bottom left/right). Also, it's worth noting that you
+                                        can use a few different types of measurements for padding and almost all other
+                                        CSS properties. At the end of this section you can find a list with many of the
+                                        CSS property value measurements available to use.</li>
+                                </ul>
+                            </li>
+                            <li>
+                                #CSS-ID (This is an ID. It can only be used for 1 specific HTML element. You must place
+                                an octothorpe (hashtag) before the name of the id in your CSS file.)
+                                <ul>
+                                    <li>font-size - Allows you to specify a font size.</li>
+                                    <li>text-align - Allows you to align your text to the right, center, or left.</li>
+                                    <li>text-shadow - Allows you to make your text "POP", by giving it an extra
+                                        dimension look.</li>
+                                    <li>color - Allows you to specify the color of an HTML element. In this case it is
+                                        for text.</li>
+                                    <li>font-family - Allows you to select the type of font you want to use, as well as
+                                        back-up fonts in case the user does not have the font you chose installed on
+                                        their computer or device.</li>
+                                    <li>font-weight - Allows you to select the boldness of your text. 400 is the
+                                        default, everything under 400 will be lighter, and everything over 400 will be
+                                        darker.</li>
+                                </ul>
+                            </li>
+                            <li>
+                                #another-id (As it is another id, a new id name had to be used (You can only use an ID
+                                for 1 element, but can call as many unique id's as you would like.). The properties
+                                used for "another-id" were covered above in "CSS-ID".)
+                            </li>
+                            <li>
+                                #example-div (This is another HTML element with a CSS id tag attached to it.)
+                                <ul>
+                                    <li>width - Allows you to specify the width of an element. When using the CSS width
+                                        property with relative measurements, the elements width will be calculated
+                                        based on its parent container and will get wider or less wide along with the
+                                        screen size. With absolute measurements it will be exactly as wide as you
+                                        specify, and will not change.</li>
+                                    <li>margin - Margin allows you to control the distance your element is away from
+                                        another HTML element or from the end of the page. Margin is most often used for
+                                        positioning your elements. You can set margin-top, margin-bottom, margin-left,
+                                        margin-right, or use
+                                        the shorthand property, which is simply margin. If you use the shorthand of
+                                        margin than you can set all 4 sides the same by typing in 1 value (margin:
+                                        2%;), you can set all four sides (margin: 2% 5% 3% 10%; - The order for this
+                                        is margin: top right bottom left;), or you can set values for the top and
+                                        bottom together and the left and right together (margin: 5% 10%; - The order
+                                        for this is margin: top/bottom left/right). Also, it's worth noting that you
+                                        can use a few different types of measurements for margin and almost all other
+                                        CSS properties. At the end of this section you can find a list with many of the
+                                        CSS property value measurements available to use.</li>
+                                    <li>background-color - Allows you to set the background color of an element.</li>
+                                </ul>
+                            </li>
+                            <li>
+                                .CSS-class (This is a CSS class. You specify it in your CSS by putting a period(decimal
+                                point) before the class name. You can attach a class to any number of HTML elements and
+                                they will all follow the same rules you set in your CSS.)
+                                <ul>
+                                    <li>font-size - Allows you to specify the font size for all elements given the
+                                        class name CSS-class</li>
+                                    <li>background-color - Allows you to specify the background color for all element
+                                        given the class name of CSS-class</li>
+                                    <li>color - Allows you to specify the color of every element given the class name
+                                        CSS-class.</li>
+                                    <li>padding - Allows you to push an element away from its border.</li>
+                                    <li>line-height - Allows you to specify the distance between lines.</li>
+                                    <li>word-spacing - Allows you to specify the distance between words.</li>
+                                    <li>letter-spacing - Allows you to specify the distance between letters.</li>
+                                    <li>font-weight - Allows you specify the boldness of your font.</li>
+                                </ul>
+                            </li>
+                            <li>@media all and (max-width: 600px) (This is a Media Query. It allows you to specify
+                                different rules based on screen size or device type. Media Queries are the biggest
+                                factor in making responsive websites. At the end of this section you will find a list
+                                of some of the more common media queries. Also, stay tuned to codingko.com as I will be
+                                doing a full tutorial on responsive web design in the coming weeks.)</li>
+                        </ul>
+
+
+
+                        <img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1540675252/css-ex.png">
+
+                        <ul>
+                            <li>background-color
+                                <p>Allows you to set a background color.</p>
+                            </li>
+
+                            <li>color
+                                <p>Sets a color to the element.</p>
+                            </li>
+
+                            <li>font-size
+                                <p>For setting the size of your font. Can be set to RELATIVE MEASUREMENTS: vw (view
+                                    width), em(1
+                                    em=
+                                    16px), % (percentage), REM (Root HTML version of EM). ABSOLUTE MEASUREMENTS: px
+                                    (pixels), mm
+                                    (millimeter), cm (centimeter), in (inch), XX-small through xx-large. There are also
+                                    a few more
+                                    very
+                                    seldomly used measurements types. </p>
+                            </li>
+
+                            <li>font-weight
+                                <p>Allows you to set the boldness of your font. Can be any number from 0-900. 400 is
+                                    normal
+                                    font-weight, anything lower is lighter, anything higher is darker.</p>
+                            </li>
+
+                            <li>text-align
+                                <p>Can be set to left, center, right, justify.</p>
+                            </li>
+
+                            <li>text-indent
+                                <p>For indenting paragraphs.</p>
+                            </li>
+
+                            <li>height
+                                <p>Sets the height of an element.</p>
+                            </li>
+
+                            <li>width
+                                <p>Sets the width of an element.</p>
+                            </li>
+
+                            <li>margin
+                                <p>Allows you to set all 4 directions (top, bottom, left, right) to the same margin.</p>
+                            </li>
+
+                            <li>margin-xxxx (xxxx= top, bottom, left, or right)
+                                <p>Allows you to set the margin for specific sides of an element. Most positioning of
+                                    HTML elements
+                                    is
+                                    done with margins.</p>
+                            </li>
+
+                            <li>padding
+                                <p>Allows you to set all 4 sides of padding for an element. Padding is the space
+                                    between your
+                                    content
+                                    and it's border. It's all part of the box-model, which we will talk about shortly.</p>
+                            </li>
+
+                            <li>padding-xxxx (xxxx= top, bottom, left, or right)
+                                <p>Allows you to set padding for certain sides of an element.</p>
+                            </li>
+
+                            <li>border
+                                <p>Allows you to create a border around your element. The "border" property is
+                                    shorthand for
+                                    border-width, border-style, and border-color. You can also specify any of these
+                                    properties on
+                                    their
+                                    own.</p>
+                            </li>
+
+                            <li>background-image
+                                <p>Allows you to place an image in the background of an element.</p>
+                            </li>
+
+                            <li>background-size
+                                <p>Allows you to specify the size of a background-image. In addition to the normal
+                                    measurements,
+                                    you
+                                    can also set the background-size value to cover or contain. Cover will stretch the
+                                    image to
+                                    make it
+                                    take up the entire container without repeating, and contain will size the image so
+                                    that it
+                                    always
+                                    fits inside its container.</p>
+                            </li>
+
+                            <li>background-repeat
+                                <p>When a background image is to small to fit in its container it will repeat itself
+                                    until the
+                                    container is full. By specifying background-repeat to no-repeat you can stop this.
+                                    You can also
+                                    specify repeat-x or repeat-y to repeat either vertically or horizontally.</p>
+                            </li>
+
+                            <li>border-radius
+                                <p>Allows you to set the radius of your border. Letting you round the corners of a
+                                    square border.</p>
+                            </li>
+
+                            <li>box-shadow
+                                <p>Allows you to give an element a shadow. This can create a 3d effect.</p>
+                            </li>
+                        </ul>
+                        </p>
+                        <p>
+                            You will also want to know about the different types of CSS selectors and how to use them.
+                            The most
+                            commonly
+                            used selectors are, in order of specificity (HOLY CRAP!! I can't believe I haven't
+                            mentioned this yet, but
+                            the
+                            reason it's call "CASCADING Stylesheets" is because the CSS rules cascade downward. Meaning
+                            if an HTML
+                            element
+                            falls under multiple CSS rules, the selector that is more specific to that element wins.
+                            "." class selector
+                            is
+                            more specific than "*" universal selector, "#" id selector is more specific than "." class
+                            selector, etc.)
+                            the
+                            universal selector "*" which is an asterisk will style allll of the HTML elements. The type
+                            selector is the
+                            next most specific. To use the type selector you just put the type of HTML you want to
+                            style. Some HTML
+                            element
+                            types include H1-H6, div, span, p, etc. The class selector ".", which is a period or
+                            decimal point, is the
+                            next
+                            most specific CSS selector. With the class selector, you can style any number of HTML
+                            elements as long as
+                            you
+                            have assigned those elements a class name in your HTML. In order to assign a class to your
+                            HTML elements
+                            you
+                            need to first know which elements you are going to style. Then, inside the opening and
+                            closing brackets of
+                            the
+                            opening tag of the HTML element you want to style just type class="yourClassName" and BOOM,
+                            you just
+                            assigned a
+                            class to an element. Now you can assign that same class to as many elements as you want and
+                            they will all
+                            be
+                            styled the same. The last selector that I am going to talk about is the id selector and it
+                            is the 4th most
+                            specific of the selectors. The process of assigning a CSS id selector is exactly the same
+                            as the class
+                            selector, with one difference. You can only use an id selector on 1 HTML element.
+                        </p>
+
+                        <p>
+                            So, know you know about the CSS selectors, but what do you do with them after you assign
+                            them in your HTML
+                            and
+                            put them down in your stylesheet? You need to set your CSS rules with CSS properties. Here
+                            is a list of
+                            some of
+                            the more commonly used CSS properties and some examples of the kinds of values you can
+                            assign to them.
+
+                            <h4>CSS Commonly Used Color Properties</h4>
+
+                            <ul>
+
+                                <li>background-color
+                                    <p>Allows you to set a background color.</p>
+                                </li>
+
+                                <li>color
+                                    <p>Sets a color to the element.</p>
+                                </li>
+
+                                <li>opacity
+                                    <p>Allows you to make an element more or less transparent.</p>
+                                </li>
+
+                                <li>border-xxxx-color(xxxx=top,bottom,left,or right)
+                                    <p>Use if you want different sides of your border to be different colors.</p>
+                                </li>
+
+                                <li>filter
+                                    <p>Allows you to add FX to an element, such as blurring or color-shifting.</p>
+                                </li>
+
+                            </ul>
+
+                            <h4>CSS Commonly Used Font Properties</h4>
+
+                            <ul>
+
+                                <li>@font-face
+                                    <p>Allows you to download and use, non web-safe fonts in your project.</p>
+                                </li>
+
+                                <li>font-family
+                                    <p>For specifying what font you want to use.</p>
+                                </li>
+
+                                <li>font-size
+                                    <p>For setting the size of your font. Can be set to RELATIVE MEASUREMENTS: vw (view
+                                        width), em(1
+                                        em=
+                                        16px), % (percentage), REM (Root HTML version of EM). ABSOLUTE MEASUREMENTS: px
+                                        (pixels), mm
+                                        (millimeter), cm (centimeter), in (inch), XX-small through xx-large. There are
+                                        also a few more
+                                        very
+                                        seldomly used measurements types. </p>
+                                </li>
+
+                                <li>font-weight
+                                    <p>Allows you to set the boldness of your font. Can be any number from 0-900. 400
+                                        is normal
+                                        font-weight, anything lower is lighter, anything higher is darker.</p>
+                                </li>
+
+                                <li>text-align
+                                    <p>Can be set to left, center, right, justify.</p>
+                                </li>
+
+                                <li>text-indent
+                                    <p>For indenting paragraphs.</p>
+                                </li>
+
+                                <li>word-spacing
+                                    <p>Allows you to put as much space in between your words as you want.</p>
+                                </li>
+
+                                <li>letter-spacing
+                                    <p>Allows you to put space in between your letters.</p>
+                                </li>
+
+                            </ul>
+
+                            <h4>CSS Commonly Used Properties for Positioning and Layout</h4>
+
+                            <ul>
+                                <li>column-count
+                                    <p>Allows you to create columns and specify how many you want.</p>
+                                </li>
+
+                                <li>column-gap
+                                    <p>For specifying how large of a gap between your columns.</p>
+                                </li>
+
+                                <li>column-width
+                                    <p>To specify the width of your columns</p>
+                                </li>
+
+                                <li>display
+                                    <p>To specify how you want an HTML element to be displayed. Can be set to none,
+                                        block, inline,
+                                        inline-block. None takes the element off the page. I kow that sounds crazy,
+                                        your probably
+                                        thinking
+                                        "Then why even put the element there", but it can come in very handy. I seem to
+                                        use it mostly
+                                        for
+                                        hiding certain elements unless the screen-size is a certain width. Block
+                                        display starts a new
+                                        line
+                                        and take up the whole width. Inline display makes the elements unresponsive to
+                                        height and
+                                        width.
+                                        Inline-block display is the same as inline, only you can use height and width.</p>
+                                </li>
+
+                                <li>height
+                                    <p>Sets the height of an element.</p>
+                                </li>
+
+                                <li>width
+                                    <p>Sets the width of an element.</p>
+                                </li>
+
+                                <li>line-height
+                                    <p>Allows you to increase or decrease the space between lines.</p>
+                                </li>
+
+                                <li>margin
+                                    <p>Allows you to set all 4 directions (top, bottom, left, right) to the same
+                                        margin.</p>
+                                </li>
+
+                                <li>margin-xxxx (xxxx= top, bottom, left, or right)
+                                    <p>Allows you to set the margin for specific sides of an element. Most positioning
+                                        of HTML elements
+                                        is
+                                        done with margins.</p>
+                                </li>
+
+                                <li>@media
+                                    <p>@media is a media query. It allows you to set different style rules for
+                                        different size devices,
+                                        or
+                                        for certain devices, and different types of devices.</p>
+                                </li>
+
+                                <li>padding
+                                    <p>Allows you to set all 4 sides of padding for an element. Padding is the space
+                                        between your
+                                        content
+                                        and it's border. It's all part of the box-model, which we will talk about
+                                        shortly.</p>
+                                </li>
+
+                                <li>padding-xxxx (xxxx= top, bottom, left, or right)
+                                    <p>Allows you to set padding for certain sides of an element.</p>
+                                </li>
+
+                                <li>position
+                                    <p>Can be set to static (every element is static by default unless you specify
+                                        otherwise.).
+                                        Statically
+                                        positioned elements appear in the order that you put them in your HTML.
+                                        Position: absolute,
+                                        Absolutely positioned elements are positioned relatively to it's nearest
+                                        non-static ancestor
+                                        and is
+                                        taken out of the normal page flow. Position: relative, Relatively positioned
+                                        elements are
+                                        positioned relative to its normal position, so "right:40px" adds 40 pixels to
+                                        the element's
+                                        right
+                                        position. Position: fixed, fixed position elements are positioned relative to
+                                        the browser
+                                        window.
+                                        You will often see fixed positioning on things like a websites top navigation
+                                        bar. Having the
+                                        navigation bar set to fixed makes it so that no matter where you scroll on the
+                                        page, the
+                                        navigation
+                                        bar will always be at the top. Position: sticky, A sticky element is between
+                                        relative and fixed
+                                        positioning, depending on the scroll position. A sticky positioned element is
+                                        positioned
+                                        relative
+                                        until a specified position is met in the viewport, then it "sticks" in place.</p>
+                                </li>
+
+                                <li>z-index
+                                    <p>Z-index lets you set a stacking order to your page. If you set something to
+                                        z-index: 1; and
+                                        another
+                                        element to z-index: 2; and put them in the same spot, the element that is set
+                                        to z-index: 2;
+                                        will
+                                        be stacked on top of the other.</p>
+                                </li>
+
+                            </ul>
+
+                            <h4>Other Commonly Used CSS Properties</h4>
+
+                            <ul>
+
+                                <li>border
+                                    <p>Allows you to create a border around your element. The "border" property is
+                                        shorthand for
+                                        border-width, border-style, and border-color. You can also specify any of these
+                                        properties on
+                                        their
+                                        own.</p>
+                                </li>
+
+                                <li>background-image
+                                    <p>Allows you to place an image in the background of an element.</p>
+                                </li>
+
+                                <li>background-size
+                                    <p>Allows you to specify the size of a background-image. In addition to the normal
+                                        measurements,
+                                        you
+                                        can also set the background-size value to cover or contain. Cover will stretch
+                                        the image to
+                                        make it
+                                        take up the entire container without repeating, and contain will size the image
+                                        so that it
+                                        always
+                                        fits inside its container.</p>
+                                </li>
+
+                                <li>background-repeat
+                                    <p>When a background image is to small to fit in its container it will repeat
+                                        itself until the
+                                        container is full. By specifying background-repeat to no-repeat you can stop
+                                        this. You can also
+                                        specify repeat-x or repeat-y to repeat either vertically or horizontally.</p>
+                                </li>
+
+                                <li>border-radius
+                                    <p>Allows you to set the radius of your border. Letting you round the corners of a
+                                        square border.</p>
+                                </li>
+
+                                <li>box-shadow
+                                    <p>Allows you to give an element a shadow. This can create a 3d effect.</p>
+                                </li>
+
+                                <li>overflow
+                                    <p>Allows you to specify what happens to content that exceeds the border limit of
+                                        an element. Can
+                                        be
+                                        set to scroll (which places a scrollbar and clips the content at the border.),
+                                        auto (which does
+                                        the
+                                        same thing as scroll except it only add a scrollbar if the content exceeds the
+                                        border limit.),
+                                        hidden (hidden just clips the content at the border and does not show it.), or
+                                        the default
+                                        overflow
+                                        value which is visible (visible will make the content keep going even if it
+                                        exceeds the border
+                                        limit.)</p>
+                                </li>
+
+                            </ul>
+
+                        </p>
+
+                        <h3>CSS Box-Model</h3>
+
+                        <img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1539219989/CSSBoxModel.png" alt="An image of the CSS-box-model">
+
+                        <p>To create a good looking website, you are going to want to have a solid grasp on the CSS
+                            box-model. The CSS
+                            box-model. The CSS box-model is the name for a box that wraps around every single HTML
+                            element. It consists
+                            of
+                            your actual content, padding, border, and margin. Instead of myself talking about the
+                            box-model, I will
+                            provide
+                            you a link to one of the . <a href="https://learn.shayhowe.com/html-css/opening-the-box-model/"
+                                target="_blank" rel="noopener">best explanations of it I have ever found</a></p>
+
+                        <h3>Some of the more common Media Queries</h3>
+                        <div id="media-query-ex">
+                            /* Extra small devices (phones, 600px and down) */
+                            @media only screen and (max-width: 600px) {...}
+
+                            /* Small devices (portrait tablets and large phones, 600px and up) */
+                            @media only screen and (min-width: 600px) {...}
+
+                            /* Medium devices (landscape tablets, 768px and up) */
+                            @media only screen and (min-width: 768px) {...}
+
+                            /* Large devices (laptops/desktops, 992px and up) */
+                            @media only screen and (min-width: 992px) {...}
+
+                            /* Extra large devices (large laptops and desktops, 1200px and up) */
+                            @media only screen and (min-width: 1200px) {...}
+                        </div>
+
+                        <h3>CSS Property Value Measurements</h3>
+                        <p>Many CSS properties that set the size, length, or width of an HTML element have multiple
+                            ways to measure that property. There are 2 types of measurements, these are relative and
+                            absolute. For responsive design and accessability reasons you will want to use relative
+                            measurements most of the time. There are situations you will find yourself in, though, that
+                            only absolute measurements will be able to take care of. I, myself, prefer to use
+                            percentages and vh/vw (View Height and View Width), but other people may prefer to use rem
+                            or em, and yet others may prefer to use absolute measurements. It's all up to the developer
+                            and what they are comfortable with.</p>
+
+                        <h4>Relative CSS Measurements</h4>
+                        <ul>
+                            <li>em
+                                <p>Calculated relative to the current font-size of the parent element. For example, 2em
+                                    indicates 2 times larger size of the current element’s font-size.</p>
+                            </li>
+                            <li>ex
+                                <p>
+                                    Calculated relative the height of the current font-size.
+                                </p>
+                            </li>
+                            <li>% (Percentage)
+                                <p>
+                                    Percentage value relative to any element. For example, 50% width of the container.
+                                </p>
+                            </li>
+                            <li>rem
+                                <p>
+                                    Relative to the font-size of the root element.
+                                </p>
+                            </li>
+                            <li>vw
+                                <p>
+                                    Measured as a percentage value of the viewport’s width. If the viewport width is
+                                    100cm then 1vw=1cm.
+                                </p>
+                            </li>
+                            <li>vh
+                                <p>
+                                    Measured as a percentage value of the viewport’s height. If the viewport height is
+                                    100cm then 1vh=1cm.
+                                </p>
+                            </li>
+                            <li>vmin
+                                <p>
+                                    Percentage value of smaller viewport dimension. It is supported as “vm” in Internet
+                                    Explorer 9 and above versions.
+                                </p>
+                            </li>
+                            <li>vmax
+                                <p>
+                                    Percentage value of larger viewport dimension. This is not supported by IE.
+                                </p>
+                            </li>
+                            <li>ch
+                                <p>
+                                    Measured relative to width of zero (0).
+                                </p>
+                            </li>
+                        </ul>
+                        <h4>Absolute CSS Measurements</h4>
+                        <ul>
+                            <li>px
+                                <p>
+                                    Equal to 1 pixel on a computer screen.
+                                </p>
+                            </li>
+                            <li>in
+                                <p>
+                                    Absolute value in inches. 1 inch = 2.54 centimeters.
+                                </p>
+                            </li>
+                            <li>cm
+                                <p>
+                                    Centimeters
+                                </p>
+                            </li>
+                            <li>mm
+                                <p>
+                                    Millimeters
+                                </p>
+                            </li>
+                            <li>pt
+                                <p>
+                                    Points (1 point = 1/72 inches)
+                                </p>
+                            </li>
+                            <li>pc
+                                <p>
+                                    Picas (1 pica = 12 points)
+                                </p>
+                            </li>
+                        </ul>
+
+
+
+                        <h2>Are there any alternatives to CSS?</h2>
+
+                        <p>
+                            As with HTML, there are no real alternatives to CSS for web development. Also like HTML,
+                            there are
+                            extensions
+                            to CSS called CSS preprocessor. These preprocessor allow you more control over your CSS by
+                            giving you the
+                            ability to do things such as nesting rules, declaring functions in your CSS, and creating
+                            and calling
+                            variables.
+                            A couple of the more notable CSS preprocessors include Sass, Less, and Stylus.
+                        </p>
+
+                        <h2>What other things about CSS should I know or are notable?</h2>
+
+                        <p>
+                            One of the most helpful developments in web development in recent years is the creation of
+                            frameworks.
+                            There
+                            are hundreds of frameworks available for web development for just about every programming
+                            language you can
+                            think of. The frameworks available for HTML/CSS are some of the most popular among web
+                            developers for a
+                            number
+                            of different reasons, which we will get into right now.
+                        </p>
+
+                        <h3>CSS/HTML Frameworks</h3>
+
+                        <h4><a href="https://getbootstrap.com/" target="_blank" rel="noopener">Twitter's Bootstrap</a></h4>
+
+                        <p>
+                            By far the most popular and widely used CSS/HTML framework is Bootstrap by Twitter.
+                            Bootstrap is, what is
+                            called, a mobile first framework. A mobile first framework sets certain parameters for you
+                            by default to
+                            make
+                            sure your website looks good on all devices. This makes developing mobile apps or
+                            responsive websites much
+                            easier and more efficient.
+                        </p>
+
+                        <h4><a href="https://foundation.zurb.com/" target="_blank" rel="noopener">Foundation By: Zurb</a></h4>
+
+                        <p>
+                            The next framework I am going to talk about has been riding Bootstraps coat tails for a
+                            long time. Many web
+                            developers swear by it, but it's popularity has never been able to catch up with Twitter
+                            Bootstrap. This
+                            does
+                            not mean it is not as good as Bootstrap though, just a bit less popular. The framework I
+                            speak of is
+                            Foundation
+                            by Zurb. Zurb is a Facebook company, so you know with a massive corporation, such as
+                            FaceBook, behind it
+                            that
+                            it is going to have some nice features and some great documentation. Foundation, like
+                            Bootstrap, is a
+                            mobile
+                            first framework and offers a comparable amount of components and features as Bootstrap. One
+                            of the main
+                            features that set Foundation apart from Bootstrap is its grid system. While many web
+                            developers prefer
+                            Bootstraps Flex-Box grid system, there are many others that prefer Foundations X Y grid
+                            system. The
+                            developers
+                            that use Foundation say that the X Y grid system is much more flexible than the Flex-Box
+                            grid, thus giving
+                            you
+                            the ability to make your website really stand apart from other "Bootstrap looking"
+                            websites. The ability to
+                            customize your website with the X Y grid can also be viewed as a minor drawback as well
+                            though. Bootstrap's
+                            Flex-Box setup is considered much more beginner friendly than the X Y grid that Foundation
+                            uses. However,
+                            Bootstrap's grid seems to make all of the websites built with it look somewhat similar.
+                            That is not as much
+                            of
+                            an issue with Foundation, as the amount of customization can truly make your website stand
+                            apart from
+                            others.
+                        </p>
+
+                        <h4><a href="http://getskeleton.com/" target="_blank" rel="noopener">Skeleton.ui</a></h4>
+
+                        <p>
+                            If you want a truly customizable CSS/HTML framework, than look no further than Skeleton.UI.
+                            Skeleton.UI is
+                            a
+                            tiny framework compared to the other 2, which means better performance for your website.
+                            Skeleton.UI is
+                            also a
+                            mobile first framework and many of the bells and whistles that the other frameworks come
+                            with can be added.
+                            It
+                            also lacks many of the constraints that the other 2 frameworks put on web developers,
+                            making it highly
+                            customizable. The biggest drawback of Skeleton.UI is that it does not scale well, so it
+                            should only be used
+                            on
+                            smaller projects. It's perfect for a beginner web developer that is just starting out
+                            though.
+                        </p>
+
+                        <p>
+                            There are many more HTML/CSS frameworks available for web developers, and more are getting
+                            made weekly.
+                            This
+                            was just a list of some of the more popular ones. As with anything, the best way to find
+                            your perfect
+                            framework, is to get out there and give some of them a try. <a href="https://github.com/troxler/awesome-css-frameworks"
+                                target="_blank" rel="noopener">Here</a> is a list of other CSS frameworks to check out
+                            and go
+                            experiment
+                            with.
+                        </p>
+
+                        <h3>CSS Tools</h3>
+
+                        <p>
+                            There is an abundant amount of free CSS tools and generators available for free online, to
+                            assist you with
+                            a
+                            number of tasks. I am only going to cover a few of them. As with everything else, get out
+                            there and
+                            experiment
+                            with some of them. A big part of web development is a web developers "Toolbag", which are
+                            just different
+                            tools
+                            to make your life easier as an aspiring web developer.
+                        </p>
+
+                        <h4>CSS Tools for Colors</h4>
+
+                        <p>
+                            One of the main CSS tools you will use, and use a lot, are CSS color pickers. A color
+                            picker is a simple
+                            tool,
+                            but a vital one. Many of them have a simple "point and click" interface that allow you to
+                            pinpoint the
+                            exact
+                            color you want to use. Then there are others that offer many additional features to help
+                            you pick the
+                            perfect
+                            color. There are hundreds of color pickers available free online or for download and many
+                            code editors come
+                            with them right out of the box or as extensions, so you don't even have to leave your
+                            editor to find the
+                            perfect color. I have listed some of the better ones in the "Useful Tools" section of
+                            codingko.com. So, <a href="/csstools" target="_blank">head on over there</a> and have a
+                            look.
+                        </p>
+
+                        <h4>CSS Gradient Generators</h4>
+
+                        <p>
+                            First off, if you don't know what a gradient is, then Google it really quick, because I am
+                            unsure of how to
+                            go
+                            about explaining it. Anyways, gradient generators allow you to create, usually, linear and
+                            radial gradients
+                            for
+                            your website by picking out a few colors on a color picker and then picking the points that
+                            you want the
+                            colors
+                            to start mixing and changing. After you picked your colors and the points and have a
+                            gradient that you want
+                            to
+                            use, the generator will generate the CSS rules for you to just copy and paste right into
+                            your stylesheet.
+                            There
+                            are a large amount of gradient generators available online, but I have already covered a
+                            few of them in the
+                            CSS
+                            Tools page here on codingko.com. If you want to take a look at some of the better ones that
+                            I have found
+                            just
+                            click <a href="/csstools">this link</a> and have a look.
+                        </p>
+
+                        <p>
+                            There are a huge amount of other color tools available for CSS online. I have barely
+                            started to scratch the
+                            surface here. The best way to find them is to just Google CSS tools and take a look around,
+                            or, once again,
+                            you
+                            can go take a look at the <a href="/csstools">CSS Tools page</a> of codingko.com, where I
+                            am adding new
+                            tools
+                            weekly.
+                        </p>
+
+                        <h4>CSS Preprocessors</h4>
+
+                        <p>
+                            Nowadays, if you don't know how to use at least one or two CSS preprocessors you are
+                            considered a dinosaur.
+                            ALLLLLLLL of the cool kids are using them now. Learning a CSS preprocessor is starting to
+                            become almost as
+                            important as learning plain CSS. I am only briefly going to touch on a few of the more
+                            popular ones, but
+                            sometime in the near future I will be giving some of them their own "Who, What, Where,
+                            When, Why, and How's
+                            of
+                            Programming" article.
+                        </p>
+
+                        <h5>CSS Preprocessor: <a href="https://sass-lang.com/" target="_blank" rel="noopener">Sass</a></h5>
+
+                        <p>
+                            Sass stands for "Syntactically Awesome Stylesheets" and hails itself as "The most mature,
+                            stable, and
+                            powerful
+                            professional grade CSS extension language in the world". It has been around for 11 years
+                            and during that
+                            time
+                            has amassed, probably, the largest user group out of all the preprocessors. Sass allows you
+                            to do quite a
+                            few
+                            different things to extend the capabilities of CSS such as, using variable in your CSS,
+                            nesting your rules,
+                            and
+                            a sort-of function calling ability called mixins. Also, if you know CSS than you already
+                            know Sass, at
+                            least as
+                            far as the syntax. To really take advantage of Sass, you need to know how to use some of
+                            the features
+                            listed
+                            above, as well as it's many other features. Good thing it has a large vibrant community
+                            around it! Sass's
+                            large
+                            community has created hundreds of tutorials and created some great documentation. So,
+                            learning Sass should
+                            be a
+                            breeze.
+                        </p>
+
+                        <h5>CSS Preprocessor: <a href="http://lesscss.org/" target="_blank" rel="noopener">Less</a></h5>
+
+                        <p>
+                            Less stands for "Leaner Stylesheets" and is the second most famous CSS preprocessor and
+                            offers much of the
+                            same
+                            functionality as Sass. Actually, as far as I can tell, functionally, they are pretty much
+                            the same. The
+                            only
+                            real differences are that Sass is written in Ruby and Less is written in JavaScript. Also
+                            when assigning
+                            and
+                            using variables you have to put a "$" for Sass and with Less you have to put "@". Other
+                            than that they
+                            allow
+                            you to do all the same things. Don't take my word for it though, go test them out for
+                            yourself.
+                        </p>
+
+                        <h5>CSS Preprocessor: <a href="http://stylus-lang.com/" target="_blank" rel="noopener">Stylus</a></h5>
+
+                        <p>
+                            Stylus offers all of the same features as the other two plus a few additional features.
+                            Those additional
+                            features, however, are pretty advanced, so Stylus is not recommended for beginners. One of
+                            those features
+                            is
+                            the ability to call functions. The other 2 preprocessors allow this as well, but Stylus
+                            takes it a bit
+                            farther.
+                            With Stylus you can create the type of functions you would find in an actual programming
+                            language. Things
+                            like
+                            conditional statement and loops. If you are already comfortable with those things, then
+                            Stylus might be a
+                            good
+                            option for you, as it is probably the most powerful preprocessor out of the 3.
+                        </p>
+
+                        <p>
+                            There are many other tools available for CSS onl;ine. Everything from @keyframe animation
+                            generators to
+                            full
+                            libraries of animation ready for you to use. There are CSS minifiers to eliminate the
+                            white-space from your
+                            stylesheets and make them take up less space. There are media query generators where you
+                            just copy and
+                            paste
+                            your code into it and it will generate the media queries for all the popular screen sizes.
+                            There are color
+                            pallette generators where you pick out a color or 2 you know you want to use and it
+                            generates a list of
+                            complimentary colors. Really, the list is endless as far as CSS tools go. I said it before
+                            and I will say
+                            it
+                            again. The best way to find the perfect tools for your web developer toolbag is to Google
+                            CSS tools and
+                            browse,
+                            or check out the <a href="/tools">"Useful Tools"</a> section of codingko.com, where I keep
+                            a regularly
+                            updated
+                            list of the best tools I have found for multiple language, including <a href="/csstools">CSS</a>.
+                        </p>
+
+                        <h2>What are the best resources available for learning CSS?</h2>
+
+                        <p>
+                            There are many, many, many resources available online for learning CSS. We will cover the
+                            top 3 in a
+                            moment.
+                            First, I want to tell you about the absolute, 100%, best way to learn CSS (or anything for
+                            that matter) is
+                            to
+                            do!!! So, learn a bit from these tutorials, then pick a website that you think looks pretty
+                            cool. After you
+                            find a website that you think looks fresh (Kids still say fresh, right...?) try to recreate
+                            with only CSS
+                            and
+                            HTML. I promise you, you will learn faster doing this than if you did 100 tutorials. That
+                            being said, let's
+                            take a look at the top 3 resources to get you started with learning CSS.
+                        </p>
+
+                        <p>
+                            As a quick side note. Since HTML and CSS go hand in hand, the best resources for learning
+                            them are the
+                            same. I
+                            wanted to try to make them all different, but the following tutorials and courses are too
+                            good not to put
+                            on
+                            here for CSS. I promise you, in the future, I am going to try to make these resources
+                            different for each
+                            language, unless the resource is exceptional at multiple languages. My apologies.
+                        </p>
+
+                        <h3><a href="https://www.codecademy.com/" target="_blank" rel="noopener">CodeAcademy</a>: CSS
+                            Course</h3>
+
+                        <p>
+                            For a beginner to computer programming or web development, CodeAcademy is one of the
+                            absolute best
+                            resources.
+                            They offer beginner courses, for free, in many different programming languages and
+                            technologies, including
+                            CSS.
+                            CodeAcademy assumes no prior knowledge of the language you want to learn, so you are
+                            learning everything
+                            from
+                            the very beginning. As you progress in their course, they will start to hold your hand less
+                            and less.
+                            Before
+                            you know it, you will be able to style a website pretty confidently by yourself.
+                            CodeAcademy does offer 2
+                            paid
+                            services as well. A Pro version of their curriculum, which takes you through some more
+                            advanced features of
+                            CSS
+                            (or whatever language you are trying to learn), and a pro intensive program that is more
+                            like an actual
+                            college
+                            course. The pro intensive course gives you additional content, a structured syllabus with
+                            deadlines, access
+                            to
+                            their Slack channel where you can ask questions to your peers or the moderators. You also
+                            get to take
+                            quiz's
+                            and complete mini-projects as well as a few cumulative projects that get reviewed from
+                            professional
+                            developers.
+                            Both the Pro plan and the Pro Intensive plan offer certificates of completion as well. The
+                            Pro plan will
+                            cost
+                            you $20 a month and the Pro Intensive is a 1 time $199 dollar payment. Those are pretty
+                            hefty prices and I
+                            believe, if you are truly focused and want to learn the material, that you are more than
+                            capable of
+                            learning
+                            everything you need to know online for FREE! You just have to know where to look, and
+                            that's what I am here
+                            to
+                            help you with. If you feel more comfortable in a more structured learning environment and
+                            have the money,
+                            though, then by all means check out their paid subscriptions.
+                        </p>
+
+                        <h3><a href="https://www.w3schools.com/" target="_blank" rel="noopener">W3 Schools</a></h3>
+
+                        <p>
+                            As I said in the "Who, What, Where, When, Why, and How's of HTML", I view W3 Schools more
+                            as reference
+                            material
+                            than a tutorial or course. Don't get me wrong, W3 Schools is a fantastic resource and a
+                            great place to go
+                            for
+                            reference material when your stuck on something. As a matter of fact, it is the first place
+                            I would
+                            recommend
+                            to look when your stuck on something related to HTML, CSS, or JavaScript. It's just that W3
+                            Schools doesn't
+                            go
+                            to in depth with anything and isn't really structured well as a course or tutorial. That
+                            being said, W3
+                            Schools
+                            is perfect for learning HTML and CSS as these technologies don't have a lot of "in depth"
+                            things to cover.
+                            Learning CSS with W3 Schools is great, seeing as though CSS is basically just styles. On
+                            their website they
+                            cover every selector and property that you would ever need to know about and they give you
+                            a "playground"
+                            area
+                            where you can test out all of it.
+                        </p>
+
+                        <h3><a href="https://css-tricks.com/" target="_blank" rel="noopener">CSS-Tricks</a></h3>
+
+                        <p>
+                            The only one on this list that is different than the HTML article, CSS-Tricks is an amazing
+                            website and
+                            learning resource. The CSS-Tricks staff and users are always publishing new and interesting
+                            ways to use CSS
+                            for
+                            your projects. Before journeying off to CSS-Tricks, though, I would recommend completing at
+                            least the
+                            CodeAcademy CSS course. Much of the material and tutorial on CSS-Tricks involves some more
+                            advanced CSS
+                            techniques and a lot of mixing different properties and values, so as a beginner, it could
+                            get quite
+                            confusing.
+                            After you have laid a solid foundation for understanding CSS through CodeAcademy or another
+                            resource, than
+                            you
+                            can learn some pretty amazing things from CSS-Tricks. Even if your a seasoned web
+                            developer, I would
+                            recommend
+                            bookmarking CSS-Tricks or signing up for their newsletter because they are usually on the
+                            up and up with
+                            any
+                            new CSS selectors coming out and which browsers support them as well as always publishing
+                            new material for
+                            their readers. CSS-Tricks is one of my personal favorites because every single time I visit
+                            the site I
+                            leave
+                            having learned something new.
+                        </p>
+
+                        <p>
+                            There you have it!!! The "Who, What, Where, When, Why, and How's of CSS". I hope you
+                            learned something new
+                            today. Come back to codingko.com next week as we finish out the big three pillars of the
+                            internet and take
+                            a
+                            look at the "Who, What, When, Where, Why, and How's of JavaScript".
+                        </p>
+
+                        <p>
+                            I would also like to say thank you sooo much for visiting codingko.com. It really means a
+                            lot to me to know
+                            that I am helping someone else. If you have ANY questions at all for me, or want to bring
+                            up a concern to
+                            me,
+                            or criticize me, tell me I have something wrong, or just to say "Hi", please do not
+                            hesitate to <a href="/contact-me">contact
+                                me</a>. I promise I will get back to you in a timely fashion and I would love to hear
+                            from you. Also,
+                            if
+                            you have a language or technology you would like to see covered here, shoot me an E-mail
+                            and I will try my
+                            best
+                            to make it happen.
+                        </p>
+
+                        <p>
+                            I HOPE YOU HAVE A GOOD ONE, AND I WILL SEE YOU NEXT WEEK!!
+                        </p>
 
     </div>
 

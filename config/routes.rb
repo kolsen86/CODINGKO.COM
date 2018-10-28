@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   get 'w5h_css_tutorial', to: 'static#w5h_css_tutorial'
   get 'htmltools', to: 'pages#htmltools'
   get 'csstools', to: 'pages#csstools'
+  get 'javascripttools', to: 'pages#javascripttools'
   get 'about', to: 'static#about'
   get 'grind', to: 'pages#grind'
   get 'tutorials', to: 'static#tutorials'

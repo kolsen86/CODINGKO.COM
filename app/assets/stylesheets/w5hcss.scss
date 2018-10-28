@@ -112,10 +112,19 @@
         font-size: 3.5vw;
     }
 
+    .highlight {
+        background-color: yellow;
+    }
+
+    iframe {
+        margin-left: 7%;
+        margin-top: 5%;
+    }
+
     #resizable-ex {
         resize: horizontal;
-        overflow: auto;
-        height: 75vh;
+        overflow: scroll;
+        height: 95vh;
         width: 80vw;
         min-width: 580px;
         max-width: 1106.240px;

@@ -1,6 +1,18 @@
 #css-ex-body {
     background-color: #1950a8;
     padding-bottom: 15%;
+    padding-top: 10%;
+    
+}
+
+#css-ex-head {
+    font-size: 8vw;
+    text-align: center;
+    padding: 5% 1%;
+    font-family: "Times New Roman", Times, serif;
+    color: #db7100;
+    margin-left: -3%;
+    font-weight: 900;
 }
 
 #CSS-ID {
@@ -33,6 +45,10 @@
     word-spacing: 0.2em;
     letter-spacing: 0.1em;
     font-weight: 900;
+}
+
+.button_container {
+    display: none;
 }
 
 
