@@ -47,10 +47,6 @@
     font-weight: 900;
 }
 
-.button_container {
-    display: none;
-}
-
 
 @media all and (max-width: 600px) {
     #css-ex-body {
