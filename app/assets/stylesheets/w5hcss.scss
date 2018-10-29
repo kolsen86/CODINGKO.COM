@@ -454,6 +454,10 @@
             }
         
             #css-content {
+
+                    #box-m {
+                        width: 60%;
+                    }
         
                     h2 {
                         font-size: 3.6vw
@@ -532,5 +536,105 @@
         }
 
         @media all and (max-width: 450px) {
-            
+            #css-head {
+                font-size: 7.5vw;
+            }
+        
+            #html-intro {
+                font-size: 3.6vw;
+            }
+        
+            #css-content {
+
+                #ext-stylesheet {
+                    height: 160px;
+                    width: 100%;
+                    margin-left: 0%;
+                }
+
+                #css-tuts-img {
+                    width: 100%;
+                    float: none;
+                }
+
+                    #box-m {
+                        width: 90%;
+                        margin-left: 2.5%;
+                    }
+        
+                    h2 {
+                        font-size: 4.3vw
+                    }
+        
+                    h3, h4 {
+                        font-size: 4.1vw;
+                    }
+        
+                    .prepro {
+                        font-size: 3.8vw;
+                    }
+        
+                    p {
+                        font-size: 3.7vw;
+                    }
+        
+                    .fa-arrow-left {
+                        font-size: 3.4vw;
+                    }
+        
+                    a:hover {
+                        font-size: 4.9vw;
+                    }
+        
+                    #refresher-css {
+                        font-size: 3.8vw;
+                    }
+        
+                    .black-bg {
+        
+                        a, h3 {
+                            font-size: 5vw;
+                        }
+                    }
+        
+                    figcaption {
+                        font-size: 3.7vw;
+                    }
+        
+                    #css-end {
+                        font-size: 4.5vw;
+                    }
+        
+                    #css-html-class-ex {
+                        height: 275px;
+                    }
+        
+                    #css-class-ex {
+                        float: none;
+                        width: 100%;
+                    }
+        
+                    #media-query-ex {
+        
+                        li {
+                        margin-left: 3%;
+                        }
+                    }
+        
+                    #css-tuts-selectors, .common-selectors, #media-query-ex, .css-measure {
+                
+                            li {
+                                font-size: 4.2vw;
+                                margin-top: 3%;
+                
+                                    h5 {
+                                        font-size: 4vw;
+                                    }
+                
+                                    p {
+                                        font-size: 3.6vw;
+                                    }
+                            }
+                    }
+                }
         }
