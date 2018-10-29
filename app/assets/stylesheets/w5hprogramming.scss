@@ -50,11 +50,53 @@
     margin-top: 5%;
     font-family: 'Special Elite', cursive;
     color: #3d348b;
-    text-shadow: 2px -3px 3px #191716;
+    text-shadow: 1px -2px 2px #191716;
 
     a:hover {
        color: #191716;
        text-shadow: -2px 3px 3px #3d348b;
        font-size: 3.5vw;
+    }
+}
+
+@media all and (max-width: 800px) {
+    #programming-intro {
+        font-size: 2.1vw;
+    }
+
+    .w5h-links {
+        font-size: 3.3vw;
+    }
+
+    a:hover {
+        font-size: 3.8vw;
+    }
+}
+
+@media all and (max-width: 600px) {
+    #programming-intro {
+        font-size: 2.7vw;
+    }
+
+    .w5h-links {
+        font-size: 3.7vw;
+    }
+
+    a:hover {
+        font-size: 4.1vw;
+    }
+}
+
+@media all and (max-width: 425px) {
+    #programming-intro {
+        font-size: 3.1vw;
+    }
+
+    .w5h-links {
+        font-size: 4vw;
+    }
+
+    a:hover {
+        font-size: 4.3vw;
     }
 }
