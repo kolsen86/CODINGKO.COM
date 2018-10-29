@@ -176,7 +176,7 @@
 
         <h3 id="animation">Animation with CSS</h3>
 
-        <p class="slide-rotate-hor-top">
+        <p>
             It used to be, that if you wanted to use animations on your website, you would have to use JavaScript.
             While
             this is still true to a certain extent, for simpler animations you can now use CSS. To use CSS to make
@@ -262,7 +262,7 @@
             short
             example,
 
-            <img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1539220332/external-stylesheet-ex.png" alt="Image of where to place the link to an external stylesheet.">
+            <img id="ext-stylesheet" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1539220332/external-stylesheet-ex.png" alt="Image of where to place the link to an external stylesheet.">
         </p>
         <p>
             The next thing you should know about CSS to get a website, with some basic styling, up and going is the CSS
@@ -277,29 +277,33 @@
                 target="_blank">"The Who, What, Where, When, Why, and How's of HTML"</a>, check that out first and then
             come back. You should also already know how to call your CSS selectors inside of your HTML, but here's a
             quick example / refresher. </p> <br><br>
+
+            <div id="refresher-css">
         <span class="highlight">&lt;div id="myId"&gt; <---- Creates a CSS ID, which is specific to an HTML element.</span>
                 <br><br>
                 <span class="highlight">&lt;div class="myClass"&gt; <----- Creates a CSS class, which can be placed on
                         any number of HTML elements. You have to do this same thing for every element you wish to style
                         with that class.</span> <br><br>
-
+            </div>
                         <p>
                             Now that we know how to write some HTML, create an external stylesheet in the head of that
                             HTML, and call CSS selectors inside your HTML, we will take a look back at the CSS for the
                             responsive design example from earlier and go over the CSS properties and values that were
                             used. We will start out at the top of the file, which was "css-ex-body" and go over its
-                            properties and values and move down from there.
+                            properties and values and move down from there.  <a href="/w5h_css_tutorial" target="_blank">Here is the webpage</a>, so you can see what the rules do.
                         </p>
 
-                        <ul>
-                            <li>body (calling just the "body" element in the CSS file is called a "type" selector. It
+                        <img id="css-tuts-img" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1540675252/css-ex.png">
+
+                        <ul id="css-tuts-selectors">
+                            <li><h5>body</h5> (calling just the "body" element in the CSS file is called a "type" selector. It
                                 styles every HTML element of a certain type. In this case its the body HTML element,
                                 but you could also use "span", "div", "h1-h6", "p", or any other HTML element.)
                                 <ul>
-                                    <li>background-color - Allows you to set the background color of an HTML element.
+                                    <li><h5>background-color</h5> - Allows you to set the background color of an HTML element.
                                         When placed on the HTML body element, it will style the entire body of your
                                         web-site.</li>
-                                    <li>padding-bottom - Padding allows you to push an element away from its border.
+                                    <li><h5>padding-bottom</h5> - Padding allows you to push an element away from its border.
                                         You can set padding-top, padding-bottom, padding-left, padding-right, or use
                                         the shorthand property, which is simply padding. If you use the shorthand of
                                         padding than you can set all 4 sides the same by typing in 1 value (padding:
@@ -313,37 +317,39 @@
                                 </ul>
                             </li>
                             <li>
-                                #CSS-ID (This is an ID. It can only be used for 1 specific HTML element. You must place
+                                <h5>#CSS-ID</h5> (This is an ID. It can only be used for 1 specific HTML element. You must place
                                 an octothorpe (hashtag) before the name of the id in your CSS file.)
                                 <ul>
-                                    <li>font-size - Allows you to specify a font size.</li>
-                                    <li>text-align - Allows you to align your text to the right, center, or left.</li>
-                                    <li>text-shadow - Allows you to make your text "POP", by giving it an extra
+                                    <li><h5>font-size</h5> - Allows you to specify a font size.</li>
+                                    <li><h5>text-align</h5> - Allows you to align your text to the right, center, or left.</li>
+                                    <li><h5>text-shadow</h5> - Allows you to make your text "POP", by giving it an extra
                                         dimension look.</li>
-                                    <li>color - Allows you to specify the color of an HTML element. In this case it is
+                                    <li><h5>color</h5> - Allows you to specify the color of an HTML element. In this case it is
                                         for text.</li>
-                                    <li>font-family - Allows you to select the type of font you want to use, as well as
+                                    <li><h5>font-family</h5> - Allows you to select the type of font you want to use, as well as
                                         back-up fonts in case the user does not have the font you chose installed on
                                         their computer or device.</li>
-                                    <li>font-weight - Allows you to select the boldness of your text. 400 is the
+                                    <li><h5>font-weight</h5> - Allows you to select the boldness of your text. 400 is the
                                         default, everything under 400 will be lighter, and everything over 400 will be
                                         darker.</li>
                                 </ul>
                             </li>
                             <li>
-                                #another-id (As it is another id, a new id name had to be used (You can only use an ID
+                                <h5>#another-id</h5> (As it is another id, a new id name had to be used (You can only use an ID
                                 for 1 element, but can call as many unique id's as you would like.). The properties
                                 used for "another-id" were covered above in "CSS-ID".)
                             </li>
+                            <div id="more-col">
+                
                             <li>
-                                #example-div (This is another HTML element with a CSS id tag attached to it.)
+                                <h5>#example-div</h5> (This is another HTML element with a CSS id tag attached to it.)
                                 <ul>
-                                    <li>width - Allows you to specify the width of an element. When using the CSS width
+                                    <li><h5>width</h5> - Allows you to specify the width of an element. When using the CSS width
                                         property with relative measurements, the elements width will be calculated
                                         based on its parent container and will get wider or less wide along with the
                                         screen size. With absolute measurements it will be exactly as wide as you
                                         specify, and will not change.</li>
-                                    <li>margin - Margin allows you to control the distance your element is away from
+                                    <li><h5>margin</h5> - Margin allows you to control the distance your element is away from
                                         another HTML element or from the end of the page. Margin is most often used for
                                         positioning your elements. You can set margin-top, margin-bottom, margin-left,
                                         margin-right, or use
@@ -356,147 +362,37 @@
                                         can use a few different types of measurements for margin and almost all other
                                         CSS properties. At the end of this section you can find a list with many of the
                                         CSS property value measurements available to use.</li>
-                                    <li>background-color - Allows you to set the background color of an element.</li>
+                                    <li><h5>background-color</h5> - Allows you to set the background color of an element.</li>
                                 </ul>
                             </li>
+                
                             <li>
-                                .CSS-class (This is a CSS class. You specify it in your CSS by putting a period(decimal
+                                <h5>.CSS-class</h5> (This is a CSS class. You specify it in your CSS by putting a period(decimal
                                 point) before the class name. You can attach a class to any number of HTML elements and
                                 they will all follow the same rules you set in your CSS.)
                                 <ul>
-                                    <li>font-size - Allows you to specify the font size for all elements given the
+                                    <li><h5>font-size</h5> - Allows you to specify the font size for all elements given the
                                         class name CSS-class</li>
-                                    <li>background-color - Allows you to specify the background color for all element
+                                    <li><h5>background-color</h5> - Allows you to specify the background color for all element
                                         given the class name of CSS-class</li>
-                                    <li>color - Allows you to specify the color of every element given the class name
+                                    <li><h5>color</h5> - Allows you to specify the color of every element given the class name
                                         CSS-class.</li>
-                                    <li>padding - Allows you to push an element away from its border.</li>
-                                    <li>line-height - Allows you to specify the distance between lines.</li>
-                                    <li>word-spacing - Allows you to specify the distance between words.</li>
-                                    <li>letter-spacing - Allows you to specify the distance between letters.</li>
-                                    <li>font-weight - Allows you specify the boldness of your font.</li>
+                                    <li><h5>padding</h5> - Allows you to push an element away from its border.</li>
+                                    <li><h5>line-height</h5> - Allows you to specify the distance between lines.</li>
+                                    <li><h5>word-spacing</h5> - Allows you to specify the distance between words.</li>
+                                    <li><h5>letter-spacing</h5> - Allows you to specify the distance between letters.</li>
+                                    <li><h5>font-weight</h5> - Allows you specify the boldness of your font.</li>
                                 </ul>
                             </li>
-                            <li>@media all and (max-width: 600px) (This is a Media Query. It allows you to specify
+                            </div>
+                            <li><h5>@media all and (max-width: 600px)</h5> - (This is a Media Query. It allows you to specify
                                 different rules based on screen size or device type. Media Queries are the biggest
                                 factor in making responsive websites. At the end of this section you will find a list
                                 of some of the more common media queries. Also, stay tuned to codingko.com as I will be
                                 doing a full tutorial on responsive web design in the coming weeks.)</li>
+                                
                         </ul>
 
-
-
-                        <img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1540675252/css-ex.png">
-
-                        <ul>
-                            <li>background-color
-                                <p>Allows you to set a background color.</p>
-                            </li>
-
-                            <li>color
-                                <p>Sets a color to the element.</p>
-                            </li>
-
-                            <li>font-size
-                                <p>For setting the size of your font. Can be set to RELATIVE MEASUREMENTS: vw (view
-                                    width), em(1
-                                    em=
-                                    16px), % (percentage), REM (Root HTML version of EM). ABSOLUTE MEASUREMENTS: px
-                                    (pixels), mm
-                                    (millimeter), cm (centimeter), in (inch), XX-small through xx-large. There are also
-                                    a few more
-                                    very
-                                    seldomly used measurements types. </p>
-                            </li>
-
-                            <li>font-weight
-                                <p>Allows you to set the boldness of your font. Can be any number from 0-900. 400 is
-                                    normal
-                                    font-weight, anything lower is lighter, anything higher is darker.</p>
-                            </li>
-
-                            <li>text-align
-                                <p>Can be set to left, center, right, justify.</p>
-                            </li>
-
-                            <li>text-indent
-                                <p>For indenting paragraphs.</p>
-                            </li>
-
-                            <li>height
-                                <p>Sets the height of an element.</p>
-                            </li>
-
-                            <li>width
-                                <p>Sets the width of an element.</p>
-                            </li>
-
-                            <li>margin
-                                <p>Allows you to set all 4 directions (top, bottom, left, right) to the same margin.</p>
-                            </li>
-
-                            <li>margin-xxxx (xxxx= top, bottom, left, or right)
-                                <p>Allows you to set the margin for specific sides of an element. Most positioning of
-                                    HTML elements
-                                    is
-                                    done with margins.</p>
-                            </li>
-
-                            <li>padding
-                                <p>Allows you to set all 4 sides of padding for an element. Padding is the space
-                                    between your
-                                    content
-                                    and it's border. It's all part of the box-model, which we will talk about shortly.</p>
-                            </li>
-
-                            <li>padding-xxxx (xxxx= top, bottom, left, or right)
-                                <p>Allows you to set padding for certain sides of an element.</p>
-                            </li>
-
-                            <li>border
-                                <p>Allows you to create a border around your element. The "border" property is
-                                    shorthand for
-                                    border-width, border-style, and border-color. You can also specify any of these
-                                    properties on
-                                    their
-                                    own.</p>
-                            </li>
-
-                            <li>background-image
-                                <p>Allows you to place an image in the background of an element.</p>
-                            </li>
-
-                            <li>background-size
-                                <p>Allows you to specify the size of a background-image. In addition to the normal
-                                    measurements,
-                                    you
-                                    can also set the background-size value to cover or contain. Cover will stretch the
-                                    image to
-                                    make it
-                                    take up the entire container without repeating, and contain will size the image so
-                                    that it
-                                    always
-                                    fits inside its container.</p>
-                            </li>
-
-                            <li>background-repeat
-                                <p>When a background image is to small to fit in its container it will repeat itself
-                                    until the
-                                    container is full. By specifying background-repeat to no-repeat you can stop this.
-                                    You can also
-                                    specify repeat-x or repeat-y to repeat either vertically or horizontally.</p>
-                            </li>
-
-                            <li>border-radius
-                                <p>Allows you to set the radius of your border. Letting you round the corners of a
-                                    square border.</p>
-                            </li>
-
-                            <li>box-shadow
-                                <p>Allows you to give an element a shadow. This can create a 3d effect.</p>
-                            </li>
-                        </ul>
-                        </p>
                         <p>
                             You will also want to know about the different types of CSS selectors and how to use them.
                             The most
@@ -555,25 +451,25 @@
 
                             <h4>CSS Commonly Used Color Properties</h4>
 
-                            <ul>
+                            <ul class="common-selectors">
 
-                                <li>background-color
+                                <li><h5>background-color</h5>
                                     <p>Allows you to set a background color.</p>
                                 </li>
 
-                                <li>color
+                                <li><h5>color</h5>
                                     <p>Sets a color to the element.</p>
                                 </li>
 
-                                <li>opacity
+                                <li><h5>opacity</h5>
                                     <p>Allows you to make an element more or less transparent.</p>
                                 </li>
 
-                                <li>border-xxxx-color(xxxx=top,bottom,left,or right)
+                                <li><h5>border-xxxx-color(xxxx=top,bottom,left,or right)</h5>
                                     <p>Use if you want different sides of your border to be different colors.</p>
                                 </li>
 
-                                <li>filter
+                                <li><h5>filter</h5>
                                     <p>Allows you to add FX to an element, such as blurring or color-shifting.</p>
                                 </li>
 
@@ -581,17 +477,17 @@
 
                             <h4>CSS Commonly Used Font Properties</h4>
 
-                            <ul>
+                            <ul class="common-selectors">
 
-                                <li>@font-face
+                                <li><h5>@font-face</h5>
                                     <p>Allows you to download and use, non web-safe fonts in your project.</p>
                                 </li>
 
-                                <li>font-family
+                                <li><h5>font-family</h5>
                                     <p>For specifying what font you want to use.</p>
                                 </li>
 
-                                <li>font-size
+                                <li><h5>font-size</h5>
                                     <p>For setting the size of your font. Can be set to RELATIVE MEASUREMENTS: vw (view
                                         width), em(1
                                         em=
@@ -603,25 +499,25 @@
                                         seldomly used measurements types. </p>
                                 </li>
 
-                                <li>font-weight
+                                <li><h5>font-weight</h5>
                                     <p>Allows you to set the boldness of your font. Can be any number from 0-900. 400
                                         is normal
                                         font-weight, anything lower is lighter, anything higher is darker.</p>
                                 </li>
 
-                                <li>text-align
+                                <li><h5>text-align</h5>
                                     <p>Can be set to left, center, right, justify.</p>
                                 </li>
 
-                                <li>text-indent
+                                <li><h5>text-indent</h5>
                                     <p>For indenting paragraphs.</p>
                                 </li>
 
-                                <li>word-spacing
+                                <li><h5>word-spacing</h5>
                                     <p>Allows you to put as much space in between your words as you want.</p>
                                 </li>
 
-                                <li>letter-spacing
+                                <li><h5>letter-spacing</h5>
                                     <p>Allows you to put space in between your letters.</p>
                                 </li>
 
@@ -629,20 +525,20 @@
 
                             <h4>CSS Commonly Used Properties for Positioning and Layout</h4>
 
-                            <ul>
-                                <li>column-count
+                            <ul class="common-selectors">
+                                <li><h5>column-count</h5>
                                     <p>Allows you to create columns and specify how many you want.</p>
                                 </li>
 
-                                <li>column-gap
+                                <li><h5>column-gap</h5>
                                     <p>For specifying how large of a gap between your columns.</p>
                                 </li>
 
-                                <li>column-width
+                                <li><h5>column-width</h5>
                                     <p>To specify the width of your columns</p>
                                 </li>
 
-                                <li>display
+                                <li><h5>display</h5>
                                     <p>To specify how you want an HTML element to be displayed. Can be set to none,
                                         block, inline,
                                         inline-block. None takes the element off the page. I kow that sounds crazy,
@@ -660,38 +556,38 @@
                                         Inline-block display is the same as inline, only you can use height and width.</p>
                                 </li>
 
-                                <li>height
+                                <li><h5>height</h5>
                                     <p>Sets the height of an element.</p>
                                 </li>
 
-                                <li>width
+                                <li><h5>width</h5>
                                     <p>Sets the width of an element.</p>
                                 </li>
 
-                                <li>line-height
+                                <li><h5>line-height</h5>
                                     <p>Allows you to increase or decrease the space between lines.</p>
                                 </li>
 
-                                <li>margin
+                                <li><h5>margin</h5>
                                     <p>Allows you to set all 4 directions (top, bottom, left, right) to the same
                                         margin.</p>
                                 </li>
 
-                                <li>margin-xxxx (xxxx= top, bottom, left, or right)
+                                <li><h5>margin-xxxx (xxxx= top, bottom, left, or right)</h5>
                                     <p>Allows you to set the margin for specific sides of an element. Most positioning
                                         of HTML elements
                                         is
                                         done with margins.</p>
                                 </li>
 
-                                <li>@media
+                                <li><h5>@media</h5>
                                     <p>@media is a media query. It allows you to set different style rules for
                                         different size devices,
                                         or
                                         for certain devices, and different types of devices.</p>
                                 </li>
 
-                                <li>padding
+                                <li><h5>padding</h5>
                                     <p>Allows you to set all 4 sides of padding for an element. Padding is the space
                                         between your
                                         content
@@ -699,11 +595,11 @@
                                         shortly.</p>
                                 </li>
 
-                                <li>padding-xxxx (xxxx= top, bottom, left, or right)
+                                <li><h5>padding-xxxx (xxxx= top, bottom, left, or right)</h5>
                                     <p>Allows you to set padding for certain sides of an element.</p>
                                 </li>
 
-                                <li>position
+                                <li><h5>position</h5>
                                     <p>Can be set to static (every element is static by default unless you specify
                                         otherwise.).
                                         Statically
@@ -733,7 +629,7 @@
                                         until a specified position is met in the viewport, then it "sticks" in place.</p>
                                 </li>
 
-                                <li>z-index
+                                <li><h5>z-index</h5>
                                     <p>Z-index lets you set a stacking order to your page. If you set something to
                                         z-index: 1; and
                                         another
@@ -747,9 +643,9 @@
 
                             <h4>Other Commonly Used CSS Properties</h4>
 
-                            <ul>
+                            <ul class="common-selectors">
 
-                                <li>border
+                                <li><h5>border</h5>
                                     <p>Allows you to create a border around your element. The "border" property is
                                         shorthand for
                                         border-width, border-style, and border-color. You can also specify any of these
@@ -758,11 +654,11 @@
                                         own.</p>
                                 </li>
 
-                                <li>background-image
+                                <li><h5>background-image</h5>
                                     <p>Allows you to place an image in the background of an element.</p>
                                 </li>
 
-                                <li>background-size
+                                <li><h5>background-size</h5>
                                     <p>Allows you to specify the size of a background-image. In addition to the normal
                                         measurements,
                                         you
@@ -775,7 +671,7 @@
                                         fits inside its container.</p>
                                 </li>
 
-                                <li>background-repeat
+                                <li><h5>background-repeat</h5>
                                     <p>When a background image is to small to fit in its container it will repeat
                                         itself until the
                                         container is full. By specifying background-repeat to no-repeat you can stop
@@ -783,16 +679,16 @@
                                         specify repeat-x or repeat-y to repeat either vertically or horizontally.</p>
                                 </li>
 
-                                <li>border-radius
+                                <li><h5>border-radius</h5>
                                     <p>Allows you to set the radius of your border. Letting you round the corners of a
                                         square border.</p>
                                 </li>
 
-                                <li>box-shadow
+                                <li><h5>box-shadow</h5>
                                     <p>Allows you to give an element a shadow. This can create a 3d effect.</p>
                                 </li>
 
-                                <li>overflow
+                                <li><h5>overflow</h5>
                                     <p>Allows you to specify what happens to content that exceeds the border limit of
                                         an element. Can
                                         be
@@ -815,7 +711,7 @@
 
                         <h3>CSS Box-Model</h3>
 
-                        <img src="https://res.cloudinary.com/dmks1qdth/image/upload/v1539219989/CSSBoxModel.png" alt="An image of the CSS-box-model">
+                        <img id="box-m" src="https://res.cloudinary.com/dmks1qdth/image/upload/v1539219989/CSSBoxModel.png" alt="An image of the CSS-box-model">
 
                         <p>To create a good looking website, you are going to want to have a solid grasp on the CSS
                             box-model. The CSS
@@ -825,25 +721,32 @@
                             your actual content, padding, border, and margin. Instead of myself talking about the
                             box-model, I will
                             provide
-                            you a link to one of the . <a href="https://learn.shayhowe.com/html-css/opening-the-box-model/"
+                            you a link to one of the  <a href="https://learn.shayhowe.com/html-css/opening-the-box-model/"
                                 target="_blank" rel="noopener">best explanations of it I have ever found</a></p>
 
+                        <div class="black-bg">
                         <h3>Some of the more common Media Queries</h3>
-                        <div id="media-query-ex">
-                            /* Extra small devices (phones, 600px and down) */
+                        <ul id="media-query-ex">
+
+                           <li> /* Extra small devices (phones, 600px and down) */<br>
                             @media only screen and (max-width: 600px) {...}
-
-                            /* Small devices (portrait tablets and large phones, 600px and up) */
+                            </li>
+                            <li>
+                            /* Small devices (portrait tablets and large phones, 600px and up) */<br>
                             @media only screen and (min-width: 600px) {...}
-
-                            /* Medium devices (landscape tablets, 768px and up) */
+                            </li>
+                            <li>
+                            /* Medium devices (landscape tablets, 768px and up) */<br>
                             @media only screen and (min-width: 768px) {...}
-
-                            /* Large devices (laptops/desktops, 992px and up) */
+                            </li>
+                            <li>
+                            /* Large devices (laptops/desktops, 992px and up) */<br>
                             @media only screen and (min-width: 992px) {...}
-
-                            /* Extra large devices (large laptops and desktops, 1200px and up) */
+                            <li>
+                            /* Extra large devices (large laptops and desktops, 1200px and up) */<br>
                             @media only screen and (min-width: 1200px) {...}
+                            </li>
+                        </ul>
                         </div>
 
                         <h3>CSS Property Value Measurements</h3>
@@ -857,83 +760,83 @@
                             and what they are comfortable with.</p>
 
                         <h4>Relative CSS Measurements</h4>
-                        <ul>
-                            <li>em
+                        <ul class="css-measure">
+                            <li><h5>em</h5>
                                 <p>Calculated relative to the current font-size of the parent element. For example, 2em
                                     indicates 2 times larger size of the current element’s font-size.</p>
                             </li>
-                            <li>ex
+                            <li><h5>ex</h5>
                                 <p>
                                     Calculated relative the height of the current font-size.
                                 </p>
                             </li>
-                            <li>% (Percentage)
+                            <li><h5>% (Percentage)</h5>
                                 <p>
                                     Percentage value relative to any element. For example, 50% width of the container.
                                 </p>
                             </li>
-                            <li>rem
+                            <li><h5>rem</h5>
                                 <p>
                                     Relative to the font-size of the root element.
                                 </p>
                             </li>
-                            <li>vw
+                            <li><h5>vw</h5>
                                 <p>
                                     Measured as a percentage value of the viewport’s width. If the viewport width is
                                     100cm then 1vw=1cm.
                                 </p>
                             </li>
-                            <li>vh
+                            <li><h5>vh</h5>
                                 <p>
                                     Measured as a percentage value of the viewport’s height. If the viewport height is
                                     100cm then 1vh=1cm.
                                 </p>
                             </li>
-                            <li>vmin
+                            <li><h5>vmin</h5>
                                 <p>
                                     Percentage value of smaller viewport dimension. It is supported as “vm” in Internet
                                     Explorer 9 and above versions.
                                 </p>
                             </li>
-                            <li>vmax
+                            <li><h5>vmax</h5>
                                 <p>
                                     Percentage value of larger viewport dimension. This is not supported by IE.
                                 </p>
                             </li>
-                            <li>ch
+                            <li><h5>ch</h5>
                                 <p>
                                     Measured relative to width of zero (0).
                                 </p>
                             </li>
                         </ul>
                         <h4>Absolute CSS Measurements</h4>
-                        <ul>
-                            <li>px
+                        <ul class="css-measure">
+                            <li><h5>px</h5>
                                 <p>
                                     Equal to 1 pixel on a computer screen.
                                 </p>
                             </li>
-                            <li>in
+                            <li><h5>in</h5>
                                 <p>
                                     Absolute value in inches. 1 inch = 2.54 centimeters.
                                 </p>
                             </li>
-                            <li>cm
+                            <li><h5>cm</h5>
                                 <p>
                                     Centimeters
                                 </p>
                             </li>
-                            <li>mm
+                            <li><h5>mm</h5>
                                 <p>
                                     Millimeters
                                 </p>
                             </li>
-                            <li>pt
+                            <li><h5>pt</h5>
                                 <p>
                                     Points (1 point = 1/72 inches)
                                 </p>
                             </li>
-                            <li>pc
+                            <li><h5>pc</h5>
                                 <p>
                                     Picas (1 pica = 12 points)
                                 </p>
@@ -1150,7 +1053,7 @@
                             Programming" article.
                         </p>
 
-                        <h5>CSS Preprocessor: <a href="https://sass-lang.com/" target="_blank" rel="noopener">Sass</a></h5>
+                        <h5 class="prepro">CSS Preprocessor: <a href="https://sass-lang.com/" target="_blank" rel="noopener">Sass</a></h5>
 
                         <p>
                             Sass stands for "Syntactically Awesome Stylesheets" and hails itself as "The most mature,
@@ -1180,7 +1083,7 @@
                             breeze.
                         </p>
 
-                        <h5>CSS Preprocessor: <a href="http://lesscss.org/" target="_blank" rel="noopener">Less</a></h5>
+                        <h5 class="prepro">CSS Preprocessor: <a href="http://lesscss.org/" target="_blank" rel="noopener">Less</a></h5>
 
                         <p>
                             Less stands for "Leaner Stylesheets" and is the second most famous CSS preprocessor and
@@ -1199,7 +1102,7 @@
                             yourself.
                         </p>
 
-                        <h5>CSS Preprocessor: <a href="http://stylus-lang.com/" target="_blank" rel="noopener">Stylus</a></h5>
+                        <h5 class="prepro">CSS Preprocessor: <a href="http://stylus-lang.com/" target="_blank" rel="noopener">Stylus</a></h5>
 
                         <p>
                             Stylus offers all of the same features as the other two plus a few additional features.
@@ -1246,6 +1149,8 @@
 
                         <h2>What are the best resources available for learning CSS?</h2>
 
+                        <div class="black-bg">
+
                         <p>
                             There are many, many, many resources available online for learning CSS. We will cover the
                             top 3 in a
@@ -1275,8 +1180,8 @@
                             language, unless the resource is exceptional at multiple languages. My apologies.
                         </p>
 
-                        <h3><a href="https://www.codecademy.com/" target="_blank" rel="noopener">CodeAcademy</a>: CSS
-                            Course</h3>
+                        <h3><a href="https://www.codecademy.com/" target="_blank" rel="noopener">CodeAcademy: CSS
+                            Course</a></h3>
 
                         <p>
                             For a beginner to computer programming or web development, CodeAcademy is one of the
@@ -1385,6 +1290,8 @@
                             having learned something new.
                         </p>
 
+                        </div>
+
                         <p>
                             There you have it!!! The "Who, What, Where, When, Why, and How's of CSS". I hope you
                             learned something new
@@ -1411,7 +1318,7 @@
                             to make it happen.
                         </p>
 
-                        <p>
+                        <p id="css-end">
                             I HOPE YOU HAVE A GOOD ONE, AND I WILL SEE YOU NEXT WEEK!!
                         </p>
 
