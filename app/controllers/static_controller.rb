@@ -12,6 +12,8 @@ class StaticController < ApplicationController
 
     def w5hcss; end
 
+    def w5hhome; end
+
     def w5h_css_tutorial; end
 
     def w5hcssex; end
