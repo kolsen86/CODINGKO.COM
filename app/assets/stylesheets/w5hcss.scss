@@ -139,7 +139,7 @@
         overflow: scroll;
         height: 95vh;
         width: 80vw;
-        min-width: 580px;
+        min-width: 480px;
         max-width: 1106.240px;
     }
 
@@ -530,6 +530,10 @@
                 #mob-res-ex {
                     padding-top: 3%;
                     display: inline;
+
+                        a:hover {
+                            color: #3d348b;
+                        }
                 }
 
                 iframe {

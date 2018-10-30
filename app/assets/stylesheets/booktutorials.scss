@@ -190,7 +190,7 @@ ul.books-menu2 {
   height: auto;
   margin: 0;
   padding-bottom: 15%;
-  background-color: #191716;
+  background-color: #1950a8;
 }
 
 #books-head {
@@ -198,11 +198,12 @@ ul.books-menu2 {
   background-color: #191716;
   height: auto;
   font-size: 10.5vw;
-  color: #e0e2db;
+  color: #db7100;
   text-align: center;
-  padding-top: 11%;
+  padding-top: 8%;
+  padding-bottom: 4%;
   font-family: 'IM Fell Great Primer SC', serif;
-  text-shadow: -3px 5px 4px #3d348b;
+  text-shadow: -3px 5px 4px #1950a8, -3.3px 5.5px 4.5px #92db00;
 }
 
 #books-tuts {
@@ -211,13 +212,15 @@ ul.books-menu2 {
   background-color: #e0e2db;
   border-radius: 50px;
   padding-top: 3%;
+  border: 2px outset #150c30;
+  box-shadow: 1.5px 1.5px 3px #92db00, -1.5px -1.5px 3px #92db00;
 }
 
 #books-intro-header {
   font-size: 4.5vw;
   text-align: center;
   padding-top: 5%;
-  text-shadow: -2px 2px 1px #e6af2e;
+  text-shadow: -2px 2px 1px #db7100;
   font-family: 'Alfa Slab One', cursive;
 }
 
@@ -226,12 +229,12 @@ ul.books-menu2 {
   font-size: 1.8vw;
   text-indent: 50px;
   color: #191716;
-  background-color: #e6af2e;
+  background-color: #db7100;
   padding: 7% 5% 7% 5%;
   border-radius: 35px;
   width: 80%;
-  border: 10px solid #3d348b;
-  box-shadow: -12px 15px 30px #beb7a4;
+  border: 10px solid #150c30;
+  box-shadow: -12px 15px 30px #191716;
   font-weight: 650;
   line-height: 1.7em;
   font-family: 'Source Serif Pro', serif;
@@ -254,12 +257,12 @@ ul.books-menu2 {
     }
 
     a:hover {
-      color: #3d348b;
-      text-shadow: -3px 3px 2px #e6af2e;
+      color: #1950a8;
+      text-shadow: -3px 3px 2px #92db00;
     }
 
     h2 {
-      border-bottom: 10px solid #e6af2e;
+      border-bottom: 10px solid #1950a8;
       padding-bottom: 1%;
       border-radius: 45px;
       font-family: 'Alfa Slab One', cursive;
@@ -286,7 +289,7 @@ ul.books-menu2 {
 
     p {
       padding-top: 5%;
-      border-bottom: 15px solid #3d348b;
+      border-bottom: 15px solid #150c30;
       padding-bottom: 4%;
       width: 95%;
       border-radius: 20px;

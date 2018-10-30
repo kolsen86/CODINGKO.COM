@@ -80,16 +80,5 @@
         letter-spacing: 0.1em;
         font-weight: 900;
     }
-
-    #logo-ex {
-        font-size: 8vw;
-        color: #ff7402;
-        text-align: center;
-        text-shadow: 1px 1px 3px #1950a8, -1px -1px 3px #1950a8;
-        margin-top: 8%;
-        border-bottom: 10px solid #1950a8;
-        width: 90%;
-        margin-left: 5%;
-    }
    
 }
