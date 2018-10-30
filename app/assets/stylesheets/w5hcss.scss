@@ -53,6 +53,10 @@
     word-spacing: 0.15em;
     font-weight: 550;
 
+    #mob-res-ex {
+        display: none;
+    }
+
     h2 {
         font-size: 2.7vw;
         text-align: center;
@@ -268,10 +272,56 @@
     }
 }
 
+@media all and (max-width: 1000px) {
+
+    #css-content {
+
+    iframe {
+        margin-left: -5%;
+        margin-top: 5%;
+    }
+
+    #resizable-ex {
+        resize: horizontal;
+        overflow: scroll;
+        height: 70vh;
+        width: 84vw;
+        min-width: 580px;
+        max-width: 1106.240px;
+    }
+
+    .fa-arrow-left {
+        margin-left: 98%;
+    }
+}
+}
+
 @media all and (max-width: 900px) {
 
     #css-content {
         padding: 2% 0.5% 5% 0.5%;
+
+        iframe {
+            margin-left: -5%;
+            margin-top: 5%;
+        }
+    
+        #resizable-ex {
+            resize: horizontal;
+            overflow: scroll;
+            height: 44vh;
+            width: 96vw;
+            min-width: 580px;
+            max-width: 1106.240px;
+        }
+
+        #drag {
+            margin-left: 38%;
+        }
+    
+        .fa-arrow-left {
+            margin-left: 98%;
+        }
 
         #ext-stylesheet {
             width: 90%;
@@ -368,6 +418,28 @@
 
     #css-content {
 
+        iframe {
+            margin-left: -5%;
+            margin-top: 5%;
+        }
+    
+        #resizable-ex {
+            resize: horizontal;
+            overflow: scroll;
+            height: 44vh;
+            width: 96vw;
+            min-width: 480px;
+            max-width: 1106.240px;
+        }
+
+        #drag {
+            margin-left: 0%;
+        }
+    
+        .fa-arrow-left {
+            margin-left: 80%;
+        }
+
             h2 {
                 font-size: 3.3vw
             }
@@ -454,6 +526,37 @@
             }
         
             #css-content {
+
+                #mob-res-ex {
+                    padding-top: 3%;
+                    display: inline;
+                }
+
+                iframe {
+                    display: none;
+                    margin-left: -5%;
+                    margin-top: 5%;
+                }
+            
+                #resizable-ex {
+                    display: none;
+                    resize: horizontal;
+                    overflow: scroll;
+                    height: 44vh;
+                    width: 96vw;
+                    min-width: 480px;
+                    max-width: 1106.240px;
+                }
+        
+                #drag {
+                    display: none;
+                    margin-left: 0%;
+                }
+            
+                .fa-arrow-left {
+                    display: none;
+                    margin-left: 80%;
+                }
 
                     #box-m {
                         width: 60%;

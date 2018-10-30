@@ -18,6 +18,8 @@ class StaticController < ApplicationController
 
     def w5hcssex; end
 
+    def w5hcssex2; end
+
     def leasthtml; end
 
 end

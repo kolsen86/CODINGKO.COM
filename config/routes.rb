@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get 'w5hcss', to: 'static#w5hcss'
   get 'w5hhome', to: 'static#w5hhome'
   get 'w5hcssex', to: 'static#w5hcssex'
+  get 'w5hcssex2', to: 'static#w5hcssex'
   get 'leasthtml', to: 'static#leasthtml'
   get 'w5h_css_tutorial', to: 'static#w5h_css_tutorial'
   get 'htmltools', to: 'pages#htmltools'
