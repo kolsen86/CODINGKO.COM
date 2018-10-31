@@ -198,8 +198,8 @@
     width: 100%;
     height: auto;
     margin: 0;
-    padding-bottom: 15%;
-    background-color: #191716;
+    padding-bottom: 5%;
+    background-color: #1950a8;
   }
 
   #tools-head, #csshead, #html-head, #jshead {
@@ -207,11 +207,12 @@
     background-color: #191716;
     height: auto;
     font-size: 8.5vw;
-    color: #e6af2e;
+    color: #ea4c09;
     text-align: center;
-    padding-top: 11%;
+    padding-top: 8%;
+    padding-bottom: 4%;
     font-family: 'IM Fell Great Primer SC', serif;
-    text-shadow: -3px 5px 4px #3d348b, -3.3px 5.2px 4.2px #e6af2e;
+    text-shadow: -3px 5px 4px #1950a8, -3.3px 5.5px 4.5px #92db00;
   }
 
   #jshead {
@@ -230,13 +231,15 @@
     background-color: #e0e2db;
     border-radius: 50px;
     padding-top: 3%;
+    border: 2px outset #150c30;
+    box-shadow: 1.5px 1.5px 3px #92db00, -1.5px -1.5px 3px #92db00;
   }
 
   #tools-intro-header {
     font-size: 4.5vw;
     text-align: center;
     padding-top: 10%;
-    text-shadow: -2px 2px 1px #e6af2e;
+    text-shadow: -2px 2px 1px #ea4c09;
     font-family: 'Alfa Slab One', cursive;
   }
 
@@ -245,12 +248,12 @@
     font-size: 2vw;
     text-indent: 50px;
     color: #191716;
-    background-color: #e6af2e;
+    background-color: #ea4c09;
     padding: 7% 5% 7% 5%;
     border-radius: 35px;
     width: 80%;
-    border: 10px solid #3d348b;
-    box-shadow: -12px 15px 30px #beb7a4, -13px 15.5px 10px #191716;
+    border: 10px solid #150c30;
+    box-shadow: -12px 15px 30px #191716;
     font-weight: 650;
     line-height: 1.7em;
     font-family: 'Source Serif Pro', serif;
@@ -259,8 +262,8 @@
 
   #check-out {
     font-size: 2.4vw;
-    color: #3d348b;
-    text-shadow: 2px -4px 3px #e6af2e;
+    color: #150c30;
+    text-shadow: 2px -4px 3px #ea4c09;
     text-align: center;
     font-family: 'Source Serif Pro', serif;
     font-weight: 900;
@@ -269,25 +272,31 @@
 
 
 #all-tools, #all-tools-html, #all-tools-css {
+  width: 120%;
+  margin-left: -10%;
   height: 15%;
-  width: 100%;
-  background-color: #e6af2e;
+  background-color: #1950a8;
 
 
   #all-tools-menu, #all-tools-menu-html, #all-tools-menu-css {
     font-size: 2.6vw;
     text-align: center;
-    color: #3d348b;
     font-family: 'Carter One', cursive;
     font-weight: 900;
     margin-top: 10%;
+    list-style: none;
+
+      a {
+        color: #92db00;
+        text-shadow: 2px -4px 3px #ea4c09;
+      }
   }
 }
 
   #tools-intro-header1 {
     font-size: 4.5vw;
     padding-top: 20%;
-    text-shadow: -2px 2px 1px #e6af2e;
+    text-shadow: -2px 2px 1px #ea4c09;
     font-family: 'Alfa Slab One', cursive;
     text-align: center;
     margin-left: 5%;
@@ -297,17 +306,16 @@
     margin: 15% auto 0% auto;
     font-size: 2vw;
     color: #191716;
-    background-color: #e6af2e;
+    background-color: #ea4c09;
     padding: 7% 5% 7% 5%;
     border-radius: 35px;
     width: 93%;
-    border: 10px solid #3d348b;
-    box-shadow: -12px 15px 30px #beb7a4;
+    border: 10px solid #150c30;
+    box-shadow: -12px 15px 30px #191716;
     font-weight: 650;
     line-height: 1.7em;
     font-family: 'Source Serif Pro', serif;
     letter-spacing: 0.02em;
-    box-shadow: -12px 15px 30px #beb7a4, -13px 15.5px 10px #191716;
 
         p#editor-intro {
             border-style: none;
@@ -315,7 +323,7 @@
         }
 
         span {
-            color: #43036b;
+            color: #150c30;
         }
   }
 
@@ -336,6 +344,16 @@
       padding-bottom: 5%;
     }
 
+    #sub-speed {
+      font-size: 2vw;
+      color: #150c30;
+
+        a:hover {
+          color: #1950a8;
+          text-shadow: -3px 3px 2px #92db00;
+        }
+    }
+
       a {
         font-size: 3.3vw;
         margin: 0 auto;
@@ -343,13 +361,13 @@
       }
 
       a:hover {
-        color: #3d348b;
-        text-shadow: -3px 3px 2px #e6af2e;
+        color: #1950a8;
+        text-shadow: -3px 3px 2px #92db00;
       }
 
       h2, h3 {
         text-align: center;
-        border-bottom: 10px solid #e6af2e;
+        border-bottom: 10px solid #1950a8;
         padding-bottom: 1%;
         border-radius: 45px;
         font-family: 'Alfa Slab One', cursive;
@@ -375,7 +393,7 @@
         height: 39%;
         width: 39%;
         padding-bottom: 10%;
-        border-bottom: 15px solid #3d348b;
+        border-bottom: 15px solid #191716;
         border-radius: 20px;
       }
 
@@ -393,7 +411,7 @@
 
       p {
         padding-top: 5%;
-        border-bottom: 15px solid #3d348b;
+        border-bottom: 15px solid #150c30;
         padding-bottom: 14%;
         width: 95%;
         border-radius: 20px;
@@ -418,7 +436,7 @@
 
           #wysiwyg {
             padding: 0% 0% 1% 5%;
-            border-bottom: 15px solid #3d348b;
+            border-bottom: 15px solid #1950a8;
             border-radius: 20px;
 
               li {
