@@ -243,7 +243,7 @@
     font-family: 'Alfa Slab One', cursive;
   }
 
-  #tools-intro, #html-tools-intro, #css-tools-intro, #color-picker-intro, #gradient-intro, #color-palette-intro, #color-theory-intro, #minifiers-intro, .framework-intro {
+  #tools-intro, #html-tools-intro, #css-tools-intro, #color-picker-intro, #gradient-intro, #color-palette-intro, #color-theory-intro, #minifiers-intro, .framework-intro, #js-tools-intro {
     margin: 15% auto 0% auto;
     font-size: 2vw;
     text-indent: 50px;
@@ -422,7 +422,7 @@
         margin-top: 10%;
       }
 
-      #html-tools, #css-tools {
+      #html-tools, #css-tools, #js-tools {
 
           h2, #color-pickers {
             font-size: 3.3vw;
