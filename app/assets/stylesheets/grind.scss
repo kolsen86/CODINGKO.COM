@@ -85,6 +85,26 @@
     font-family: 'Source Serif Pro', serif;
     font-weight: 800;
 
+  #main {
+    display: flex;
+    flex-direction:column-reverse;
+  }
+
+        #grind-welcome {
+          text-align: center;
+          font-size: 3.8vw;
+          background-color: #191716;
+          color: #e6af2e;
+          text-shadow: -1px 2px 4px #beb7a4;
+          border: 5px solid #3d348b;
+          width: 90%;
+          margin: 5% auto 5% auto;
+          padding: 2% 5% 2% 0;
+          border-radius: 20px;
+          box-shadow: -5px 8px 5px #191716;
+          font-family: 'Carter One', cursive;
+        }
+
         p {
             margin: 0 auto;
             padding-bottom: 5%;

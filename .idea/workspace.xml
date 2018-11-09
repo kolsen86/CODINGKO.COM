@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/app/views/pages/grind.html.erb" line="3527" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="732476df-8da5-4d2e-b283-5697aee3ed19" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/grind.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/grind.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/pages/grind.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/grind.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -15,6 +19,20 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1999787508">
@@ -55,30 +73,35 @@
           <entry key="project.closed" value="7" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="erb" value="1" />
+          <entry key="scss" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="RHTML" value="1" />
+          <entry key="SCSS" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="erb" value="4163" />
+          <entry key="erb" value="7631" />
+          <entry key="scss" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="RHTML" value="4163" />
+          <entry key="RHTML" value="7631" />
+          <entry key="SCSS" value="10" />
         </counts>
       </usages-collector>
     </session>
@@ -88,8 +111,21 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/pages/grind.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="3224" column="972" selection-start-line="3224" selection-start-column="972" selection-end-line="3224" selection-end-column="972" />
+            <state relative-caret-position="343">
+              <caret line="3530" column="24" selection-start-line="3530" selection-start-column="24" selection-end-line="3530" selection-end-column="24" />
+              <folding>
+                <element signature="e#88212#88216#0#HTML" expanded="true" />
+                <element signature="e#88225#88229#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/grind.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="89" column="34" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -104,6 +140,7 @@
       <list>
         <option value="$PROJECT_DIR$/app/assets/stylesheets/inttutorials.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/mooctutorials.scss" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/grind.scss" />
         <option value="$PROJECT_DIR$/app/views/pages/grind.html.erb" />
       </list>
     </option>
@@ -123,10 +160,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="192" />
-    <option name="y" value="99" />
-    <option name="width" value="1209" />
-    <option name="height" value="642" />
+    <option name="x" value="191" />
+    <option name="y" value="98" />
+    <option name="width" value="1210" />
+    <option name="height" value="643" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -134,7 +171,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -147,6 +183,19 @@
               <item name="CODINGKO.COM" type="b2602c69:ProjectViewProjectNode" />
               <item name="CODINGKO.COM" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CODINGKO.COM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CODINGKO.COM" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CODINGKO.COM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CODINGKO.COM" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CODINGKO.COM" type="b2602c69:ProjectViewProjectNode" />
@@ -165,6 +214,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,16 +344,18 @@
       <workItem from="1541629175947" duration="510000" />
       <workItem from="1541629747218" duration="588000" />
       <workItem from="1541689928298" duration="87000" />
+      <workItem from="1541723750691" duration="3711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10479000" />
+    <option name="totallyTimeSpent" value="14190000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12210797" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12348993" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -315,13 +367,13 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49807197" visible="true" weight="0.12242091" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50192803" side_tool="true" weight="0.258597" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49731544" visible="true" weight="0.18985507" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5026846" side_tool="true" weight="0.18985507" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3295302" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,10 +404,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/grind.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="89" column="34" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/grind.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="3224" column="972" selection-start-line="3224" selection-start-column="972" selection-end-line="3224" selection-end-column="972" />
+        <state relative-caret-position="343">
+          <caret line="3530" column="24" selection-start-line="3530" selection-start-column="24" selection-end-line="3530" selection-end-column="24" />
+          <folding>
+            <element signature="e#88212#88216#0#HTML" expanded="true" />
+            <element signature="e#88225#88229#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
