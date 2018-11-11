@@ -411,7 +411,7 @@
 
       p {
         padding-top: 5%;
-        border-bottom: 15px solid #150c30;
+        border-bottom: 3px solid #150c30;
         padding-bottom: 14%;
         width: 95%;
         border-radius: 20px;
@@ -424,10 +424,28 @@
 
       #html-tools, #css-tools, #js-tools {
 
+
+          #id-link {
+            font-size:  2vw;
+            color: #1950a8;
+
+              #id-link:hover {
+                text-shadow: 0px 0px 0.5px #92db00;
+              }
+          }
+
           h2, #color-pickers {
             font-size: 3.3vw;
             padding-top: 10%;
           }
+
+        #head-2 {
+          background-color: #191716;
+          color: #e0e2db;
+          margin-top: 6%;
+          border-bottom: none;
+          padding: 2% 5% 2% 0%;
+        }
 
           p {
             padding-bottom: 5%;
@@ -566,11 +584,11 @@
             padding-top: 14%;
         }
 
-        #tools-intro-header, #tools-intro-header1 {
+        #tools-intro-header, #tools-intro-header1, #head-2 {
             font-size: 5vw;
         }
 
-        #tools-intro, #tools-intro1, #html-tools-intro, #css-tools-intro, #color-picker-intro, #gradient-intro, #color-palette-intro, #color-theory-intro {
+        #tools-intro, #tools-intro1, #html-tools-intro, #css-tools-intro, #color-picker-intro, #gradient-intro, #color-palette-intro, #color-theory-intro, #js-tools-intro {
             font-size: 2.5vw;
         }
 
@@ -604,11 +622,11 @@
         }
       }
 
-        #tools-intro-header, #tools-intro-header1 {
+        #tools-intro-header, #tools-intro-header1, #head-2 {
             font-size: 5.5vw;
         }
 
-        #tools-intro, #tools-intro1, #html-tools-intro, #css-tools-intro, #color-picker-intro, #gradient-intro, #color-palette-intro, #color-theory-intro {
+        #tools-intro, #tools-intro1, #html-tools-intro, #css-tools-intro, #color-picker-intro, #gradient-intro, #color-palette-intro, #color-theory-intro, #js-tools-intro {
             width: 100%;
             border-right-style: none;
             border-left-style: none;
@@ -654,7 +672,7 @@
             font-size: 14.5vw;
         }
 
-        #tools-intro-header {
+        #tools-intro-header, #head-2 {
             font-size: 6vw;
         }
 
@@ -662,7 +680,7 @@
           font-size: 5vw;
         }
 
-        #tools-intro, #tools-intro1, #html-tools-intro, #css-tools-intro, #color-picker-intro, #gradient-intro, #color-palette-intro, #color-theory-intro {
+        #tools-intro, #tools-intro1, #html-tools-intro, #css-tools-intro, #color-picker-intro, #gradient-intro, #color-palette-intro, #color-theory-intro, #js-tools-intro {
             font-size: 4.4vw;
         }
 

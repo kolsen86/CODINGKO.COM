@@ -6,47 +6,24 @@
     height: auto;
     padding-top: 5%;
     padding-bottom: 10%;
+    max-width: 100%;
 }
 
 body:first-of-type #logo {  font-size: 7.8vw;}
 
 body:first-of-type #logo span {  font-size: 10.5vw;}
 
-#logo {
-    width: 95%;
-    margin-left: 2%;
-    font-weight: 400;
-    text-align: center;
-    font-size: 9.3vw;
-    color: #e6af2e;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
-    font-family: 'Share Tech Mono', monospace;
-    text-shadow: -0.6px 0.5px 2px #e0e2db;
-    border-bottom: 35px double #3d348b;
-    border-top: 35px double #e6af2e;
-    border-radius: 200px;
-    -webkit-border-radius: 200px;
-    -moz-border-radius: 200px;
-    -ms-border-radius: 200px;
-    -o-border-radius: 200px;
-    
-        span {
-            font-size: 13vw;
-            color: #beb7a4;
-            text-shadow: 1.4px 1.8px 2.5px #3d348b;
-        }
+#main-logo {
+  margin-left: 13.5%;
+  width: 70%;
+  height: auto;
 
-        #slash {
-            font-size: 8vw;
-            font-weight: 750;
-        }
 }
 
 .home-nav {
     text-align: center;
     color: #e0e2db;
-    padding-top: 5%;
+  margin-top: -5%;
 
     #home-w5h h2 {
         font-size: 5vw;
