@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/app/views/pages/grind.html.erb" line="3527" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="732476df-8da5-4d2e-b283-5697aee3ed19" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/tools.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/tools.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/home.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/home.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/pages/csstools.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/csstools.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/pages/grind.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/grind.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/pages/htmltools.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/htmltools.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/pages/javascripttools.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/javascripttools.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/pages/tools.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/tools.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -78,22 +67,27 @@
     <session id="-831480026">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="16" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.20" value="2" />
+          <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Gemfile" value="1" />
-          <entry key="erb" value="16" />
+          <entry key="erb" value="18" />
           <entry key="md" value="1" />
           <entry key="scss" value="6" />
         </counts>
@@ -101,61 +95,46 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="RHTML" value="16" />
+          <entry key="RHTML" value="18" />
           <entry key="Ruby" value="1" />
           <entry key="SCSS" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="erb" value="13668" />
+          <entry key="erb" value="27581" />
           <entry key="md" value="7" />
-          <entry key="scss" value="571" />
+          <entry key="scss" value="574" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="7" />
-          <entry key="RHTML" value="13668" />
-          <entry key="SCSS" value="571" />
+          <entry key="RHTML" value="27581" />
+          <entry key="SCSS" value="574" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="CODINGKO.COM" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/tools.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="444" column="23" selection-start-line="444" selection-start-column="23" selection-end-line="444" selection-end-column="23" />
+            <state relative-caret-position="10258">
+              <caret line="446" column="23" selection-start-line="446" selection-start-column="23" selection-end-line="446" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/pages/javascripttools.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="46" column="19" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/pages/htmltools.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="24" column="64" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/pages/tools.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="80" column="10" selection-start-line="80" selection-start-column="10" selection-end-line="80" selection-end-column="10" />
+            <state relative-caret-position="103">
+              <caret line="139" column="189" selection-start-line="139" selection-start-column="189" selection-end-line="139" selection-end-column="189" />
             </state>
           </provider>
         </entry>
@@ -174,7 +153,6 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/views/home/home.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/pages/grind.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/home.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/home.scss" />
         <option value="$PROJECT_DIR$/app/views/pages/tools.html.erb" />
@@ -182,8 +160,9 @@
         <option value="$PROJECT_DIR$/app/views/pages/csstools.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
-        <option value="$PROJECT_DIR$/app/views/pages/javascripttools.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/tools.scss" />
+        <option value="$PROJECT_DIR$/app/views/pages/grind.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/pages/javascripttools.html.erb" />
       </list>
     </option>
   </component>
@@ -202,10 +181,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="190" />
-    <option name="y" value="97" />
-    <option name="width" value="1210" />
-    <option name="height" value="644" />
+    <option name="x" value="260" />
+    <option name="y" value="111" />
+    <option name="width" value="1170" />
+    <option name="height" value="920" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -213,8 +192,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,6 +248,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -403,20 +382,26 @@
       <workItem from="1541723750691" duration="5548000" />
       <workItem from="1541779581267" duration="7338000" />
       <workItem from="1541870088188" duration="758000" />
-      <workItem from="1541893496543" duration="6096000" />
+      <workItem from="1541893496543" duration="6779000" />
+      <workItem from="1541964986419" duration="4552000" />
+      <workItem from="1541978610901" duration="29000" />
+      <workItem from="1542070803546" duration="5100000" />
+      <workItem from="1542120254607" duration="619000" />
+      <workItem from="1542125826704" duration="6863000" />
+      <workItem from="1542147288431" duration="4184000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30219000" />
+    <option name="totallyTimeSpent" value="52249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12724936" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49892473" visible="true" weight="0.1433162" />
+      <window_info id="Structure" order="1" sideWeight="0.50107527" side_tool="true" weight="0.13753213" />
+      <window_info id="Favorites" order="2" sideWeight="0.50107527" side_tool="true" weight="0.13753213" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -425,9 +410,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49550128" visible="true" weight="0.18982118" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5044987" side_tool="true" visible="true" weight="0.18982118" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4929306" visible="true" weight="0.36038515" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5070694" side_tool="true" weight="0.36038515" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -501,13 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/grind.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="3540" column="29" selection-start-line="3540" selection-start-column="29" selection-end-line="3540" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/csstools.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
@@ -538,29 +516,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/htmltools.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="552">
           <caret line="24" column="64" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/javascripttools.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="46" column="19" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/tools.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="1840">
           <caret line="80" column="10" selection-start-line="80" selection-start-column="10" selection-end-line="80" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/grind.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="3555" column="1272" selection-start-line="3555" selection-start-column="1272" selection-end-line="3555" selection-end-column="1272" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/tools.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="444" column="23" selection-start-line="444" selection-start-column="23" selection-end-line="444" selection-end-column="23" />
+        <state relative-caret-position="10258">
+          <caret line="446" column="23" selection-start-line="446" selection-start-column="23" selection-end-line="446" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/javascripttools.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="139" column="189" selection-start-line="139" selection-start-column="189" selection-end-line="139" selection-end-column="189" />
         </state>
       </provider>
     </entry>
