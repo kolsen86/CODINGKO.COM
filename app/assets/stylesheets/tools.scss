@@ -422,6 +422,16 @@
         margin-top: 10%;
       }
 
+    p#jquery-bonus {
+      border-bottom: none;
+      color: #ea4c09;
+      font-size: 5vw;
+      text-align: center;
+      margin-top: 5%;
+      background: #150c30;
+      padding-right: 5%;
+    }
+
       #html-tools, #css-tools, #js-tools {
 
 
@@ -602,6 +612,10 @@
                 h2 {
                   padding-right: 10%;
                 }
+
+                p#jquery-bonus {
+                  font-size: 6vw;
+                }
         }
     }
 
@@ -645,6 +659,10 @@
                 h2 {
                     margin-left: -1%;
                     padding-right: 10%;
+                }
+
+                p#jquery-bonus {
+                  font-size: 7vw;
                 }
         }
 
