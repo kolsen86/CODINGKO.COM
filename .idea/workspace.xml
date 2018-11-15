@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="732476df-8da5-4d2e-b283-5697aee3ed19" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/pages/grind.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/grind.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/pages/javascripttools.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/javascripttools.html.erb" afterDir="false" />
-    </list>
+    <list default="true" id="732476df-8da5-4d2e-b283-5697aee3ed19" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -122,7 +118,7 @@
         <counts>
           <entry key="Gemfile" value="1" />
           <entry key="contacts" value="1" />
-          <entry key="css" value="2" />
+          <entry key="css" value="3" />
           <entry key="erb" value="22" />
           <entry key="html" value="1" />
           <entry key="js" value="1" />
@@ -132,7 +128,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="2" />
+          <entry key="CSS" value="3" />
           <entry key="Database Element" value="1" />
           <entry key="HTML" value="1" />
           <entry key="JavaScript" value="1" />
@@ -144,7 +140,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="erb" value="33305" />
+          <entry key="erb" value="33942" />
           <entry key="md" value="7" />
           <entry key="scss" value="829" />
         </counts>
@@ -152,7 +148,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="7" />
-          <entry key="RHTML" value="33305" />
+          <entry key="RHTML" value="33942" />
           <entry key="SCSS" value="829" />
         </counts>
       </usages-collector>
@@ -172,20 +168,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/pages/grind.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="3561" column="1570" selection-start-line="3561" selection-start-column="1570" selection-end-line="3561" selection-end-column="1570" />
+            <state relative-caret-position="330">
+              <caret line="3567" column="442" selection-start-line="3567" selection-start-column="442" selection-end-line="3567" selection-end-column="442" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pages/javascripttools.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="208" lean-forward="true" selection-start-line="208" selection-end-line="208" />
+            <state relative-caret-position="353">
+              <caret line="210" column="49" selection-start-line="210" selection-start-column="49" selection-end-line="210" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -214,8 +210,8 @@
         <option value="$PROJECT_DIR$/app/views/static/blog.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static/css-ex.css" />
-        <option value="$PROJECT_DIR$/app/views/pages/grind.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/javascripttools.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/pages/grind.html.erb" />
       </list>
     </option>
   </component>
@@ -233,7 +229,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="111" />
     <option name="width" value="1170" />
@@ -456,12 +452,12 @@
       <workItem from="1542125826704" duration="6863000" />
       <workItem from="1542147288431" duration="4820000" />
       <workItem from="1542211631127" duration="2766000" />
-      <workItem from="1542249023923" duration="5409000" />
+      <workItem from="1542249023923" duration="6383000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61060000" />
+    <option name="totallyTimeSpent" value="62034000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -473,10 +469,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49892473" visible="true" weight="0.14717224" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49892473" visible="true" weight="0.14717224" />
       <window_info id="Structure" order="1" sideWeight="0.50107527" side_tool="true" weight="0.13753213" />
       <window_info id="Favorites" order="2" sideWeight="0.50107527" side_tool="true" weight="0.13753213" />
       <window_info anchor="bottom" id="Inspection Results" weight="0.3287483" />
@@ -489,7 +484,7 @@
       <window_info anchor="bottom" auto_hide="true" id="TODO" order="6" weight="0.37964237" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4929306" visible="true" weight="0.36038515" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4929306" visible="true" weight="0.36038515" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5070694" side_tool="true" weight="0.36038515" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Database Console" order="12" visible="true" weight="0.3287483" />
@@ -617,9 +612,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/static/css-ex.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/static/min-HTML.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static/min-HTML.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -637,20 +629,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/grind.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="3561" column="1570" selection-start-line="3561" selection-start-column="1570" selection-end-line="3561" selection-end-column="1570" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/example.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/javascripttools.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="208" lean-forward="true" selection-start-line="208" selection-end-line="208" />
+        <state relative-caret-position="353">
+          <caret line="210" column="49" selection-start-line="210" selection-start-column="49" selection-end-line="210" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static/min-HTML.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/grind.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="3567" column="442" selection-start-line="3567" selection-start-column="442" selection-end-line="3567" selection-end-column="442" />
         </state>
       </provider>
     </entry>
